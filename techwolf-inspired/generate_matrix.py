@@ -18,16 +18,29 @@ def load_fields(path: str) -> list[dict]:
         return json.load(f)
 
 
-def build_texts(fields: list[dict]) -> list[str]:
-    """Concatenate German and English names for richer bilingual signal."""
-    return [f"{field['nameDe']} {field['nameEn']}" for field in fields]
-
-
 def cosine_similarity(embeddings: np.ndarray) -> np.ndarray:
     """Full pairwise cosine similarity, shape (n, n)."""
     norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
     normalized = embeddings / norms
     return normalized @ normalized.T
+
+
+def bilingual_embeddings(
+    fields: list[dict], model: SentenceTransformer
+) -> np.ndarray:
+    """
+    Embed German and English names separately, then average.
+    JobBERT-v3 is trained on monolingual job titles, so mixed-language
+    concatenation degrades quality. Averaging two clean monolingual
+    embeddings gives a fairer bilingual representation.
+    """
+    de_texts = [f["nameDe"] for f in fields]
+    en_texts = [f["nameEn"] for f in fields]
+
+    de_emb = model.encode(de_texts, show_progress_bar=False, convert_to_numpy=True)
+    en_emb = model.encode(en_texts, show_progress_bar=False, convert_to_numpy=True)
+
+    return (de_emb + en_emb) / 2
 
 
 def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
@@ -72,14 +85,13 @@ def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
 def main():
     fields = load_fields("../work_fields.json")
     ids = [f["correlationMatrixId"] for f in fields]
-    texts = build_texts(fields)
 
     print(f"Loaded {len(fields)} work fields.")
     print("Downloading / loading model (first run ~280 MB)...")
     model = SentenceTransformer("TechWolf/JobBERT-v3")
 
-    print("Embedding fields...")
-    embeddings = model.encode(texts, show_progress_bar=True, convert_to_numpy=True)
+    print("Embedding fields (DE + EN separately, then averaged)...")
+    embeddings = bilingual_embeddings(fields, model)
 
     print("Computing cosine similarity...")
     sim = cosine_similarity(embeddings)

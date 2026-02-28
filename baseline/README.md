@@ -14,6 +14,14 @@ No descriptions, no fine-tuning, no external data.
 python generate_matrix.py
 ```
 
-## Notes
+## Results (sample: Telecommunication neighbors)
 
-This is the simplest possible approach — a direct embedding of the field names. It serves as the lower bound for comparison against the other approaches.
+| Value | Field |
+|------:|-------|
+| 9 | Corporate Communication |
+| 8 | Service Technic |
+| 7 | Network Administration |
+| 6 | Network Development |
+| 5 | Delivery Services |
+
+Gets the domain right (Network Admin, Network Development) but also pulls in unrelated fields (Delivery Services, Live-Saving Service) due to shallow text overlap. Serves as the lower bound for comparison.

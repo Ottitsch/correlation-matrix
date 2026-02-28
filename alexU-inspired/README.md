@@ -8,7 +8,7 @@
 
 Two-step pipeline replicating ALEXU's inference-time description enrichment (their Table 4 ablation) without any fine-tuning:
 
-1. **Description generation** (`generate_descriptions.py`): A local `qwen2.5:14b` model (via Ollama) generates a bilingual description (2–3 sentences in English + 2–3 sentences in German) for each of the 180 work fields.
+1. **Description generation** (`generate_descriptions.py`): `gpt-5.2-chat` via Azure OpenAI generates a bilingual description (2–3 sentences in English + 2–3 sentences in German) for each of the 180 work fields.
 
 2. **Embedding** (`generate_matrix.py`): Each field is represented as `"{nameDe} {nameEn}\n{descriptionEn}\n{descriptionDe}"` and embedded with `multilingual-e5-large-instruct` using a symmetric similarity instruction prefix.
 
@@ -24,6 +24,18 @@ python generate_descriptions.py
 python generate_matrix.py
 ```
 
+## Results (sample: Telecommunication neighbors)
+
+| Value | Field |
+|------:|-------|
+| 9 | Network Administration |
+| 8 | Network Development |
+| 7 | System Engineering |
+| 6 | System Administration |
+| 5 | Construction |
+
+Strongest results across all three approaches. The descriptions allow the model to disambiguate fields that share short names but differ in meaning, and to surface domain-relevant neighbors (Network Admin, Network Development, System Engineering) that name-only approaches miss.
+
 ## Notes
 
-`generate_descriptions.py` saves progress after every field to `descriptions.json`. If interrupted, re-running it picks up from where it left off.
+`generate_descriptions.py` saves progress after every field to `descriptions.json`. If interrupted, re-running it picks up from where it left off. Requires a `.env` file in the parent directory with a `KEY` variable set to your Azure OpenAI API key.
