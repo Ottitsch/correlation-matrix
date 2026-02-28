@@ -1,0 +1,27 @@
+[
+  {
+    "code1": "w_mash",
+    "code2": "w_plant",
+    "value": 9
+  },
+  {
+    "code1": "w_mash",
+    "code2": "w_craft",
+    "value": 8
+  },
+  {
+    "code1": "w_mash",
+    "code2": "w_auto",
+    "value": 7
+  },
+  {
+    "code1": "w_mash",
+    "code2": "w_fabr",
+    "value": 6
+  },
+  {
+    "code1": "w_mash",
+    "code2": "w_civil",
+    "value": 5
+  }
+]
