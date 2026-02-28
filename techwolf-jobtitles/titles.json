@@ -1,0 +1,3062 @@
+[
+  {
+    "correlationMatrixId": "w_tele",
+    "titlesEn": [
+      "Telecommunications Engineer",
+      "Network Engineer",
+      "RF Engineer",
+      "Network Technician",
+      "Telecom Project Manager"
+    ],
+    "titlesDe": [
+      "Telekommunikationsingenieur",
+      "Netzwerkingenieur",
+      "HF-Ingenieur",
+      "Netzwerktechniker",
+      "Telekommunikationsprojektmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sale",
+    "titlesEn": [
+      "Sales Manager",
+      "Account Executive",
+      "Business Development Manager",
+      "Presales Engineer",
+      "Inside Sales Representative"
+    ],
+    "titlesDe": [
+      "Vertriebsmanager",
+      "Account Manager",
+      "Business Development Manager",
+      "Presales Engineer",
+      "Mitarbeiter Vertriebsinnendienst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_impo",
+    "titlesEn": [
+      "Import Manager",
+      "Import Coordinator",
+      "Import Specialist",
+      "Import Operations Manager",
+      "Import Clerk"
+    ],
+    "titlesDe": [
+      "Importmanager",
+      "Importkoordinator",
+      "Importspezialist",
+      "Leiter Importabwicklung",
+      "Importsachbearbeiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_whkus",
+    "titlesEn": [
+      "Customer Training Manager",
+      "Customer Trainer",
+      "Customer Education Specialist",
+      "Technical Training Specialist",
+      "Customer Onboarding Trainer"
+    ],
+    "titlesDe": [
+      "Customer Training Manager",
+      "Kundentrainer",
+      "Customer Education Specialist",
+      "Technischer Trainer",
+      "Onboarding-Trainer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_pers",
+    "titlesEn": [
+      "Human Resources Manager",
+      "HR Business Partner",
+      "Recruiter",
+      "Talent Acquisition Specialist",
+      "Payroll Specialist"
+    ],
+    "titlesDe": [
+      "HR-Manager",
+      "HR Business Partner",
+      "Recruiter",
+      "Talent Acquisition Specialist",
+      "Lohn- und Gehaltsabrechner"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_info",
+    "titlesEn": [
+      "Information Engineer",
+      "Data Engineer",
+      "Systems Engineer",
+      "Knowledge Engineer",
+      "Information Systems Analyst"
+    ],
+    "titlesDe": [
+      "Informationsingenieur",
+      "Dateningenieur",
+      "Systemingenieur",
+      "Wissensingenieur",
+      "Systemanalytiker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_medas",
+    "titlesEn": [
+      "Medical Assistant",
+      "Clinical Assistant",
+      "Physician Assistant",
+      "Healthcare Assistant",
+      "Medical Office Assistant"
+    ],
+    "titlesDe": [
+      "Medizinische Fachangestellte",
+      "Arzthelfer/in",
+      "Klinische Assistenz",
+      "Physician Assistant",
+      "Medizinische Verwaltungsassistenz"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_doc",
+    "titlesEn": [
+      "Medical Scientist",
+      "Clinical Research Scientist",
+      "Biomedical Scientist",
+      "Medical Science Liaison",
+      "Translational Research Scientist"
+    ],
+    "titlesDe": [
+      "Medizinischer Wissenschaftler",
+      "Klinischer Wissenschaftler",
+      "Biomedizinischer Wissenschaftler",
+      "Medical Science Liaison",
+      "Translationaler Wissenschaftler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sani",
+    "titlesEn": [
+      "Paramedic",
+      "Emergency Medical Technician",
+      "Ambulance Driver",
+      "Emergency Care Assistant",
+      "Flight Paramedic"
+    ],
+    "titlesDe": [
+      "Notfallsanitäter",
+      "Rettungssanitäter",
+      "Rettungsassistent",
+      "Rettungswagenfahrer",
+      "Sanitäter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_wood",
+    "titlesEn": [
+      "Carpenter",
+      "Cabinet Maker",
+      "Furniture Maker",
+      "Wood Machinist",
+      "CNC Wood Operator"
+    ],
+    "titlesDe": [
+      "Zimmerer",
+      "Tischler",
+      "Möbelbauer",
+      "Holzmechaniker",
+      "CNC-Maschinenbediener Holz"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_payr",
+    "titlesEn": [
+      "Payroll Specialist",
+      "Payroll Administrator",
+      "Payroll Accountant",
+      "Payroll Manager",
+      "Compensation Analyst"
+    ],
+    "titlesDe": [
+      "Lohn- und Gehaltsbuchhalter",
+      "Payroll Specialist",
+      "Entgeltabrechner",
+      "Sachbearbeiter Lohn und Gehalt",
+      "Payroll Manager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_cc",
+    "titlesEn": [
+      "Helpdesk Technician",
+      "IT Support Specialist",
+      "Technical Support Engineer",
+      "Service Desk Analyst",
+      "Desktop Support Technician"
+    ],
+    "titlesDe": [
+      "Helpdesk-Techniker",
+      "IT-Support-Spezialist",
+      "Technischer Support Engineer",
+      "Service Desk Analyst",
+      "Desktop-Support-Techniker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_mare",
+    "titlesEn": [
+      "Market Research Analyst",
+      "Market Research Manager",
+      "Consumer Insights Analyst",
+      "Market Intelligence Analyst",
+      "Research Consultant"
+    ],
+    "titlesDe": [
+      "Marktforschungsanalyst",
+      "Marktforschungsmanager",
+      "Consumer-Insights-Analyst",
+      "Marktanalyst",
+      "Research Consultant"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_mate",
+    "titlesEn": [
+      "Building Materials Engineer",
+      "Construction Materials Specialist",
+      "Materials Testing Engineer",
+      "Technical Sales Engineer Building Materials",
+      "Quality Engineer Construction Materials"
+    ],
+    "titlesDe": [
+      "Baustoffingenieur",
+      "Spezialist Baustofftechnik",
+      "Baustoffprüfer",
+      "Technischer Vertriebsingenieur Baustoffe",
+      "Qualitätsingenieur Baustoffe"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_adve",
+    "titlesEn": [
+      "Advertising Manager",
+      "Media Planner",
+      "Copywriter",
+      "Art Director",
+      "Account Manager"
+    ],
+    "titlesDe": [
+      "Advertising Manager",
+      "Mediaplaner",
+      "Texter",
+      "Art Director",
+      "Account Manager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_asset",
+    "titlesEn": [
+      "Asset Manager",
+      "Portfolio Manager",
+      "Investment Advisor",
+      "Wealth Manager",
+      "Investment Analyst"
+    ],
+    "titlesDe": [
+      "Asset Manager",
+      "Portfoliomanager",
+      "Anlageberater",
+      "Vermögensberater",
+      "Investmentanalyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_safety",
+    "titlesEn": [
+      "Safety Engineer",
+      "Occupational Safety Engineer",
+      "HSE Engineer",
+      "EHS Manager",
+      "Safety Specialist"
+    ],
+    "titlesDe": [
+      "Sicherheitsingenieur",
+      "Ingenieur für Arbeitssicherheit",
+      "HSE-Ingenieur",
+      "EHS-Manager",
+      "Fachkraft für Arbeitssicherheit"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_web",
+    "titlesEn": [
+      "Digital Designer",
+      "UX/UI Designer",
+      "Visual Designer",
+      "Motion Designer",
+      "Web Designer"
+    ],
+    "titlesDe": [
+      "Digital Designer",
+      "UX/UI Designer",
+      "Visual Designer",
+      "Motion Designer",
+      "Webdesigner"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_retai",
+    "titlesEn": [
+      "Sales Associate",
+      "Store Manager",
+      "Assistant Store Manager",
+      "Retail Sales Manager",
+      "Cashier"
+    ],
+    "titlesDe": [
+      "Verkäufer/in",
+      "Filialleiter/in",
+      "Stellvertretende/r Filialleiter/in",
+      "Verkaufsleiter/in",
+      "Kassierer/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_room",
+    "titlesEn": [
+      "Interior Designer",
+      "Interior Architect",
+      "Interior Design Consultant",
+      "Space Planner",
+      "Interior Decorator"
+    ],
+    "titlesDe": [
+      "Innenarchitekt",
+      "Innenraumgestalter",
+      "Raumplaner",
+      "Einrichtungsberater",
+      "Interior Designer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_frei",
+    "titlesEn": [
+      "Logistics Coordinator",
+      "Transport Planner",
+      "Shipping Manager",
+      "Freight Forwarder",
+      "Supply Chain Analyst"
+    ],
+    "titlesDe": [
+      "Logistikkoordinator",
+      "Transportplaner",
+      "Versandleiter",
+      "Speditionskaufmann",
+      "Supply-Chain-Analyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_mash",
+    "titlesEn": [
+      "Mechanical Engineer",
+      "Design Engineer",
+      "Manufacturing Engineer",
+      "Maintenance Engineer",
+      "Project Engineer"
+    ],
+    "titlesDe": [
+      "Maschinenbauingenieur",
+      "Konstruktionsingenieur",
+      "Fertigungsingenieur",
+      "Instandhaltungsingenieur",
+      "Projektingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sain",
+    "titlesEn": [
+      "Inside Sales Representative",
+      "Sales Support Specialist",
+      "Sales Operations Coordinator",
+      "Customer Service Sales Agent",
+      "Internal Account Manager"
+    ],
+    "titlesDe": [
+      "Vertriebsmitarbeiter Innendienst",
+      "Vertriebsassistenz",
+      "Sales Operations Koordinator",
+      "Kundenbetreuer Innendienst",
+      "Account Manager Innendienst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_itqm",
+    "titlesEn": [
+      "IT Quality Manager",
+      "IT Quality Assurance Manager",
+      "IT Compliance Manager",
+      "IT Process Manager",
+      "IT Service Quality Manager"
+    ],
+    "titlesDe": [
+      "IT-Qualitätsmanager",
+      "IT-Qualitätssicherungsmanager",
+      "IT-Compliance-Manager",
+      "IT-Prozessmanager",
+      "IT-Service-Qualitätsmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_faben",
+    "titlesEn": [
+      "Process Engineer",
+      "Chemical Process Engineer",
+      "Manufacturing Process Engineer",
+      "Process Development Engineer",
+      "Process Optimization Engineer"
+    ],
+    "titlesDe": [
+      "Verfahrenstechniker",
+      "Prozessingenieur",
+      "Chemieingenieur Verfahrenstechnik",
+      "Prozessentwicklungsingenieur",
+      "Produktionsingenieur Verfahrenstechnik"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sysa",
+    "titlesEn": [
+      "Systems Analyst",
+      "Business Systems Analyst",
+      "IT Systems Analyst",
+      "Requirements Engineer",
+      "Application Analyst"
+    ],
+    "titlesDe": [
+      "Systemanalyst",
+      "Business-Systemanalyst",
+      "IT-Systemanalyst",
+      "Anforderungsingenieur",
+      "Applikationsanalyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_modes",
+    "titlesEn": [
+      "Fashion Designer",
+      "Apparel Designer",
+      "Textile Designer",
+      "Costume Designer",
+      "Jewelry Designer"
+    ],
+    "titlesDe": [
+      "Modedesigner/in",
+      "Bekleidungsdesigner/in",
+      "Textildesigner/in",
+      "Kostümbildner/in",
+      "Schmuckdesigner/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_metal",
+    "titlesEn": [
+      "CNC Machinist",
+      "Toolmaker",
+      "Production Machinist",
+      "Machining Technician",
+      "Metal Fabricator"
+    ],
+    "titlesDe": [
+      "CNC-Maschinist",
+      "Werkzeugmacher",
+      "Produktionsmechaniker",
+      "Zerspanungstechniker",
+      "Metallbauer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_con",
+    "titlesEn": [
+      "Management Consultant",
+      "Strategy Consultant",
+      "IT Consultant",
+      "Business Analyst",
+      "Senior Consultant"
+    ],
+    "titlesDe": [
+      "Unternehmensberater",
+      "Strategieberater",
+      "IT-Berater",
+      "Business Analyst",
+      "Senior Consultant"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_illumi",
+    "titlesEn": [
+      "Sign Maker",
+      "Advertising Technician",
+      "Print Production Specialist",
+      "Signage Installer",
+      "Vehicle Wrap Installer"
+    ],
+    "titlesDe": [
+      "Schilder- und Lichtreklamehersteller/in",
+      "Werbetechniker/in",
+      "Medientechnologe/in Druck",
+      "Werbetechnik-Monteur/in",
+      "Fahrzeugfolierer/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_arch",
+    "titlesEn": [
+      "Archivist",
+      "Digital Archivist",
+      "Records Manager",
+      "Archive Technician",
+      "Information Archivist"
+    ],
+    "titlesDe": [
+      "Archivar",
+      "Digitalarchivar",
+      "Records Manager",
+      "Archivtechniker",
+      "Informationsarchivar"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_trans",
+    "titlesEn": [
+      "Translator",
+      "Freelance Translator",
+      "Localization Specialist",
+      "Technical Translator",
+      "In-house Translator"
+    ],
+    "titlesDe": [
+      "Übersetzer",
+      "Freiberuflicher Übersetzer",
+      "Lokalisierungsspezialist",
+      "Technischer Übersetzer",
+      "Inhouse-Übersetzer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_propur",
+    "titlesEn": [
+      "Project Buyer",
+      "Project Procurement Manager",
+      "Strategic Project Buyer",
+      "Technical Project Buyer",
+      "Procurement Project Manager"
+    ],
+    "titlesDe": [
+      "Projekteinkäufer",
+      "Projekteinkaufsmanager",
+      "Strategischer Projekteinkäufer",
+      "Technischer Projekteinkäufer",
+      "Einkaufsprojektmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_film",
+    "titlesEn": [
+      "Producer",
+      "Camera Operator",
+      "Video Editor",
+      "Broadcast Technician",
+      "Production Assistant"
+    ],
+    "titlesDe": [
+      "Produzent",
+      "Kameramann",
+      "Video-Editor",
+      "Broadcast-Techniker",
+      "Produktionsassistent"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_scm",
+    "titlesEn": [
+      "Supply Chain Manager",
+      "Logistics Manager",
+      "Demand Planner",
+      "Procurement Manager",
+      "Operations Planner"
+    ],
+    "titlesDe": [
+      "Supply Chain Manager",
+      "Logistikmanager",
+      "Bedarfsplaner",
+      "Einkaufsleiter",
+      "Produktionsplaner"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_beaut",
+    "titlesEn": [
+      "Hair Stylist",
+      "Barber",
+      "Beauty Therapist",
+      "Nail Technician",
+      "Spa Therapist"
+    ],
+    "titlesDe": [
+      "Friseur/in",
+      "Barbier",
+      "Kosmetiker/in",
+      "Nageldesigner/in",
+      "Spa-Therapeut/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_autom",
+    "titlesEn": [
+      "Automotive Technician",
+      "Car Mechanic",
+      "Vehicle Technician",
+      "Automotive Service Technician",
+      "Automotive Maintenance Mechanic"
+    ],
+    "titlesDe": [
+      "Kfz-Mechatroniker",
+      "Kfz-Mechaniker",
+      "Automobilmechaniker",
+      "Fahrzeugtechniker",
+      "Kfz-Service-Techniker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_clean",
+    "titlesEn": [
+      "Cleaner",
+      "Janitor",
+      "Housekeeper",
+      "Industrial Cleaner",
+      "Window Cleaner"
+    ],
+    "titlesDe": [
+      "Reinigungskraft",
+      "Hausmeister",
+      "Housekeeper",
+      "Industriereiniger",
+      "Fensterreiniger"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_org",
+    "titlesEn": [
+      "Operations Manager",
+      "Business Process Manager",
+      "Organizational Development Manager",
+      "Process Improvement Specialist",
+      "Operations Analyst"
+    ],
+    "titlesDe": [
+      "Operations Manager",
+      "Prozessmanager",
+      "Organisationsentwickler",
+      "KVP-Manager",
+      "Prozessanalyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_ther",
+    "titlesEn": [
+      "Physiotherapist",
+      "Occupational Therapist",
+      "Speech-Language Pathologist",
+      "Psychotherapist",
+      "Art Therapist"
+    ],
+    "titlesDe": [
+      "Physiotherapeut/in",
+      "Ergotherapeut/in",
+      "Logopäde/Logopädin",
+      "Psychotherapeut/in",
+      "Kunsttherapeut/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_heet",
+    "titlesEn": [
+      "HVAC Technician",
+      "Heating Engineer",
+      "Air Conditioning Technician",
+      "Ventilation Technician",
+      "HVAC Service Technician"
+    ],
+    "titlesDe": [
+      "Anlagenmechaniker SHK",
+      "Heizungsbauer",
+      "Klimatechniker",
+      "Lüftungsmonteur",
+      "Servicetechniker SHK"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_tred",
+    "titlesEn": [
+      "Technical Writer",
+      "Documentation Specialist",
+      "Information Developer",
+      "Technical Documentation Engineer",
+      "Content Developer"
+    ],
+    "titlesDe": [
+      "Technischer Redakteur",
+      "Dokumentationsspezialist",
+      "Information Developer",
+      "Redakteur Technische Dokumentation",
+      "Content Developer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_nwa",
+    "titlesEn": [
+      "Network Administrator",
+      "Network Engineer",
+      "Systems Administrator",
+      "IT Security Administrator",
+      "Network Security Engineer"
+    ],
+    "titlesDe": [
+      "Netzwerkadministrator",
+      "Netzwerkingenieur",
+      "Systemadministrator",
+      "IT-Sicherheitsadministrator",
+      "Netzwerksicherheitsingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_phot",
+    "titlesEn": [
+      "Photographer",
+      "Photojournalist",
+      "Commercial Photographer",
+      "Studio Photographer",
+      "Wedding Photographer"
+    ],
+    "titlesDe": [
+      "Fotograf",
+      "Fotojournalist",
+      "Werbefotograf",
+      "Studiofotograf",
+      "Hochzeitsfotograf"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_envir",
+    "titlesEn": [
+      "Environmental Protection Officer",
+      "Conservation Scientist",
+      "Environmental Engineer",
+      "Environmental Policy Advisor",
+      "Sustainability Manager"
+    ],
+    "titlesDe": [
+      "Umweltschutzbeauftragter",
+      "Naturschutzbiologe",
+      "Umweltingenieur",
+      "Umweltreferent",
+      "Nachhaltigkeitsmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_offi",
+    "titlesEn": [
+      "Office Manager",
+      "Administrative Assistant",
+      "Office Administrator",
+      "Executive Assistant",
+      "Office Coordinator"
+    ],
+    "titlesDe": [
+      "Office Manager/in",
+      "Teamassistenz",
+      "Office Administrator/in",
+      "Executive Assistant/in",
+      "Bürokoordinator/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_nurse",
+    "titlesEn": [
+      "Registered Nurse",
+      "Licensed Practical Nurse",
+      "Nurse Practitioner",
+      "Geriatric Nurse",
+      "Intensive Care Nurse"
+    ],
+    "titlesDe": [
+      "Pflegefachmann/-frau",
+      "Gesundheits- und Krankenpfleger/in",
+      "Altenpfleger/in",
+      "Intensivpfleger/in",
+      "Stationsleitung Pflege"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_ar",
+    "titlesEn": [
+      "IT Architect",
+      "Software Architect",
+      "Systems Architect",
+      "Enterprise Architect",
+      "Solution Architect"
+    ],
+    "titlesDe": [
+      "IT-Architekt",
+      "Softwarearchitekt",
+      "Systemarchitekt",
+      "Enterprise Architekt",
+      "Solution Architekt"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_edito",
+    "titlesEn": [
+      "Editor",
+      "Managing Editor",
+      "Copy Editor",
+      "Content Editor",
+      "Editorial Assistant"
+    ],
+    "titlesDe": [
+      "Redakteur",
+      "Chefredakteur",
+      "Lektor",
+      "Online-Redakteur",
+      "Redaktionsassistent"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_tax",
+    "titlesEn": [
+      "Tax Advisor",
+      "Tax Consultant",
+      "Senior Tax Consultant",
+      "Tax Manager",
+      "Tax Associate"
+    ],
+    "titlesDe": [
+      "Steuerberater",
+      "Steuerreferent",
+      "Senior Steuerberater",
+      "Tax Manager",
+      "Steuerassistent"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_purch",
+    "titlesEn": [
+      "Purchasing Manager",
+      "Procurement Specialist",
+      "Strategic Buyer",
+      "Sourcing Manager",
+      "Purchasing Coordinator"
+    ],
+    "titlesDe": [
+      "Einkaufsleiter",
+      "Einkaufssachbearbeiter",
+      "Strategischer Einkäufer",
+      "Sourcing Manager",
+      "Operativer Einkäufer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_veter",
+    "titlesEn": [
+      "Veterinarian",
+      "Veterinary Surgeon",
+      "Veterinary Nurse",
+      "Veterinary Pathologist",
+      "Official Veterinarian"
+    ],
+    "titlesDe": [
+      "Tierarzt",
+      "Fachtierarzt für Chirurgie",
+      "Tiermedizinische Fachangestellte",
+      "Veterinärpathologe",
+      "Amtstierarzt"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_natur",
+    "titlesEn": [
+      "Research Scientist",
+      "Laboratory Technician",
+      "Environmental Scientist",
+      "Biologist",
+      "Chemist"
+    ],
+    "titlesDe": [
+      "Wissenschaftlicher Mitarbeiter",
+      "Laborant",
+      "Umweltwissenschaftler",
+      "Biologe",
+      "Chemiker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_keyacc",
+    "titlesEn": [
+      "Key Account Manager",
+      "Senior Key Account Manager",
+      "Strategic Account Manager",
+      "Global Account Manager",
+      "National Key Account Manager"
+    ],
+    "titlesDe": [
+      "Key Account Manager",
+      "Senior Key Account Manager",
+      "Strategischer Key Account Manager",
+      "Global Key Account Manager",
+      "Nationaler Key Account Manager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_bestatt",
+    "titlesEn": [
+      "Funeral Director",
+      "Funeral Service Assistant",
+      "Mortuary Assistant",
+      "Crematorium Technician",
+      "Embalmer"
+    ],
+    "titlesDe": [
+      "Bestatter/in",
+      "Bestattungsassistent/in",
+      "Leichenhausmitarbeiter/in",
+      "Krematoriumstechniker/in",
+      "Thanatopraktiker/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_insum",
+    "titlesEn": [
+      "Actuary",
+      "Actuarial Analyst",
+      "Pricing Actuary",
+      "Reserving Actuary",
+      "Insurance Risk Analyst"
+    ],
+    "titlesDe": [
+      "Aktuar",
+      "Aktuarielle/r Analyst/in",
+      "Pricing-Aktuar",
+      "Reserveaktuar",
+      "Risikoanalyst Versicherung"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_elec",
+    "titlesEn": [
+      "Electrical Engineer",
+      "Electronics Engineer",
+      "Power Systems Engineer",
+      "Automation Engineer",
+      "Hardware Engineer"
+    ],
+    "titlesDe": [
+      "Elektroingenieur",
+      "Elektronikingenieur",
+      "Ingenieur Energietechnik",
+      "Automatisierungsingenieur",
+      "Hardwareentwickler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_defe",
+    "titlesEn": [
+      "Infantry Officer",
+      "Logistics Officer",
+      "IT Systems Administrator",
+      "Aircraft Maintenance Technician",
+      "Military Police Officer"
+    ],
+    "titlesDe": [
+      "Infanterieoffizier",
+      "Logistikoffizier",
+      "IT-Systemadministrator",
+      "Fluggerätmechaniker",
+      "Feldjäger"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_hrdev",
+    "titlesEn": [
+      "Learning & Development Manager",
+      "HR Development Specialist",
+      "Training Manager",
+      "Talent Development Manager",
+      "Organizational Development Consultant"
+    ],
+    "titlesDe": [
+      "Leiter Personalentwicklung",
+      "Referent Personalentwicklung",
+      "Trainingsmanager",
+      "Talententwicklungsmanager",
+      "Organisationsentwickler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_medic",
+    "titlesEn": [
+      "General Practitioner",
+      "Internal Medicine Physician",
+      "Surgeon",
+      "Pediatrician",
+      "Emergency Medicine Physician"
+    ],
+    "titlesDe": [
+      "Hausarzt",
+      "Facharzt für Innere Medizin",
+      "Chirurg",
+      "Kinderarzt",
+      "Arzt in der Notaufnahme"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_agri",
+    "titlesEn": [
+      "Farm Manager",
+      "Agricultural Technician",
+      "Forester",
+      "Horticulturist",
+      "Landscape Gardener"
+    ],
+    "titlesDe": [
+      "Betriebsleiter Landwirtschaft",
+      "Landwirtschaftstechniker",
+      "Forstwirt",
+      "Gärtner",
+      "Garten- und Landschaftsbauer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_synth",
+    "titlesEn": [
+      "Plastics Engineer",
+      "Polymer Engineer",
+      "Injection Molding Engineer",
+      "Materials Engineer – Plastics",
+      "Process Engineer – Plastics"
+    ],
+    "titlesDe": [
+      "Kunststoffingenieur",
+      "Polymeringenieur",
+      "Spritzgussingenieur",
+      "Materialingenieur Kunststoffe",
+      "Prozessingenieur Kunststofftechnik"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_auto",
+    "titlesEn": [
+      "Automotive Engineer",
+      "Vehicle Dynamics Engineer",
+      "Powertrain Engineer",
+      "Automotive Software Engineer",
+      "Quality Engineer Automotive"
+    ],
+    "titlesDe": [
+      "Entwicklungsingenieur Automotive",
+      "Fahrzeugdynamik-Ingenieur",
+      "Antriebsstrang-Ingenieur",
+      "Automotive Softwareentwickler",
+      "Qualitätsingenieur Automotive"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_dent",
+    "titlesEn": [
+      "Dental Technician",
+      "CAD/CAM Dental Technician",
+      "Dental Laboratory Technician",
+      "Orthodontic Technician",
+      "Dental Ceramist"
+    ],
+    "titlesDe": [
+      "Zahntechniker/in",
+      "CAD/CAM-Zahntechniker/in",
+      "KFO-Zahntechniker/in",
+      "Keramik-Zahntechniker/in",
+      "Dentallabor-Techniker/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_math",
+    "titlesEn": [
+      "Data Scientist",
+      "Statistician",
+      "Actuary",
+      "Quantitative Analyst",
+      "Biostatistician"
+    ],
+    "titlesDe": [
+      "Data Scientist",
+      "Statistiker",
+      "Aktuar",
+      "Quantitativer Analyst",
+      "Biostatistiker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_phar",
+    "titlesEn": [
+      "Pharmacist",
+      "Clinical Pharmacist",
+      "Hospital Pharmacist",
+      "Pharmaceutical Scientist",
+      "Quality Control Pharmacist"
+    ],
+    "titlesDe": [
+      "Apotheker/in",
+      "Klinische/r Apotheker/in",
+      "Krankenhausapotheker/in",
+      "Pharmazeutische/r Wissenschaftler/in",
+      "Apotheker/in Qualitätskontrolle"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_presa",
+    "titlesEn": [
+      "Sales Engineer",
+      "Pre-Sales Consultant",
+      "Technical Account Manager",
+      "Customer Support Engineer",
+      "Implementation Specialist"
+    ],
+    "titlesDe": [
+      "Vertriebsingenieur",
+      "Presales Berater",
+      "Technischer Account Manager",
+      "Support Engineer",
+      "Implementierungsspezialist"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_bio",
+    "titlesEn": [
+      "Biologist",
+      "Molecular Biologist",
+      "Microbiologist",
+      "Biology Laboratory Technician",
+      "Research Scientist"
+    ],
+    "titlesDe": [
+      "Biologe",
+      "Molekularbiologe",
+      "Mikrobiologe",
+      "Biologisch-technischer Assistent",
+      "Wissenschaftlicher Mitarbeiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_admin",
+    "titlesEn": [
+      "Office Administrator",
+      "Administrative Assistant",
+      "Office Assistant",
+      "Executive Assistant",
+      "Office Coordinator"
+    ],
+    "titlesDe": [
+      "Büroadministrator/in",
+      "Büroassistent/in",
+      "Teamassistent/in",
+      "Office Manager/in",
+      "Verwaltungsassistent/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_chem",
+    "titlesEn": [
+      "Chemist",
+      "Analytical Chemist",
+      "Research Chemist",
+      "Quality Control Chemist",
+      "Chemical Laboratory Technician"
+    ],
+    "titlesDe": [
+      "Chemiker",
+      "Analytischer Chemiker",
+      "Forschungschemiker",
+      "Qualitätskontrollchemiker",
+      "Chemielaborant"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_archi",
+    "titlesEn": [
+      "Architect",
+      "Building Architect",
+      "Project Architect",
+      "Architectural Designer",
+      "Junior Architect"
+    ],
+    "titlesDe": [
+      "Architekt",
+      "Bauarchitekt",
+      "Projektarchitekt",
+      "Entwurfsarchitekt",
+      "Junior Architekt"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_rece",
+    "titlesEn": [
+      "Receptionist",
+      "Front Desk Agent",
+      "Front Office Assistant",
+      "Guest Services Agent",
+      "Office Receptionist"
+    ],
+    "titlesDe": [
+      "Rezeptionist/in",
+      "Empfangsmitarbeiter/in",
+      "Front Office Agent",
+      "Empfangsassistent/in",
+      "Mitarbeiter/in Empfang"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_pera",
+    "titlesEn": [
+      "HR Consultant",
+      "Recruitment Consultant",
+      "Talent Acquisition Consultant",
+      "Executive Search Consultant",
+      "HR Strategy Consultant"
+    ],
+    "titlesDe": [
+      "HR-Berater",
+      "Personalberater",
+      "Talent Acquisition Berater",
+      "Executive-Search-Berater",
+      "HR-Strategieberater"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_muse",
+    "titlesEn": [
+      "Curator",
+      "Museum Educator",
+      "Collections Manager",
+      "Exhibition Designer",
+      "Gallery Assistant"
+    ],
+    "titlesDe": [
+      "Kurator",
+      "Museumspädagoge",
+      "Sammlungsmanager",
+      "Ausstellungsgestalter",
+      "Galerieassistent"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_upstream",
+    "titlesEn": [
+      "Reservoir Engineer",
+      "Drilling Engineer",
+      "Production Engineer",
+      "Petroleum Engineer",
+      "Completion Engineer"
+    ],
+    "titlesDe": [
+      "Reservoiringenieur",
+      "Bohringenieur",
+      "Produktionsingenieur",
+      "Petroleum Engineer",
+      "Completion Engineer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_ebus",
+    "titlesEn": [
+      "E-Commerce Manager",
+      "Digital Commerce Manager",
+      "Online Shop Manager",
+      "Marketplace Manager",
+      "E-Commerce Analyst"
+    ],
+    "titlesDe": [
+      "E-Commerce Manager",
+      "Digital Commerce Manager",
+      "Onlineshop-Manager",
+      "Marketplace Manager",
+      "E-Commerce-Analyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_recru",
+    "titlesEn": [
+      "Recruiter",
+      "Talent Acquisition Specialist",
+      "HR Recruiter",
+      "Recruitment Manager",
+      "Technical Recruiter"
+    ],
+    "titlesDe": [
+      "Recruiter/in",
+      "Talent Acquisition Specialist",
+      "HR Recruiter/in",
+      "Recruiting Manager/in",
+      "Technischer Recruiter/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_top",
+    "titlesEn": [
+      "Chief Executive Officer",
+      "Managing Director",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Chief Strategy Officer"
+    ],
+    "titlesDe": [
+      "Geschäftsführer",
+      "Vorstandsvorsitzender",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Chief Strategy Officer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_notar",
+    "titlesEn": [
+      "Notary Public",
+      "Notary Assistant",
+      "Notary Clerk",
+      "Notary Paralegal",
+      "Legal Assistant (Notary Office)"
+    ],
+    "titlesDe": [
+      "Notar",
+      "Notarfachangestellter",
+      "Notariatsassistent",
+      "Sachbearbeiter Notariat",
+      "Rechtsanwalts- und Notarfachangestellter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_itman",
+    "titlesEn": [
+      "Head of IT",
+      "IT Director",
+      "IT Manager",
+      "Director of Information Technology",
+      "Chief Information Officer"
+    ],
+    "titlesDe": [
+      "IT-Leiter",
+      "Leiter IT",
+      "IT-Direktor",
+      "IT-Manager",
+      "Chief Information Officer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_tour",
+    "titlesEn": [
+      "Tourism Manager",
+      "Travel Consultant",
+      "Destination Marketing Manager",
+      "Tour Operations Coordinator",
+      "Hotel Sales Manager"
+    ],
+    "titlesDe": [
+      "Tourismusmanager",
+      "Reiseberater",
+      "Destinationsmarketing-Manager",
+      "Reiseveranstaltungskoordinator",
+      "Hotelvertriebsleiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_expo",
+    "titlesEn": [
+      "Export Manager",
+      "Export Sales Manager",
+      "Export Coordinator",
+      "Export Operations Specialist",
+      "Export Control Specialist"
+    ],
+    "titlesDe": [
+      "Exportleiter",
+      "Export Sales Manager",
+      "Exportkoordinator",
+      "Exportsachbearbeiter",
+      "Export Control Specialist"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_techpur",
+    "titlesEn": [
+      "Procurement Engineer",
+      "Technical Buyer",
+      "Purchasing Engineer",
+      "Strategic Sourcing Engineer",
+      "Commodity Engineer"
+    ],
+    "titlesDe": [
+      "Einkaufsingenieur",
+      "Technischer Einkäufer",
+      "Strategischer Einkäufer Technik",
+      "Warengruppenmanager Technik",
+      "Commodity Manager Technik"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_home",
+    "titlesEn": [
+      "House Cleaner",
+      "Home Care Assistant",
+      "Gardener",
+      "Handyman",
+      "Window Cleaner"
+    ],
+    "titlesDe": [
+      "Reinigungskraft",
+      "Pflegehelfer/in",
+      "Gärtner/in",
+      "Hausmeister/in",
+      "Fensterreiniger/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_event",
+    "titlesEn": [
+      "Event Manager",
+      "Event Coordinator",
+      "Event Planner",
+      "Conference Manager",
+      "Exhibition Manager"
+    ],
+    "titlesDe": [
+      "Eventmanager",
+      "Eventkoordinator",
+      "Eventplaner",
+      "Konferenzmanager",
+      "Messemanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_cad",
+    "titlesEn": [
+      "CAD Technician",
+      "Technical Drafter",
+      "Design Drafter",
+      "Mechanical CAD Designer",
+      "Construction Draftsman"
+    ],
+    "titlesDe": [
+      "CAD-Zeichner",
+      "Technischer Zeichner",
+      "CAD-Konstrukteur",
+      "Bauzeichner",
+      "Technischer Produktdesigner"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_cont",
+    "titlesEn": [
+      "Financial Controller",
+      "Business Controller",
+      "Cost Controller",
+      "Management Accountant",
+      "Plant Controller"
+    ],
+    "titlesDe": [
+      "Financial Controller",
+      "Business Controller",
+      "Kostencontroller",
+      "Management Accountant",
+      "Werkscontroller"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sama",
+    "titlesEn": [
+      "Sales Manager",
+      "Head of Sales",
+      "Sales Director",
+      "Regional Sales Manager",
+      "Key Account Manager"
+    ],
+    "titlesDe": [
+      "Vertriebsleiter",
+      "Leiter Vertrieb",
+      "Verkaufsleiter",
+      "Regionaler Vertriebsleiter",
+      "Key Account Manager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_seng",
+    "titlesEn": [
+      "Software Engineer",
+      "Backend Engineer",
+      "Frontend Developer",
+      "Full Stack Developer",
+      "DevOps Engineer"
+    ],
+    "titlesDe": [
+      "Softwareentwickler",
+      "Backend-Entwickler",
+      "Frontend-Entwickler",
+      "Full-Stack-Entwickler",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_educ",
+    "titlesEn": [
+      "Primary School Teacher",
+      "Secondary School Teacher",
+      "Special Education Teacher",
+      "School Administrator",
+      "School Psychologist"
+    ],
+    "titlesDe": [
+      "Grundschullehrer",
+      "Sekundarschullehrer",
+      "Sonderpädagoge",
+      "Schuladministrator",
+      "Schulpsychologe"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_house",
+    "titlesEn": [
+      "Property Manager",
+      "Residential Property Manager",
+      "Commercial Property Manager",
+      "Property Administrator",
+      "Facilities Manager"
+    ],
+    "titlesDe": [
+      "Hausverwalter/in",
+      "Immobilienverwalter/in",
+      "Wohnungsmanager/in",
+      "Objektmanager/in",
+      "WEG-Verwalter/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_itpm",
+    "titlesEn": [
+      "IT Project Manager",
+      "Technical Project Manager",
+      "Senior IT Project Manager",
+      "Digital Project Manager",
+      "Project Management Officer"
+    ],
+    "titlesDe": [
+      "IT-Projektmanager",
+      "Technischer Projektmanager",
+      "Senior IT-Projektmanager",
+      "Digitaler Projektmanager",
+      "Projektmanagement Officer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_safo",
+    "titlesEn": [
+      "Field Sales Representative",
+      "Account Manager",
+      "Key Account Manager",
+      "Sales Executive",
+      "Business Development Manager"
+    ],
+    "titlesDe": [
+      "Vertriebsmitarbeiter Außendienst",
+      "Account Manager Außendienst",
+      "Key Account Manager Außendienst",
+      "Sales Manager Außendienst",
+      "Business Development Manager Außendienst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_maint",
+    "titlesEn": [
+      "Application Support Analyst",
+      "Application Support Engineer",
+      "IT Application Support Specialist",
+      "Business Application Support Analyst",
+      "2nd Level Application Support"
+    ],
+    "titlesDe": [
+      "Anwendungsbetreuer",
+      "Application Support Engineer",
+      "IT-Anwendungsbetreuer",
+      "Business-Anwendungsbetreuer",
+      "2nd-Level-Anwendungsbetreuung"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_whuni",
+    "titlesEn": [
+      "Professor",
+      "Associate Professor",
+      "Assistant Professor",
+      "Lecturer",
+      "Postdoctoral Researcher"
+    ],
+    "titlesDe": [
+      "Professor/in",
+      "Außerplanmäßige/r Professor/in",
+      "Juniorprofessor/in",
+      "Lehrbeauftragte/r",
+      "Postdoktorand/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_space",
+    "titlesEn": [
+      "Aerospace Engineer",
+      "Aircraft Maintenance Engineer",
+      "Avionics Engineer",
+      "Flight Test Engineer",
+      "Systems Engineer"
+    ],
+    "titlesDe": [
+      "Luft- und Raumfahrtingenieur",
+      "Fluggerätmechaniker",
+      "Avionikingenieur",
+      "Flugerprobungsingenieur",
+      "Systemingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_comm",
+    "titlesEn": [
+      "Corporate Communications Manager",
+      "Internal Communications Manager",
+      "Communications Specialist",
+      "PR Manager",
+      "Head of Corporate Communications"
+    ],
+    "titlesDe": [
+      "Manager Unternehmenskommunikation",
+      "Manager Interne Kommunikation",
+      "Kommunikationsspezialist",
+      "PR Manager",
+      "Leiter Unternehmenskommunikation"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_civil",
+    "titlesEn": [
+      "Civil Engineer",
+      "Structural Engineer",
+      "Construction Manager",
+      "Geotechnical Engineer",
+      "Project Engineer"
+    ],
+    "titlesDe": [
+      "Bauingenieur",
+      "Tragwerksplaner",
+      "Bauleiter",
+      "Geotechnischer Ingenieur",
+      "Projektingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_prod",
+    "titlesEn": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Product Manager",
+      "Product Owner",
+      "Associate Product Manager"
+    ],
+    "titlesDe": [
+      "Produktmanager",
+      "Senior Produktmanager",
+      "Technischer Produktmanager",
+      "Product Owner",
+      "Junior Produktmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_hote",
+    "titlesEn": [
+      "Hotel Manager",
+      "Front Desk Agent",
+      "Food and Beverage Manager",
+      "Sous Chef",
+      "Restaurant Server"
+    ],
+    "titlesDe": [
+      "Hotelmanager",
+      "Rezeptionsmitarbeiter",
+      "F&B Manager",
+      "Souschef",
+      "Servicekraft"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_inves",
+    "titlesEn": [
+      "Portfolio Manager",
+      "Investment Analyst",
+      "Asset Manager",
+      "Fund Manager",
+      "Equity Analyst"
+    ],
+    "titlesDe": [
+      "Portfoliomanager",
+      "Investment Analyst",
+      "Asset Manager",
+      "Fondsmanager",
+      "Aktienanalyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_busi",
+    "titlesEn": [
+      "Business Operations Specialist",
+      "Operations Coordinator",
+      "Administrative Officer",
+      "Back Office Specialist",
+      "Process Administrator"
+    ],
+    "titlesDe": [
+      "Sachbearbeiter",
+      "Kaufmännischer Sachbearbeiter",
+      "Sachbearbeiter Operations",
+      "Mitarbeiter Back Office",
+      "Sachbearbeiter Verwaltung"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_hand",
+    "titlesEn": [
+      "Ceramic Artist",
+      "Glassblower",
+      "Wood Carver",
+      "Jewelry Designer",
+      "Textile Artist"
+    ],
+    "titlesDe": [
+      "Keramiker",
+      "Glasbläser",
+      "Holzbildhauer",
+      "Schmuckdesigner",
+      "Textilkünstler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_monta",
+    "titlesEn": [
+      "Assembly Worker",
+      "Assembly Technician",
+      "Production Assembler",
+      "Mechanical Assembler",
+      "Electronics Assembler"
+    ],
+    "titlesDe": [
+      "Montagemitarbeiter",
+      "Montagetechniker",
+      "Produktionsmitarbeiter Montage",
+      "Mechanischer Monteur",
+      "Elektronikmonteur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_hospital",
+    "titlesEn": [
+      "Hospital Administrator",
+      "Healthcare Operations Manager",
+      "Clinical Services Manager",
+      "Medical Office Manager",
+      "Quality and Compliance Manager"
+    ],
+    "titlesDe": [
+      "Krankenhausmanager",
+      "Kaufmännischer Leiter Krankenhaus",
+      "Leiter Patientenmanagement",
+      "Medizinischer Verwaltungsleiter",
+      "Qualitätsmanager Krankenhaus"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_jour",
+    "titlesEn": [
+      "Journalist",
+      "News Reporter",
+      "Investigative Reporter",
+      "Editor",
+      "Photojournalist"
+    ],
+    "titlesDe": [
+      "Journalist",
+      "Nachrichtenreporter",
+      "Investigativreporter",
+      "Redakteur",
+      "Fotojournalist"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_munic",
+    "titlesEn": [
+      "City Planner",
+      "Public Works Manager",
+      "Municipal Clerk",
+      "Building Inspector",
+      "Environmental Services Officer"
+    ],
+    "titlesDe": [
+      "Stadtplaner/in",
+      "Leiter/in Bauhof",
+      "Sachbearbeiter/in Ordnungsamt",
+      "Bauprüfer/in",
+      "Umweltbeauftragte/r"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_faci",
+    "titlesEn": [
+      "Facility Manager",
+      "Facilities Coordinator",
+      "Building Services Manager",
+      "Maintenance Manager",
+      "Workplace Manager"
+    ],
+    "titlesDe": [
+      "Facility Manager",
+      "Facility-Koordinator",
+      "Leiter Gebäudetechnik",
+      "Instandhaltungsleiter",
+      "Workplace Manager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_desig",
+    "titlesEn": [
+      "Industrial Designer",
+      "Product Designer",
+      "Senior Industrial Designer",
+      "Design Engineer",
+      "CAD Designer"
+    ],
+    "titlesDe": [
+      "Industriedesigner",
+      "Produktdesigner",
+      "Senior Industriedesigner",
+      "Designingenieur",
+      "CAD-Designer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_rev",
+    "titlesEn": [
+      "Internal Auditor",
+      "Senior Internal Auditor",
+      "Audit Manager",
+      "IT Auditor",
+      "Compliance Auditor"
+    ],
+    "titlesDe": [
+      "Interner Revisor",
+      "Senior Interner Revisor",
+      "Revisionsleiter",
+      "IT-Revisor",
+      "Compliance Auditor"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_dba",
+    "titlesEn": [
+      "Database Administrator",
+      "Senior Database Administrator",
+      "Database Engineer",
+      "SQL Database Administrator",
+      "Cloud Database Administrator"
+    ],
+    "titlesDe": [
+      "Datenbankadministrator",
+      "Senior Datenbankadministrator",
+      "Datenbankingenieur",
+      "SQL-Datenbankadministrator",
+      "Cloud-Datenbankadministrator"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_book",
+    "titlesEn": [
+      "Accountant",
+      "Financial Accountant",
+      "Accounts Payable Specialist",
+      "Accounts Receivable Specialist",
+      "Payroll Accountant"
+    ],
+    "titlesDe": [
+      "Buchhalter",
+      "Finanzbuchhalter",
+      "Kreditorenbuchhalter",
+      "Debitorenbuchhalter",
+      "Lohnbuchhalter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_rese",
+    "titlesEn": [
+      "Research Scientist",
+      "R&D Engineer",
+      "Development Engineer",
+      "Research Engineer",
+      "Product Development Engineer"
+    ],
+    "titlesDe": [
+      "Forschungswissenschaftler",
+      "F&E-Ingenieur",
+      "Entwicklungsingenieur",
+      "Forschungsingenieur",
+      "Produktentwicklungsingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_street",
+    "titlesEn": [
+      "Road Construction Worker",
+      "Civil Engineer (Road Construction)",
+      "Asphalt Paver Operator",
+      "Construction Site Manager (Roadworks)",
+      "Heavy Equipment Operator (Road Construction)"
+    ],
+    "titlesDe": [
+      "Straßenbauer",
+      "Bauingenieur Straßenbau",
+      "Asphaltbauer",
+      "Bauleiter Straßenbau",
+      "Baumaschinenführer Straßenbau"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_craft",
+    "titlesEn": [
+      "Carpenter",
+      "Bricklayer",
+      "Roofer",
+      "Tiler",
+      "Painter"
+    ],
+    "titlesDe": [
+      "Zimmerer",
+      "Maurer",
+      "Dachdecker",
+      "Fliesenleger",
+      "Maler und Lackierer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_statics",
+    "titlesEn": [
+      "Structural Engineer",
+      "Structural Design Engineer",
+      "Structural Analyst",
+      "Civil Structural Engineer",
+      "Building Structural Engineer"
+    ],
+    "titlesDe": [
+      "Tragwerksplaner",
+      "Bauingenieur Statik",
+      "Statiker",
+      "Tragwerksingenieur",
+      "Konstruktiver Ingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_siteman",
+    "titlesEn": [
+      "Site Manager",
+      "Construction Site Manager",
+      "Senior Site Manager",
+      "Site Supervisor",
+      "Construction Project Manager"
+    ],
+    "titlesDe": [
+      "Bauleiter",
+      "Baustellenleiter",
+      "Oberbauleiter",
+      "Bauüberwacher",
+      "Projektleiter Bau"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_judi",
+    "titlesEn": [
+      "Judge",
+      "Public Prosecutor",
+      "Court Clerk",
+      "Judicial Officer",
+      "Court Secretary"
+    ],
+    "titlesDe": [
+      "Richter/in",
+      "Staatsanwalt/-in",
+      "Justizfachangestellte/r",
+      "Rechtspfleger/in",
+      "Gerichtssekretär/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_pr",
+    "titlesEn": [
+      "Public Relations Manager",
+      "PR Specialist",
+      "Communications Manager",
+      "Media Relations Manager",
+      "Press Officer"
+    ],
+    "titlesDe": [
+      "PR-Manager",
+      "PR-Spezialist",
+      "Kommunikationsmanager",
+      "Media-Relations-Manager",
+      "Pressesprecher"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_hist",
+    "titlesEn": [
+      "Historian",
+      "Archaeologist",
+      "Museum Curator",
+      "Archivist",
+      "Academic Researcher"
+    ],
+    "titlesDe": [
+      "Historiker",
+      "Archäologe",
+      "Museumskurator",
+      "Archivar",
+      "Wissenschaftlicher Mitarbeiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_soci",
+    "titlesEn": [
+      "Social Worker",
+      "Case Manager",
+      "Youth Worker",
+      "Child Protection Officer",
+      "Community Outreach Worker"
+    ],
+    "titlesDe": [
+      "Sozialarbeiter/in",
+      "Fallmanager/in",
+      "Mitarbeiter/in Jugendhilfe",
+      "Kinderschutzfachkraft",
+      "Streetworker/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_medte",
+    "titlesEn": [
+      "Biomedical Engineer",
+      "Medical Device Engineer",
+      "Clinical Application Specialist",
+      "Quality Assurance Engineer",
+      "Regulatory Affairs Specialist"
+    ],
+    "titlesDe": [
+      "Biomedizinischer Ingenieur",
+      "Medizintechnik-Ingenieur",
+      "Klinischer Applikationsspezialist",
+      "Qualitätsingenieur",
+      "Regulatory-Affairs-Spezialist"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_stone",
+    "titlesEn": [
+      "Stone Mason",
+      "Stone Cutter",
+      "Stone Carver",
+      "Monument Mason",
+      "Stone Fabricator"
+    ],
+    "titlesDe": [
+      "Steinmetz",
+      "Steinschneider",
+      "Steinbildhauer",
+      "Grabmalsteinmetz",
+      "Natursteinmechaniker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_ana",
+    "titlesEn": [
+      "Business Analyst",
+      "Senior Business Analyst",
+      "IT Business Analyst",
+      "Business Systems Analyst",
+      "Requirements Analyst"
+    ],
+    "titlesDe": [
+      "Business Analyst",
+      "Senior Business Analyst",
+      "IT Business Analyst",
+      "Business-Systemanalyst",
+      "Anforderungsanalyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_secu",
+    "titlesEn": [
+      "Security Guard",
+      "Loss Prevention Officer",
+      "Event Security Officer",
+      "Corporate Security Officer",
+      "Security Supervisor"
+    ],
+    "titlesDe": [
+      "Sicherheitsmitarbeiter",
+      "Ladendetektiv",
+      "Veranstaltungssicherheitsmitarbeiter",
+      "Werkschutzmitarbeiter",
+      "Schichtleiter Sicherheit"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_klifo",
+    "titlesEn": [
+      "Clinical Research Associate",
+      "Clinical Trial Manager",
+      "Clinical Research Coordinator",
+      "Clinical Data Manager",
+      "Medical Monitor"
+    ],
+    "titlesDe": [
+      "Klinischer Monitor",
+      "Klinischer Studienmanager",
+      "Studienkoordinator",
+      "Klinischer Datenmanager",
+      "Medizinischer Monitor"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_bank",
+    "titlesEn": [
+      "Bank Teller",
+      "Relationship Manager",
+      "Credit Analyst",
+      "Risk Manager",
+      "Compliance Officer"
+    ],
+    "titlesDe": [
+      "Bankkaufmann",
+      "Kundenbetreuer",
+      "Kreditanalyst",
+      "Risikomanager",
+      "Compliance Officer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sete",
+    "titlesEn": [
+      "Service Technician",
+      "Field Service Technician",
+      "Maintenance Technician",
+      "Customer Service Technician",
+      "Equipment Service Technician"
+    ],
+    "titlesDe": [
+      "Servicetechniker",
+      "Servicetechniker im Außendienst",
+      "Wartungstechniker",
+      "Kundendiensttechniker",
+      "Gerätetechniker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_food",
+    "titlesEn": [
+      "Food Production Manager",
+      "Food Processing Technician",
+      "Quality Assurance Technician",
+      "Production Supervisor",
+      "Food Manufacturing Operator"
+    ],
+    "titlesDe": [
+      "Produktionsleiter Lebensmittel",
+      "Lebensmitteltechniker",
+      "Qualitätskontrolleur Lebensmittel",
+      "Schichtleiter Produktion",
+      "Maschinenführer Lebensmittelproduktion"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_advoc",
+    "titlesEn": [
+      "Attorney",
+      "Associate Attorney",
+      "Corporate Counsel",
+      "Legal Advisor",
+      "Litigation Lawyer"
+    ],
+    "titlesDe": [
+      "Rechtsanwalt",
+      "Rechtsanwalt (Associate)",
+      "Syndikusrechtsanwalt",
+      "Unternehmensjurist",
+      "Prozessanwalt"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_dbde",
+    "titlesEn": [
+      "Database Developer",
+      "SQL Developer",
+      "Database Engineer",
+      "Data Warehouse Developer",
+      "Backend Database Engineer"
+    ],
+    "titlesDe": [
+      "Datenbankentwickler",
+      "SQL-Entwickler",
+      "Datenbankingenieur",
+      "Data-Warehouse-Entwickler",
+      "Backend-Datenbankentwickler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_audit",
+    "titlesEn": [
+      "Audit Associate",
+      "Senior Auditor",
+      "Audit Manager",
+      "Assurance Manager",
+      "Internal Auditor"
+    ],
+    "titlesDe": [
+      "Prüfungsassistent",
+      "Senior Prüfungsassistent",
+      "Wirtschaftsprüfer",
+      "Audit Manager",
+      "Interner Revisor"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_dwh",
+    "titlesEn": [
+      "Data Warehouse Engineer",
+      "Data Warehouse Developer",
+      "Business Intelligence Analyst",
+      "ETL Developer",
+      "Data Warehouse Architect"
+    ],
+    "titlesDe": [
+      "Data-Warehouse-Ingenieur",
+      "Data-Warehouse-Entwickler",
+      "Business-Intelligence-Analyst",
+      "ETL-Entwickler",
+      "Data-Warehouse-Architekt"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_deli",
+    "titlesEn": [
+      "Delivery Driver",
+      "Courier",
+      "Dispatch Coordinator",
+      "Route Planner",
+      "Parcel Sorter"
+    ],
+    "titlesDe": [
+      "Zustellfahrer",
+      "Kurier",
+      "Disponent",
+      "Tourenplaner",
+      "Paketsortierer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_whkig",
+    "titlesEn": [
+      "Kindergarten Teacher",
+      "Preschool Teacher",
+      "Early Childhood Educator",
+      "Childcare Worker",
+      "Teaching Assistant"
+    ],
+    "titlesDe": [
+      "Erzieher/in",
+      "Kinderpfleger/in",
+      "Pädagogische Fachkraft",
+      "Kita-Leitung",
+      "Integrationspädagoge/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_proce",
+    "titlesEn": [
+      "Process Manager",
+      "Business Process Manager",
+      "Process Analyst",
+      "Continuous Improvement Manager",
+      "Operational Excellence Manager"
+    ],
+    "titlesDe": [
+      "Prozessmanager",
+      "Business Process Manager",
+      "Prozessanalyst",
+      "Continuous Improvement Manager",
+      "Operational Excellence Manager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_energ",
+    "titlesEn": [
+      "Power Systems Engineer",
+      "Electrical Engineer (Power)",
+      "Grid Planning Engineer",
+      "Power Plant Engineer",
+      "Protection Engineer"
+    ],
+    "titlesDe": [
+      "Ingenieur Energietechnik",
+      "Elektroingenieur Energietechnik",
+      "Netzplanungsingenieur",
+      "Kraftwerksingenieur",
+      "Schutztechnikingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_insu",
+    "titlesEn": [
+      "Actuary",
+      "Insurance Underwriter",
+      "Claims Manager",
+      "Risk Analyst",
+      "Insurance Product Manager"
+    ],
+    "titlesDe": [
+      "Aktuar",
+      "Versicherungsunderwriter",
+      "Schadenmanager",
+      "Risikoanalyst",
+      "Versicherungsproduktmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_nwde",
+    "titlesEn": [
+      "Network Development Engineer",
+      "Network Planning Engineer",
+      "Telecommunications Network Engineer",
+      "Network Expansion Manager",
+      "Infrastructure Network Engineer"
+    ],
+    "titlesDe": [
+      "Netzwerkentwickler",
+      "Netzplanungsingenieur",
+      "Telekommunikationsingenieur",
+      "Netzausbau-Manager",
+      "Netzwerkingenieur Infrastruktur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_whole",
+    "titlesEn": [
+      "Wholesale Account Manager",
+      "Purchasing Manager",
+      "Sales Manager (Wholesale)",
+      "Logistics Coordinator",
+      "Inventory Planner"
+    ],
+    "titlesDe": [
+      "Key Account Manager Großhandel",
+      "Einkaufsleiter",
+      "Vertriebsleiter Großhandel",
+      "Logistikkoordinator",
+      "Disponent"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_pm",
+    "titlesEn": [
+      "Project Manager",
+      "Senior Project Manager",
+      "IT Project Manager",
+      "Project Coordinator",
+      "Program Manager"
+    ],
+    "titlesDe": [
+      "Projektmanager",
+      "Senior Projektmanager",
+      "IT-Projektmanager",
+      "Projektkoordinator",
+      "Programmmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_hw",
+    "titlesEn": [
+      "Hardware Engineer",
+      "Embedded Systems Engineer",
+      "Electronics Engineer",
+      "FPGA Engineer",
+      "PCB Design Engineer"
+    ],
+    "titlesDe": [
+      "Hardwareentwickler",
+      "Embedded-Systems-Ingenieur",
+      "Elektronikingenieur",
+      "FPGA-Entwickler",
+      "Leiterplattenentwickler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_train",
+    "titlesEn": [
+      "Training Manager",
+      "Learning & Development Specialist",
+      "Corporate Trainer",
+      "Training Coordinator",
+      "Workforce Development Manager"
+    ],
+    "titlesDe": [
+      "Weiterbildungsmanager",
+      "Learning & Development Spezialist",
+      "Corporate Trainer",
+      "Weiterbildungskoordinator",
+      "Personalentwicklungsmanager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_secr",
+    "titlesEn": [
+      "Administrative Assistant",
+      "Executive Assistant",
+      "Office Administrator",
+      "Personal Assistant",
+      "Secretary"
+    ],
+    "titlesDe": [
+      "Verwaltungsassistent/in",
+      "Assistenz der Geschäftsführung",
+      "Office Manager/in",
+      "Persönliche Assistenz",
+      "Sekretär/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_ass",
+    "titlesEn": [
+      "Administrative Assistant",
+      "Executive Assistant",
+      "Office Assistant",
+      "Project Assistant",
+      "Personal Assistant"
+    ],
+    "titlesDe": [
+      "Administrative Assistenz",
+      "Executive Assistenz",
+      "Office Assistenz",
+      "Projektassistenz",
+      "Persönliche Assistenz"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_syen",
+    "titlesEn": [
+      "Systems Engineer",
+      "Systems Integration Engineer",
+      "Systems Architect",
+      "Requirements Engineer",
+      "Systems Validation Engineer"
+    ],
+    "titlesDe": [
+      "Systemingenieur",
+      "Systemintegrationsingenieur",
+      "Systemarchitekt",
+      "Requirements Engineer",
+      "Systemvalidierungsingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_ware",
+    "titlesEn": [
+      "Warehouse Operative",
+      "Warehouse Supervisor",
+      "Logistics Coordinator",
+      "Inventory Controller",
+      "Forklift Operator"
+    ],
+    "titlesDe": [
+      "Lagermitarbeiter",
+      "Lagerleiter",
+      "Logistikkoordinator",
+      "Bestandscontroller",
+      "Gabelstaplerfahrer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_fabr",
+    "titlesEn": [
+      "Manufacturing Engineer",
+      "Production Technician",
+      "CNC Machinist",
+      "Production Supervisor",
+      "Quality Control Technician"
+    ],
+    "titlesDe": [
+      "Fertigungsingenieur",
+      "Produktionstechniker",
+      "CNC-Maschinenbediener",
+      "Produktionsleiter",
+      "Qualitätsprüfer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_swe",
+    "titlesEn": [
+      "Software Engineer",
+      "Backend Developer",
+      "Frontend Developer",
+      "Full Stack Developer",
+      "Mobile App Developer"
+    ],
+    "titlesDe": [
+      "Softwareentwickler",
+      "Backend-Entwickler",
+      "Frontend-Entwickler",
+      "Full-Stack-Entwickler",
+      "Mobile-App-Entwickler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_stage",
+    "titlesEn": [
+      "Stage Technician",
+      "Lighting Technician",
+      "Audio Engineer",
+      "Live Sound Technician",
+      "Event Production Technician"
+    ],
+    "titlesDe": [
+      "Bühnentechniker",
+      "Lichttechniker",
+      "Tontechniker",
+      "Live-Tontechniker",
+      "Veranstaltungstechniker"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_riskm",
+    "titlesEn": [
+      "Risk Manager",
+      "Credit Risk Analyst",
+      "Operational Risk Analyst",
+      "Enterprise Risk Manager",
+      "Risk Management Consultant"
+    ],
+    "titlesDe": [
+      "Risikomanager",
+      "Kreditrisikoanalyst",
+      "Operativer Risikoanalyst",
+      "Enterprise Risk Manager",
+      "Risikomanagementberater"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_scie",
+    "titlesEn": [
+      "Materials Scientist",
+      "Materials Engineer",
+      "Research Scientist (Materials)",
+      "Process Engineer (Materials)",
+      "Quality Engineer (Materials)"
+    ],
+    "titlesDe": [
+      "Materialwissenschaftler",
+      "Materialingenieur",
+      "Forschungsingenieur",
+      "Prozessingenieur (Materialien)",
+      "Qualitätsingenieur (Materialien)"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sadm",
+    "titlesEn": [
+      "System Administrator",
+      "IT Administrator",
+      "Network Administrator",
+      "Systems Engineer",
+      "Infrastructure Engineer"
+    ],
+    "titlesDe": [
+      "Systemadministrator",
+      "IT-Administrator",
+      "Netzwerkadministrator",
+      "IT-Systemadministrator",
+      "System Engineer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_phys",
+    "titlesEn": [
+      "Physicist",
+      "Research Physicist",
+      "Optical Engineer",
+      "Medical Physicist",
+      "Materials Scientist"
+    ],
+    "titlesDe": [
+      "Physiker",
+      "Forschungsphysiker",
+      "Optikingenieur",
+      "Medizinphysiker",
+      "Materialwissenschaftler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_onlma",
+    "titlesEn": [
+      "Digital Marketing Manager",
+      "Performance Marketing Manager",
+      "Online Marketing Manager",
+      "Email Marketing Specialist",
+      "Paid Media Manager"
+    ],
+    "titlesDe": [
+      "Digital Marketing Manager",
+      "Performance Marketing Manager",
+      "Online Marketing Manager",
+      "E-Mail Marketing Manager",
+      "Paid Media Manager"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_cust",
+    "titlesEn": [
+      "Customer Service Representative",
+      "Customer Support Specialist",
+      "Call Center Agent",
+      "Customer Success Manager",
+      "Technical Support Agent"
+    ],
+    "titlesDe": [
+      "Kundenservice-Mitarbeiter",
+      "Kundenbetreuer",
+      "Callcenter-Agent",
+      "Customer Success Manager",
+      "Technischer Support-Mitarbeiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_aana",
+    "titlesEn": [
+      "Application Analyst",
+      "Business Systems Analyst",
+      "Application Support Analyst",
+      "IT Systems Analyst",
+      "Application Consultant"
+    ],
+    "titlesDe": [
+      "Anwendungsanalyst",
+      "Business-Systems-Analyst",
+      "Application-Support-Analyst",
+      "IT-Systemanalyst",
+      "Application Consultant"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_publ",
+    "titlesEn": [
+      "Editor",
+      "Copy Editor",
+      "Publishing Manager",
+      "Rights Manager",
+      "Production Editor"
+    ],
+    "titlesDe": [
+      "Lektor",
+      "Redakteur",
+      "Programmleiter",
+      "Rechte- und Lizenzmanager",
+      "Produktionsredakteur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_aadm",
+    "titlesEn": [
+      "Application Administrator",
+      "Applications Administrator",
+      "Application Support Engineer",
+      "IT Application Administrator",
+      "Business Application Administrator"
+    ],
+    "titlesDe": [
+      "Anwendungsadministrator",
+      "Applikationsadministrator",
+      "IT-Applikationsadministrator",
+      "Anwendungsbetreuer",
+      "Application Support Spezialist"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_tool",
+    "titlesEn": [
+      "Toolmaker",
+      "Mold Maker",
+      "Die Maker",
+      "CNC Toolmaker",
+      "Tool and Die Maker"
+    ],
+    "titlesDe": [
+      "Werkzeugmacher",
+      "Formenbauer",
+      "Werkzeugmechaniker",
+      "CNC-Werkzeugmacher",
+      "Werkzeug- und Formenbauer"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_immo",
+    "titlesEn": [
+      "Real Estate Agent",
+      "Property Manager",
+      "Real Estate Analyst",
+      "Leasing Manager",
+      "Property Development Manager"
+    ],
+    "titlesDe": [
+      "Immobilienmakler",
+      "Immobilienverwalter",
+      "Immobilienanalyst",
+      "Vermietungsmanager",
+      "Projektentwickler Immobilien"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_const",
+    "titlesEn": [
+      "Design Engineer",
+      "Mechanical Design Engineer",
+      "CAD Engineer",
+      "Product Design Engineer",
+      "Structural Designer"
+    ],
+    "titlesDe": [
+      "Konstrukteur",
+      "Entwicklungsingenieur",
+      "CAD-Konstrukteur",
+      "Produktentwickler Konstruktion",
+      "Tragwerksplaner"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_qm",
+    "titlesEn": [
+      "Quality Assurance Engineer",
+      "QA Analyst",
+      "Test Engineer",
+      "Quality Manager",
+      "QA Lead"
+    ],
+    "titlesDe": [
+      "Qualitätssicherungsingenieur",
+      "QA-Analyst",
+      "Testingenieur",
+      "Qualitätsmanager",
+      "QA-Teamleiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_graph",
+    "titlesEn": [
+      "Graphic Designer",
+      "Visual Designer",
+      "Brand Designer",
+      "Digital Designer",
+      "Art Director"
+    ],
+    "titlesDe": [
+      "Grafikdesigner/in",
+      "Visual Designer/in",
+      "Marken-Designer/in",
+      "Digital Designer/in",
+      "Art Director/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_waste",
+    "titlesEn": [
+      "Waste Management Engineer",
+      "Recycling Coordinator",
+      "Environmental Technician",
+      "Waste Collection Supervisor",
+      "Landfill Operations Manager"
+    ],
+    "titlesDe": [
+      "Abfallwirtschaftsingenieur",
+      "Recyclingkoordinator",
+      "Umwelttechniker",
+      "Teamleiter Abfallsammlung",
+      "Betriebsleiter Deponie"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_music",
+    "titlesEn": [
+      "Actor",
+      "Stage Manager",
+      "Music Director",
+      "Choreographer",
+      "Lighting Technician"
+    ],
+    "titlesDe": [
+      "Schauspieler/in",
+      "Bühnenmanager/in",
+      "Musikdirektor/in",
+      "Choreograf/in",
+      "Lichttechniker/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_plant",
+    "titlesEn": [
+      "Plant Engineer",
+      "Process Engineer",
+      "Project Engineer",
+      "Piping Engineer",
+      "Commissioning Engineer"
+    ],
+    "titlesDe": [
+      "Anlageningenieur",
+      "Verfahrensingenieur",
+      "Projektingenieur",
+      "Rohrleitungsingenieur",
+      "Inbetriebnahmeingenieur"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sport",
+    "titlesEn": [
+      "Personal Trainer",
+      "Fitness Instructor",
+      "Strength and Conditioning Coach",
+      "Sports Scientist",
+      "Gym Manager"
+    ],
+    "titlesDe": [
+      "Personal Trainer",
+      "Fitnesstrainer",
+      "Athletiktrainer",
+      "Sportwissenschaftler",
+      "Studioleiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_emb",
+    "titlesEn": [
+      "Embedded Software Engineer",
+      "Firmware Engineer",
+      "Embedded Systems Engineer",
+      "Embedded Firmware Developer",
+      "IoT Firmware Engineer"
+    ],
+    "titlesDe": [
+      "Embedded Softwareentwickler",
+      "Firmware-Entwickler",
+      "Embedded-Systems-Ingenieur",
+      "Embedded-Firmware-Entwickler",
+      "IoT-Firmware-Entwickler"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_bibl",
+    "titlesEn": [
+      "Librarian",
+      "Reference Librarian",
+      "Academic Librarian",
+      "Library Assistant",
+      "Digital Librarian"
+    ],
+    "titlesDe": [
+      "Bibliothekar/in",
+      "Auskunftsbibliothekar/in",
+      "Wissenschaftliche/r Bibliothekar/in",
+      "Bibliotheksassistent/in",
+      "Digitale/r Bibliothekar/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_busan",
+    "titlesEn": [
+      "Business Development Manager",
+      "Business Development Analyst",
+      "Head of Business Development",
+      "Strategic Partnerships Manager",
+      "Business Development Consultant"
+    ],
+    "titlesDe": [
+      "Business Development Manager",
+      "Business Development Analyst",
+      "Leiter Business Development",
+      "Manager Strategische Partnerschaften",
+      "Business Development Berater"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_relig",
+    "titlesEn": [
+      "Chaplain",
+      "Pastoral Care Worker",
+      "Spiritual Care Counselor",
+      "Community Minister",
+      "Religious Education Coordinator"
+    ],
+    "titlesDe": [
+      "Seelsorger/in",
+      "Pastorale Mitarbeiter/in",
+      "Spiritual Care Berater/in",
+      "Gemeindereferent/in",
+      "Religionspädagoge/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_sectr",
+    "titlesEn": [
+      "Securities Trader",
+      "Equity Trader",
+      "Fixed Income Trader",
+      "Sales Trader",
+      "Trading Analyst"
+    ],
+    "titlesDe": [
+      "Wertpapierhändler",
+      "Aktienhändler",
+      "Rentenhändler",
+      "Sales Trader",
+      "Trading Analyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_mark",
+    "titlesEn": [
+      "Marketing Manager",
+      "Digital Marketing Specialist",
+      "Content Marketing Manager",
+      "Brand Manager",
+      "Marketing Analyst"
+    ],
+    "titlesDe": [
+      "Marketing Manager",
+      "Digital Marketing Spezialist",
+      "Content Marketing Manager",
+      "Brand Manager",
+      "Marketing Analyst"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_anim",
+    "titlesEn": [
+      "Zookeeper",
+      "Animal Caretaker",
+      "Stable Hand",
+      "Livestock Technician",
+      "Kennel Technician"
+    ],
+    "titlesDe": [
+      "Zootierpfleger",
+      "Tierpfleger",
+      "Pferdepfleger",
+      "Tierwirt",
+      "Tierheimmitarbeiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_lab",
+    "titlesEn": [
+      "Laboratory Technician",
+      "Laboratory Assistant",
+      "Chemical Technician",
+      "Quality Control Analyst",
+      "Laboratory Manager"
+    ],
+    "titlesDe": [
+      "Labortechniker",
+      "Laborassistent",
+      "Chemisch-technischer Assistent",
+      "Qualitätskontrollanalytiker",
+      "Laborleiter"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_optic",
+    "titlesEn": [
+      "Optical Engineer",
+      "Optician",
+      "Photonics Engineer",
+      "Optical Technician",
+      "Lens Designer"
+    ],
+    "titlesDe": [
+      "Optikingenieur",
+      "Augenoptiker",
+      "Photonik-Ingenieur",
+      "Optischer Techniker",
+      "Linsendesigner"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_textil",
+    "titlesEn": [
+      "Textile Production Manager",
+      "Textile Technician",
+      "Weaving Machine Operator",
+      "Dyeing Technician",
+      "Textile Quality Inspector"
+    ],
+    "titlesDe": [
+      "Produktionsleiter Textil",
+      "Textiltechniker",
+      "Webmaschinenführer",
+      "Färbereitechniker",
+      "Qualitätsprüfer Textil"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_acco",
+    "titlesEn": [
+      "Accountant",
+      "Financial Accountant",
+      "Management Accountant",
+      "Accounts Payable Clerk",
+      "Payroll Accountant"
+    ],
+    "titlesDe": [
+      "Buchhalter/in",
+      "Finanzbuchhalter/in",
+      "Controller",
+      "Kreditorenbuchhalter/in",
+      "Lohn- und Gehaltsbuchhalter/in"
+    ]
+  },
+  {
+    "correlationMatrixId": "w_itcon",
+    "titlesEn": [
+      "IT Consultant",
+      "Technology Consultant",
+      "Systems Consultant",
+      "IT Strategy Consultant",
+      "Cloud Consultant"
+    ],
+    "titlesDe": [
+      "IT-Berater",
+      "Technologieberater",
+      "Systemberater",
+      "IT-Strategieberater",
+      "Cloud-Berater"
+    ]
+  }
+]

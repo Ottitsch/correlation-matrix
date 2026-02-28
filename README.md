@@ -22,7 +22,17 @@ cd alexU-inspired
 python generate_descriptions.py   # generates descriptions.json, resumes if interrupted
 python generate_matrix.py
 
-# Evaluate all three against ground truth
+# LLM ranking (requires Azure OpenAI key in ../.env as KEY=...)
+cd llm-ranking
+python generate_rankings.py       # generates rankings.json, resumes if interrupted
+python generate_matrix.py
+
+# Skills-enriched (requires Azure OpenAI key in ../.env as KEY=...)
+cd skills-enriched
+python generate_enrichment.py     # generates enrichment.json, resumes if interrupted
+python generate_matrix.py
+
+# Evaluate all approaches against ground truth
 python eval.py
 ```
 
@@ -46,7 +56,7 @@ All three approaches produce the same format:
 
 ## Approaches
 
-Three approaches were implemented, each in its own folder with a dedicated README.
+Five approaches were implemented, each in its own folder with a dedicated README.
 
 ### 1. Baseline — `paraphrase-multilingual-mpnet-base-v2`
 
@@ -67,6 +77,19 @@ JobBERT-v3 is trained via contrastive learning on 21 million job titles paired w
 Inspired by *AlexU-NLP at TalentCLEF 2025* (Barakat, Mokhtar, Torki, Elmakky — Alexandria University, CLEF 2025), specifically their inference-time description enrichment ablation (Table 4): adding descriptions to corpus entries improves mAP by ~2.6% even on their fine-tuned model, suggesting the signal is robust and likely carries over to zero-shot use.
 
 `gpt-5.2-chat` via Azure OpenAI generates a bilingual description (EN + DE, 2–3 sentences each) for every work field. Each field is then embedded as `"{nameDe} {nameEn}\n{descriptionEn}\n{descriptionDe}"` using `multilingual-e5-large-instruct` with a symmetric similarity instruction prefix.
+
+**Model size:** ~560 MB
+**External dependency:** Azure OpenAI (`KEY` in `.env`)
+
+### 4. LLM ranking — direct GPT ranking
+
+No embeddings at all. For each of the 180 fields, the full field list is passed to the LLM and it is asked to rank the top 9 most similar fields by skill overlap, domain proximity, and career path. Similarity is inferred entirely from the model's world knowledge about occupational domains.
+
+**External dependency:** Azure OpenAI (`KEY` in `.env`)
+
+### 5. Skills-enriched — `multilingual-e5-large-instruct` + structured requirements
+
+Extension of the AlexU approach with more structured LLM output. Instead of a free-form description, the LLM generates a comma-separated list of required skills and typical educational paths for each field. The embedding text becomes `"{nameDe} {nameEn}\nSkills: ...\nEducation: ..."`. The hypothesis: two fields that require the same skills and education are similar regardless of how their names sound, grounding similarity in actual job market requirements rather than surface text.
 
 **Model size:** ~560 MB
 **External dependency:** Azure OpenAI (`KEY` in `.env`)

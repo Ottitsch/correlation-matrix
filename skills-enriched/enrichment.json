@@ -1,0 +1,902 @@
+[
+  {
+    "correlationMatrixId": "w_tele",
+    "skills": "network planning and optimization, RF engineering, signal processing, knowledge of telecommunication protocols and standards (e.g. LTE, 5G, TCP/IP), network installation and maintenance, troubleshooting and fault analysis, system integration, cybersecurity awareness",
+    "education": "bachelor’s degree in telecommunications engineering, electrical engineering, or information technology, master’s degree in telecommunications or networking, vocational training as electronics technician for information and telecommunications technology, professional certifications (e.g. Cisco, Huawei, Nokia)"
+  },
+  {
+    "correlationMatrixId": "w_sale",
+    "skills": "Communication and negotiation skills, Customer orientation, Presentation and persuasion skills, Market and product knowledge, Relationship management, Sales strategy and planning, Basic business and financial understanding",
+    "education": "Vocational training in sales or commerce, Bachelor’s degree in business administration or marketing, Commercial apprenticeship (e.g. Industriekaufmann/-frau), Sales or presales certifications, Continuing professional sales training"
+  },
+  {
+    "correlationMatrixId": "w_impo",
+    "skills": "knowledge of customs regulations and import compliance, international trade law and Incoterms, logistics and supply chain coordination, supplier negotiation and communication, import documentation and licensing, use of ERP and customs software, foreign language proficiency",
+    "education": "Bachelor’s degree in International Business or International Trade, Logistics or Supply Chain Management, Business Administration, vocational training in import/export or logistics, customs or foreign trade certification"
+  },
+  {
+    "correlationMatrixId": "w_whkus",
+    "skills": "instructional design, presentation and facilitation, communication and interpersonal skills, needs analysis, curriculum and content development, evaluation and assessment, product and technical knowledge",
+    "education": "bachelor's degree in education or training, bachelor's degree in business or a relevant technical field, adult education or pedagogy qualification, train-the-trainer certification, instructional design certification"
+  },
+  {
+    "correlationMatrixId": "w_pers",
+    "skills": "recruitment and selection, labor and employment law knowledge, employee relations and conflict management, communication and interpersonal skills, HR analytics and HRIS proficiency, organizational development, payroll and benefits administration",
+    "education": "Bachelor’s degree in Human Resources or Business Administration, degree in Psychology or Law, Master’s degree in HR Management or related field, vocational training in personnel services (e.g., Personaldienstleistungskaufmann/-frau), professional HR certifications (e.g., SHRM, CIPD, IHK)"
+  },
+  {
+    "correlationMatrixId": "w_info",
+    "skills": "[software development and programming, data analysis and modeling, database design and management, systems and network engineering, signal and information processing, requirements analysis, cybersecurity fundamentals]",
+    "education": "[Bachelor’s degree in Information Engineering, Master’s degree in Information Engineering or related field, degree in Computer Science or Electrical Engineering, relevant professional certifications]"
+  },
+  {
+    "correlationMatrixId": "w_medas",
+    "skills": "patient care, measuring vital signs, medical documentation, hygiene and infection control, assisting with examinations and procedures, communication and empathy, basic laboratory skills, organization and scheduling",
+    "education": "completed vocational training as Medical Assistant (MFA/Arzthelfer/in), vocational training as nursing or healthcare assistant, secondary school certificate, basic life support or first aid certification, infection control training"
+  },
+  {
+    "correlationMatrixId": "w_doc",
+    "skills": "clinical research methods, data analysis and biostatistics, critical appraisal of scientific literature, laboratory and experimental techniques, regulatory and ethical compliance, interdisciplinary collaboration, scientific writing and communication",
+    "education": "medical degree (MD or equivalent), bachelor's or master's degree in biomedical or life sciences, doctoral degree (PhD/Dr. rer. nat./Dr. med.), postgraduate clinical or research training, continuing medical or scientific education (CME/CPD)"
+  },
+  {
+    "correlationMatrixId": "w_sani",
+    "skills": "Emergency assessment and triage, Patient care and monitoring, CPR and advanced life support, Teamwork and communication, Stress resilience and emotional stability, Rapid decision-making, Medical documentation, Safe emergency driving",
+    "education": "Vocational training as Notfallsanitäter, Rettungssanitäter certification course, EMT or Paramedic certification, First aid and advanced life support certifications, Driver’s license (e.g., class C1), Continuing medical education and recertification"
+  },
+  {
+    "correlationMatrixId": "w_wood",
+    "skills": "carpentry and joinery techniques, use of hand and power tools, reading technical drawings and plans, woodworking machinery operation, CNC machining basics, measuring and precision work, surface finishing and treatment, workplace safety and material knowledge",
+    "education": "vocational apprenticeship (e.g., carpenter/joiner), technical or trade school in woodworking, industry certifications, on-the-job training or continuing professional courses"
+  },
+  {
+    "correlationMatrixId": "w_payr",
+    "skills": "payroll processing, knowledge of labor and tax law, accounting and bookkeeping, HRIS/payroll software proficiency, data accuracy and attention to detail, confidentiality and compliance, analytical skills, communication skills",
+    "education": "vocational training in payroll/accounting, bachelor’s degree in accounting/finance/human resources, certified payroll specialist qualification, continuing education in labor and tax law"
+  },
+  {
+    "correlationMatrixId": "w_cc",
+    "skills": "customer support and communication, troubleshooting hardware and software issues, operating systems knowledge (Windows/macOS/Linux), networking basics, ticketing systems and documentation, problem-solving and analytical thinking, remote support tools",
+    "education": "vocational training in IT (e.g. IT specialist), associate or bachelor’s degree in computer science or information technology, relevant certifications (e.g. CompTIA A+, ITIL, Microsoft certifications), on-the-job training"
+  },
+  {
+    "correlationMatrixId": "w_mare",
+    "skills": "Quantitative and qualitative research methods, Statistical analysis and data interpretation, Survey design and questionnaire development, Market and competitive analysis, Data visualization and reporting, Critical thinking and problem-solving, Presentation and communication skills",
+    "education": "Bachelor’s degree in market research, business administration, economics, psychology, or social sciences, Master’s degree in market research, marketing, business analytics, or statistics, Training in statistics or data analysis tools (e.g. SPSS, R, Python), Certification in market research or analytics (optional)"
+  },
+  {
+    "correlationMatrixId": "w_mate",
+    "skills": "materials science knowledge, quality control and testing, understanding of construction standards and regulations, laboratory and field testing techniques, data analysis and documentation, sustainability and environmental assessment, technical communication",
+    "education": "vocational training as Baustoffprüfer/in, bachelor’s degree in civil engineering or materials science, master’s degree in construction materials or engineering, state-certified technician qualification, continuing professional training and certifications"
+  },
+  {
+    "correlationMatrixId": "w_adve",
+    "skills": "creativity, strategic thinking, communication skills, market analysis, copywriting, project management, digital marketing knowledge",
+    "education": "degree in advertising, marketing, communications, media studies, business administration with marketing focus"
+  },
+  {
+    "correlationMatrixId": "w_asset",
+    "skills": "Portfolio management, financial analysis, risk management, investment strategy development, market and asset class knowledge, client advisory and relationship management, regulatory compliance, quantitative and analytical skills",
+    "education": "Bachelor’s or Master’s degree in finance, economics, business administration, or banking, professional certifications such as CFA or CFP, banking apprenticeship (e.g., Bankkaufmann/Bankkauffrau), continuous professional training and regulatory licensing (e.g., BaFin requirements)"
+  },
+  {
+    "correlationMatrixId": "w_safety",
+    "skills": "risk assessment and hazard analysis, knowledge of occupational safety laws and standards, accident investigation and root cause analysis, safety management systems and audits, workplace inspections and risk mitigation, training and instruction of employees, documentation and reporting",
+    "education": "bachelor's or master's degree in safety engineering or engineering disciplines, degree in occupational safety and health, certification as Fachkraft für Arbeitssicherheit (Sifa), additional professional certifications (e.g. ISO 45001, NEBOSH), technical vocational training with further qualification in occupational safety"
+  },
+  {
+    "correlationMatrixId": "w_web",
+    "skills": "Visual and graphic design, UI/UX design, Typography and color theory, Prototyping and wireframing, Design software (Adobe Creative Cloud, Figma, Sketch), Branding and visual identity, Web and mobile design, Accessibility and usability standards",
+    "education": "Bachelor's degree in Digital Design, Graphic Design or Communication Design, Vocational training as Mediengestalter Digital und Print, Associate degree in Multimedia Design, Design bootcamps or professional certificates, Strong professional portfolio"
+  },
+  {
+    "correlationMatrixId": "w_retai",
+    "skills": "customer service, sales and negotiation, communication skills, product knowledge, cash handling and POS operation, merchandising and visual presentation, teamwork",
+    "education": "vocational training/apprenticeship in retail (e.g. Kaufmann/-frau im Einzelhandel), secondary school certificate, on-the-job training, customer service or sales courses"
+  },
+  {
+    "correlationMatrixId": "w_room",
+    "skills": "spatial planning, creativity and aesthetic sense, knowledge of materials and finishes, technical drawing and CAD software proficiency, color and lighting design, project management, client communication",
+    "education": "vocational training in interior design or Raumgestaltung, bachelor's degree in interior design or interior architecture, master's degree in interior architecture or design, certification or continuing education in CAD and design software"
+  },
+  {
+    "correlationMatrixId": "w_frei",
+    "skills": "logistics planning, route optimization, regulatory compliance, fleet management, supply chain coordination, safety management, communication and customer service",
+    "education": "vocational training or apprenticeship in logistics or transportation, associate or bachelor’s degree in logistics or supply chain management, professional certifications (e.g., freight forwarding or customs), commercial driver’s license where applicable, continuing professional training"
+  },
+  {
+    "correlationMatrixId": "w_mash",
+    "skills": "CAD and technical drawing, mechanics and dynamics, thermodynamics and fluid mechanics, materials science, manufacturing and production processes, simulation and FEM/CAE, project management and problem-solving",
+    "education": "Bachelor’s degree in Mechanical Engineering (Maschinenbau), Master’s degree in Mechanical Engineering, Dual study program (Duales Studium Maschinenbau), State-certified technician (Staatlich geprüfter Techniker), Doctorate (PhD/Dr.-Ing.)"
+  },
+  {
+    "correlationMatrixId": "w_sain",
+    "skills": "Customer communication, Sales and negotiation techniques, Order processing and administration, CRM system proficiency, Product and market knowledge, MS Office/ERP skills, Time management and organization",
+    "education": "Commercial apprenticeship (e.g. Industriekaufmann/-frau, Kaufmann/-frau für Büromanagement), Vocational training in sales or commerce, Degree in business administration or sales, Professional sales training or certifications"
+  },
+  {
+    "correlationMatrixId": "w_itqm",
+    "skills": "Qualitätsmanagement-Methoden (z. B. ISO 9001, ITIL, COBIT), Software- und Systemtest (Testmanagement, Testautomatisierung), Prozessanalyse und -optimierung, Risiko- und Fehlermanagement, Dokumentation und Reporting, Kenntnisse von IT-Standards und Compliance, Kommunikations- und Moderationsfähigkeiten",
+    "education": "Studium der Informatik, Wirtschaftsinformatik oder eines vergleichbaren Fachs, Ausbildung im IT-Bereich mit Weiterbildung im Qualitätsmanagement, Zertifizierungen wie ISTQB, ITIL, ISO 9001 Auditor, Weiterbildung im Prozess- oder Qualitätsmanagement"
+  },
+  {
+    "correlationMatrixId": "w_faben",
+    "skills": "process design and optimization, thermodynamics and fluid mechanics, chemical reaction engineering, process simulation and modeling (e.g., Aspen/HYSYS), plant operation and scale-up, safety and risk analysis (HAZOP), data analysis and statistical methods",
+    "education": "Bachelor's degree in Process Engineering (Verfahrenstechnik), Master's degree in Process or Chemical Engineering, degree in Chemical Engineering or Mechanical Engineering, doctoral degree (PhD) for R&D roles, professional certifications (e.g., Six Sigma, safety engineering)"
+  },
+  {
+    "correlationMatrixId": "w_sysa",
+    "skills": "requirements elicitation and analysis, business process modeling, UML/BPMN modeling, stakeholder communication, data analysis and interpretation, system and IT architecture understanding, documentation and specification writing",
+    "education": "bachelor’s degree in computer science, information systems or business informatics (Wirtschaftsinformatik), master’s degree in information systems or related field, professional certifications (e.g. IREB, CBAP)"
+  },
+  {
+    "correlationMatrixId": "w_modes",
+    "skills": "Creativity and aesthetic sense, fashion sketching and illustration, pattern making and garment construction, textile and material knowledge, sewing and prototyping techniques, CAD and digital design tools, trend research and market awareness, project and time management",
+    "education": "Bachelor’s degree in fashion or apparel design, Master’s degree in fashion design or related field, vocational training as fashion tailor or garment technician, apprenticeship in fashion or textile industry, portfolio-based admission and continuous professional workshops"
+  },
+  {
+    "correlationMatrixId": "w_metal",
+    "skills": "CNC programming and operation, blueprint and technical drawing interpretation, precision measurement and tolerances, metal cutting and forming processes, machine setup and maintenance, quality control and inspection, workplace safety and materials knowledge",
+    "education": "vocational apprenticeship in metal machining (e.g., Zerspanungsmechaniker/in or Industriemechaniker/in), vocational school or technical college (Techniker/in), master craftsman qualification (Meister/in), CNC machine certifications, mechanical or manufacturing engineering degree"
+  },
+  {
+    "correlationMatrixId": "w_con",
+    "skills": "Analytical thinking, Problem-solving, Communication and presentation skills, Strategic thinking, Data analysis, Client management, Project management",
+    "education": "Bachelor’s degree in business, economics, engineering or related field, Master’s degree in management or specialized field, MBA, Relevant professional certifications (e.g., PMP, Six Sigma)"
+  },
+  {
+    "correlationMatrixId": "w_illumi",
+    "skills": "Gestaltung und Designverständnis, Umgang mit Grafiksoftware (z. B. Adobe Illustrator/Photoshop), Material- und Werkstoffkenntnisse, Bedienung von Druck- und Schneidemaschinen, handwerkliche Fähigkeiten und Montage, Farb- und Typografiekenntnisse, Kundenberatung und Qualitätsbewusstsein",
+    "education": "Ausbildung als Schilder- und Lichtreklamehersteller/in, Ausbildung als Mediengestalter/in Digital und Print, Weiterbildung zum/zur Werbetechniker/in, Meisterprüfung im Schilder- und Lichtreklamehersteller-Handwerk, Studium im Bereich Kommunikationsdesign oder Grafikdesign"
+  },
+  {
+    "correlationMatrixId": "w_arch",
+    "skills": "records management, information organization and classification, metadata standards, digital archiving systems, attention to detail, research and retrieval skills, preservation and conservation methods",
+    "education": "degree in archival science, library and information science, history or related humanities, vocational training in archival or information services, continuing professional certifications in records management"
+  },
+  {
+    "correlationMatrixId": "w_trans",
+    "skills": "Excellent source and target language proficiency, cultural competence, strong writing and editing skills, terminology research and documentation, proficiency with CAT tools, attention to detail and accuracy, subject-matter expertise, time management",
+    "education": "Bachelor’s degree in translation, linguistics or philology, Master’s degree in translation or interpreting, professional translation certifications (e.g. ATA), subject-specific academic background or training"
+  },
+  {
+    "correlationMatrixId": "w_propur",
+    "skills": "Strategic sourcing, Supplier negotiation, Project management, Cost analysis and budgeting, Contract and legal management, Cross-functional communication, Risk and supplier management, ERP/SAP proficiency",
+    "education": "Bachelor’s degree in Business Administration, Industrial Engineering, Supply Chain Management, or Economics, Master’s degree in Procurement or Operations Management, Professional certifications (e.g., CIPS, CPSM), Technical background related to the industry"
+  },
+  {
+    "correlationMatrixId": "w_film",
+    "skills": "storytelling and script development, camera operation and cinematography, video and audio editing, sound recording and design, lighting techniques, production planning and coordination, teamwork and communication",
+    "education": "film or media studies degree, broadcasting or journalism degree, vocational training in film/TV production, apprenticeships or traineeships in media companies, technical certificates in camera, sound, or editing software"
+  },
+  {
+    "correlationMatrixId": "w_scm",
+    "skills": "Supply chain planning and optimization, logistics and inventory management, data analysis and forecasting, supplier and vendor management, process improvement and lean management, ERP and supply chain software proficiency, risk management and problem-solving",
+    "education": "Bachelor’s degree in supply chain management, logistics, business administration or industrial engineering, Master’s degree in supply chain management or operations management, vocational training in logistics or freight forwarding, professional certifications (e.g., APICS CPIM/CSCP, CIPS)"
+  },
+  {
+    "correlationMatrixId": "w_beaut",
+    "skills": "haircutting and styling, hair coloring and chemical treatments, skincare and basic beauty treatments, customer consultation and service, hygiene and sanitation practices, product knowledge and sales, time management and organization",
+    "education": "vocational apprenticeship, cosmetology or beauty school diploma, professional certification or license, continuing education courses, specialized wellness or beauty certificates"
+  },
+  {
+    "correlationMatrixId": "w_autom",
+    "skills": "vehicle diagnostics, engine and transmission repair, maintenance and servicing, electrical and electronic systems knowledge, use of diagnostic tools, problem-solving, manual dexterity",
+    "education": "vocational training/apprenticeship as car mechanic, technical vocational school (automotive technology), journeyman qualification, master craftsman certification (optional), continuing professional training courses"
+  },
+  {
+    "correlationMatrixId": "w_clean",
+    "skills": "attention to detail, knowledge of cleaning agents and methods, time management, physical stamina, hygiene and sanitation standards, equipment handling, reliability and punctuality, safety awareness",
+    "education": "no formal education required, on-the-job training, vocational training as Gebäudereiniger/in, hygiene and safety certifications, health and safety training"
+  },
+  {
+    "correlationMatrixId": "w_org",
+    "skills": "process analysis and optimization, organizational design, project management, change management, analytical and problem-solving skills, communication and stakeholder management, knowledge of ERP and business process tools",
+    "education": "bachelor's degree in business administration or economics, degree in industrial engineering, degree in business informatics, master's degree in management or organization, professional training in process or project management"
+  },
+  {
+    "correlationMatrixId": "w_ther",
+    "skills": "clinical assessment, therapeutic communication, empathy, treatment planning, patient education, documentation and reporting, interdisciplinary collaboration",
+    "education": "state-recognized vocational training, bachelor’s degree in a therapeutic discipline, professional licensure or registration, practical internships or clinical placements, continuing professional development and certifications"
+  },
+  {
+    "correlationMatrixId": "w_heet",
+    "skills": "Installation and maintenance of heating systems, HVAC system design and setup, troubleshooting and repair, electrical and control systems knowledge, piping and hydraulics, ventilation and air conditioning technology, energy efficiency and renewable heating systems, compliance with safety and building regulations",
+    "education": "Vocational training as Anlagenmechaniker SHK (sanitary, heating and climate), apprenticeship in heating and ventilation technology, master craftsman qualification (Meister SHK), technical college or trade school education, further training in HVAC or energy systems"
+  },
+  {
+    "correlationMatrixId": "w_tred",
+    "skills": "technical documentation, information architecture, clear writing and editing, subject matter research, documentation tools and CMS, structured authoring DITA XML, usability and user experience, cross-functional collaboration",
+    "education": "degree in technical communication, engineering or computer science degree, linguistics or translation studies, journalism or communication studies, vocational training with documentation focus, professional certifications in technical writing"
+  },
+  {
+    "correlationMatrixId": "w_nwa",
+    "skills": "TCP/IP networking, routing and switching, firewall and VPN configuration, network security and IDS/IPS, Windows and Linux system administration, network monitoring and troubleshooting, scripting and automation",
+    "education": "vocational training as Fachinformatiker/in Systemintegration, bachelor’s degree in computer science or information technology, CCNA or equivalent networking certifications, CompTIA Network+ or Security+, Microsoft or Linux professional certifications"
+  },
+  {
+    "correlationMatrixId": "w_phot",
+    "skills": "Camera operation, lighting techniques, composition and visual design, image editing and post-processing, visual storytelling, client communication, business and marketing skills",
+    "education": "Vocational training or apprenticeship in photography, bachelor's degree in photography or visual arts, specialized photography schools or academies, workshops and professional certifications, self-taught training with a strong portfolio"
+  },
+  {
+    "correlationMatrixId": "w_envir",
+    "skills": "environmental impact assessment, data analysis and GIS, regulatory compliance and permitting, field sampling and monitoring, project management, stakeholder and public communication, sustainability planning",
+    "education": "Bachelor’s degree in Environmental Science or related field (e.g., ecology, biology, geography), Master’s degree for specialized or leadership roles, PhD for research and academia, vocational training as environmental technician, certifications in environmental management (e.g., ISO 14001)"
+  },
+  {
+    "correlationMatrixId": "w_offi",
+    "skills": "Organizational skills, administrative coordination, communication skills, proficiency with office software (e.g. MS Office), time management, record keeping and documentation, customer and client service, basic accounting and invoicing",
+    "education": "Vocational training as Office Management Assistant (Kaufmann/-frau für Büromanagement), commercial or business-related vocational qualification, business administration studies (associate or bachelor level), continuing professional courses in office administration or management"
+  },
+  {
+    "correlationMatrixId": "w_nurse",
+    "skills": "clinical patient care, patient communication and counseling, medical documentation, teamwork and interprofessional collaboration, empathy and ethical responsibility, hygiene and infection control, stress management and resilience",
+    "education": "Ausbildung zur Pflegefachfrau/zum Pflegefachmann, Staatsexamen in der Pflege, Bachelorstudium Pflegewissenschaft oder Pflege, Anerkennung ausländischer Berufsabschlüsse, Fort- und Weiterbildungen in der Fachpflege"
+  },
+  {
+    "correlationMatrixId": "w_ar",
+    "skills": "Software architecture design, Systems integration, Requirements analysis, Cloud and distributed systems, IT security and data protection, Technology evaluation and decision-making, Modeling and documentation (e.g. UML, ArchiMate)",
+    "education": "Bachelor's degree in Computer Science or Information Systems, Master's degree in Computer Science or Software Engineering, Dual study programs in IT, Professional certifications (e.g. TOGAF, AWS/Azure Architect), Continuing professional training and workshops"
+  },
+  {
+    "correlationMatrixId": "w_edito",
+    "skills": "excellent written and verbal communication, text editing and proofreading, research and fact-checking, content planning and coordination, journalistic judgment, deadline and time management, digital publishing and CMS proficiency",
+    "education": "degree in journalism, degree in communications or media studies, degree in German studies or humanities, vocational training in editorial work, comparable academic qualification"
+  },
+  {
+    "correlationMatrixId": "w_tax",
+    "skills": "tax law expertise, accounting and bookkeeping, financial analysis, regulatory compliance, advisory and problem-solving, client communication, attention to detail, professional ethics",
+    "education": "Bachelor or Master in Business Administration/Economics/Law, vocational training as Steuerfachangestellte/r, several years of relevant professional experience, passing the Steuerberaterexamen, mandatory continuing professional education"
+  },
+  {
+    "correlationMatrixId": "w_purch",
+    "skills": "supplier negotiation, cost analysis and budgeting, contract management, market and supplier research, inventory and demand planning, procurement software (ERP) proficiency, communication and stakeholder management",
+    "education": "bachelor’s degree in business administration, supply chain management, or economics, vocational training in industrial management or purchasing, certification in procurement or supply management (e.g., CIPS), continuing professional training in logistics or procurement"
+  },
+  {
+    "correlationMatrixId": "w_veter",
+    "skills": "Clinical diagnostics, Animal handling and restraint, Surgical and medical treatment, Communication with clients, Laboratory and imaging interpretation, Problem-solving and decision-making, Attention to detail, Compassion and animal welfare ethics",
+    "education": "Doctor of Veterinary Medicine (DVM) or equivalent, State licensure or approbation, Clinical internships, Residency or specialist training, Continuing professional education"
+  },
+  {
+    "correlationMatrixId": "w_natur",
+    "skills": "scientific methodology, experimental design, data analysis and statistics, laboratory techniques, critical and analytical thinking, scientific writing and communication, problem-solving",
+    "education": "Bachelor’s degree in a natural science, Master’s degree in a natural science, PhD or doctorate for research careers, laboratory courses and internships, formal research training"
+  },
+  {
+    "correlationMatrixId": "w_keyacc",
+    "skills": "Strategic account planning, Relationship management, Negotiation and contract management, Sales and revenue management, Communication and presentation skills, Business and financial acumen, Project and stakeholder management",
+    "education": "Bachelor’s degree in Business Administration or Marketing, Degree in Economics or Industrial Engineering, Master’s degree or MBA (preferred), Commercial or sales-related vocational training (e.g. kaufmännische Ausbildung), Professional certifications in sales or key account management"
+  },
+  {
+    "correlationMatrixId": "w_bestatt",
+    "skills": "Empathy and emotional intelligence, Communication with bereaved families, Organizational and planning skills, Knowledge of funeral law and regulations, Hygiene and body preparation techniques, Logistics and coordination, Administrative and documentation skills, Discretion and professionalism",
+    "education": "Dual vocational training as Bestattungsfachkraft, Advanced qualification Geprüfter Bestatter (IHK), Meisterbrief im Bestatterhandwerk, Degree in Bestattungswesen, Mandatory hygiene and occupational safety training"
+  },
+  {
+    "correlationMatrixId": "w_insum",
+    "skills": "probability theory and statistics, actuarial modeling, risk assessment and management, financial mathematics, data analysis and programming (e.g., R, Python, SAS), regulatory and solvency frameworks (e.g., Solvency II), analytical thinking and problem-solving",
+    "education": "bachelor's degree in mathematics or actuarial science, master's degree in actuarial science or insurance mathematics, degree in mathematics, economics, or statistics with actuarial focus, professional actuarial qualification (e.g., DAV certification in Germany), continuing professional education and examinations"
+  },
+  {
+    "correlationMatrixId": "w_elec",
+    "skills": "circuit design and analysis, electronics and power systems, control and automation engineering, PLC programming, CAD and simulation tools, troubleshooting and maintenance, safety standards and regulations, project management",
+    "education": "Bachelor’s degree in Electrical Engineering, Master’s degree in Electrical or Electronic Engineering, vocational training as Elektroniker, state-certified technician (Techniker) or Meister qualification, relevant professional certifications"
+  },
+  {
+    "correlationMatrixId": "w_defe",
+    "skills": "Physical fitness, discipline, teamwork, leadership, stress resilience, technical aptitude, reliability, communication",
+    "education": "Secondary school qualification (Hauptschule/Realschule), vocational training, basic military training, non-commissioned officer training, officer candidate training, Abitur/Fachabitur, university studies at Bundeswehr universities"
+  },
+  {
+    "correlationMatrixId": "w_hrdev",
+    "skills": "Strategic workforce planning, training and development design, coaching and mentoring, performance management, change management, communication and facilitation skills, labor law and HR analytics",
+    "education": "Bachelor’s degree in Human Resources, Business Administration, Psychology or Education, Master’s degree in Human Resource Management or Organizational Development, professional HR certifications (e.g. SHRM, CIPD, IHK), continuing education in coaching or training methods"
+  },
+  {
+    "correlationMatrixId": "w_medic",
+    "skills": "Clinical diagnosis, patient communication, medical knowledge, clinical decision-making, teamwork and collaboration, ethical judgment, stress management",
+    "education": "Medical degree (MD/MBBS), state medical licensure, residency training, specialist certification, continuing medical education (CME)"
+  },
+  {
+    "correlationMatrixId": "w_agri",
+    "skills": "crop and soil management, operation and maintenance of agricultural machinery, plant and animal care, pest and disease control, forestry and garden planning, physical endurance and outdoor work, basic business and farm management",
+    "education": "vocational training/apprenticeship in agriculture, forestry, or gardening, technical college degree (agricultural/forestry technician), bachelor’s degree in agriculture, forestry, or horticulture, continuing professional training and certifications"
+  },
+  {
+    "correlationMatrixId": "w_synth",
+    "skills": "Polymer materials science, Plastic processing technologies (e.g. injection molding, extrusion), CAD/CAE and simulation tools, Materials testing and quality assurance, Process optimization and troubleshooting, Knowledge of rheology and thermoplastics/thermosets, Manufacturing and production planning",
+    "education": "Bachelor's degree in Plastics Engineering or Materials Science, Master's degree in Plastics Engineering or Polymer Engineering, Vocational training as Kunststoff- und Kautschuktechnologe (Germany), Continuing professional training in plastics processing or quality management, Doctorate (PhD) for research and development roles"
+  },
+  {
+    "correlationMatrixId": "w_auto",
+    "skills": "mechanical engineering knowledge, vehicle systems and powertrain understanding, CAD and CAE software proficiency, materials and manufacturing processes knowledge, problem-solving and analytical skills, quality management and testing, teamwork and interdisciplinary communication",
+    "education": "vocational training as automotive technician or mechatronics technician, bachelor’s degree in automotive engineering or mechanical engineering, master’s degree in automotive engineering or related field, dual study programs in engineering, continuing professional training and certifications"
+  },
+  {
+    "correlationMatrixId": "w_dent",
+    "skills": "manual dexterity and fine motor skills, precision and attention to detail, knowledge of dental materials, CAD/CAM and digital dentistry skills, aesthetic sense and color matching, ability to read dental prescriptions and models, quality control and problem-solving",
+    "education": "vocational apprenticeship as Dental Technician (Ausbildung zum Zahntechniker), completion of vocational school (Berufsschule), master craftsman qualification (Zahntechnikermeister), continuing professional training and certifications in CAD/CAM or implant technology"
+  },
+  {
+    "correlationMatrixId": "w_math",
+    "skills": "[mathematical modeling, statistical analysis, probability theory, data analysis, programming (R/Python), numerical methods, problem-solving, analytical communication]",
+    "education": "[Bachelor’s degree in Mathematics or Statistics, Master’s degree in Mathematics/Statistics or Applied Mathematics, PhD in Mathematics/Statistics (research or academic roles), specialized coursework in applied mathematics or statistics]"
+  },
+  {
+    "correlationMatrixId": "w_phar",
+    "skills": "Pharmacology and therapeutics knowledge, Accurate dispensing and compounding, Patient counseling and communication, Medication safety and quality assurance, Regulatory and legal compliance, Clinical decision-making, Attention to detail",
+    "education": "Bachelor's or Master's degree in Pharmacy, PharmD (where applicable), Practical internship or traineeship, State licensure or approbation, Continuing professional development"
+  },
+  {
+    "correlationMatrixId": "w_presa",
+    "skills": "Customer communication, Technical product knowledge, Requirements analysis, Solution presentation and demonstration, CRM and ticketing system usage, Problem solving and troubleshooting, Cross-functional collaboration",
+    "education": "Vocational training in IT or business, Bachelor’s degree in Business Administration, Information Technology or Engineering, Technical certification related to products or platforms, Sales or customer service training programs"
+  },
+  {
+    "correlationMatrixId": "w_bio",
+    "skills": "experimental design, laboratory techniques, data analysis and statistics, scientific writing, critical thinking, teamwork and communication, bioinformatics basics",
+    "education": "Bachelor’s degree in biology or related field, Master’s degree in biology or life sciences, Doctorate (PhD) for research or academic careers, laboratory training or internships, continuing professional development courses"
+  },
+  {
+    "correlationMatrixId": "w_admin",
+    "skills": "Organizational skills, written and verbal communication, time management, MS Office and office software proficiency, data and document management, customer service, basic bookkeeping and invoicing, confidentiality and reliability",
+    "education": "Vocational training as office clerk (e.g. Kaufmann/-frau für Büromanagement), commercial or administrative apprenticeship, secondary school diploma, office administration or secretarial certificate, associate degree in business or administration"
+  },
+  {
+    "correlationMatrixId": "w_chem",
+    "skills": "analytical thinking, laboratory techniques, data analysis, chemical synthesis, problem-solving, safety and regulatory compliance, scientific documentation",
+    "education": "bachelor's degree in chemistry or related field, master's degree in chemistry or chemical sciences, doctoral degree (PhD) in chemistry, vocational laboratory training or apprenticeship, continuing professional development courses"
+  },
+  {
+    "correlationMatrixId": "w_archi",
+    "skills": "architectural design, knowledge of building codes and regulations, CAD/BIM software proficiency, construction management, materials and structural systems knowledge, project management, communication and coordination, sustainable and energy-efficient design",
+    "education": "Bachelor’s degree in Architecture, Master’s degree in Architecture, professional licensure or chamber registration, practical training or internship, continuing professional development"
+  },
+  {
+    "correlationMatrixId": "w_rece",
+    "skills": "Communication skills, customer service orientation, organizational skills, telephone etiquette, multitasking ability, basic IT and office software skills, foreign language skills",
+    "education": "Secondary school diploma, vocational training in office administration or hospitality, commercial assistant training, hotel management or receptionist apprenticeship, language certificates (e.g. English)"
+  },
+  {
+    "correlationMatrixId": "w_pera",
+    "skills": "Stakeholder communication and consulting, Recruitment and talent acquisition, HR strategy and workforce planning, Labor law and compliance knowledge, Data analysis and HR metrics, Project management, Negotiation and relationship management",
+    "education": "Bachelor’s or Master’s degree in Business Administration, Psychology or Economics, Degree in Human Resources or Personnel Management, Degree in Industrial or Organizational Psychology, Legal studies with focus on labor law, Professional certifications in HR or consulting (e.g., SHRM, CIPD)"
+  },
+  {
+    "correlationMatrixId": "w_muse",
+    "skills": "curation and collection management, art history and cultural heritage knowledge, exhibition planning and design, research and documentation, conservation awareness, public engagement and education, project management",
+    "education": "degree in art history, museum studies, cultural studies or heritage management, conservation or restoration training, archival or library science qualification, postgraduate museum or curatorial studies"
+  },
+  {
+    "correlationMatrixId": "w_upstream",
+    "skills": "reservoir engineering and simulation, drilling and well engineering, production optimization, subsurface data analysis, health safety and environmental (HSE) management, project management, use of industry software (e.g., Petrel, Eclipse)",
+    "education": "bachelor’s degree in petroleum engineering, mechanical engineering or chemical engineering, master’s degree in petroleum or reservoir engineering, degree in geosciences or geophysics, industry certifications and training programs, doctoral degree for research-oriented roles"
+  },
+  {
+    "correlationMatrixId": "w_ebus",
+    "skills": "digital marketing, online sales and marketplace management, web analytics and data analysis, content management systems (CMS), customer relationship management (CRM), basic IT and web technologies, project management, understanding of eCommerce platforms and payment systems",
+    "education": "bachelor's degree in business administration, eBusiness or eCommerce, degree in marketing or digital marketing, degree in information systems or computer science, vocational training in eCommerce management, relevant certifications in eCommerce or digital marketing"
+  },
+  {
+    "correlationMatrixId": "w_recru",
+    "skills": "Talent sourcing, Interviewing and candidate assessment, Employer branding, Labor law knowledge, Communication and negotiation, Applicant tracking systems (ATS), Stakeholder management",
+    "education": "Bachelor’s degree in Human Resources, Business Administration, Psychology, or Sociology, Master’s degree in Human Resources or Management, Vocational training in human resources (e.g., Personalkaufmann/-frau), HR certifications or recruiting-specific training courses"
+  },
+  {
+    "correlationMatrixId": "w_top",
+    "skills": "Strategic thinking, Leadership and people management, Decision-making under uncertainty, Financial and business acumen, Change and transformation management, Communication and negotiation skills, Risk management",
+    "education": "Business administration or management degree (Bachelor/Master), Economics or finance degree, Engineering or technical degree with management focus, MBA or Executive MBA, Advanced leadership or executive education programs"
+  },
+  {
+    "correlationMatrixId": "w_notar",
+    "skills": "legal drafting and document preparation, thorough knowledge of civil and property law, attention to detail and accuracy, confidentiality and integrity, client advisory and communication, analytical thinking, organizational skills",
+    "education": "law studies (First State Examination), legal clerkship/Referendariat (Second State Examination), admission as a notary by state authority, continuing legal education"
+  },
+  {
+    "correlationMatrixId": "w_itman",
+    "skills": "IT strategy and governance, leadership and people management, budget and vendor management, cybersecurity and risk management, enterprise architecture, project and program management, stakeholder communication, regulatory compliance",
+    "education": "Bachelor’s degree in computer science or information systems, Master’s degree in IT management or MBA, relevant professional certifications (e.g. ITIL, PMP, COBIT), continuous professional development and training"
+  },
+  {
+    "correlationMatrixId": "w_tour",
+    "skills": "Customer service orientation, intercultural communication, foreign language proficiency, sales and booking systems knowledge, organizational and planning skills, problem-solving and complaint management, teamwork and flexibility",
+    "education": "Vocational training in tourism or hospitality, degree in tourism management or hospitality management, business administration with tourism focus, foreign language training or certification, continuing professional development in travel management"
+  },
+  {
+    "correlationMatrixId": "w_expo",
+    "skills": "international trade regulations, export documentation and customs procedures, foreign language proficiency, negotiation and contract management, logistics and supply chain coordination, intercultural communication, market analysis",
+    "education": "vocational training in foreign trade or logistics, bachelor’s degree in international business or economics, degree in logistics or supply chain management, certification in customs or export control, commercial training with export specialization"
+  },
+  {
+    "correlationMatrixId": "w_techpur",
+    "skills": "supplier evaluation and selection, technical specification analysis, negotiation and contract management, cost analysis and value engineering, project coordination with engineering and production, quality and risk management, ERP and procurement systems proficiency",
+    "education": "bachelor’s degree in engineering (e.g. mechanical, electrical, industrial), industrial engineering degree, master’s degree in engineering or supply chain management, vocational training with further qualification (e.g. technician or Meister) combined with procurement experience"
+  },
+  {
+    "correlationMatrixId": "w_home",
+    "skills": "housekeeping and cleaning techniques, customer service and communication, time management and reliability, basic maintenance and handyman skills, hygiene and safety awareness, physical stamina, basic childcare or elder-care support",
+    "education": "no formal qualification required, vocational training as Hauswirtschafter/in, vocational training as Gebäudereiniger/in, short courses or certificates in hygiene and safety, first aid certificate, driver’s license (often required)"
+  },
+  {
+    "correlationMatrixId": "w_event",
+    "skills": "Event planning and coordination, Project management, Communication and negotiation, Budgeting and financial control, Vendor and stakeholder management, Problem-solving and crisis management, Time management and multitasking",
+    "education": "Bachelor’s degree in Event Management, Degree in Hospitality Management or Tourism, Degree in Business Administration or Marketing, Vocational training in event or hospitality services, Professional certifications in event management, Relevant internships or practical training"
+  },
+  {
+    "correlationMatrixId": "w_cad",
+    "skills": "CAD software proficiency (e.g., AutoCAD, SolidWorks, Inventor), 2D drafting and 3D modeling, technical drawing standards (DIN/ISO), geometric dimensioning and tolerancing (GD&T), understanding of materials and manufacturing processes, attention to detail and accuracy, technical documentation and communication",
+    "education": "Vocational training as Technischer Produktdesigner/Technischer Zeichner (Ausbildung), technical college degree (staatlich geprüfter Techniker), associate degree in CAD/design engineering, certification in CAD software, engineering studies (optional)"
+  },
+  {
+    "correlationMatrixId": "w_cont",
+    "skills": "Financial analysis, Budgeting and forecasting, Cost accounting, Management reporting, Variance analysis, Data analysis (Excel/BI tools), Business performance management",
+    "education": "Bachelor’s degree in business administration, economics, finance, or accounting, Master’s degree in controlling, finance, or management, Professional certifications (e.g. CMA, CPA, Controller qualifications)"
+  },
+  {
+    "correlationMatrixId": "w_sama",
+    "skills": "Strategic sales planning, Team leadership and coaching, Negotiation and closing, Key account management, CRM and data analysis, Sales forecasting and budgeting, Communication and presentation",
+    "education": "Bachelor’s degree in business administration or marketing, Master’s degree or MBA, Vocational training in sales or commercial studies, Continuing professional training or certifications in sales management"
+  },
+  {
+    "correlationMatrixId": "w_seng",
+    "skills": "Programming languages, Software design and architecture, Algorithms and data structures, Version control systems, Testing and debugging, Problem-solving, Agile methodologies",
+    "education": "Bachelor’s degree in Computer Science or Software Engineering, Master’s degree in Software Engineering or related field, Vocational training as Fachinformatiker (Germany), Professional certifications (e.g., cloud or programming certifications)"
+  },
+  {
+    "correlationMatrixId": "w_educ",
+    "skills": "pedagogical competence, subject-matter expertise, classroom management, communication and presentation skills, assessment and evaluation, student guidance and mentoring, inclusivity and differentiation",
+    "education": "Bachelor of Education, Master of Education, teaching degree in relevant subjects, state examination (Staatsexamen), teacher training internship (Referendariat), teaching certification/licensure"
+  },
+  {
+    "correlationMatrixId": "w_house",
+    "skills": "Mietrecht- und WEG-Recht-Kenntnisse, kaufmännische Verwaltung und Buchhaltung, Instandhaltungs- und Objektmanagement, Kommunikations- und Konfliktfähigkeit, Vertrags- und Dienstleistermanagement, Organisations- und Projektmanagement, Umgang mit Immobilienverwaltungssoftware",
+    "education": "Ausbildung Immobilienkaufmann/-frau, Weiterbildung Hausverwalter/in (IHK), Studium Immobilienwirtschaft oder Facility Management, kaufmännische Ausbildung mit Immobilienschwerpunkt, Erlaubnis nach §34c GewO, einschlägige IHK-Zertifizierungen"
+  },
+  {
+    "correlationMatrixId": "w_itpm",
+    "skills": "Project planning and scheduling, Requirements analysis and management, Stakeholder communication and coordination, Risk and issue management, Budgeting and cost control, Agile and waterfall methodologies, Team leadership and motivation",
+    "education": "Bachelor’s degree in Computer Science or Information Systems, Degree in Business Informatics (Wirtschaftsinformatik), Master’s degree in IT management or related field, Project management certifications (PMP, PRINCE2), Agile certifications (Scrum Master, Product Owner)"
+  },
+  {
+    "correlationMatrixId": "w_safo",
+    "skills": "Sales and negotiation skills, Customer relationship management, Communication and presentation skills, Self-organization and time management, Market and product knowledge, Prospecting and lead generation, Contract closing and follow-up",
+    "education": "Commercial apprenticeship (e.g. industrial clerk, wholesale and foreign trade clerk), Business administration degree, Sales or marketing degree, Certified sales representative training, Industry-specific technical training"
+  },
+  {
+    "correlationMatrixId": "w_maint",
+    "skills": "application troubleshooting, incident and problem management, customer communication and support, SQL and database basics, operating systems and networking fundamentals, scripting and automation basics, documentation and knowledge management, ITIL-based service processes",
+    "education": "vocational training as Fachinformatiker (Anwendungsentwicklung or Systemintegration), bachelor’s degree in computer science or information systems, IT service management certifications (e.g. ITIL), vendor-specific certifications (e.g. Microsoft, Oracle)"
+  },
+  {
+    "correlationMatrixId": "w_whuni",
+    "skills": "subject-matter expertise, research and publication skills, teaching and curriculum development, academic writing, critical thinking and analysis, grant writing, supervision and mentoring",
+    "education": "master's degree in relevant field, doctoral degree (PhD or equivalent), postdoctoral research experience, teaching qualification or pedagogical training, habilitation or equivalent academic qualification (in some systems)"
+  },
+  {
+    "correlationMatrixId": "w_space",
+    "skills": "[aerodynamics and flight mechanics, systems engineering, avionics and control systems, propulsion and powerplant knowledge, CAD/CAE and simulation, materials and structures, safety management and regulatory compliance]",
+    "education": "[Bachelor’s degree in Aerospace Engineering, Master’s degree in Aerospace Engineering, Mechanical Engineering degree, Electrical or Electronics Engineering degree, vocational training as aircraft technician, professional certifications (e.g., EASA Part-66), doctoral degree for research roles]"
+  },
+  {
+    "correlationMatrixId": "w_comm",
+    "skills": "Strategic communication, Media relations, Writing and editing, Crisis communication, Stakeholder management, Brand management, Digital and social media communication, Project management",
+    "education": "Bachelor’s or Master’s degree in Communication Studies, Public Relations, Journalism, Marketing, Business Administration with a communication focus, Humanities or Social Sciences with communication specialization"
+  },
+  {
+    "correlationMatrixId": "w_civil",
+    "skills": "[Structural analysis and design, Project management and cost control, Construction methods and site supervision, CAD/BIM software proficiency, Materials science and testing, Geotechnical and foundation engineering, Hydraulics and transportation systems, Regulatory compliance and safety management]",
+    "education": "[Bachelor’s degree in Civil Engineering, Master’s degree in Civil Engineering, Diplom-Ingenieur (German engineering degree), Registration with an engineering chamber (Ingenieurkammer), Continuing professional development and certifications]"
+  },
+  {
+    "correlationMatrixId": "w_prod",
+    "skills": "Product strategy and roadmap planning, Market and customer analysis, Requirements management and prioritization, Stakeholder management and communication, Agile/Scrum methodologies, Data analysis and KPI tracking, UX and customer experience understanding",
+    "education": "Bachelor’s degree in business administration, engineering, computer science or related field, Master’s degree or MBA (optional), Certifications such as Scrum Product Owner or Agile Product Management, Continuing education in UX, data analytics, or digital product management"
+  },
+  {
+    "correlationMatrixId": "w_hote",
+    "skills": "customer service orientation, communication skills, teamwork, time management and multitasking, food safety and hygiene awareness, problem-solving, stress resistance",
+    "education": "vocational apprenticeship in hotel or catering, hotel management or hospitality degree, culinary school training, food safety or hygiene certification, on-the-job training"
+  },
+  {
+    "correlationMatrixId": "w_inves",
+    "skills": "Financial analysis, Portfolio management, Risk management, Asset allocation, Market research, Quantitative analysis, Regulatory compliance",
+    "education": "Bachelor’s degree in finance, economics, or business administration, Master’s degree in finance, economics, or management, Chartered Financial Analyst (CFA), MBA with finance specialization"
+  },
+  {
+    "correlationMatrixId": "w_busi",
+    "skills": "administrative and organizational skills, data processing and documentation accuracy, proficiency with office software (e.g., MS Office/ERP systems), communication skills (written and verbal), time management and prioritization, analytical and problem-solving skills, attention to detail",
+    "education": "commercial vocational training (e.g., Kaufmann/Kauffrau für Büromanagement), apprenticeship in administration or business, business administration training, relevant technical college qualification, on-the-job training or professional development courses"
+  },
+  {
+    "correlationMatrixId": "w_hand",
+    "skills": "artistic creativity, technical craftsmanship, manual dexterity, aesthetic judgment, performance or presentation skills, self-discipline and time management, communication and collaboration",
+    "education": "vocational training or apprenticeship in arts/crafts, art school or conservatory, university degree in fine or performing arts, master craftsperson certification, workshops and continuing education, self-directed learning and portfolio development"
+  },
+  {
+    "correlationMatrixId": "w_monta",
+    "skills": "manual dexterity, ability to read technical drawings, use of hand and power tools, attention to detail and quality control, basic mechanical or electrical knowledge, teamwork and communication, adherence to safety regulations",
+    "education": "vocational training or apprenticeship in industrial mechanics or mechatronics, training as electronics technician or assembly fitter, technical school education, on-the-job training in manufacturing or production environments"
+  },
+  {
+    "correlationMatrixId": "w_hospital",
+    "skills": "healthcare administration, organizational and process management, financial and budget management, healthcare law and compliance knowledge, leadership and staff management, data analysis and reporting, communication and coordination skills",
+    "education": "degree in healthcare management, degree in business administration with healthcare focus, degree in public health, hospital management or healthcare economics master’s program, vocational training with administrative specialization in healthcare, continuing education in healthcare law or hospital administration"
+  },
+  {
+    "correlationMatrixId": "w_jour",
+    "skills": "Research and investigation, Writing and editing, Interviewing techniques, Fact-checking and verification, News judgment and storytelling, Media law and journalistic ethics, Digital and multimedia journalism, Deadline and time management",
+    "education": "Bachelor’s degree in Journalism or Communication Studies, Media or Political Science degree, Volontariat (journalistic traineeship), Master’s degree in Journalism or Media Studies, Practical internships in news organizations"
+  },
+  {
+    "correlationMatrixId": "w_munic",
+    "skills": "public administration knowledge, legal and regulatory compliance, organizational and coordination skills, communication with citizens and stakeholders, budgeting and financial management, project management, problem-solving and decision-making",
+    "education": "vocational training in public administration, bachelor's degree in public administration or public management, civil service preparatory service or examinations, dual study programs with municipalities, master's degree in public administration or public policy"
+  },
+  {
+    "correlationMatrixId": "w_faci",
+    "skills": "Technical building systems knowledge, Maintenance and asset management, Health and safety management, Energy and sustainability management, Budgeting and cost control, Vendor and contract management, Regulatory compliance, CAFM/IT systems proficiency",
+    "education": "Vocational training in facility management or building services, Bachelor’s degree in Facility Management or Engineering, Degree in Technical Business Administration, Meister or Techniker qualification, Professional certifications (e.g. GEFMA, IFMA)"
+  },
+  {
+    "correlationMatrixId": "w_desig",
+    "skills": "user-centered design, sketching and visual communication, CAD modeling, prototyping and model making, materials and manufacturing knowledge, ergonomics and usability, interdisciplinary collaboration",
+    "education": "Bachelor’s degree in Industrial Design or Product Design, Master’s degree in Industrial Design or Design Engineering, related design or engineering degree, professional portfolio of design projects, internships or practical training in design studios or industry"
+  },
+  {
+    "correlationMatrixId": "w_rev",
+    "skills": "auditing and assurance, risk management, internal control evaluation, accounting and financial analysis, analytical and critical thinking, communication and reporting, professional ethics and independence",
+    "education": "bachelor’s degree in business administration, accounting, finance, economics or law, master’s degree in auditing or finance, Certified Internal Auditor (CIA), Certified Public Accountant (CPA/Wirtschaftsprüfer), Certified Information Systems Auditor (CISA)"
+  },
+  {
+    "correlationMatrixId": "w_dba",
+    "skills": "SQL proficiency, DBMS administration (Oracle, MySQL, PostgreSQL, SQL Server), performance tuning and optimization, backup and recovery management, database security and access control, monitoring and troubleshooting, automation and scripting (e.g. Bash, PowerShell)",
+    "education": "Bachelor’s degree in Computer Science or Information Systems, vocational IT training (e.g. Fachinformatiker/in), database administration certifications (e.g. Oracle OCP, Microsoft SQL Server), relevant professional experience or apprenticeship"
+  },
+  {
+    "correlationMatrixId": "w_book",
+    "skills": "financial accounting, bookkeeping, tax law knowledge, financial reporting, attention to detail, proficiency with accounting software, analytical skills, regulatory compliance",
+    "education": "bachelor’s degree in accounting or finance, vocational training or apprenticeship in bookkeeping, professional certifications (e.g., CPA, ACCA), master’s degree in accounting or finance"
+  },
+  {
+    "correlationMatrixId": "w_rese",
+    "skills": "scientific research methods, experimental design and analysis, data analysis and statistics, problem-solving and critical thinking, programming or technical tooling, documentation and reporting, project management",
+    "education": "bachelor's degree in a relevant field, master's degree in a specialized discipline, doctoral degree (PhD) for advanced research roles, continuing professional training, industry-specific certifications"
+  },
+  {
+    "correlationMatrixId": "w_street",
+    "skills": "road and pavement construction, operation of construction machinery, surveying and leveling, reading technical drawings, materials knowledge (asphalt, concrete), occupational safety and health compliance, teamwork and physical endurance",
+    "education": "vocational training as road construction worker (Ausbildung zum Straßenbauer), apprenticeship in civil engineering trades, master craftsman qualification (Meister), state-certified technician (Bautechniker), degree in civil engineering (Bauingenieurwesen), safety and machinery operation certifications"
+  },
+  {
+    "correlationMatrixId": "w_craft",
+    "skills": "manual dexterity and craftsmanship, reading construction drawings and plans, knowledge of building materials and techniques, use of hand and power tools, adherence to safety regulations, physical stamina and endurance, teamwork and communication",
+    "education": "dual vocational training (Ausbildung) in a building trade, apprenticeship with a certified company, vocational school (Berufsschule), journeyman certificate (Gesellenbrief), master craftsman qualification (Meisterbrief), mandatory safety and health certifications"
+  },
+  {
+    "correlationMatrixId": "w_statics",
+    "skills": "Structural analysis and load calculations, knowledge of building materials and mechanics, finite element analysis (FEM), CAD and structural design software, application of building codes and standards, mathematical and analytical problem-solving, technical documentation and communication",
+    "education": "Bachelor or Master in Civil Engineering (Bauingenieurwesen), specialization in Structural Engineering/Building Mechanics, Diplom-Ingenieur qualification, relevant professional training or certification in structural analysis"
+  },
+  {
+    "correlationMatrixId": "w_siteman",
+    "skills": "project management, construction site supervision, scheduling and coordination, cost control and budgeting, quality assurance, occupational health and safety management, communication and leadership, contract and documentation management",
+    "education": "bachelor’s degree in civil engineering or architecture, degree in construction management, state-certified construction technician (Bautechniker), master craftsman qualification in construction trades (Meister), relevant vocational training with extensive professional experience"
+  },
+  {
+    "correlationMatrixId": "w_judi",
+    "skills": "legal analysis and reasoning, interpretation of laws and precedents, impartial judgment and ethical integrity, analytical and critical thinking, written and oral argumentation, decision-making under complexity, attention to detail",
+    "education": "law degree (Studium der Rechtswissenschaften), First State Examination (Erstes Staatsexamen), legal clerkship (Rechtsreferendariat), Second State Examination (Zweites Staatsexamen), optional doctoral degree in law (Promotion)"
+  },
+  {
+    "correlationMatrixId": "w_pr",
+    "skills": "Strategic communication, Media relations, Writing and editing, Crisis communication, Stakeholder management, Social media management, Analytical and evaluation skills",
+    "education": "Bachelor's degree in Public Relations, Bachelor's degree in Communications, Bachelor's degree in Journalism, Bachelor's degree in Marketing, Master's degree in Communication or Public Relations"
+  },
+  {
+    "correlationMatrixId": "w_hist",
+    "skills": "historical research and source criticism, archival research and paleography, archaeological fieldwork and excavation methods, data analysis and interpretation, academic writing and publication, critical thinking and historiography, project management and documentation",
+    "education": "Bachelor’s degree in History or Archaeology, Master’s degree in History or Archaeology, Doctorate (PhD) for academic or research careers, training in archival studies or museum studies, field school or excavation certification"
+  },
+  {
+    "correlationMatrixId": "w_soci",
+    "skills": "Communication and active listening, Empathy and cultural sensitivity, Case management and documentation, Counseling and conflict resolution, Legal and social welfare knowledge, Assessment and problem-solving, Stress management and resilience",
+    "education": "Bachelor’s degree in Social Work (B.A./B.Sc.), Master’s degree in Social Work (M.A./M.Sc.), State recognition/licensure (staatliche Anerkennung), Supervised internships/practicum, Continuing professional development courses"
+  },
+  {
+    "correlationMatrixId": "w_medte",
+    "skills": "biomedical engineering knowledge, regulatory compliance and standards (MDR, ISO 13485), quality management and documentation, CAD and product development, clinical and anatomical understanding, data analysis and validation, project management and interdisciplinary collaboration",
+    "education": "bachelor's or master's degree in biomedical engineering, electrical engineering or mechanical engineering, vocational training as medical device technician, certification in quality management or regulatory affairs, doctoral degree for research-oriented roles"
+  },
+  {
+    "correlationMatrixId": "w_stone",
+    "skills": "stone carving and shaping, masonry and stone setting, use of hand and power tools, CNC and machine stone cutting, reading technical drawings and blueprints, precise measuring and layout, occupational health and safety awareness",
+    "education": "vocational apprenticeship as stonemason or stone carver, trade school or vocational college training, journeyman qualification, master craftsman (Meister) certification, industry-specific safety and machinery certificates"
+  },
+  {
+    "correlationMatrixId": "w_ana",
+    "skills": "requirements analysis, stakeholder management, process modeling, data analysis, documentation and specification writing, communication and presentation skills, problem-solving, knowledge of business and IT systems",
+    "education": "bachelor's degree in business administration, information systems or economics, master's degree in business analytics or management, vocational training with business focus, professional certifications (e.g. CBAP, CCBA, IREB)"
+  },
+  {
+    "correlationMatrixId": "w_secu",
+    "skills": "risk assessment, surveillance and monitoring, conflict de-escalation, emergency response, access control, report writing, physical fitness",
+    "education": "secondary school diploma, vocational training in security services, certified security guard qualification, first aid certification, legal and safety training courses"
+  },
+  {
+    "correlationMatrixId": "w_klifo",
+    "skills": "Clinical trial design and management, Good Clinical Practice (GCP) compliance, Data collection and statistical analysis, Regulatory and ethics knowledge, Scientific writing and documentation, Patient recruitment and monitoring, Project management and coordination",
+    "education": "Bachelor’s degree in life sciences or medicine, Master’s degree in clinical research or biomedical sciences, Medical degree (MD) or pharmacy degree, PhD in a relevant biomedical field, Certified training in Good Clinical Practice (GCP)"
+  },
+  {
+    "correlationMatrixId": "w_bank",
+    "skills": "financial analysis, risk management, customer advisory, regulatory compliance, accounting and financial reporting, data analysis, communication and negotiation",
+    "education": "bachelor's degree in finance, banking, business administration or economics, master's degree in finance or business (optional), vocational training in banking (e.g., bank clerk apprenticeship), professional certifications (e.g., CFA, FRM)"
+  },
+  {
+    "correlationMatrixId": "w_sete",
+    "skills": "Troubleshooting and fault diagnosis, Electrical and mechanical knowledge, Maintenance and repair skills, Customer service and communication, Use of diagnostic tools and software, Technical documentation and reporting, Safety and regulatory compliance, Willingness to travel and work independently",
+    "education": "Vocational training (Ausbildung) as Mechatronics Technician or Electronics Technician, Technical apprenticeship, Technical college qualification (Techniker or Meister), Associate degree in engineering or applied technology, Manufacturer or industry-specific certifications"
+  },
+  {
+    "correlationMatrixId": "w_food",
+    "skills": "food safety and hygiene (HACCP), quality control and assurance, operation of food processing machinery, production planning and process optimization, knowledge of raw materials and recipes, compliance with regulations and documentation, teamwork and communication",
+    "education": "vocational training in food production or food technology, apprenticeship in food processing trades, bachelor’s degree in food science or food engineering, master craftsman (Meister) qualification, certified food safety or HACCP training"
+  },
+  {
+    "correlationMatrixId": "w_advoc",
+    "skills": "[Rechtsanalyse, juristische Argumentation, Vertragsgestaltung, Mandantenberatung, Verhandlungsführung, juristische Recherche, schriftliche Kommunikation]",
+    "education": "[Studium der Rechtswissenschaften (Erstes Staatsexamen), Rechtsreferendariat, Zweites Staatsexamen, ggf. Promotion (Dr. jur.), ggf. Fachanwaltsqualifikation]"
+  },
+  {
+    "correlationMatrixId": "w_dbde",
+    "skills": "relational database design, SQL and query optimization, database management systems (e.g. PostgreSQL, MySQL, Oracle), data modeling and normalization, performance tuning and indexing, data security and access control, backup and recovery strategies",
+    "education": "bachelor's degree in computer science or information systems, bachelor's degree in software engineering, vocational training as IT specialist (Fachinformatiker), master's degree in computer science or data engineering, relevant professional certifications (e.g. Oracle, Microsoft, AWS)"
+  },
+  {
+    "correlationMatrixId": "w_audit",
+    "skills": "Accounting and financial reporting, Auditing standards (ISA/IDW), Risk assessment and internal controls, Analytical and critical thinking, Professional skepticism and ethics, Communication and client management, Data analysis and IT audit, Project management",
+    "education": "Bachelor’s degree in Accounting/Business/Economics, Master’s degree in Accounting/Auditing, Professional certification (e.g., Wirtschaftsprüfer, CPA, ACCA), Practical training or apprenticeship in audit, Continuing professional education"
+  },
+  {
+    "correlationMatrixId": "w_dwh",
+    "skills": "Data modeling (star/snowflake schemas), SQL and database optimization, ETL/ELT development, Data integration and data quality management, Experience with data warehouse platforms (e.g., Snowflake, Redshift, BigQuery), Business intelligence and reporting tools, Understanding of cloud and on-premise architectures",
+    "education": "Bachelor’s degree in computer science, business informatics, information systems, or mathematics, Master’s degree in data engineering or analytics (optional), Vocational training or dual studies in IT or data management, Relevant certifications (e.g., cloud provider, database, or BI certifications)"
+  },
+  {
+    "correlationMatrixId": "w_deli",
+    "skills": "Time management, Route planning and navigation, Physical stamina and lifting ability, Customer service and communication, Safe driving and vehicle handling, Basic IT skills for scanners and apps, Reliability and punctuality",
+    "education": "Secondary school certificate, Vocational training in logistics or transport (optional), Driving license (class B or higher depending on vehicle), On-the-job training provided by employer"
+  },
+  {
+    "correlationMatrixId": "w_whkig",
+    "skills": "Child development knowledge, pedagogical planning, communication with children and parents, empathy and patience, classroom and behavior management, creativity in play-based learning, teamwork and collaboration",
+    "education": "Ausbildung zum/zur Erzieher/in, Kinderpfleger/in or Sozialpädagogische Assistenz, Studium der Frühkindlichen Bildung or Pädagogik, staatliche Anerkennung, Erste-Hilfe-Kurs am Kind, erweitertes Führungszeugnis"
+  },
+  {
+    "correlationMatrixId": "w_proce",
+    "skills": "Process analysis and modeling, Continuous improvement methods (Lean, Six Sigma), Business process optimization, Stakeholder and change management, Data analysis and KPI management, Documentation and standardization, Project management",
+    "education": "Bachelor’s or Master’s degree in Business Administration, Industrial Engineering, Business Informatics, Economics, Certification in Process Management or BPM, Lean or Six Sigma certification"
+  },
+  {
+    "correlationMatrixId": "w_energ",
+    "skills": "power system analysis and design, electrical grid operation and protection, power electronics and drives, renewable energy integration, energy storage technologies, simulation and modeling tools, standards and safety regulations, project management",
+    "education": "Bachelor’s degree in Electrical Engineering, Master’s degree in Power or Energy Engineering, Diplom-Ingenieur (FH/Uni), state-certified technician (Energietechnik), professional engineer or equivalent certification"
+  },
+  {
+    "correlationMatrixId": "w_insu",
+    "skills": "risk analysis, actuarial and statistical analysis, insurance law knowledge, financial and economic analysis, underwriting and claims assessment, data analysis and modeling, regulatory compliance, communication and advisory skills",
+    "education": "vocational training as insurance and finance clerk (Kaufmann/Kauffrau für Versicherungen und Finanzen), bachelor’s degree in insurance science or business administration, master’s degree in insurance management or actuarial science, certification as actuary (DAV), professional continuing education and regulatory training"
+  },
+  {
+    "correlationMatrixId": "w_nwde",
+    "skills": "Stakeholder management, communication and presentation, relationship building, strategic planning, project management, negotiation, analytical skills, use of digital networking/CRM tools",
+    "education": "Degree in business administration, communications, economics, social sciences, or information technology, vocational training in business or IT, project management certification, continuing education in networking or partnership management"
+  },
+  {
+    "correlationMatrixId": "w_whole",
+    "skills": "Sales and negotiation skills, Customer relationship management, Market and product knowledge, Inventory and supply chain management, Pricing and cost calculation, Communication and presentation skills, Basic financial and accounting skills",
+    "education": "Apprenticeship as wholesale and foreign trade merchant (Groß- und Außenhandelskaufmann/-frau), Commercial vocational training, Bachelor’s degree in business administration or commerce, Further training as certified business administrator (Handelsfachwirt)"
+  },
+  {
+    "correlationMatrixId": "w_pm",
+    "skills": "project planning and scheduling, stakeholder communication, risk management, budgeting and cost control, team leadership, problem-solving and decision-making, documentation and reporting",
+    "education": "bachelor's degree in business administration or engineering, master's degree in project management or related field, certification such as PMP or PRINCE2, Scrum or Agile certifications"
+  },
+  {
+    "correlationMatrixId": "w_hw",
+    "skills": "circuit design, PCB layout and design, digital and analog electronics, embedded systems, hardware debugging and testing, CAD and EDA tools, signal integrity and power management, manufacturing and compliance standards",
+    "education": "bachelor's degree in electrical engineering, bachelor's degree in electronics engineering, bachelor's degree in mechatronics, master's degree in hardware related engineering fields, vocational training in electronics engineering, relevant technical certifications"
+  },
+  {
+    "correlationMatrixId": "w_train",
+    "skills": "instructional design, training needs analysis, adult learning methodology, facilitation and coaching, curriculum development, assessment and evaluation, project management, digital learning tools",
+    "education": "degree in education or adult education, vocational pedagogy or training sciences, Meister or Techniker with training qualification, AEVO (Ausbildereignung), HR development or training certificates, Train-the-Trainer programs"
+  },
+  {
+    "correlationMatrixId": "w_secr",
+    "skills": "organizational skills, communication skills, proficiency in MS Office, time management, professional correspondence, scheduling and coordination, confidentiality",
+    "education": "vocational training as Kaufmann/-frau für Büromanagement, office administration apprenticeship, commercial school qualification, secondary school diploma (Realschule or Abitur), further training in office or administrative management"
+  },
+  {
+    "correlationMatrixId": "w_ass",
+    "skills": "organizational skills, communication skills, time management, proficiency in office software (e.g. MS Office), administrative skills, multitasking ability, discretion and confidentiality",
+    "education": "commercial vocational training (e.g. Office Management Assistant / Kaufmann/-frau für Büromanagement), business administration training, secretarial or administrative certification, secondary school diploma with relevant vocational qualification"
+  },
+  {
+    "correlationMatrixId": "w_syen",
+    "skills": "Requirements engineering, systems architecture and design, system modeling (e.g. SysML/UML), integration and verification/testing, project and lifecycle management, risk and reliability analysis, interdisciplinary communication and coordination",
+    "education": "Bachelor’s or Master’s degree in Systems Engineering, Electrical Engineering, Mechanical Engineering, Computer Science or Industrial Engineering, professional certifications (e.g. INCOSE ASE/CSEP)"
+  },
+  {
+    "correlationMatrixId": "w_ware",
+    "skills": "inventory management, picking and packing, forklift operation, warehouse management systems (WMS), occupational safety and compliance, physical stamina, teamwork and communication",
+    "education": "vocational training as warehouse specialist (Fachkraft für Lagerlogistik) or warehouse clerk (Fachlagerist), apprenticeship programs, secondary school certificate, forklift operator license, on-the-job training or IHK certifications"
+  },
+  {
+    "correlationMatrixId": "w_fabr",
+    "skills": "process optimization, machine operation and setup, quality control and assurance, technical drawing and blueprint reading, materials knowledge, production planning and scheduling, occupational safety and compliance",
+    "education": "vocational apprenticeship in industrial manufacturing, technical college degree (Fachschule), certified industrial master (Industriemeister), bachelor’s degree in mechanical or industrial engineering, ongoing professional training and certifications"
+  },
+  {
+    "correlationMatrixId": "w_swe",
+    "skills": "Programming languages, Software architecture and design, Problem-solving and analytical thinking, Version control systems, Testing and debugging, Database management, Agile development methodologies",
+    "education": "Bachelor's degree in Computer Science, Bachelor's degree in Software Engineering, Bachelor's degree in Information Technology, Master's degree in Computer Science or Software Engineering, Vocational training in IT (e.g. Fachinformatiker/in Anwendungsentwicklung), Professional certifications (e.g. cloud, programming, or framework-specific)"
+  },
+  {
+    "correlationMatrixId": "w_stage",
+    "skills": "Stage lighting and sound system operation, audio mixing and signal routing, lighting programming and control, setup and rigging of stage equipment, troubleshooting technical faults, safety and electrical standards compliance, teamwork and communication under live conditions",
+    "education": "Vocational training as Veranstaltungstechniker/in or Fachkraft für Veranstaltungstechnik, apprenticeship in audio/light/stage technology, technical college (Fachschule) qualification, Meister/in für Veranstaltungstechnik, relevant certifications (e.g. electrical safety, rigging), practical on-the-job training"
+  },
+  {
+    "correlationMatrixId": "w_riskm",
+    "skills": "risk identification and assessment, quantitative and qualitative risk analysis, regulatory and compliance knowledge, data analysis and modeling, internal controls and governance, communication and stakeholder management",
+    "education": "bachelor’s degree in finance/economics/business/engineering, master’s degree in risk management/finance/business administration, professional certifications (FRM, PRM, CFA), training in regulatory frameworks (e.g. Basel, ISO 31000)"
+  },
+  {
+    "correlationMatrixId": "w_scie",
+    "skills": "materials characterization, experimental design, data analysis, materials synthesis and processing, microscopy and spectroscopy, mechanical and thermal testing, computational modeling",
+    "education": "Bachelor’s degree in Materials Science or Engineering, Master’s degree in Materials Science or related field, PhD in Materials Science or related discipline, laboratory safety and research methodology training"
+  },
+  {
+    "correlationMatrixId": "w_sadm",
+    "skills": "Linux and Windows server administration, network administration and troubleshooting, scripting and automation (e.g., Bash, PowerShell), system security and access management, virtualization and cloud technologies, backup and disaster recovery, monitoring and performance optimization",
+    "education": "vocational training as IT specialist for system integration (Fachinformatiker/in Systemintegration), bachelor's degree in computer science or information technology, technical college degree in IT systems engineering, industry certifications (e.g., Microsoft, Linux, Cisco)"
+  },
+  {
+    "correlationMatrixId": "w_phys",
+    "skills": "Mathematical modeling, Experimental design and laboratory techniques, Data analysis and statistics, Programming and computational simulation, Problem-solving, Critical thinking, Scientific writing and communication",
+    "education": "Bachelor’s degree in Physics or related field, Master’s degree in Physics or Applied Physics, Doctoral degree (PhD) in Physics, Postdoctoral research training"
+  },
+  {
+    "correlationMatrixId": "w_onlma",
+    "skills": "campaign planning and management, marketing automation tools, email marketing, data analysis and KPIs, A/B testing and conversion optimization, CRM systems, copywriting and content creation, privacy and consent management (GDPR)",
+    "education": "degree in marketing, business administration or communication, vocational training in marketing or digital media, online marketing certifications (e.g. Google, HubSpot), continuing professional training in digital marketing or analytics"
+  },
+  {
+    "correlationMatrixId": "w_cust",
+    "skills": "Communication skills, Problem-solving, Empathy and customer orientation, Conflict resolution, Time management, CRM software proficiency, Stress resistance",
+    "education": "High school diploma or equivalent, Vocational training in customer service or retail, Associate’s or bachelor’s degree (optional), On-the-job product and service training, Language proficiency qualifications"
+  },
+  {
+    "correlationMatrixId": "w_aana",
+    "skills": "requirements analysis, stakeholder communication, business process modeling, UML/BPMN modeling, documentation and specification writing, analytical and problem-solving skills, basic software and IT architecture knowledge",
+    "education": "bachelor’s degree in computer science, bachelor’s degree in business informatics (Wirtschaftsinformatik), degree in information systems, degree in business administration with IT focus, vocational training as IT specialist for application development (Fachinformatiker/in Anwendungsentwicklung)"
+  },
+  {
+    "correlationMatrixId": "w_publ",
+    "skills": "Editorial and proofreading skills, Writing and content development, Project and workflow management, Market and readership analysis, Rights and licensing management, Digital publishing and CMS proficiency, Communication and negotiation skills",
+    "education": "Bachelor’s degree in Publishing, Literature, German Studies, Journalism or Media Studies, Master’s degree in Publishing or Media Management, Vocational training in publishing (e.g. Medienkaufmann/-frau Digital und Print), Relevant internships or traineeships in publishing houses"
+  },
+  {
+    "correlationMatrixId": "w_aadm",
+    "skills": "Application installation and configuration, System and application monitoring, User and access management, Troubleshooting and incident management, Patch and update management, Scripting and automation, Documentation and process management",
+    "education": "Vocational training in IT (e.g. IT specialist for system integration), Degree in computer science or information systems, Technical college degree in IT, Vendor-specific certifications (e.g. Microsoft, Linux, SAP), On-the-job training and continuing professional development"
+  },
+  {
+    "correlationMatrixId": "w_tool",
+    "skills": "precision machining, CNC programming and operation, tool and die making, technical drawing interpretation, materials and metallurgy knowledge, measurement and quality control, maintenance and repair",
+    "education": "dual vocational training (Ausbildung) as Werkzeugmechaniker, apprenticeship in metalworking, vocational school (Berufsschule), Meisterbrief (master craftsman qualification), state-certified technician (Techniker), CNC or CAD/CAM certification"
+  },
+  {
+    "correlationMatrixId": "w_immo",
+    "skills": "Market analysis and valuation, negotiation and sales skills, legal and contract knowledge, financial analysis and budgeting, customer relationship management, property management, marketing and presentation skills",
+    "education": "Degree in real estate management, business administration or economics, vocational training in real estate (e.g. real estate agent or property manager), certification as real estate appraiser, continuing professional education and licensing as required by law"
+  },
+  {
+    "correlationMatrixId": "w_const",
+    "skills": "Technical drawing and CAD (e.g., AutoCAD, SolidWorks), Mechanical and structural design, Materials science knowledge, Problem-solving and analytical thinking, Compliance with standards and regulations, Project coordination and documentation, Basic manufacturing and production knowledge",
+    "education": "Vocational training as a technical draftsman, Bachelor’s degree in mechanical engineering or construction engineering, Master’s degree in engineering or design, Technical college (Fachschule) qualification, Continuing professional development and certifications"
+  },
+  {
+    "correlationMatrixId": "w_qm",
+    "skills": "quality assurance and testing methods, test planning and execution, defect tracking and documentation, process analysis and optimization, knowledge of quality standards (e.g. ISO 9001), risk management, attention to detail, analytical thinking",
+    "education": "bachelor’s degree in engineering or computer science, degree in quality management or industrial engineering, vocational training with QA specialization, certification in quality management (e.g. ISO auditor, ISTQB), continuing professional training in testing or process management"
+  },
+  {
+    "correlationMatrixId": "w_graph",
+    "skills": "visual communication, typography, layout and composition, color theory, branding and identity design, proficiency with design software (e.g. Adobe Creative Suite), creativity and concept development, attention to detail",
+    "education": "vocational training as a media designer, bachelor's degree in graphic design or visual communication, degree in communication design, art or design school diploma, relevant certifications or continuing education courses"
+  },
+  {
+    "correlationMatrixId": "w_waste",
+    "skills": "waste collection and sorting, recycling and resource recovery processes, hazardous waste handling, environmental regulations compliance, operation of waste treatment equipment, logistics and route planning, health and safety management",
+    "education": "vocational training in waste management or environmental services, apprenticeship as environmental technician, technical college degree in environmental engineering, bachelor’s degree in environmental science or engineering, certification in hazardous waste handling"
+  },
+  {
+    "correlationMatrixId": "w_music",
+    "skills": "Performance technique, Vocal or instrumental proficiency, Dance technique and physical conditioning, Stage presence and expressive ability, Collaboration and ensemble work, Creativity and interpretation, Discipline and rehearsal stamina",
+    "education": "Conservatory or music academy degree, Drama school or acting conservatory, Dance academy or ballet school, University degree in performing arts, Apprenticeships and masterclasses, Private lessons and workshops"
+  },
+  {
+    "correlationMatrixId": "w_plant",
+    "skills": "project management, mechanical and process engineering knowledge, systems integration and layout planning, cost estimation and budgeting, technical documentation and standards compliance, supplier and contractor coordination, commissioning and troubleshooting",
+    "education": "bachelor’s degree in mechanical engineering, process engineering, chemical engineering or industrial engineering, master’s degree in plant engineering or related field, vocational training as technician with further qualifications, professional certifications in project management or engineering standards"
+  },
+  {
+    "correlationMatrixId": "w_sport",
+    "skills": "physical fitness and athletic ability, coaching and training techniques, knowledge of anatomy and physiology, motivation and communication skills, injury prevention and safety awareness, program planning and periodization, basic nutrition knowledge",
+    "education": "vocational training in sports and fitness, bachelor’s degree in sports science or kinesiology, certified fitness trainer or coach qualifications, physiotherapy or sports therapy education, continuing professional certifications and workshops"
+  },
+  {
+    "correlationMatrixId": "w_emb",
+    "skills": "C/C++ programming, Microcontroller and SoC programming, RTOS and bare-metal development, Hardware interfaces and protocols (SPI, I2C, UART, CAN), Debugging and testing with oscilloscopes and JTAG, Embedded Linux and device drivers, Version control and build systems",
+    "education": "Bachelor's degree in Electrical Engineering or Computer Science, Bachelor's degree in Embedded Systems or Mechatronics, Master's degree in a related field, Vocational training or technician qualification in electronics"
+  },
+  {
+    "correlationMatrixId": "w_bibl",
+    "skills": "Information organization and cataloging, research and reference services, information literacy instruction, database and digital resource management, customer service and communication, metadata standards and classification systems, basic IT and data management skills",
+    "education": "Bachelor’s degree in Library and Information Science, Master’s degree in Library and Information Science, vocational training as Fachangestellte*r für Medien- und Informationsdienste (FaMI), continuing professional education and certifications"
+  },
+  {
+    "correlationMatrixId": "w_busan",
+    "skills": "strategic thinking, market analysis, sales and negotiation, relationship management, financial analysis, project management, communication and presentation",
+    "education": "bachelor's degree in business administration or economics, master's degree in business or management, MBA, relevant professional certifications or further training"
+  },
+  {
+    "correlationMatrixId": "w_relig",
+    "skills": "pastoral counseling, spiritual guidance, active listening, ethical judgment, intercultural competence, communication and public speaking, conflict mediation",
+    "education": "theological studies, religious studies degree, seminary training, pastoral or chaplaincy certification, continuous spiritual formation"
+  },
+  {
+    "correlationMatrixId": "w_sectr",
+    "skills": "Financial market analysis, Risk management, Trading systems and platforms proficiency, Quantitative and numerical skills, Decision-making under pressure, Regulatory and compliance knowledge, Communication and negotiation skills",
+    "education": "Bachelor's degree in finance economics or business administration, Master's degree in finance or quantitative finance, Banking apprenticeship Bankkaufmann or Bankkauffrau, Professional certifications such as CFA or FRM"
+  },
+  {
+    "correlationMatrixId": "w_mark",
+    "skills": "market research, digital marketing, brand management, communication and presentation, data analysis, strategic planning, project management",
+    "education": "bachelor's degree in marketing, business administration, communications, master's degree in marketing or business administration, vocational training in marketing or media management"
+  },
+  {
+    "correlationMatrixId": "w_anim",
+    "skills": "Animal care and handling, Species-specific knowledge, Feeding and nutrition management, Health monitoring and basic veterinary care, Cleaning and hygiene maintenance, Physical stamina, Responsibility and reliability",
+    "education": "Vocational training as animal keeper (Tierpfleger/in), Apprenticeship in animal care or agriculture, Technical college degree in animal husbandry, On-the-job training or internships, Continuing education in animal welfare or specialized species care"
+  },
+  {
+    "correlationMatrixId": "w_lab",
+    "skills": "laboratory techniques and protocols, sample preparation and analysis, operation and maintenance of lab equipment, data analysis and documentation, quality control and validation, safety and regulatory compliance, problem-solving and troubleshooting, teamwork and communication",
+    "education": "vocational training as laboratory technician (e.g., BTA, CTA, MTA), bachelor’s degree in chemistry, biology, or related field, master’s degree for advanced or research roles, apprenticeships in laboratory settings, certifications in GLP/GMP or laboratory safety"
+  },
+  {
+    "correlationMatrixId": "w_optic",
+    "skills": "optical measurement and testing, lens grinding and fitting, refraction and vision testing, precision and manual dexterity, customer consultation and sales, troubleshooting optical systems, quality control and accuracy",
+    "education": "vocational apprenticeship as optician (Augenoptiker/in), master craftsman qualification (Augenoptikermeister/in), vocational college training in optics, bachelor’s degree in optical engineering or physics, specialized continuing education in optics"
+  },
+  {
+    "correlationMatrixId": "w_textil",
+    "skills": "operation of textile machinery, fabric and material knowledge, quality control and inspection, sewing and pattern making, dyeing and finishing processes, reading technical drawings, workplace safety and teamwork",
+    "education": "vocational apprenticeship in textile production, technical or vocational school certificate, associate degree in textile technology, bachelor’s degree in textile engineering or fashion technology"
+  },
+  {
+    "correlationMatrixId": "w_acco",
+    "skills": "Financial accounting, Management accounting, Taxation, Auditing, Financial analysis, Regulatory compliance, Accounting software (e.g. SAP)",
+    "education": "Vocational training in accounting or commercial administration, Bachelor’s degree in Accounting or Business Administration, Master’s degree in Accounting or Finance, Professional certifications (e.g. Steuerberater, Wirtschaftsprüfer, CPA/ACCA)"
+  },
+  {
+    "correlationMatrixId": "w_itcon",
+    "skills": "[Requirements analysis, Business process modeling, Project management, Stakeholder communication, Solution architecture, Data analysis, IT strategy consulting]",
+    "education": "[Bachelor's degree in Computer Science or Information Systems, Business Informatics, Master's degree in IT or Management, Professional certifications (ITIL, PMP, Scrum), Cloud or vendor certifications (AWS, Azure, SAP)]"
+  }
+]
