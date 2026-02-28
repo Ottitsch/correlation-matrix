@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
 """
-Generate bilingual (EN + DE) descriptions for all 180 work fields via Ollama.
+Generate bilingual (EN + DE) descriptions for all 180 work fields via Azure OpenAI.
 Saves output to descriptions.json, which generate_matrix.py reads.
 """
 
 import json
+import os
 import re
 import time
-import requests
+from dotenv import load_dotenv
+from openai import AzureOpenAI
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "qwen2.5:14b"
+load_dotenv("../.env")
+
+DEPLOYMENT = "gpt-5.2-chat"
+ENDPOINT = "https://e1202-ml1273va-swedencentral.cognitiveservices.azure.com/"
+API_VERSION = "2025-04-01-preview"
 OUTPUT_PATH = "descriptions.json"
-
 
 PROMPT_TEMPLATE = """\
 Write a brief professional description of the work field "{name_en}" (German: "{name_de}").
@@ -22,17 +26,22 @@ EN: [2-3 sentences in English describing what this field involves, typical roles
 DE: [2-3 Sätze auf Deutsch, die beschreiben, was dieses Berufsfeld umfasst, typische Rollen und wichtige Fähigkeiten]"""
 
 
-def call_ollama(prompt: str, retries: int = 3) -> str:
-    payload = {
-        "model": MODEL,
-        "messages": [{"role": "user", "content": prompt}],
-        "stream": False,
-    }
+def build_client() -> AzureOpenAI:
+    return AzureOpenAI(
+        api_key=os.environ["KEY"],
+        api_version=API_VERSION,
+        azure_endpoint=ENDPOINT,
+    )
+
+
+def call_api(client: AzureOpenAI, prompt: str, retries: int = 3) -> str:
     for attempt in range(retries):
         try:
-            resp = requests.post(OLLAMA_URL, json=payload, timeout=120)
-            resp.raise_for_status()
-            return resp.json()["message"]["content"].strip()
+            resp = client.chat.completions.create(
+                model=DEPLOYMENT,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return resp.choices[0].message.content.strip()
         except Exception as e:
             if attempt < retries - 1:
                 print(f"  Retry {attempt + 1} after error: {e}")
@@ -44,15 +53,12 @@ def call_ollama(prompt: str, retries: int = 3) -> str:
 def parse_response(text: str) -> tuple[str, str]:
     """Extract EN and DE descriptions from the model response."""
     en = de = ""
-
     en_match = re.search(r"EN:\s*(.+?)(?=\nDE:|\Z)", text, re.DOTALL)
     de_match = re.search(r"DE:\s*(.+?)(?=\nEN:|\Z)", text, re.DOTALL)
-
     if en_match:
         en = en_match.group(1).strip()
     if de_match:
         de = de_match.group(1).strip()
-
     return en, de
 
 
@@ -69,6 +75,7 @@ def main():
         existing = {}
 
     results = dict(existing)
+    client = build_client()
 
     for i, field in enumerate(fields):
         cid = field["correlationMatrixId"]
@@ -80,7 +87,7 @@ def main():
         )
 
         print(f"[{i + 1}/{len(fields)}] {field['nameEn']}...", end=" ", flush=True)
-        raw = call_ollama(prompt)
+        raw = call_api(client, prompt)
         en, de = parse_response(raw)
         print("done")
 
