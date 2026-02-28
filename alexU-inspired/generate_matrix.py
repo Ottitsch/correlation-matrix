@@ -2,8 +2,11 @@
 """
 Generate a correlation matrix over 180 occupational work fields.
 
-Methodology: multilingual sentence embeddings (paraphrase-multilingual-mpnet-base-v2)
-+ cosine similarity. See README.md for full explanation.
+Methodology: multilingual-e5-large-instruct embeddings + bilingual
+LLM-generated descriptions + cosine similarity. (AlexU-NLP inspired)
+See README.md for full explanation.
+
+Run generate_descriptions.py first to produce descriptions.json.
 """
 
 import json
@@ -16,9 +19,32 @@ def load_fields(path: str) -> list[dict]:
         return json.load(f)
 
 
-def build_texts(fields: list[dict]) -> list[str]:
-    """Concatenate German and English names for richer bilingual signal."""
-    return [f"{field['nameDe']} {field['nameEn']}" for field in fields]
+def load_descriptions(path: str) -> dict[str, dict]:
+    """Load descriptions.json, keyed by correlationMatrixId."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return {e["correlationMatrixId"]: e for e in json.load(f)}
+    except FileNotFoundError:
+        return {}
+
+
+def build_texts(fields: list[dict], descriptions: dict[str, dict]) -> list[str]:
+    """
+    Build one text per field: bilingual name + bilingual description (if available).
+    Falls back to name-only for any field missing a description.
+    """
+    texts = []
+    for field in fields:
+        cid = field["correlationMatrixId"]
+        base = f"{field['nameDe']} {field['nameEn']}"
+        desc = descriptions.get(cid)
+        if desc and desc.get("descriptionEn") and desc.get("descriptionDe"):
+            texts.append(
+                f"{base}\n{desc['descriptionEn']}\n{desc['descriptionDe']}"
+            )
+        else:
+            texts.append(base)
+    return texts
 
 
 def cosine_similarity(embeddings: np.ndarray) -> np.ndarray:
@@ -31,8 +57,8 @@ def cosine_similarity(embeddings: np.ndarray) -> np.ndarray:
 def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
     n = len(ids)
 
-    # Determine which upper-triangle pairs to include: union of each field's top-10.
-    # A pair (i, j) is included if j is in i's top-10 OR i is in j's top-10.
+    # Determine which upper-triangle pairs to include: union of each field's top-9.
+    # A pair (i, j) is included if j is in i's top-9 OR i is in j's top-9.
     included: set[tuple[int, int]] = set()
     for i in range(n):
         row = sim[i].copy()
@@ -68,16 +94,26 @@ def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
 
 
 def main():
-    fields = load_fields("work_fields.json")
+    fields = load_fields("../work_fields.json")
     ids = [f["correlationMatrixId"] for f in fields]
-    texts = build_texts(fields)
 
-    print(f"Loaded {len(fields)} work fields.")
-    print("Downloading / loading model (first run ~420 MB)...")
-    model = SentenceTransformer("paraphrase-multilingual-mpnet-base-v2")
+    descriptions = load_descriptions("descriptions.json")
+    n_with_desc = sum(1 for f in fields if f["correlationMatrixId"] in descriptions)
+    print(f"Loaded {len(fields)} work fields, {n_with_desc} with descriptions.")
+
+    texts = build_texts(fields, descriptions)
+
+    # multilingual-e5-large-instruct: instruction prefix is recommended for
+    # symmetric similarity tasks to get the most out of the instruct tuning.
+    prompt = "Instruct: Given a work field, retrieve semantically similar work fields\nQuery: "
+
+    print("Downloading / loading model (first run ~560 MB)...")
+    model = SentenceTransformer("intfloat/multilingual-e5-large-instruct")
 
     print("Embedding fields...")
-    embeddings = model.encode(texts, show_progress_bar=True, convert_to_numpy=True)
+    embeddings = model.encode(
+        texts, prompt=prompt, show_progress_bar=True, convert_to_numpy=True
+    )
 
     print("Computing cosine similarity...")
     sim = cosine_similarity(embeddings)
