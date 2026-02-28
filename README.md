@@ -8,6 +8,8 @@ Six approaches were implemented and evaluated against a ground truth sample from
 
 ## Reproduction
 
+!!! IF YOU DONT WANT TO RE-RUN GENAI ONLY RUN generate_matrix.py NO API KEY REQUIRED !!!
+
 ```bash
 pip install -r requirements.txt
 
