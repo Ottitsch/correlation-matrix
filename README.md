@@ -64,7 +64,7 @@ JobBERT-v3 is trained via contrastive learning on 21 million job titles paired w
 
 ### 3. AlexU-inspired — `intfloat/multilingual-e5-large-instruct` + LLM descriptions
 
-Inspired by *AlexU-NLP at TalentCLEF 2025* (Barakat, Mokhtar, Torki, Elmakky — Alexandria University, CLEF 2025), specifically their inference-time description enrichment result (Table 4): adding descriptions to short titles improves zero-shot mAP by ~3% without any fine-tuning.
+Inspired by *AlexU-NLP at TalentCLEF 2025* (Barakat, Mokhtar, Torki, Elmakky — Alexandria University, CLEF 2025), specifically their inference-time description enrichment ablation (Table 4): adding descriptions to corpus entries improves mAP by ~2.6% even on their fine-tuned model, suggesting the signal is robust and likely carries over to zero-shot use.
 
 `gpt-5.2-chat` via Azure OpenAI generates a bilingual description (EN + DE, 2–3 sentences each) for every work field. Each field is then embedded as `"{nameDe} {nameEn}\n{descriptionEn}\n{descriptionDe}"` using `multilingual-e5-large-instruct` with a symmetric similarity instruction prefix.
 

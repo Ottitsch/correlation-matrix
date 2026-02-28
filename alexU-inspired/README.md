@@ -12,7 +12,7 @@ Two-step pipeline replicating ALEXU's inference-time description enrichment (the
 
 2. **Embedding** (`generate_matrix.py`): Each field is represented as `"{nameDe} {nameEn}\n{descriptionEn}\n{descriptionDe}"` and embedded with `multilingual-e5-large-instruct` using a symmetric similarity instruction prefix.
 
-The rationale: short 2–3 word field names give embeddings very little signal. Adding a descriptive paragraph disambiguates semantically similar but lexically distinct fields. ALEXU showed this alone improves mAP by ~3% zero-shot.
+The rationale: short 2–3 word field names give embeddings very little signal. Adding a descriptive paragraph disambiguates semantically similar but lexically distinct fields. AlexU's Table 4 ablation shows descriptions improve mAP by ~2.6% on their fine-tuned model; the signal is strong enough that it plausibly carries over to zero-shot use.
 
 ## Run
 
