@@ -2,7 +2,7 @@
 
 Generates a pairwise correlation matrix over 180 occupational work fields from `work_fields.json`.
 
-Three approaches were implemented and evaluated against a ground truth sample from the Romagnolo platform. The best-performing output is in `alexU-inspired/correlation_matrix.json`.
+Six approaches were implemented and evaluated against a ground truth sample from the Romagnolo platform. The best-performing output is in `llm-ranking/correlation_matrix.json`.
 
 ---
 
@@ -32,6 +32,11 @@ cd skills-enriched
 python generate_enrichment.py     # generates enrichment.json, resumes if interrupted
 python generate_matrix.py
 
+# TechWolf + job titles (requires Azure OpenAI key in ../.env as KEY=...)
+cd techwolf-jobtitles
+python generate_titles.py         # generates titles.json, resumes if interrupted
+python generate_matrix.py
+
 # Evaluate all approaches against ground truth
 python eval.py
 ```
@@ -40,7 +45,7 @@ python eval.py
 
 ## Output Schema
 
-All three approaches produce the same format:
+All approaches produce the same format:
 
 ```json
 [
@@ -56,7 +61,7 @@ All three approaches produce the same format:
 
 ## Approaches
 
-Five approaches were implemented, each in its own folder with a dedicated README.
+Six approaches were implemented, each in its own folder with a dedicated README.
 
 ### 1. Baseline — `paraphrase-multilingual-mpnet-base-v2`
 
@@ -94,6 +99,13 @@ Extension of the AlexU approach with more structured LLM output. Instead of a fr
 **Model size:** ~560 MB
 **External dependency:** Azure OpenAI (`KEY` in `.env`)
 
+### 6. TechWolf + job titles — `TechWolf/JobBERT-v3` + LLM-generated concrete titles
+
+Addresses the root cause of TechWolf-inspired's underperformance: JobBERT-v3 was trained on concrete job ad titles, not abstract category names. An LLM generates 5 representative job titles in both German and English for each field; all 10 titles are embedded separately with JobBERT-v3 and averaged into one field-level vector. This puts the input back into the distribution the model was trained on.
+
+**Model size:** ~280 MB
+**External dependency:** Azure OpenAI (`KEY` in `.env`)
+
 ---
 
 ## Evaluation
@@ -104,27 +116,29 @@ Evaluated against a single ground truth sample (5 pairs for *Mechanical Engineer
 |---|:---:|:---:|:---:|
 | baseline | 2 | 2.00 | 1.56 |
 | techwolf-inspired | 2 | 3.00 | 1.33 |
-| **alexU-inspired** | **3** | **2.33** | **2.22** |
+| alexU-inspired | 3 | 2.33 | 2.22 |
+| **llm-ranking** | **3** | **1.67** | **2.44** |
+| skills-enriched | 3 | 2.33 | 2.22 |
+| techwolf-jobtitles | 2 | 1.00 | 1.78 |
 
 Score = `hits × (1 − avg_rank_delta / 9)` — rewards both coverage and rank accuracy.
 
 ### Per-field breakdown (Mechanical Engineering)
 
-| Field | GT | Baseline | TechWolf | AlexU |
-|---|:---:|:---:|:---:|:---:|
-| Plant Engineering | 9 | miss | 6 | 4 |
-| Building Craft | 8 | miss | miss | miss |
-| Automotive | 7 | 4 | miss | **7** ✓ |
-| Fabrication | 6 | 5 | miss | 8 |
-| Civil Engineering | 5 | miss | 8 | miss |
-
-AlexU gets the most hits (3/5) and is the only approach to nail an exact rank match (Automotive, value 7). Building Craft is missed by all three approaches.
+| Field | GT | Baseline | TechWolf | AlexU | LLM-ranking | Skills-enriched | TechWolf+titles |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Plant Engineering | 9 | miss | 6 | 4 | 8 | 6 | **9** ✓ |
+| Building Craft | 8 | miss | miss | miss | miss | miss | miss |
+| Automotive | 7 | 4 | miss | **7** ✓ | **7** ✓ | 9 | miss |
+| Fabrication | 6 | 5 | miss | 8 | 2 | 4 | miss |
+| Civil Engineering | 5 | miss | 8 | miss | miss | 7 | 7 |
 
 ### Key findings
 
-- **AlexU wins**: LLM-generated descriptions give the embedding model enough context to surface domain-relevant neighbors that name-only approaches miss entirely.
-- **TechWolf underperforms**: JobBERT-v3's skill-grounded space was learned from specific job ad titles, not abstract field category names. The model degrades on our input type despite the bilingual averaging fix.
-- **Baseline is competitive**: Despite its simplicity, the baseline beats TechWolf — a strong reminder that domain fit matters more than model sophistication.
+- **LLM-ranking wins** (score 2.44): Asking the LLM to rank directly beats all embedding approaches. The LLM reasons about occupational domain structure without needing to map it through a vector space, and its rank estimates for Plant Engineering (pred 8, GT 9) and Automotive (pred 7, GT 7 exact) are sharper.
+- **AlexU and Skills-enriched tie** (2.22 each): Both LLM-enriched embedding approaches match on hits and avg delta. Structured skills/education data is no more informative than free-form descriptions for this task at this scale.
+- **TechWolf + job titles improves over plain TechWolf** (1.78 vs 1.33): Generating concrete titles (e.g. "Mechanical Engineer", "Maschinenbauingenieur") puts the input back into JobBERT's training distribution. Plant Engineering is now ranked exactly (pred 9, GT 9). The remaining misses (Automotive, Fabrication) suggest the 5-title sample per field is still too sparse to fully cover all relevant skill clusters.
+- **Building Craft is missed by every approach**: Its ground truth similarity to Mechanical Engineering (GT 8) appears to rely on domain knowledge that neither embeddings nor the LLM surface reliably — likely a candidate for manual overrides or ESCO skill-overlap signals.
 
 ---
 
