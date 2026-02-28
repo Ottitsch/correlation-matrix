@@ -1,0 +1,902 @@
+[
+  {
+    "correlationMatrixId": "w_tele",
+    "descriptionEn": "Telecommunications involves the design, deployment, and operation of systems that transmit voice, data, and video over wired and wireless networks. Typical roles include network engineers, RF engineers, system architects, and operations specialists, requiring skills in networking protocols, signal processing, cybersecurity, and troubleshooting.",
+    "descriptionDe": "Telekommunikation umfasst die Planung, den Aufbau und den Betrieb von Systemen zur Übertragung von Sprache, Daten und Video über kabelgebundene und drahtlose Netze. Typische Rollen sind Netzwerkingenieure, Funktechnik-Ingenieure, Systemarchitekten und Betriebsspezialisten, die Kenntnisse in Netzwerkprotokollen, Signalverarbeitung, IT-Sicherheit und Fehleranalyse benötigen."
+  },
+  {
+    "correlationMatrixId": "w_sale",
+    "descriptionEn": "Sales/Presales focuses on acquiring and retaining customers by understanding their needs, positioning solutions, and driving revenue growth. Typical roles include Sales Manager, Account Executive, and Presales Consultant, requiring strong communication, negotiation, customer focus, and product knowledge.",
+    "descriptionDe": "Vertrieb allgemein umfasst die Gewinnung und Betreuung von Kunden durch Bedarfsermittlung, Lösungspräsentation und Umsatzentwicklung. Typische Rollen sind Sales Manager, Account Manager und Presales Consultant; wichtige Fähigkeiten sind Kommunikationsstärke, Verhandlungsgeschick, Kundenorientierung und Produktkenntnisse."
+  },
+  {
+    "correlationMatrixId": "w_impo",
+    "descriptionEn": "The import field involves sourcing and bringing goods from international suppliers into a domestic market, ensuring compliance with customs, trade regulations, and logistics requirements. Typical roles include import manager, customs specialist, and logistics coordinator. Key skills include knowledge of international trade laws, negotiation, supply chain management, and attention to detail.",
+    "descriptionDe": "Das Berufsfeld Import umfasst die Beschaffung und Einfuhr von Waren aus dem Ausland unter Einhaltung von Zoll-, Handels- und Logistikvorschriften. Typische Rollen sind Importmanager, Zollspezialist und Logistikkoordinator. Wichtige Fähigkeiten sind Kenntnisse im internationalen Handelsrecht, Verhandlungsgeschick, Supply-Chain-Management und hohe Genauigkeit."
+  },
+  {
+    "correlationMatrixId": "w_whkus",
+    "descriptionEn": "Customer Training focuses on educating customers to effectively use products or services through structured learning programs and resources. Typical roles include Customer Trainer, Training Specialist, and Enablement Manager. Key skills include strong communication, instructional design, product expertise, and facilitation.",
+    "descriptionDe": "Kundenschulung umfasst die Vermittlung von Wissen und Fähigkeiten, damit Kunden Produkte oder Dienstleistungen effektiv nutzen können. Typische Rollen sind Kundentrainer, Schulungsspezialist oder Enablement Manager. Wichtige Fähigkeiten sind didaktische Kompetenz, Kommunikationsstärke, Produktkenntnisse und Präsentationsfähigkeit."
+  },
+  {
+    "correlationMatrixId": "w_pers",
+    "descriptionEn": "Human Resources focuses on managing the employee lifecycle, including recruitment, development, compensation, and employee relations. Typical roles include HR generalist, recruiter, HR business partner, and payroll or learning and development specialist. Key skills include communication, labor law knowledge, data analysis, and confidentiality.",
+    "descriptionDe": "Das Personalwesen befasst sich mit der Gestaltung und Verwaltung des gesamten Mitarbeiterlebenszyklus, von der Rekrutierung über Entwicklung und Vergütung bis hin zu Arbeitsbeziehungen. Typische Rollen sind Personalreferent:in, Recruiter:in, HR Business Partner sowie Payroll- oder Learning-and-Development-Spezialist:in. Wichtige Fähigkeiten sind Kommunikationsstärke, arbeitsrechtliche Kenntnisse, analytisches Denken und Vertrauenswürdigkeit."
+  },
+  {
+    "correlationMatrixId": "w_info",
+    "descriptionEn": "Information Engineering focuses on the design, integration, and management of information systems that collect, process, and deliver data effectively. Typical roles include information engineers, data architects, and systems analysts who work at the intersection of IT, data, and business processes. Key skills include data modeling, systems analysis, software development, and a strong understanding of databases and information flows.",
+    "descriptionDe": "Information Engineering befasst sich mit der Konzeption, Integration und dem Management von Informationssystemen zur effizienten Erfassung, Verarbeitung und Bereitstellung von Daten. Typische Rollen sind Information Engineers, Datenarchitekten und Systemanalytiker, die an der Schnittstelle von IT, Daten und Geschäftsprozessen arbeiten. Wichtige Fähigkeiten sind Datenmodellierung, Systemanalyse, Softwareentwicklung sowie ein gutes Verständnis von Datenbanken und Informationsflüssen."
+  },
+  {
+    "correlationMatrixId": "w_medas",
+    "descriptionEn": "Medical Assistance encompasses clinical and administrative support in healthcare settings, helping physicians and nurses deliver patient care efficiently. Typical roles include medical assistants, clinical assistants, and healthcare aides who perform tasks such as patient intake, basic diagnostics, documentation, and coordination. Key skills include medical knowledge, organizational ability, communication skills, and a high level of responsibility and empathy.",
+    "descriptionDe": "Medizinische Assistenz umfasst die klinische und administrative Unterstützung im Gesundheitswesen und trägt zur effizienten Patientenversorgung bei. Typische Rollen sind medizinische Fachangestellte, klinische Assistenzen und Pflegehilfskräfte, die Aufgaben wie Patientenaufnahme, einfache Diagnostik, Dokumentation und Koordination übernehmen. Wichtige Fähigkeiten sind medizinisches Grundwissen, Organisationsfähigkeit, Kommunikationsstärke sowie Verantwortungsbewusstsein und Empathie."
+  },
+  {
+    "correlationMatrixId": "w_doc",
+    "descriptionEn": "Medical Science focuses on understanding human health and disease through research, diagnostics, and clinical application. Typical roles include medical researchers, clinical scientists, and laboratory specialists, requiring strong analytical skills, knowledge of biology and medicine, and adherence to ethical standards.",
+    "descriptionDe": "Die Medizinwissenschaft befasst sich mit der Erforschung von Gesundheit und Krankheit sowie deren Diagnostik und klinischer Anwendung. Typische Rollen sind medizinische Forscher, klinische Wissenschaftler und Laborspezialisten, die analytische Fähigkeiten, fundierte Kenntnisse in Biologie und Medizin sowie ethisches Verantwortungsbewusstsein benötigen."
+  },
+  {
+    "correlationMatrixId": "w_sani",
+    "descriptionEn": "The Live-Saving Service field focuses on providing immediate medical care in emergencies, including pre-hospital treatment, patient transport, and support during critical incidents. Typical roles include paramedics, emergency medical technicians, and ambulance staff, requiring strong medical knowledge, quick decision-making, teamwork, and resilience under pressure.",
+    "descriptionDe": "Das Berufsfeld der Sanitäts- und Ambulanzberufe umfasst die medizinische Notfallversorgung, den Krankentransport und die Betreuung von Patientinnen und Patienten in akuten Situationen. Typische Rollen sind Notfallsanitäterinnen und -sanitäter, Rettungssanitäter sowie Ambulanzpersonal, die medizinische Fachkenntnisse, schnelle Entscheidungsfähigkeit, Teamarbeit und Belastbarkeit benötigen."
+  },
+  {
+    "correlationMatrixId": "w_wood",
+    "descriptionEn": "Woodworking involves shaping, assembling, and finishing wood to create furniture, structures, and components. Typical roles include carpenter, cabinetmaker, joiner, and CNC machine operator, requiring skills such as craftsmanship, tool operation, blueprint reading, precision, and safety awareness.",
+    "descriptionDe": "Die Holzbearbeitung umfasst das Bearbeiten, Zusammenfügen und Veredeln von Holz zur Herstellung von Möbeln, Bauteilen und Konstruktionen. Typische Rollen sind Tischler/Schreiner, Zimmerer und Maschinenbediener, wobei handwerkliches Geschick, Maschinenkenntnisse, das Lesen von Zeichnungen, Präzision und Arbeitssicherheit wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_payr",
+    "descriptionEn": "Earnings and Salary (Payroll) covers the accurate calculation, processing, and reporting of employee wages, salaries, bonuses, taxes, and social contributions. Typical roles include Payroll Specialist, Payroll Accountant, and Compensation Administrator, requiring strong knowledge of labor law, tax regulations, attention to detail, and proficiency with payroll systems.",
+    "descriptionDe": "Lohn und Gehalt umfasst die korrekte Berechnung, Abwicklung und Dokumentation von Löhnen, Gehältern, Zuschlägen, Steuern und Sozialabgaben. Typische Rollen sind Lohn- und Gehaltsbuchhalter:in, Payroll Specialist oder Compensation Manager, wofür Kenntnisse im Arbeits- und Steuerrecht, hohe Genauigkeit und der sichere Umgang mit Abrechnungssystemen erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_cc",
+    "descriptionEn": "Helpdesk/Technical Support focuses on assisting users with technical issues related to hardware, software, and IT systems. Typical roles include helpdesk agent, IT support technician, and service desk analyst, requiring strong problem-solving skills, customer service orientation, and solid IT knowledge.",
+    "descriptionDe": "Helpdesk/Technischer Support umfasst die Unterstützung von Anwendern bei technischen Problemen mit Hardware, Software und IT-Systemen. Typische Rollen sind Helpdesk-Mitarbeiter, IT-Support-Techniker oder Service-Desk-Analyst, wobei ausgeprägte Problemlösungsfähigkeiten, Kommunikationsstärke und fundierte IT-Kenntnisse erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_mare",
+    "descriptionEn": "Market Research involves collecting, analyzing, and interpreting data about markets, customers, and competitors to support business decisions. Typical roles include market research analyst, insights manager, and data analyst, requiring skills in data analysis, statistics, research design, and communication.",
+    "descriptionDe": "Marktforschung/Marktanalyse umfasst die systematische Erhebung, Auswertung und Interpretation von Daten zu Märkten, Kunden und Wettbewerbern zur Unterstützung unternehmerischer Entscheidungen. Typische Rollen sind Marktforscher, Insights Manager oder Datenanalyst, wobei Fähigkeiten in Datenanalyse, Statistik, Studiendesign und Kommunikation wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_mate",
+    "descriptionEn": "Building Material (Building Materials Technology) focuses on the development, testing, production, and application of construction materials such as concrete, steel, wood, and composites. Typical roles include materials engineer, quality manager, laboratory technician, and product consultant, requiring skills in material science, quality assurance, sustainability, and technical problem-solving.",
+    "descriptionDe": "Die Baustoff-Technik befasst sich mit der Entwicklung, Prüfung, Herstellung und Anwendung von Baustoffen wie Beton, Stahl, Holz und Verbundmaterialien. Typische Tätigkeiten sind Baustoffingenieur, Qualitätsmanager, Labortechniker oder Produktberater und erfordern Kenntnisse in Materialkunde, Qualitätssicherung, Nachhaltigkeit und technischem Problemlösen."
+  },
+  {
+    "correlationMatrixId": "w_adve",
+    "descriptionEn": "Advertising focuses on developing and delivering creative messages to promote products, services, or brands across various media channels. Typical roles include copywriters, art directors, media planners, and account managers, requiring skills in creativity, communication, market analysis, and strategic thinking.",
+    "descriptionDe": "Werbung beschäftigt sich mit der Entwicklung und Verbreitung kreativer Botschaften zur Vermarktung von Produkten, Dienstleistungen oder Marken über verschiedene Medienkanäle. Typische Rollen sind Texter, Art Direktoren, Mediaplaner und Account Manager, wobei Fähigkeiten wie Kreativität, Kommunikationsstärke, Marktanalyse und strategisches Denken wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_asset",
+    "descriptionEn": "Asset Management involves managing and growing client assets through investment strategy, portfolio construction, and ongoing risk management. Typical roles include portfolio managers, investment analysts, and client advisors, requiring strong financial analysis, market knowledge, and client communication skills.",
+    "descriptionDe": "Asset Management umfasst die Verwaltung und den Ausbau von Kundenvermögen durch Anlagestrategien, Portfolioaufbau und laufendes Risikomanagement. Typische Rollen sind Portfoliomanager, Investmentanalysten und Vermögensberater, die fundierte Finanzkenntnisse, Marktverständnis und ausgeprägte Kommunikationsfähigkeiten benötigen."
+  },
+  {
+    "correlationMatrixId": "w_safety",
+    "descriptionEn": "Safety Engineering focuses on preventing workplace accidents and health risks by designing, implementing, and monitoring safety systems, procedures, and compliance measures. Typical roles include safety engineers, occupational safety specialists, and risk managers, requiring skills in risk assessment, regulatory knowledge, technical analysis, and communication.",
+    "descriptionDe": "Arbeitssicherheit befasst sich mit der Vermeidung von Arbeitsunfällen und Gesundheitsgefahren durch die Planung, Umsetzung und Überwachung von Sicherheitskonzepten, Verfahren und gesetzlichen Vorgaben. Typische Rollen sind Sicherheitsingenieure, Fachkräfte für Arbeitssicherheit und Risikomanager, wobei Fähigkeiten in Gefährdungsbeurteilung, Rechtskenntnissen, technischem Verständnis und Kommunikation wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_web",
+    "descriptionEn": "Digital Design focuses on creating visual and interactive content for digital platforms such as websites, apps, and multimedia. Typical roles include UI/UX designers, digital graphic designers, and motion designers, requiring skills in visual design, user-centered thinking, prototyping, and design tools.",
+    "descriptionDe": "Digitaldesign umfasst die Gestaltung visueller und interaktiver Inhalte für digitale Plattformen wie Websites, Apps und Multimedia. Typische Rollen sind UI/UX-Designer, digitale Grafikdesigner und Motion Designer, wobei Fähigkeiten in visueller Gestaltung, nutzerzentriertem Denken, Prototyping und Design-Tools wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_retai",
+    "descriptionEn": "Retail Sales involves selling products directly to consumers in physical or online stores, managing customer interactions and transactions. Typical roles include sales associates, store managers, and visual merchandisers, requiring skills in customer service, product knowledge, communication, and basic inventory handling.",
+    "descriptionDe": "Der Einzelhandel umfasst den Verkauf von Waren direkt an Endkund:innen in stationären Geschäften oder Online-Shops sowie die Betreuung von Kund:innen und Verkaufsprozessen. Typische Rollen sind Verkaufsberater:innen, Filialleiter:innen und Visual Merchandiser, wofür Fähigkeiten wie Kundenorientierung, Produktkenntnisse, Kommunikationsstärke und grundlegende Warenwirtschaft wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_room",
+    "descriptionEn": "Interior Design focuses on planning, designing, and enhancing interior spaces to be functional, aesthetic, and aligned with user needs. Typical roles include interior designers, space planners, and decorators who work with materials, lighting, furniture, and color concepts. Key skills include creativity, spatial awareness, technical knowledge, and communication with clients and contractors.",
+    "descriptionDe": "Raumgestaltung befasst sich mit der Planung, Gestaltung und Optimierung von Innenräumen, um funktionale, ästhetische und nutzerorientierte Lösungen zu schaffen. Typische Rollen sind Innenarchitekt:innen, Raumplaner:innen und Gestalter:innen, die mit Materialien, Licht, Möbeln und Farbkonzepten arbeiten. Wichtige Fähigkeiten sind Kreativität, räumliches Vorstellungsvermögen, technisches Wissen und Kommunikationsfähigkeit."
+  },
+  {
+    "correlationMatrixId": "w_frei",
+    "descriptionEn": "Transportation and Shipping covers the planning, coordination, and execution of moving people and goods by road, rail, sea, and air. Typical roles include logistics planners, transport managers, shipping coordinators, and drivers, requiring skills in scheduling, regulatory compliance, safety, and process optimization.",
+    "descriptionDe": "Das Verkehrs- und Transportwesen umfasst die Planung, Steuerung und Durchführung der Beförderung von Personen und Gütern auf Straße, Schiene, See und in der Luft. Typische Rollen sind Disponenten, Transportmanager, Speditionskaufleute und Fahrer, wofür Fähigkeiten in Organisation, rechtlicher Compliance, Sicherheit und Prozessoptimierung erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_mash",
+    "descriptionEn": "Mechanical Engineering focuses on the design, analysis, manufacturing, and maintenance of mechanical systems and products across many industries. Typical roles include design engineer, manufacturing engineer, and project manager, requiring strong skills in mathematics, physics, CAD, problem-solving, and teamwork.",
+    "descriptionDe": "Der Maschinenbau umfasst die Entwicklung, Konstruktion, Analyse, Fertigung und den Betrieb mechanischer Systeme und Produkte in vielen Branchen. Typische Rollen sind Entwicklungsingenieur, Produktionsingenieur oder Projektleiter, wofür fundierte Kenntnisse in Mathematik und Physik, CAD, analytisches Denken, Problemlösungsfähigkeit und Teamarbeit erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_sain",
+    "descriptionEn": "Sales Indoor Service focuses on supporting the sales process from within the organization, including customer consultation, order processing, quotation management, and coordination with field sales and internal departments. Typical roles require strong communication skills, customer orientation, organizational abilities, and proficiency with CRM and ERP systems.",
+    "descriptionDe": "Der Vertrieb Innendienst unterstützt den Verkaufsprozess intern durch Kundenberatung, Angebotserstellung, Auftragsabwicklung und die Koordination mit Außendienst und internen Abteilungen. Typische Rollen erfordern ausgeprägte Kommunikationsfähigkeiten, Kundenorientierung, Organisationsstärke sowie den sicheren Umgang mit CRM- und ERP-Systemen."
+  },
+  {
+    "correlationMatrixId": "w_itqm",
+    "descriptionEn": "IT Quality Management focuses on ensuring that IT systems, software, and processes meet defined quality standards, regulatory requirements, and user expectations. Typical roles include IT Quality Manager, QA Engineer, and Process Manager, requiring skills in quality frameworks, testing methods, risk management, and continuous improvement.",
+    "descriptionDe": "IT-Qualitätsmanagement befasst sich mit der Sicherstellung, dass IT-Systeme, Software und Prozesse festgelegte Qualitätsstandards, regulatorische Anforderungen und Nutzererwartungen erfüllen. Typische Rollen sind IT-Qualitätsmanager, QA Engineer und Prozessmanager, wobei Kenntnisse in Qualitätsstandards, Testmethoden, Risikomanagement und kontinuierlicher Verbesserung erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_faben",
+    "descriptionEn": "Process Engineering focuses on the design, optimization, and operation of industrial processes that convert raw materials into valuable products, often in the chemical, pharmaceutical, energy, or food industries. Typical roles include process design, scale-up, process control, and continuous improvement. Key skills include strong analytical thinking, thermodynamics, fluid mechanics, data analysis, and problem-solving.",
+    "descriptionDe": "Die Verfahrenstechnik befasst sich mit der Entwicklung, Auslegung, Optimierung und dem Betrieb industrieller Prozesse zur Umwandlung von Rohstoffen in Produkte, z. B. in der Chemie-, Pharma-, Energie- oder Lebensmittelindustrie. Typische Aufgaben sind Prozessdesign, Scale-up, Prozessüberwachung und kontinuierliche Verbesserung. Wichtige Fähigkeiten sind analytisches Denken, Kenntnisse in Thermodynamik und Strömungslehre, Datenanalyse sowie Problemlösungskompetenz."
+  },
+  {
+    "correlationMatrixId": "w_sysa",
+    "descriptionEn": "System Analysis focuses on understanding, modeling, and improving complex IT and business systems by translating stakeholder requirements into technical solutions. Typical roles include system analyst or business analyst, requiring skills in requirements engineering, process modeling, communication, and problem-solving.",
+    "descriptionDe": "Die Systemanalyse befasst sich mit dem Verstehen, Modellieren und Optimieren komplexer IT- und Geschäftssysteme durch die Übersetzung von Anforderungen in technische Lösungen. Typische Rollen sind Systemanalytiker oder Business-Analysten, die Fähigkeiten in Anforderungsmanagement, Prozessmodellierung, Kommunikation und Problemlösung benötigen."
+  },
+  {
+    "correlationMatrixId": "w_modes",
+    "descriptionEn": "Fashion/Attire Design involves creating clothing, accessories, and jewelry from concept to production, balancing aesthetics, function, and market trends. Typical roles include fashion designer, apparel developer, pattern maker, and jewelry designer, requiring skills in design research, materials knowledge, sketching/CAD, craftsmanship, and collaboration.",
+    "descriptionDe": "Mode & Schmuckdesign umfasst die Entwicklung von Bekleidung, Accessoires und Schmuck von der Idee bis zur Produktion unter Berücksichtigung von Ästhetik, Funktion und Trends. Typische Rollen sind Modedesigner*in, Produktentwickler*in, Schnitttechniker*in und Schmuckdesigner*in; wichtig sind Designrecherche, Materialkenntnis, Skizzieren/CAD, handwerkliche Fähigkeiten und Teamarbeit."
+  },
+  {
+    "correlationMatrixId": "w_metal",
+    "descriptionEn": "Metal Machining involves the shaping, cutting, forming, and joining of metals to produce components and finished products. Typical roles include machinists, CNC operators, toolmakers, and welders, requiring skills in technical drawing interpretation, precision work, machine operation, and material knowledge.",
+    "descriptionDe": "Metallverarbeitung umfasst das Bearbeiten, Formen, Trennen und Fügen von Metallen zur Herstellung von Bauteilen und Produkten. Typische Rollen sind Zerspanungsmechaniker, CNC-Fachkräfte, Werkzeugmacher und Schweißer, die Fähigkeiten in technischem Zeichnungslesen, präzisem Arbeiten, Maschinenbedienung und Werkstoffkunde benötigen."
+  },
+  {
+    "correlationMatrixId": "w_con",
+    "descriptionEn": "Consulting involves advising organizations on strategy, operations, technology, or management to solve complex problems and improve performance. Typical roles include management consultant, strategy consultant, and IT consultant, requiring strong analytical skills, communication, problem-solving, and stakeholder management.",
+    "descriptionDe": "Consulting umfasst die Beratung von Organisationen zu Strategie, Prozessen, Technologie oder Management, um komplexe Probleme zu lösen und die Leistung zu verbessern. Typische Rollen sind Management-, Strategie- oder IT-Consultant und erfordern ausgeprägte analytische Fähigkeiten, Kommunikationsstärke, Problemlösungskompetenz und Stakeholder-Management."
+  },
+  {
+    "correlationMatrixId": "w_illumi",
+    "descriptionEn": "Reklameherstellung involves the design, production, and installation of advertising media such as signs, illuminated displays, vehicle graphics, and large-format prints. Typical roles include sign makers, production technicians, and designers, requiring skills in graphic design, materials processing, digital printing, and craftsmanship.",
+    "descriptionDe": "Die Reklameherstellung umfasst die Gestaltung, Produktion und Montage von Werbemitteln wie Schildern, Leuchtreklamen, Fahrzeugbeschriftungen und Großformatdrucken. Typische Tätigkeiten sind Schilder- und Lichtreklamehersteller, Produktionstechniker und Gestalter, wofür Fähigkeiten in Grafikdesign, Materialbearbeitung, digitalem Druck und handwerklicher Arbeit erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_arch",
+    "descriptionEn": "Archiving involves the systematic collection, preservation, organization, and accessibility of records and historical materials in physical and digital forms. Typical roles include archivists, records managers, and digital preservation specialists, requiring skills in information management, research, metadata standards, and attention to detail.",
+    "descriptionDe": "Archivierung umfasst die systematische Sammlung, Erhaltung, Ordnung und Bereitstellung von Unterlagen und historischen Materialien in physischer und digitaler Form. Typische Rollen sind Archivar:innen, Records Manager und Spezialist:innen für digitale Langzeitarchivierung, wobei Fähigkeiten in Informationsmanagement, Recherche, Metadatenstandards und Genauigkeit wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_trans",
+    "descriptionEn": "Translation is the professional field focused on converting written content from one language into another while accurately preserving meaning, tone, and context. Typical roles include translators and localization specialists, requiring strong language proficiency, cultural awareness, research skills, and often the use of computer-assisted translation tools.",
+    "descriptionDe": "Übersetzung ist ein Berufsfeld, das sich mit der Übertragung schriftlicher Inhalte von einer Sprache in eine andere unter Wahrung von Bedeutung, Stil und Kontext befasst. Typische Rollen sind Übersetzer:innen und Lokalisierungsspezialist:innen, wofür hohe Sprachkompetenz, kulturelles Verständnis, Recherchefähigkeiten und häufig der Einsatz von CAT-Tools erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_propur",
+    "descriptionEn": "Project Purchasing focuses on sourcing materials and services for specific projects, ensuring cost, quality, and delivery targets are met throughout the project lifecycle. Typical roles include Project Buyer or Lead Buyer, requiring strong negotiation skills, cross-functional coordination, cost analysis, and risk management.",
+    "descriptionDe": "Der Projekteinkauf befasst sich mit der Beschaffung von Materialien und Dienstleistungen für konkrete Projekte und stellt Kosten-, Qualitäts- und Terminzielen über den gesamten Projektverlauf sicher. Typische Rollen sind Projekteinkäufer oder Lead Buyer, die ausgeprägte Verhandlungsfähigkeiten, Schnittstellenmanagement, Kostenanalyse und Risikomanagement erfordern."
+  },
+  {
+    "correlationMatrixId": "w_film",
+    "descriptionEn": "Film/TV/Broadcasting covers the development, production, and distribution of audiovisual and audio content for cinema, television, streaming, and radio. Typical roles include producers, directors, editors, camera and sound professionals, presenters, and journalists, requiring skills in storytelling, technical operation, collaboration, and media ethics.",
+    "descriptionDe": "Das Berufsfeld Film/TV/Radio umfasst die Entwicklung, Produktion und Verbreitung von audiovisuellen und auditiven Inhalten für Kino, Fernsehen, Streaming und Radio. Typische Rollen sind Produzent:innen, Regisseur:innen, Redakteur:innen, Kamera- und Tontechniker:innen, Moderator:innen und Journalist:innen, wofür Fähigkeiten in Storytelling, Technik, Teamarbeit und Medienethik wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_scm",
+    "descriptionEn": "Supply Chain Management focuses on planning, coordinating, and optimizing the flow of goods, information, and finances from suppliers to customers. Typical roles include supply chain analyst, logistics manager, and procurement specialist, requiring skills in data analysis, process optimization, communication, and risk management.",
+    "descriptionDe": "Supply Chain Management umfasst die Planung, Steuerung und Optimierung von Waren-, Informations- und Finanzflüssen vom Lieferanten bis zum Kunden. Typische Rollen sind Supply-Chain-Analyst, Logistikmanager oder Einkäufer, wobei Fähigkeiten wie Datenanalyse, Prozessoptimierung, Kommunikation und Risikomanagement wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_beaut",
+    "descriptionEn": "The Hairdressing/Beauty/Wellness field focuses on personal care services that enhance appearance, confidence, and well-being. Typical roles include hairdressers, beauticians, cosmetologists, and wellness therapists, requiring skills in styling, skincare, customer service, creativity, and hygiene.",
+    "descriptionDe": "Das Berufsfeld Frisör/Schönheit/Wohlbefinden umfasst Dienstleistungen der persönlichen Pflege zur Förderung von Aussehen, Selbstbewusstsein und Wohlbefinden. Typische Tätigkeiten sind Frisör:innen, Kosmetiker:innen und Wellness-Therapeut:innen, wobei Fähigkeiten wie Styling, Hautpflege, Kundenberatung, Kreativität und Hygiene wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_autom",
+    "descriptionEn": "Car mechanics work on the maintenance, diagnosis, and repair of cars and other motor vehicles. Typical roles include inspecting engines and systems, fixing mechanical and electrical issues, and performing routine services, requiring technical knowledge, problem-solving skills, and manual dexterity.",
+    "descriptionDe": "KFZ-Mechaniker arbeiten an der Wartung, Diagnose und Reparatur von Autos und anderen Kraftfahrzeugen. Typische Aufgaben sind die Überprüfung von Motoren und Fahrzeugsystemen, die Behebung mechanischer und elektrischer Defekte sowie regelmäßige Servicearbeiten, wofür technisches Verständnis, Problemlösungsfähigkeit und handwerkliches Geschick wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_clean",
+    "descriptionEn": "The cleaning field involves maintaining cleanliness, hygiene, and safety in residential, commercial, and industrial environments. Typical roles include cleaners, housekeeping staff, and facility maintenance workers. Key skills include attention to detail, reliability, time management, and knowledge of cleaning methods and safety standards.",
+    "descriptionDe": "Das Berufsfeld Reinigung umfasst die Sicherstellung von Sauberkeit, Hygiene und Sicherheit in privaten, gewerblichen und industriellen Bereichen. Typische Rollen sind Reinigungskräfte, Hauswirtschaftspersonal und Mitarbeiter in der Gebäudereinigung. Wichtige Fähigkeiten sind Sorgfalt, Zuverlässigkeit, Zeitmanagement sowie Kenntnisse über Reinigungsmethoden und Sicherheitsvorschriften."
+  },
+  {
+    "correlationMatrixId": "w_org",
+    "descriptionEn": "Company Organisation focuses on designing, analyzing, and optimizing organizational structures, processes, and governance to improve efficiency and effectiveness. Typical roles include organizational development managers, process analysts, and PMO specialists, requiring skills in process modeling, change management, data analysis, and stakeholder communication.",
+    "descriptionDe": "Die Betriebsorganisation befasst sich mit der Gestaltung, Analyse und Optimierung von Aufbau- und Ablauforganisation sowie von Prozessen und Strukturen. Typische Rollen sind Organisationsentwickler, Prozessmanager oder PMO-Spezialisten, wobei Fähigkeiten in Prozessmodellierung, Change Management, Datenanalyse und Kommunikation zentral sind."
+  },
+  {
+    "correlationMatrixId": "w_ther",
+    "descriptionEn": "Therapeutic Professions focus on the assessment, treatment, and rehabilitation of people with physical, mental, or developmental conditions to improve health and quality of life. Typical roles include physiotherapists, occupational therapists, speech and language therapists, and psychotherapists, requiring strong clinical expertise, empathy, communication skills, and interdisciplinary collaboration.",
+    "descriptionDe": "Therapeutische Berufe umfassen die Diagnostik, Behandlung und Rehabilitation von Menschen mit körperlichen, psychischen oder entwicklungsbedingten Beeinträchtigungen zur Förderung von Gesundheit und Lebensqualität. Typische Rollen sind Physiotherapeut:innen, Ergotherapeut:innen, Logopäd:innen und Psychotherapeut:innen, wobei fachliche Kompetenz, Einfühlungsvermögen, Kommunikationsfähigkeit und interdisziplinäre Zusammenarbeit zentrale Fähigkeiten sind."
+  },
+  {
+    "correlationMatrixId": "w_heet",
+    "descriptionEn": "The Heating/Climate (HVAC) field focuses on the design, installation, maintenance, and optimization of heating, air conditioning, and ventilation systems in residential, commercial, and industrial buildings. Typical roles include HVAC technicians, installers, service engineers, and system planners. Key skills include technical troubleshooting, system commissioning, energy efficiency, controls, and compliance with safety and environmental standards.",
+    "descriptionDe": "Das Berufsfeld Heizung/Klima/Lüftung (HKL) umfasst die Planung, Installation, Wartung und Optimierung von Heizungs-, Klima- und Lüftungsanlagen in Wohn-, Gewerbe- und Industriegebäuden. Typische Rollen sind Anlagenmechaniker:innen, Servicetechniker:innen, Monteur:innen und Planer:innen. Wichtige Fähigkeiten sind technisches Verständnis, Fehlersuche, Inbetriebnahme, Energieeffizienz sowie die Einhaltung von Sicherheits- und Umweltvorschriften."
+  },
+  {
+    "correlationMatrixId": "w_tred",
+    "descriptionEn": "Technical Writing involves creating clear, accurate documentation that explains complex technical information for users, customers, or internal teams. Typical roles include technical writer, documentation specialist, and information architect, requiring skills in writing, subject-matter analysis, usability, and collaboration with engineers and product teams.",
+    "descriptionDe": "Technische Redaktion umfasst die Erstellung klarer und präziser Dokumentationen, die komplexe technische Inhalte für Anwender, Kunden oder interne Zielgruppen verständlich machen. Typische Rollen sind Technische Redakteur:innen, Dokumentationsspezialist:innen oder Informationsarchitekt:innen, wofür Fähigkeiten in verständlichem Schreiben, Analyse technischer Inhalte, Usability und Zusammenarbeit mit Entwicklungsteams erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_nwa",
+    "descriptionEn": "Network Administration involves designing, configuring, monitoring, and maintaining computer networks to ensure reliable, secure, and efficient communication. Typical roles include network administrator, network engineer, and security specialist, requiring skills in routing, switching, firewalls, troubleshooting, and cybersecurity best practices.",
+    "descriptionDe": "Netzwerkadministration und Sicherheit umfasst die Planung, Einrichtung, Überwachung und Wartung von Netzwerken, um eine zuverlässige und sichere Kommunikation zu gewährleisten. Typische Rollen sind Netzwerkadministrator, Netzwerkingenieur oder IT-Sicherheitsspezialist, mit wichtigen Fähigkeiten in Routing, Switching, Firewalls, Fehleranalyse und IT-Sicherheitskonzepten."
+  },
+  {
+    "correlationMatrixId": "w_phot",
+    "descriptionEn": "Photography involves creating and managing visual images for artistic, commercial, editorial, or scientific purposes. Typical roles include photographer, photo editor, and imaging specialist, requiring skills in composition, lighting, camera operation, post-processing, and visual storytelling.",
+    "descriptionDe": "Fotografie umfasst die Erstellung und Bearbeitung visueller Bilder für künstlerische, kommerzielle, redaktionelle oder wissenschaftliche Zwecke. Typische Rollen sind Fotograf*in, Bildredakteur*in und Imaging-Spezialist*in; wichtige Fähigkeiten sind Bildkomposition, Lichtsetzung, Kameratechnik, Bildbearbeitung und visuelles Storytelling."
+  },
+  {
+    "correlationMatrixId": "w_envir",
+    "descriptionEn": "Environment Protection focuses on safeguarding natural resources, ecosystems, and public health through conservation, sustainable management, and environmental compliance. Typical roles include environmental scientists, conservation managers, environmental engineers, and policy advisors, requiring skills in data analysis, field and laboratory work, regulatory knowledge, and stakeholder engagement.",
+    "descriptionDe": "Umweltschutz/Naturschutz befasst sich mit dem Schutz natürlicher Ressourcen, Ökosysteme und der menschlichen Gesundheit durch Erhaltung, nachhaltige Nutzung und die Einhaltung von Umweltvorschriften. Typische Rollen sind Umweltwissenschaftler:innen, Naturschutzmanager:innen, Umweltingenieur:innen und Politikberater:innen; gefragt sind Kompetenzen in Datenanalyse, Feld- und Laborarbeit, rechtlichen Rahmenbedingungen und der Zusammenarbeit mit Stakeholdern."
+  },
+  {
+    "correlationMatrixId": "w_offi",
+    "descriptionEn": "Office Management encompasses the organization and coordination of administrative processes to ensure smooth daily operations in an organization. Typical roles include office manager, administrative assistant, and executive assistant. Key skills include organization, communication, time management, and proficiency with office and digital tools.",
+    "descriptionDe": "Büromanagement umfasst die Organisation und Koordination administrativer Abläufe, um einen reibungslosen Geschäftsalltag sicherzustellen. Typische Rollen sind Büromanager, Verwaltungsfachangestellte oder Assistenz der Geschäftsleitung. Wichtige Fähigkeiten sind Organisationsstärke, Kommunikationsfähigkeit, Zeitmanagement sowie der sichere Umgang mit Büro- und digitalen Anwendungen."
+  },
+  {
+    "correlationMatrixId": "w_nurse",
+    "descriptionEn": "Nursing involves providing patient-centered healthcare, including assessment, treatment, monitoring, and emotional support across hospitals, clinics, and community settings. Typical roles include registered nurses, nurse practitioners, and specialized care nurses, requiring strong clinical skills, empathy, communication, and teamwork.",
+    "descriptionDe": "Pflegeberufe umfassen die patientennahe Gesundheitsversorgung, einschließlich Beobachtung, Behandlung, Betreuung und emotionaler Unterstützung in Krankenhäusern, Praxen und im ambulanten Bereich. Typische Rollen sind Pflegefachpersonen, Fachpflegekräfte und spezialisierte Pflegekräfte, die Fachwissen, Einfühlungsvermögen, Kommunikationsfähigkeit und Teamarbeit erfordern."
+  },
+  {
+    "correlationMatrixId": "w_ar",
+    "descriptionEn": "IT Architecture involves designing, structuring, and governing complex IT systems and software solutions to meet business and technical requirements. Typical roles include system architect, software architect, and enterprise architect, requiring skills in system design, technology evaluation, communication, and strategic thinking.",
+    "descriptionDe": "System- und Softwarearchitektur befasst sich mit der Konzeption, Strukturierung und Steuerung komplexer IT-Systeme und Softwarelösungen zur Erfüllung fachlicher und technischer Anforderungen. Typische Rollen sind Systemarchitekt:in, Softwarearchitekt:in und Enterprise Architect, mit wichtigen Fähigkeiten in Systemdesign, Technologieauswahl, Kommunikation und strategischem Denken."
+  },
+  {
+    "correlationMatrixId": "w_edito",
+    "descriptionEn": "Editorial work involves planning, creating, editing, and curating content for print, digital, or multimedia publications. Typical roles include editors, copy editors, and content managers, requiring strong writing skills, attention to detail, subject knowledge, and the ability to coordinate with authors and stakeholders.",
+    "descriptionDe": "Das Berufsfeld Redaktion umfasst die Planung, Erstellung, Bearbeitung und Veröffentlichung von Inhalten für Print-, Online- oder multimediale Formate. Typische Rollen sind Redakteur:innen, Lektor:innen oder Content-Manager:innen, die ausgeprägte Schreibfähigkeiten, Sorgfalt, Fachkenntnisse und Koordinationsstärke benötigen."
+  },
+  {
+    "correlationMatrixId": "w_tax",
+    "descriptionEn": "Tax Advice involves providing professional guidance on tax planning, compliance, and optimization for individuals and organizations. Typical roles include tax advisors, consultants, and accountants who prepare tax returns, advise on regulations, and represent clients before tax authorities. Key skills include strong knowledge of tax law, analytical thinking, accuracy, and ethical judgment.",
+    "descriptionDe": "Steuerberatung umfasst die professionelle Beratung von Privatpersonen und Unternehmen in steuerlichen Fragen, einschließlich Steuerplanung, Compliance und Optimierung. Typische Rollen sind Steuerberater, Steuerassistenten und Consultants, die Steuererklärungen erstellen, zu gesetzlichen Regelungen beraten und Mandanten gegenüber Finanzbehörden vertreten. Wichtige Fähigkeiten sind fundierte Kenntnisse des Steuerrechts, analytisches Denken, Genauigkeit und Verantwortungsbewusstsein."
+  },
+  {
+    "correlationMatrixId": "w_purch",
+    "descriptionEn": "Purchasing focuses on sourcing and procuring goods and services to meet organizational needs at optimal cost, quality, and risk. Typical roles include Buyer, Procurement Manager, and Strategic Sourcing Specialist, requiring skills in negotiation, supplier management, market analysis, and compliance.",
+    "descriptionDe": "Der Einkauf umfasst die Beschaffung von Waren und Dienstleistungen zur Sicherstellung von Kosten-, Qualitäts- und Riskozielen eines Unternehmens. Typische Rollen sind Einkäufer:in, Procurement Manager und Strategic-Sourcing-Spezialist:in; wichtige Fähigkeiten sind Verhandlungsstärke, Lieferantenmanagement, Marktanalyse, Kommunikationsfähigkeit und Regelkonformität."
+  },
+  {
+    "correlationMatrixId": "w_veter",
+    "descriptionEn": "Veterinary Medicine focuses on the health, welfare, and medical treatment of animals, including pets, livestock, and wildlife. Typical roles include veterinarians, veterinary nurses, and researchers, requiring skills in clinical diagnosis, surgery, animal handling, and communication with animal owners.",
+    "descriptionDe": "Die Veterinärmedizin befasst sich mit der Gesundheit, dem Wohlbefinden und der medizinischen Versorgung von Tieren, darunter Haustiere, Nutztiere und Wildtiere. Typische Rollen sind Tierärztinnen und Tierärzte, tiermedizinische Fachangestellte und Forschende, wofür Fähigkeiten in Diagnostik, Chirurgie, Tierhandling und Kommunikation erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_natur",
+    "descriptionEn": "Natural Science focuses on understanding the laws of nature through observation, experimentation, and analysis in fields such as biology, chemistry, physics, and earth sciences. Typical roles include researchers, laboratory scientists, and data analysts, requiring strong analytical thinking, quantitative skills, and scientific methodology.",
+    "descriptionDe": "Die Naturwissenschaft befasst sich mit dem Verständnis der Naturgesetze durch Beobachtung, Experimente und Analyse in Bereichen wie Biologie, Chemie, Physik und Geowissenschaften. Typische Rollen sind Forscher:innen, Laborwissenschaftler:innen und Datenanalyst:innen, die analytisches Denken, mathematische Fähigkeiten und wissenschaftliche Arbeitsweisen benötigen."
+  },
+  {
+    "correlationMatrixId": "w_keyacc",
+    "descriptionEn": "Key Account Management focuses on building and maintaining long-term relationships with an organization’s most important customers to drive sustainable revenue and strategic partnerships. Typical roles include Key Account Manager or Strategic Account Lead, requiring strong negotiation, communication, analytical skills, and a deep understanding of customer needs and business strategy.",
+    "descriptionDe": "Key Account Management befasst sich mit dem Aufbau und der Pflege langfristiger Beziehungen zu den wichtigsten Kunden eines Unternehmens, um nachhaltiges Wachstum und strategische Partnerschaften zu sichern. Typische Rollen sind Key Account Manager oder Strategic Account Manager, die ausgeprägte Kommunikations‑, Verhandlungs‑ und Analysefähigkeiten sowie ein tiefes Verständnis für Kundenbedürfnisse und Unternehmensstrategien erfordern."
+  },
+  {
+    "correlationMatrixId": "w_bestatt",
+    "descriptionEn": "The funeral field involves planning and carrying out burial and memorial services, supporting families during bereavement, and handling legal, organizational, and logistical aspects after a death. Typical roles include funeral directors, mortuary assistants, and grief counselors. Key skills are empathy, organizational ability, discretion, and knowledge of regulations and rituals.",
+    "descriptionDe": "Das Berufsfeld Bestattung umfasst die Organisation und Durchführung von Beerdigungen sowie die Begleitung von Angehörigen in Trauerfällen und die Erledigung rechtlicher und organisatorischer Aufgaben. Typische Rollen sind Bestatter:innen, Bestattungsfachkräfte und Trauerbegleiter:innen. Wichtige Fähigkeiten sind Einfühlungsvermögen, Organisationstalent, Diskretion sowie Kenntnisse gesetzlicher Vorgaben und kultureller Rituale."
+  },
+  {
+    "correlationMatrixId": "w_insum",
+    "descriptionEn": "Insurance Mathematics, also known as actuarial science, focuses on modeling, analyzing, and managing financial risks in insurance and pension systems using mathematics, statistics, and economics. Typical roles include actuary, risk analyst, and pricing specialist, who assess premiums, reserves, and solvency. Key skills include strong quantitative analysis, statistical modeling, programming, and regulatory understanding.",
+    "descriptionDe": "Versicherungsmathematik beschäftigt sich mit der mathematischen und statistischen Modellierung sowie der Bewertung von Risiken in Versicherungen und Altersvorsorgesystemen. Typische Rollen sind Aktuar:in, Risikoanalyst:in oder Pricing-Spezialist:in, die Prämien, Rückstellungen und Solvabilität berechnen. Wichtige Fähigkeiten sind ausgeprägte mathematische Kenntnisse, Statistik, Programmierung und Verständnis regulatorischer Anforderungen."
+  },
+  {
+    "correlationMatrixId": "w_elec",
+    "descriptionEn": "Electrical Engineering focuses on the design, development, and maintenance of electrical and electronic systems such as power networks, control systems, and electronic devices. Typical roles include electrical engineer, electronics engineer, and automation specialist. Key skills include circuit design, system analysis, problem-solving, and knowledge of safety standards.",
+    "descriptionDe": "Elektrotechnik/Elektronik befasst sich mit der Entwicklung, Planung und Wartung elektrischer und elektronischer Systeme wie Energieversorgung, Steuerungstechnik und elektronischer Geräte. Typische Rollen sind Elektroingenieur, Elektroniker und Automatisierungstechniker. Wichtige Fähigkeiten sind Schaltungsdesign, Systemanalyse, technisches Verständnis und die Einhaltung von Sicherheitsnormen."
+  },
+  {
+    "correlationMatrixId": "w_defe",
+    "descriptionEn": "The Armed Forces field focuses on national defense, security operations, and international peacekeeping, encompassing roles such as soldiers, officers, technicians, and support specialists. It requires discipline, leadership, teamwork, physical fitness, and technical or strategic skills depending on the specialization.",
+    "descriptionDe": "Das Berufsfeld der Bundeswehr umfasst die Landes- und Bündnisverteidigung, internationale Einsätze sowie Hilfeleistungen im In- und Ausland, mit Rollen wie Soldatinnen und Soldaten, Offizieren, Technik- und Fachpersonal. Wichtige Fähigkeiten sind Disziplin, Führungs- und Teamfähigkeit, körperliche Belastbarkeit sowie technische oder strategische Kompetenzen."
+  },
+  {
+    "correlationMatrixId": "w_hrdev",
+    "descriptionEn": "Human Resource Development focuses on enhancing employees’ skills, performance, and potential through learning, talent management, and organizational development initiatives. Typical roles include HRD specialists, learning and development managers, and talent development consultants, requiring skills in instructional design, coaching, change management, and data-driven evaluation.",
+    "descriptionDe": "Personalentwicklung befasst sich mit der gezielten Förderung von Kompetenzen, Leistungsfähigkeit und Potenzialen von Mitarbeitenden durch Lernen, Talentmanagement und Organisationsentwicklung. Typische Rollen sind Personalentwickler:innen, Learning-&-Development-Manager:innen oder Talentmanager:innen, die Kompetenzen in Didaktik, Coaching, Change Management und Analysefähigkeiten benötigen."
+  },
+  {
+    "correlationMatrixId": "w_medic",
+    "descriptionEn": "Physicians are medical professionals who diagnose, treat, and prevent diseases while promoting patient health across various settings. Typical roles include general practitioners, specialists, and surgeons, working in clinics, hospitals, or research. Key skills include clinical expertise, decision-making, communication, and ethical responsibility.",
+    "descriptionDe": "Ärzte/Mediziner sind Fachkräfte im Gesundheitswesen, die Krankheiten diagnostizieren, behandeln und vorbeugen sowie die Gesundheit von Patienten fördern. Typische Rollen sind Hausärzte, Fachärzte und Chirurgen, tätig in Praxen, Krankenhäusern oder der Forschung. Wichtige Fähigkeiten sind medizinische Fachkenntnisse, Entscheidungsfähigkeit, Kommunikationsstärke und ethisches Verantwortungsbewusstsein."
+  },
+  {
+    "correlationMatrixId": "w_agri",
+    "descriptionEn": "This field covers the cultivation and management of plants, crops, forests, and green spaces for food production, raw materials, and environmental stewardship. Typical roles include farmers, foresters, horticulturists, and landscape gardeners, requiring skills in plant and soil science, machinery operation, sustainability, and practical outdoor work.",
+    "descriptionDe": "Dieses Berufsfeld umfasst den Anbau und die Bewirtschaftung von Pflanzen, Nutzpflanzen, Wäldern und Grünanlagen zur Lebensmittelproduktion, Rohstoffgewinnung und Umweltpflege. Typische Rollen sind Landwirtinnen und Landwirte, Forstwirtinnen und Forstwirte, Gärtnerinnen und Gärtner sowie Landschaftsgärtner, mit wichtigen Fähigkeiten in Pflanzen- und Bodenkunde, Technik, Nachhaltigkeit und praktischer Arbeit im Freien."
+  },
+  {
+    "correlationMatrixId": "w_synth",
+    "descriptionEn": "Plastics Engineering focuses on the design, processing, and application of polymer materials, from material selection and formulation to manufacturing methods like injection molding and extrusion. Typical roles include materials engineer, process engineer, and product development engineer, requiring skills in materials science, manufacturing processes, quality control, and problem-solving.",
+    "descriptionDe": "Kunststofftechnik befasst sich mit der Entwicklung, Verarbeitung und Anwendung von Kunststoffen, von der Materialauswahl und -rezeptur bis zu Fertigungsverfahren wie Spritzgießen und Extrusion. Typische Tätigkeiten sind Material-, Prozess- oder Entwicklungsingenieur, wobei Kenntnisse in Werkstoffkunde, Fertigungstechnik, Qualitätsmanagement und Problemlösung wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_auto",
+    "descriptionEn": "The automotive field focuses on the design, development, manufacturing, and testing of vehicles and their components. Typical roles include automotive engineers, production engineers, quality managers, and technicians. Key skills involve mechanical and electrical engineering knowledge, problem-solving, project management, and familiarity with modern technologies such as electronics and software.",
+    "descriptionDe": "Das Berufsfeld Automotive/Fahrzeugbau umfasst die Entwicklung, Konstruktion, Produktion und Erprobung von Fahrzeugen und deren Komponenten. Typische Rollen sind Fahrzeug- und Produktionsingenieure, Qualitätsmanager sowie Techniker. Wichtige Fähigkeiten sind Kenntnisse im Maschinenbau und in der Elektrotechnik, Problemlösungsfähigkeit, Projektmanagement und der Umgang mit modernen Technologien wie Elektronik und Software."
+  },
+  {
+    "correlationMatrixId": "w_dent",
+    "descriptionEn": "Dental Technique is a specialized healthcare field focused on designing and manufacturing dental prosthetics such as crowns, bridges, dentures, and orthodontic appliances. Dental technicians work closely with dentists, using precision, craftsmanship, and digital technologies like CAD/CAM to create functional and aesthetic solutions tailored to patients.",
+    "descriptionDe": "Zahntechnik ist ein spezialisiertes Berufsfeld im Gesundheitswesen, das sich mit der Herstellung von Zahnersatz wie Kronen, Brücken, Prothesen und kieferorthopädischen Geräten befasst. Zahntechniker arbeiten eng mit Zahnärzten zusammen und nutzen handwerkliches Geschick, Präzision sowie moderne digitale Technologien wie CAD/CAM."
+  },
+  {
+    "correlationMatrixId": "w_math",
+    "descriptionEn": "Mathematics/Statistics focuses on the analysis, modeling, and interpretation of quantitative data to solve theoretical and real-world problems. Typical roles include mathematicians, statisticians, data analysts, and actuaries working in research, industry, finance, or technology. Key skills include strong analytical thinking, problem-solving, and proficiency in mathematical methods, statistics, and programming.",
+    "descriptionDe": "Mathematik/Statistik befasst sich mit der Analyse, Modellierung und Interpretation quantitativer Daten zur Lösung theoretischer und praktischer Fragestellungen. Typische Rollen sind Mathematiker:innen, Statistiker:innen, Datenanalyst:innen oder Aktuar:innen in Forschung, Industrie, Finanzwesen oder Technologie. Wichtige Fähigkeiten sind analytisches Denken, Problemlösungskompetenz sowie fundierte Kenntnisse in Mathematik, Statistik und Programmierung."
+  },
+  {
+    "correlationMatrixId": "w_phar",
+    "descriptionEn": "Pharmacy is a healthcare field focused on the discovery, development, production, regulation, and safe use of medicines. Typical roles include community and hospital pharmacists, clinical specialists, researchers, and regulatory professionals, requiring strong scientific knowledge, attention to detail, and patient-centered communication skills.",
+    "descriptionDe": "Pharmazie ist ein Gesundheitsberuf, der sich mit der Erforschung, Entwicklung, Herstellung, Prüfung und sicheren Anwendung von Arzneimitteln befasst. Typische Rollen sind Apothekerinnen und Apotheker in öffentlichen und Krankenhausapotheken, in Forschung, Industrie oder Behörden, wobei fundierte naturwissenschaftliche Kenntnisse, Sorgfalt und Beratungskompetenz wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_presa",
+    "descriptionEn": "Presale/Postsale Support covers technical and commercial support before and after a sale, helping customers understand solutions, make informed decisions, and achieve successful implementation. Typical roles include Presales Engineer, Solution Consultant, Customer Success Manager, and Support Specialist, requiring strong communication, technical expertise, problem-solving, and customer-focused collaboration.",
+    "descriptionDe": "Presale/Postsale Support umfasst die technische und kaufmännische Unterstützung vor und nach dem Verkauf, um Kunden bei der Lösungsfindung, Entscheidungsfindung und erfolgreichen Implementierung zu begleiten. Typische Rollen sind Presales Engineer, Solution Consultant, Customer Success Manager und Support-Spezialist, wobei ausgeprägte Kommunikationsfähigkeiten, technisches Know-how, Problemlösungskompetenz und Kundenorientierung entscheidend sind."
+  },
+  {
+    "correlationMatrixId": "w_bio",
+    "descriptionEn": "Biology is the scientific study of living organisms, their structures, functions, interactions, and evolution. Typical roles include researchers, laboratory scientists, educators, and specialists in healthcare, biotechnology, or environmental management, requiring skills in data analysis, experimental design, and critical thinking.",
+    "descriptionDe": "Biologie ist die wissenschaftliche Untersuchung von Lebewesen, ihrer Strukturen, Funktionen, Wechselwirkungen und Evolution. Typische Tätigkeiten umfassen Forschung, Laborarbeit, Lehre sowie Aufgaben in Medizin, Biotechnologie oder Umweltmanagement und erfordern analytische Fähigkeiten, experimentelles Arbeiten und kritisches Denken."
+  },
+  {
+    "correlationMatrixId": "w_admin",
+    "descriptionEn": "Office Administration involves supporting daily business operations through organization, communication, and coordination tasks. Typical roles include administrative assistant, office manager, and executive assistant, requiring skills in organization, time management, communication, and proficiency with office software. Attention to detail, reliability, and the ability to handle multiple tasks are essential.",
+    "descriptionDe": "Büroassistenz/Büroadministration umfasst die Unterstützung des täglichen Geschäftsbetriebs durch organisatorische, kommunikative und koordinierende Aufgaben. Typische Rollen sind Büroassistent:in, Office Manager:in oder Assistenz der Geschäftsführung und erfordern Fähigkeiten wie Organisationstalent, Zeitmanagement, Kommunikationsstärke und den sicheren Umgang mit Bürosoftware. Sorgfalt, Zuverlässigkeit und Multitasking-Fähigkeit sind dabei besonders wichtig."
+  },
+  {
+    "correlationMatrixId": "w_chem",
+    "descriptionEn": "Chemistry focuses on the study of matter, its properties, reactions, and applications across industries such as pharmaceuticals, materials, energy, and manufacturing. Typical roles include research chemist, analytical chemist, process developer, and quality control specialist, requiring strong laboratory skills, data analysis, problem-solving, and a high level of safety awareness.",
+    "descriptionDe": "Das Berufsfeld Chemie befasst sich mit der Untersuchung von Stoffen, ihren Eigenschaften, Reaktionen und Anwendungen in Bereichen wie Pharma, Materialien, Energie und Industrie. Typische Rollen sind Chemikerinnen und Chemiker in Forschung und Entwicklung, Analytik, Prozessentwicklung oder Qualitätssicherung, wofür Laborpraxis, analytisches Denken, Datenanalyse und Sicherheitsbewusstsein wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_archi",
+    "descriptionEn": "Building Architecture focuses on the planning, design, and realization of buildings, combining aesthetic, functional, and technical requirements. Typical roles include architects, project planners, and site supervisors, requiring skills in design, construction methods, regulations, and interdisciplinary coordination.",
+    "descriptionDe": "Bauarchitektur befasst sich mit der Planung, Gestaltung und Umsetzung von Gebäuden unter Berücksichtigung ästhetischer, funktionaler und technischer Anforderungen. Typische Rollen sind Architekt:innen, Projektplaner:innen und Bauleiter:innen, wofür Fähigkeiten in Entwurf, Baukonstruktion, Baurecht und interdisziplinärer Zusammenarbeit erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_rece",
+    "descriptionEn": "Reception involves managing the front desk of an organization, serving as the first point of contact for visitors, clients, and callers. Typical roles include receptionist and front office assistant, requiring strong communication skills, organizational ability, professionalism, and customer service orientation.",
+    "descriptionDe": "Der Bereich Rezeption/Empfang umfasst die Betreuung des Frontdesks und ist die erste Anlaufstelle für Besucher, Kunden und Anrufer. Typische Rollen sind Empfangsmitarbeiter oder Front-Office-Assistenten, wofür Kommunikationsstärke, Organisationsfähigkeit, Professionalität und Serviceorientierung wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_pera",
+    "descriptionEn": "HR Consulting advises organizations on talent acquisition, workforce strategy, performance management, and organizational design. Typical roles include HR consultants, executive search consultants, and HR business partners. Key skills include interviewing and assessment, labor law knowledge, data analysis, stakeholder management, and change facilitation.",
+    "descriptionDe": "Personalberatung unterstützt Unternehmen bei der Gewinnung und Entwicklung von Talenten, der Personalstrategie, Vergütung, Organisationsentwicklung und Transformation. Typische Rollen sind HR-Consultants, Executive-Search-Berater:innen und HR Business Partner. Wichtige Fähigkeiten sind Interview- und Diagnostikkompetenz, arbeitsrechtliches Wissen, analytisches Denken, Projekt- und Stakeholder-Management sowie Change-Kompetenz."
+  },
+  {
+    "correlationMatrixId": "w_muse",
+    "descriptionEn": "The Museum/Gallery field involves the curation, preservation, interpretation, and presentation of art, cultural heritage, and historical collections for public engagement and education. Typical roles include curators, registrars, conservators, educators, and exhibition designers, requiring skills in research, collections management, communication, and project coordination.",
+    "descriptionDe": "Das Berufsfeld Museum & Galerie umfasst die Sammlung, Bewahrung, Erforschung und Vermittlung von Kunst, Kultur- und historischen Objekten für die Öffentlichkeit. Typische Rollen sind Kurator:innen, Registrar:innen, Restaurator:innen, Vermittler:innen und Ausstellungsgestalter:innen, die Kompetenzen in Forschung, Sammlungsmanagement, Kommunikation und Projektorganisation benötigen."
+  },
+  {
+    "correlationMatrixId": "w_upstream",
+    "descriptionEn": "Upstream Engineering focuses on the exploration, appraisal, drilling, and production of oil and natural gas resources. Typical roles include reservoir, drilling, production, and petroleum engineers who integrate geology, geophysics, and engineering. Key skills include subsurface analysis, well design, production optimization, safety management, and data-driven decision-making.",
+    "descriptionDe": "Upstream Engineering (Erdöl-/Erdgastechnik) befasst sich mit der Exploration, Bewertung, Bohrung und Förderung von Erdöl- und Erdgasvorkommen. Typische Rollen sind Reservoir-, Bohr-, Förder- und Petroleumingenieure, die Geologie, Geophysik und Ingenieurwissenschaften verknüpfen. Wichtige Fähigkeiten umfassen Untergrundanalyse, Bohr- und Fördertechnik, Produktionsoptimierung, Sicherheitsmanagement und datenbasierte Entscheidungsfindung."
+  },
+  {
+    "correlationMatrixId": "w_ebus",
+    "descriptionEn": "eBusiness/eCommerce focuses on the digital buying and selling of products and services, including online shops, digital marketplaces, and electronic business processes. Typical roles include eCommerce managers, digital marketers, product owners, and business analysts, requiring skills in online marketing, data analysis, IT systems, and customer experience management.",
+    "descriptionDe": "eBusiness/eCommerce befasst sich mit dem digitalen Verkauf von Produkten und Dienstleistungen sowie mit elektronischen Geschäftsprozessen und Online-Marktplätzen. Typische Rollen sind eCommerce-Manager, Online-Marketing-Spezialisten, Product Owner und Business-Analysten, wobei Kenntnisse in IT-Systemen, Datenanalyse, digitalem Marketing und Kundenorientierung wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_recru",
+    "descriptionEn": "Recruiting involves sourcing, attracting, assessing, and hiring talent to meet organizational needs. Typical roles include Recruiter, Talent Acquisition Specialist, and HR Manager, requiring skills in interviewing, labor market knowledge, stakeholder communication, and data-driven selection.",
+    "descriptionDe": "Personalbeschaffung umfasst die Identifikation, Ansprache, Auswahl und Einstellung von Talenten zur Deckung des Personalbedarfs. Typische Rollen sind Recruiter:in, Talent Acquisition Specialist und HR-Manager:in; wichtige Fähigkeiten sind Interviewführung, Arbeitsmarktkenntnisse, Kommunikation mit Stakeholdern sowie datenbasierte Entscheidungsfindung."
+  },
+  {
+    "correlationMatrixId": "w_top",
+    "descriptionEn": "Top Management involves the overall leadership and strategic direction of an organization. Typical roles include CEO, CFO, COO, and members of the executive board, who are responsible for setting goals, making high-level decisions, and ensuring long-term success. Key skills include strategic thinking, leadership, decision-making, and strong communication abilities.",
+    "descriptionDe": "Top Management umfasst die Gesamtführung und strategische Ausrichtung eines Unternehmens. Typische Rollen sind Geschäftsführer, CEO, CFO, COO sowie Vorstands- oder Geschäftsleitungsmitglieder, die für Zielsetzung, zentrale Entscheidungen und den langfristigen Unternehmenserfolg verantwortlich sind. Wichtige Fähigkeiten sind strategisches Denken, Führungskompetenz, Entscheidungsstärke und ausgeprägte Kommunikationsfähigkeiten."
+  },
+  {
+    "correlationMatrixId": "w_notar",
+    "descriptionEn": "The Notary’s Office field involves providing impartial legal services to authenticate documents, certify transactions, and advise parties in matters such as real estate, company law, inheritance, and family law. Typical roles include notaries and notary clerks, requiring strong legal knowledge, precision, confidentiality, and excellent organizational and communication skills.",
+    "descriptionDe": "Das Notariatswesen umfasst die unparteiische rechtliche Betreuung zur Beurkundung von Urkunden, Beglaubigung von Rechtsgeschäften sowie Beratung in Bereichen wie Immobilien-, Gesellschafts-, Erb- und Familienrecht. Typische Rollen sind Notarinnen und Notare sowie Notarfachangestellte, wofür fundierte Rechtskenntnisse, Genauigkeit, Verschwiegenheit sowie ausgeprägte Organisations- und Kommunikationsfähigkeiten erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_itman",
+    "descriptionEn": "The Head of IT leads an organization’s IT strategy, infrastructure, and operations to support business goals. Typical responsibilities include managing IT teams, overseeing systems and cybersecurity, and driving digital transformation, requiring strong leadership, technical expertise, and strategic planning skills.",
+    "descriptionDe": "Die IT-Leitung verantwortet die IT-Strategie, -Infrastruktur und den Betrieb eines Unternehmens zur Unterstützung der Geschäftsziele. Typische Aufgaben sind die Führung von IT-Teams, die Sicherstellung von Systemen und IT-Sicherheit sowie die Umsetzung digitaler Transformationen, wofür Führungsstärke, technisches Know-how und strategisches Denken erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_tour",
+    "descriptionEn": "Tourism involves the planning, organization, and delivery of travel and hospitality services such as transportation, accommodation, and leisure activities. Typical roles include travel agents, tour operators, hotel managers, and destination managers, requiring strong customer service skills, intercultural competence, organization, and sales abilities.",
+    "descriptionDe": "Der Bereich Reiseverkehr & Tourismus umfasst die Planung, Organisation und Durchführung von Reise- und Dienstleistungen wie Transport, Unterkunft und Freizeitangeboten. Typische Tätigkeiten sind z. B. Reiseverkehrskaufleute, Reiseleiter, Hotelmanager oder Destinationsmanager und erfordern Kundenorientierung, interkulturelle Kompetenz, Organisationsstärke und Verkaufsgeschick."
+  },
+  {
+    "correlationMatrixId": "w_expo",
+    "descriptionEn": "Export is the field focused on selling and delivering goods or services to international markets, managing cross-border logistics, documentation, and regulatory compliance. Typical roles include Export Manager, International Sales Coordinator, and Logistics Specialist, requiring skills in market analysis, Incoterms, customs procedures, negotiation, and foreign languages.",
+    "descriptionDe": "Export ist ein Berufsfeld, das den Verkauf und die Lieferung von Waren oder Dienstleistungen in internationale Märkte sowie die Abwicklung von Logistik, Dokumentation und rechtlichen Vorgaben umfasst. Typische Rollen sind Exportmanager, Internationaler Vertriebskoordinator oder Logistikspezialist, mit wichtigen Fähigkeiten in Marktkenntnis, Incoterms, Zollabwicklung, Verhandlung und Fremdsprachen."
+  },
+  {
+    "correlationMatrixId": "w_techpur",
+    "descriptionEn": "Procurement Engineering involves sourcing, evaluating, and purchasing technical products and services while ensuring quality, cost efficiency, and compliance with specifications. Typical roles include technical buyers and procurement engineers who work closely with engineering, suppliers, and quality teams. Key skills include technical understanding, negotiation, supplier management, and analytical thinking.",
+    "descriptionDe": "Der Technische Einkauf umfasst die Beschaffung und Bewertung technischer Produkte und Dienstleistungen unter Sicherstellung von Qualität, Kosten- und Termintreue. Typische Rollen sind technische Einkäufer oder Procurement Engineers, die eng mit Entwicklung, Lieferanten und Qualitätssicherung zusammenarbeiten. Wichtige Fähigkeiten sind technisches Verständnis, Verhandlungsgeschick, Lieferantenmanagement und analytisches Denken."
+  },
+  {
+    "correlationMatrixId": "w_home",
+    "descriptionEn": "Home Services encompass services provided directly in private households, such as cleaning, maintenance, gardening, childcare, and basic caregiving. Typical roles include cleaners, caregivers, handypersons, and household assistants, requiring reliability, practical skills, discretion, and strong customer service.",
+    "descriptionDe": "Haushaltsnahe Dienstleistungen umfassen Tätigkeiten, die direkt in privaten Haushalten erbracht werden, wie Reinigung, Instandhaltung, Gartenarbeit, Kinderbetreuung und einfache Pflegeleistungen. Typische Rollen sind Reinigungskräfte, Betreuungspersonen, Hausmeister oder Haushaltshilfen, wofür Zuverlässigkeit, praktische Fähigkeiten, Diskretion und Kundenorientierung wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_event",
+    "descriptionEn": "Event Management involves the planning, organization, and execution of events such as conferences, trade fairs, corporate functions, and cultural or sporting events. Typical roles include event manager, project coordinator, and production manager, requiring skills in project management, communication, budgeting, and problem-solving. Attention to detail, creativity, and the ability to work under pressure are essential.",
+    "descriptionDe": "Event Management umfasst die Planung, Organisation und Durchführung von Veranstaltungen wie Konferenzen, Messen, Firmen-Events sowie Kultur- oder Sportveranstaltungen. Typische Rollen sind Eventmanager:in, Projektkoordinator:in oder Produktionsleiter:in, wobei Fähigkeiten in Projektmanagement, Kommunikation, Budgetplanung und Problemlösung wichtig sind. Organisationsstärke, Kreativität und Belastbarkeit spielen eine zentrale Rolle."
+  },
+  {
+    "correlationMatrixId": "w_cad",
+    "descriptionEn": "CAD/Design Draftsmen create precise technical drawings and 3D models used in engineering, architecture, and manufacturing projects. Typical roles include technical drafter or CAD designer, requiring strong skills in CAD software, technical understanding, and attention to detail.",
+    "descriptionDe": "CAD/Technische Zeichner erstellen präzise technische Zeichnungen und 3D-Modelle für Projekte im Ingenieurwesen, in der Architektur und in der Industrie. Typische Rollen sind Technischer Zeichner oder CAD-Designer, wobei Kenntnisse in CAD-Software, technisches Verständnis und Genauigkeit entscheidend sind."
+  },
+  {
+    "correlationMatrixId": "w_cont",
+    "descriptionEn": "Controlling focuses on management accounting and business partnering to support strategic and operational decision-making. Typical roles include financial controller or business controller, requiring skills in planning, budgeting, reporting, data analysis, and strong communication.",
+    "descriptionDe": "Controlling umfasst das interne Rechnungswesen und die betriebswirtschaftliche Steuerung zur Unterstützung von strategischen und operativen Entscheidungen. Typische Rollen sind Financial Controller oder Business Controller, die Fähigkeiten in Planung, Budgetierung, Reporting, Datenanalyse und Kommunikation benötigen."
+  },
+  {
+    "correlationMatrixId": "w_sama",
+    "descriptionEn": "Sales Management focuses on planning, leading, and optimizing sales strategies to achieve revenue and growth targets. Typical roles include Sales Manager, Head of Sales, and Key Account Manager, requiring skills in leadership, negotiation, market analysis, and performance management.",
+    "descriptionDe": "Die Vertriebsleitung umfasst die Planung, Steuerung und Optimierung von Vertriebsstrategien zur Erreichung von Umsatz- und Wachstumszielen. Typische Rollen sind Vertriebsleiter, Head of Sales oder Key Account Manager und erfordern Fähigkeiten in Führung, Verhandlungsführung, Marktanalyse und Leistungssteuerung."
+  },
+  {
+    "correlationMatrixId": "w_seng",
+    "descriptionEn": "Software Engineering involves the systematic design, development, testing, and maintenance of software systems. Typical roles include software engineer, developer, architect, and QA engineer, requiring skills in programming, algorithms, system design, problem-solving, and teamwork.",
+    "descriptionDe": "Software-Engineering umfasst die systematische Planung, Entwicklung, Testung und Wartung von Softwaresystemen. Typische Rollen sind Softwareentwickler, Softwarearchitekt oder QA-Ingenieur und erfordern Fähigkeiten in Programmierung, Algorithmen, Systemdesign, Problemlösung und Teamarbeit."
+  },
+  {
+    "correlationMatrixId": "w_educ",
+    "descriptionEn": "School Education involves the planning and delivery of teaching and learning in primary and secondary schools to support students’ academic and personal development. Typical roles include teachers, school administrators, and educational support staff, requiring skills in pedagogy, curriculum design, classroom management, assessment, and communication.",
+    "descriptionDe": "Die Schulausbildung umfasst die Planung und Durchführung von Unterricht sowie die Förderung der fachlichen und persönlichen Entwicklung von Schülerinnen und Schülern in Grund- und weiterführenden Schulen. Typische Rollen sind Lehrkräfte, Schulleitungen und pädagogische Fachkräfte, die Kompetenzen in Didaktik, Unterrichtsplanung, Klassenführung, Leistungsbewertung und Kommunikation benötigen."
+  },
+  {
+    "correlationMatrixId": "w_house",
+    "descriptionEn": "Property management involves the administration, maintenance, and financial oversight of residential and commercial real estate on behalf of owners. Typical roles include property managers and facility administrators, requiring skills in organization, communication, legal compliance, and basic financial management.",
+    "descriptionDe": "Die Hausverwaltung umfasst die organisatorische, technische und kaufmännische Betreuung von Wohn- und Gewerbeimmobilien im Auftrag der Eigentümer. Typische Rollen sind Hausverwalter oder Objektmanager, wofür Fähigkeiten in Organisation, Kommunikation, rechtlichen Grundlagen und Finanzverwaltung erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_itpm",
+    "descriptionEn": "IT Project Management focuses on planning, coordinating, and delivering IT projects such as software implementations, infrastructure upgrades, or digital transformations. Typical roles include IT Project Manager, Scrum Master, and Product Owner, requiring skills in stakeholder management, budgeting, risk control, communication, and agile or traditional project methodologies.",
+    "descriptionDe": "IT-Projektmanagement umfasst die Planung, Steuerung und Umsetzung von IT-Projekten wie Softwareeinführungen, Infrastrukturmaßnahmen oder digitale Transformationsvorhaben. Typische Rollen sind IT-Projektmanager, Scrum Master oder Product Owner, wobei wichtige Fähigkeiten unter anderem Stakeholder-Management, Budget- und Risikokontrolle, Kommunikationsstärke sowie Kenntnisse agiler oder klassischer Projektmethoden sind."
+  },
+  {
+    "correlationMatrixId": "w_safo",
+    "descriptionEn": "Sales Force/Field Service covers customer-facing sales and service activities performed directly at client sites. Typical roles include field sales representatives, key account managers, and service technicians, requiring strong communication skills, product knowledge, negotiation ability, and high self-organization.",
+    "descriptionDe": "Der Vertrieb im Außendienst umfasst kundennahe Verkaufs- und Serviceaktivitäten, die direkt beim Kunden vor Ort stattfinden. Typische Rollen sind Außendienstmitarbeiter, Key Account Manager und Servicetechniker, die Kommunikationsstärke, Produktkenntnisse, Verhandlungsgeschick und eine hohe Selbstorganisation benötigen."
+  },
+  {
+    "correlationMatrixId": "w_maint",
+    "descriptionEn": "Application Support focuses on ensuring business applications run reliably and meet user needs, covering incident resolution, system monitoring, and user assistance. Typical roles include Application Support Analyst or Specialist, requiring skills in troubleshooting, communication, and understanding of software systems and business processes.",
+    "descriptionDe": "Die Anwendungsbetreuung stellt den stabilen Betrieb von Geschäftsanwendungen sicher und umfasst Fehleranalyse, Systemüberwachung und Anwenderunterstützung. Typische Rollen sind Application Support Analyst oder Spezialist, wobei Fähigkeiten in Problemlösung, Kommunikation sowie Kenntnisse von Softwaresystemen und Geschäftsprozessen wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_whuni",
+    "descriptionEn": "University Academics work in higher education, combining teaching, research, and academic service to advance knowledge and educate students. Typical roles include professors, lecturers, and researchers, requiring strong subject expertise, pedagogical skills, research competence, and effective communication.",
+    "descriptionDe": "Universitätslehrkräfte arbeiten in der Hochschulbildung und verbinden Lehre, Forschung und akademische Selbstverwaltung zur Wissensvermittlung und -entwicklung. Typische Rollen sind Professorinnen und Professoren, Dozierende und wissenschaftliche Mitarbeitende, die Fachkompetenz, didaktische Fähigkeiten, Forschungskompetenz und Kommunikationsstärke benötigen."
+  },
+  {
+    "correlationMatrixId": "w_space",
+    "descriptionEn": "Aviation is the field focused on the design, development, manufacturing, operation, and maintenance of aircraft and spacecraft. Typical roles include aerospace engineers, pilots, technicians, and air traffic specialists, requiring strong skills in engineering, physics, safety management, and problem-solving.",
+    "descriptionDe": "Die Luft- und Raumfahrttechnik befasst sich mit der Entwicklung, dem Bau, dem Betrieb und der Wartung von Luft- und Raumfahrzeugen. Typische Rollen sind Luft- und Raumfahrtingenieure, Piloten, Techniker und Flugsicherungsexperten, die fundierte Kenntnisse in Technik, Physik, Sicherheitsmanagement und Problemlösung benötigen."
+  },
+  {
+    "correlationMatrixId": "w_comm",
+    "descriptionEn": "Corporate Communication focuses on planning and managing an organization’s internal and external communications to build reputation, trust, and alignment with business goals. Typical roles include communications manager, PR or media relations specialist, and content or digital communications strategist, requiring strong strategic thinking, writing, stakeholder management, and crisis communication skills.",
+    "descriptionDe": "Unternehmenskommunikation befasst sich mit der strategischen Planung und Steuerung der internen und externen Kommunikation eines Unternehmens, um Reputation, Vertrauen und die Ausrichtung an den Unternehmenszielen zu stärken. Typische Rollen sind Kommunikationsmanager:in, PR- oder Media-Relations-Spezialist:in sowie Content- oder Digital-Kommunikationsmanager:in und erfordern ausgeprägte strategische Kompetenz, exzellente Schreibfähigkeiten, Stakeholder-Management und Krisenkommunikation."
+  },
+  {
+    "correlationMatrixId": "w_civil",
+    "descriptionEn": "Civil Engineering focuses on the planning, design, construction, and maintenance of infrastructure such as buildings, roads, bridges, and water systems. Typical roles include structural engineer, site engineer, and project manager. Key skills involve technical analysis, problem-solving, project coordination, and knowledge of materials, safety standards, and sustainability.",
+    "descriptionDe": "Das Bauingenieurwesen befasst sich mit der Planung, dem Entwurf, dem Bau und der Instandhaltung von Bauwerken wie Gebäuden, Straßen, Brücken und Wasserbauanlagen. Typische Rollen sind Bauingenieur, Tragwerksplaner, Bauleiter oder Projektmanager. Wichtige Fähigkeiten sind technisches Verständnis, analytisches Denken, Projektkoordination sowie Kenntnisse zu Baustoffen, Normen, Sicherheit und Nachhaltigkeit."
+  },
+  {
+    "correlationMatrixId": "w_prod",
+    "descriptionEn": "Product Management focuses on defining product vision, strategy, and roadmap to deliver customer and business value. Typical roles include Product Manager and Product Owner, requiring skills in market research, stakeholder communication, prioritization, and data-driven decision-making.",
+    "descriptionDe": "Produktmanagement umfasst die Entwicklung einer Produktvision, -strategie und -roadmap, um Kunden- und Unternehmenswert zu schaffen. Typische Rollen sind Produktmanager:in und Product Owner, die Fähigkeiten in Marktforschung, Stakeholder-Kommunikation, Priorisierung und datenbasierter Entscheidungsfindung erfordern."
+  },
+  {
+    "correlationMatrixId": "w_hote",
+    "descriptionEn": "The Hotel/Catering field covers hospitality services such as accommodation, food and beverage service, and guest support. Typical roles include hotel staff, chefs, service personnel, and managers, requiring strong customer service skills, teamwork, organization, and flexibility.",
+    "descriptionDe": "Das Hotel- und Gaststättengewerbe umfasst Dienstleistungen rund um Unterkunft, Gastronomie und Gästebetreuung. Typische Tätigkeiten sind im Service, in der Küche, im Hotelmanagement oder an der Rezeption und erfordern Kundenorientierung, Teamfähigkeit, Organisation und Belastbarkeit."
+  },
+  {
+    "correlationMatrixId": "w_inves",
+    "descriptionEn": "Investment Management involves managing portfolios across asset classes to achieve risk-adjusted returns for individual and institutional clients. Typical roles include portfolio managers, analysts, and risk managers, requiring skills in financial analysis, market research, asset allocation, and risk management.",
+    "descriptionDe": "Investment Management umfasst die Verwaltung von Portfolios über verschiedene Anlageklassen, um für private und institutionelle Kunden risikoadjustierte Renditen zu erzielen. Typische Rollen sind Portfoliomanager, Analysten und Risikomanager; wichtige Fähigkeiten sind Finanzanalyse, Marktforschung, Asset Allocation und Risikomanagement."
+  },
+  {
+    "correlationMatrixId": "w_busi",
+    "descriptionEn": "Business Processing involves handling administrative and operational tasks within an organization, such as managing data, processing documents, coordinating workflows, and supporting internal or external stakeholders. Typical roles include administrative officers, clerks, and case processors. Key skills include organizational ability, attention to detail, communication skills, and proficiency with office and IT systems.",
+    "descriptionDe": "Sachbearbeitung umfasst die Bearbeitung administrativer und operativer Aufgaben in einem Unternehmen oder einer Organisation, wie Datenverwaltung, Dokumentenbearbeitung, Prozesskoordination und die Unterstützung interner oder externer Ansprechpartner. Typische Rollen sind Sachbearbeiterinnen und Sachbearbeiter in verschiedenen Fachbereichen. Wichtige Fähigkeiten sind Organisationsgeschick, Genauigkeit, Kommunikationsfähigkeit sowie der sichere Umgang mit Büro- und IT-Systemen."
+  },
+  {
+    "correlationMatrixId": "w_hand",
+    "descriptionEn": "Artists/Performers work in creative fields to conceive, design, and produce original artistic works, ranging from visual and craft-based pieces to live performances. Typical roles include artisans, designers, musicians, actors, and independent artists. Key skills include creativity, technical mastery of materials or techniques, self-management, and the ability to communicate ideas to an audience or clients.",
+    "descriptionDe": "Das Berufsfeld Kunsthandwerk umfasst die kreative Gestaltung und Herstellung künstlerischer Arbeiten, von handwerklichen Einzelstücken bis hin zu performativen Darbietungen. Typische Rollen sind Kunsthandwerker:innen, Designer:innen, Musiker:innen, Schauspieler:innen oder freischaffende Künstler:innen. Wichtige Fähigkeiten sind Kreativität, handwerklich-technisches Können, Selbstorganisation sowie die Fähigkeit, Ideen wirkungsvoll zu vermitteln."
+  },
+  {
+    "correlationMatrixId": "w_monta",
+    "descriptionEn": "Assembling involves putting together components or products according to technical drawings, work instructions, and quality standards. Typical roles include assembly worker, fitter, or production technician, often in manufacturing or industrial settings. Key skills include manual dexterity, technical understanding, attention to detail, and the ability to work efficiently in a team.",
+    "descriptionDe": "Montage umfasst das Zusammenfügen von Bauteilen oder Produkten nach technischen Zeichnungen, Arbeitsanweisungen und Qualitätsvorgaben. Typische Rollen sind Monteur, Montagearbeiter oder Fertigungstechniker, häufig in Industrie- oder Produktionsbetrieben. Wichtige Fähigkeiten sind handwerkliches Geschick, technisches Verständnis, Genauigkeit und Teamfähigkeit."
+  },
+  {
+    "correlationMatrixId": "w_hospital",
+    "descriptionEn": "Hospital Management focuses on the administrative, financial, and operational leadership of hospitals and healthcare organizations. Typical roles include hospital administrators, department managers, and quality or operations managers, requiring skills in healthcare regulations, finance, leadership, and process optimization.",
+    "descriptionDe": "Krankenhausverwaltung befasst sich mit der administrativen, finanziellen und organisatorischen Leitung von Krankenhäusern und Gesundheitseinrichtungen. Typische Rollen sind Krankenhausmanager, Abteilungsleitungen sowie Qualitäts- oder Prozessmanager, die Kenntnisse im Gesundheitsrecht, Finanzmanagement, Führung und Organisationsentwicklung benötigen."
+  },
+  {
+    "correlationMatrixId": "w_jour",
+    "descriptionEn": "Journalism involves researching, verifying, and presenting information to the public through print, broadcast, and digital media. Typical roles include reporters, editors, and multimedia journalists, requiring skills such as critical thinking, clear writing, ethical judgment, and interviewing.",
+    "descriptionDe": "Journalismus umfasst die Recherche, Überprüfung und Aufbereitung von Informationen für die Öffentlichkeit in Print-, Rundfunk- und digitalen Medien. Typische Rollen sind Reporter:innen, Redakteur:innen und Multimedia-Journalist:innen, die Fähigkeiten wie kritisches Denken, präzises Schreiben, ethisches Urteilsvermögen und Interviewtechnik erfordern."
+  },
+  {
+    "correlationMatrixId": "w_munic",
+    "descriptionEn": "Municipal Services cover public administration and the delivery of essential services at the local government level. Typical roles include civil servants, urban planners, public works staff, and social service professionals, requiring skills in public administration, law, finance, project management, and citizen engagement.",
+    "descriptionDe": "Der Öffentliche Dienst im Kommunalwesen umfasst die Verwaltung und Erbringung öffentlicher Leistungen auf kommunaler Ebene. Typische Tätigkeiten finden sich in der Verwaltung, Stadt- und Bauplanung, im Bauhof oder in sozialen Diensten und erfordern Kenntnisse in Verwaltungsrecht, Haushaltswesen, Projektmanagement und Bürgerorientierung."
+  },
+  {
+    "correlationMatrixId": "w_faci",
+    "descriptionEn": "Facility Management focuses on the efficient operation, maintenance, and optimization of buildings and infrastructure to support core business activities. Typical roles include facility manager, maintenance coordinator, and technical services manager, requiring skills in technical knowledge, organization, budgeting, and health and safety compliance.",
+    "descriptionDe": "Facility-Management umfasst den effizienten Betrieb, die Instandhaltung und die Optimierung von Gebäuden und Infrastrukturen zur Unterstützung der Kernprozesse eines Unternehmens. Typische Rollen sind Facility Manager, Instandhaltungskoordinator oder technischer Objektleiter, wobei technisches Know-how, Organisationsfähigkeit, Budgetplanung sowie Kenntnisse in Arbeits- und Gesundheitsschutz wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_desig",
+    "descriptionEn": "Industrial Design focuses on creating functional, user-centered products for mass production, integrating aesthetics, usability, materials, and manufacturing. Typical roles include industrial designer, product designer, and design strategist, requiring skills in research, sketching, CAD, prototyping, ergonomics, and collaboration with engineering and marketing.",
+    "descriptionDe": "Industriedesign befasst sich mit der Entwicklung funktionaler, nutzerzentrierter Produkte für die Serienfertigung und verbindet Ästhetik, Gebrauchstauglichkeit, Materialien und Herstellungsprozesse. Typische Rollen sind Industriedesigner:in, Produktdesigner:in und Designstratege:in; gefragt sind Fähigkeiten in Recherche, Skizzieren, CAD, Prototyping, Ergonomie sowie die Zusammenarbeit mit Technik und Marketing."
+  },
+  {
+    "correlationMatrixId": "w_rev",
+    "descriptionEn": "Revision refers to internal auditing and review activities that assess the effectiveness, compliance, and risk management of an organization’s processes, controls, and governance. Typical roles include internal auditor or revision manager, requiring strong analytical skills, independence, integrity, and a solid understanding of regulations and business processes.",
+    "descriptionDe": "Revision bezeichnet interne Prüfungs- und Kontrolltätigkeiten, die die Wirksamkeit, Ordnungsmäßigkeit und Risikosteuerung von Prozessen, Kontrollen und Governance-Strukturen eines Unternehmens bewerten. Typische Rollen sind Revisor oder Leiter Revision, wofür analytisches Denken, Unabhängigkeit, Integrität sowie fundierte Kenntnisse von Vorschriften und Geschäftsprozessen erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_dba",
+    "descriptionEn": "Database Administration involves designing, operating, and maintaining databases to ensure data availability, performance, integrity, and security. Typical roles include Database Administrator (DBA) and Data Platform Engineer, requiring skills in SQL, backup and recovery, performance tuning, security, and increasingly cloud database services.",
+    "descriptionDe": "Datenbankadministration umfasst die Planung, den Betrieb und die Wartung von Datenbanken, um Verfügbarkeit, Leistung, Integrität und Sicherheit der Daten sicherzustellen. Typische Rollen sind Datenbankadministrator (DBA) oder Data Platform Engineer, mit wichtigen Fähigkeiten in SQL, Backup- und Recovery-Strategien, Performance-Optimierung, Sicherheit und Cloud-Datenbanken."
+  },
+  {
+    "correlationMatrixId": "w_book",
+    "descriptionEn": "Accounting involves recording, analyzing, and reporting financial transactions to ensure accurate financial information and compliance with laws and standards. Typical roles include accountants, bookkeepers, and financial controllers. Key skills include attention to detail, numerical accuracy, knowledge of accounting regulations, and proficiency with financial software.",
+    "descriptionDe": "Buchhaltung umfasst die Erfassung, Analyse und Auswertung von Geschäftsvorfällen, um korrekte Finanzinformationen und die Einhaltung gesetzlicher Vorgaben sicherzustellen. Typische Rollen sind Buchhalter:innen, Accountant:innen und Controller:innen. Wichtige Fähigkeiten sind Genauigkeit, Zahlenverständnis, Kenntnisse der Rechnungslegungsvorschriften und der Umgang mit Buchhaltungssoftware."
+  },
+  {
+    "correlationMatrixId": "w_rese",
+    "descriptionEn": "Research & Development focuses on creating new products, technologies, and knowledge through systematic investigation and experimentation. Typical roles include researchers, engineers, scientists, and product developers working across academia and industry. Key skills include analytical thinking, creativity, data analysis, and strong problem-solving abilities.",
+    "descriptionDe": "Forschung & Entwicklung befasst sich mit der systematischen Erforschung, Entwicklung und Verbesserung von Produkten, Technologien und Wissen. Typische Rollen sind Forschende, Ingenieurinnen und Ingenieure, Wissenschaftlerinnen und Wissenschaftler sowie Produktentwickler in Industrie und Wissenschaft. Wichtige Fähigkeiten sind analytisches Denken, Kreativität, Datenanalyse und ausgeprägte Problemlösungskompetenz."
+  },
+  {
+    "correlationMatrixId": "w_street",
+    "descriptionEn": "Road building involves the planning, construction, and maintenance of roads, highways, and related infrastructure. Typical roles include civil engineers, site managers, surveyors, and heavy equipment operators, requiring skills in construction methods, materials science, safety standards, and project coordination.",
+    "descriptionDe": "Der Straßenbau umfasst die Planung, den Bau und die Instandhaltung von Straßen, Autobahnen und zugehöriger Infrastruktur. Typische Rollen sind Bauingenieure, Poliere, Vermessungstechniker und Baumaschinenführer, wobei Kenntnisse in Bautechnik, Baustoffen, Arbeitssicherheit und Projektorganisation wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_craft",
+    "descriptionEn": "The building craft field covers skilled trades involved in the construction, renovation, and maintenance of buildings and infrastructure. Typical roles include masons, carpenters, roofers, and concrete workers, requiring practical craftsmanship, technical understanding, and attention to safety and quality.",
+    "descriptionDe": "Das Bauhandwerk umfasst handwerkliche Berufe, die sich mit dem Bau, der Sanierung und der Instandhaltung von Gebäuden und Bauwerken befassen. Typische Rollen sind Maurer, Zimmerer, Dachdecker und Betonbauer, die handwerkliches Geschick, technisches Verständnis sowie ein hohes Qualitäts- und Sicherheitsbewusstsein benötigen."
+  },
+  {
+    "correlationMatrixId": "w_statics",
+    "descriptionEn": "Building Mechanics (Structural Engineering) focuses on the analysis and design of load-bearing structures to ensure safety, stability, and efficiency of buildings and infrastructure. Professionals in this field, such as structural engineers and designers, apply mathematics, mechanics, and engineering software to calculate forces, deformations, and material behavior.",
+    "descriptionDe": "Baustatik befasst sich mit der Berechnung und Bemessung von tragenden Bauwerken, um deren Sicherheit, Standsicherheit und Wirtschaftlichkeit zu gewährleisten. Fachkräfte wie Tragwerksplaner:innen oder Bauingenieur:innen nutzen Mathematik, Mechanik und spezielle Software, um Kräfte, Verformungen und Materialverhalten zu analysieren."
+  },
+  {
+    "correlationMatrixId": "w_siteman",
+    "descriptionEn": "Site Management involves planning, coordinating, and supervising construction projects to ensure they are delivered on time, within budget, and to required quality and safety standards. Typical roles include site manager or construction manager, requiring strong leadership, technical knowledge, communication skills, and the ability to manage subcontractors, schedules, and risks.",
+    "descriptionDe": "Die Bauleitung umfasst die Planung, Koordination und Überwachung von Bauprojekten, um Termine, Kosten, Qualität und Sicherheitsvorgaben einzuhalten. Typische Rollen sind Bauleiter oder Projektleiter, wofür Führungsstärke, technisches Fachwissen, Kommunikationsfähigkeit sowie Kompetenz im Umgang mit Nachunternehmern, Zeitplänen und Risiken erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_judi",
+    "descriptionEn": "The Judiciary encompasses the court system and legal processes that interpret and apply the law, ensuring justice and the rule of law. Typical roles include judges, prosecutors, attorneys, and court administrators, requiring strong legal expertise, ethical judgment, analytical thinking, and clear communication.",
+    "descriptionDe": "Das Rechtswesen umfasst das Gerichtssystem und die rechtlichen Verfahren zur Auslegung und Anwendung von Gesetzen und zur Sicherung des Rechtsstaats. Typische Rollen sind Richterinnen und Richter, Staatsanwältinnen und Staatsanwälte, Rechtsanwältinnen und Rechtsanwälte sowie die Justizverwaltung, wofür fundierte Rechtskenntnisse, ethisches Urteilsvermögen, analytisches Denken und Kommunikationsstärke erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_pr",
+    "descriptionEn": "Public Relations focuses on managing and shaping an organization’s communication and reputation with the public, media, and stakeholders. Typical roles include PR manager, communications specialist, and press officer, requiring strong writing skills, strategic thinking, media relations expertise, and crisis communication abilities.",
+    "descriptionDe": "Public Relations befasst sich mit der strategischen Gestaltung der Kommunikation und des öffentlichen Images von Organisationen gegenüber Medien, Öffentlichkeit und Stakeholdern. Typische Rollen sind PR-Manager, Kommunikationsreferenten oder Pressesprecher, wobei wichtige Fähigkeiten Schreibkompetenz, strategisches Denken, Medienarbeit und Krisenkommunikation sind."
+  },
+  {
+    "correlationMatrixId": "w_hist",
+    "descriptionEn": "History involves researching, analyzing, and interpreting the past through written sources, material culture, and archaeological evidence. Typical roles include historians, archaeologists, researchers, curators, and educators, requiring strong skills in critical analysis, source evaluation, fieldwork, documentation, and academic writing.",
+    "descriptionDe": "Geschichte/Archäologie befasst sich mit der Erforschung, Analyse und Interpretation der Vergangenheit anhand von Schriftquellen, materiellen Überresten und archäologischen Funden. Typische Rollen sind Historiker:innen, Archäolog:innen, Wissenschaftler:innen, Kurator:innen und Lehrende, die Kompetenzen in Quellenkritik, analytischem Denken, Feldarbeit, Dokumentation und wissenschaftlichem Schreiben benötigen."
+  },
+  {
+    "correlationMatrixId": "w_soci",
+    "descriptionEn": "Social Work focuses on supporting individuals, families, and communities to improve well-being, protect rights, and address social challenges. Typical roles include case management, counseling, advocacy, and community development, requiring skills such as empathy, communication, ethical judgment, and interdisciplinary collaboration.",
+    "descriptionDe": "Sozialarbeit unterstützt Einzelpersonen, Familien und Gemeinschaften dabei, ihr Wohlbefinden zu verbessern, Rechte zu sichern und soziale Probleme zu bewältigen. Typische Tätigkeiten sind Fallarbeit, Beratung, Interessenvertretung und Gemeinwesenarbeit, wofür Empathie, Kommunikationsfähigkeit, ethisches Urteilsvermögen und interdisziplinäre Zusammenarbeit wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_medte",
+    "descriptionEn": "Medical Technology focuses on the development, manufacturing, and maintenance of medical devices and digital health solutions used for diagnosis, therapy, and patient monitoring. Typical roles include biomedical engineers, quality and regulatory specialists, and service technicians, requiring skills in engineering, software, regulatory compliance, and interdisciplinary collaboration.",
+    "descriptionDe": "Die Medizintechnik umfasst die Entwicklung, Herstellung und den Betrieb von Medizinprodukten sowie digitalen Gesundheitslösungen für Diagnostik, Therapie und Patientenüberwachung. Typische Rollen sind Medizintechnik-Ingenieur:innen, Qualitäts- und Zulassungsexpert:innen sowie Servicetechniker:innen, wofür Kenntnisse in Technik, Software, Regulierung und interdisziplinärer Zusammenarbeit erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_stone",
+    "descriptionEn": "Stone Working involves the processing, shaping, and finishing of natural and artificial stone for construction, architecture, art, and restoration. Typical roles include stonemasons, stone carvers, and monument builders, who work with materials like granite, marble, and sandstone. Key skills include precision craftsmanship, material knowledge, tool handling, and the ability to read technical drawings.",
+    "descriptionDe": "Steinbearbeitung umfasst das Bearbeiten, Formen und Veredeln von Natur- und Kunststein für Bauwesen, Architektur, Kunst und Restaurierung. Typische Tätigkeiten sind die Arbeit als Steinmetz, Steinbildhauer oder im Denkmalbau mit Materialien wie Granit, Marmor oder Sandstein. Wichtige Fähigkeiten sind handwerkliche Präzision, Materialkenntnisse, sicherer Umgang mit Werkzeugen und das Lesen technischer Zeichnungen."
+  },
+  {
+    "correlationMatrixId": "w_ana",
+    "descriptionEn": "Business Analysis focuses on identifying business needs, analyzing processes, and translating requirements into actionable solutions that create value. Typical roles include Business Analyst, Requirements Analyst, and Product Owner, requiring skills in stakeholder communication, data analysis, and problem-solving.",
+    "descriptionDe": "Business Analysis befasst sich mit der Identifikation von Geschäftsanforderungen, der Analyse von Prozessen und der Übersetzung von Anforderungen in umsetzbare Lösungen mit Mehrwert. Typische Rollen sind Business Analyst, Requirements Engineer oder Product Owner, wobei Kommunikationsfähigkeit, analytisches Denken und Problemlösungskompetenz zentrale Fähigkeiten sind."
+  },
+  {
+    "correlationMatrixId": "w_secu",
+    "descriptionEn": "Security Services involve protecting people, property, and information through preventive measures, monitoring, and response to incidents. Typical roles include security officers, guards, supervisors, and risk or access control specialists, requiring skills such as vigilance, communication, conflict management, and knowledge of safety regulations.",
+    "descriptionDe": "Sicherheits- und Schutzdienste umfassen den Schutz von Personen, Sachwerten und Informationen durch Prävention, Überwachung und das Eingreifen bei Vorfällen. Typische Rollen sind Sicherheitsmitarbeiter, Wachpersonal, Einsatzleiter sowie Fachkräfte für Risiko- und Zutrittskontrolle, die Fähigkeiten wie Aufmerksamkeit, Kommunikationsstärke, Konfliktlösung und Kenntnisse der Sicherheitsvorschriften erfordern."
+  },
+  {
+    "correlationMatrixId": "w_klifo",
+    "descriptionEn": "Clinical Research involves the planning, conduct, and analysis of clinical trials to evaluate the safety and effectiveness of medical interventions. Typical roles include Clinical Research Associates, study coordinators, and data managers, requiring skills in regulatory compliance, Good Clinical Practice (GCP), data analysis, and patient safety.",
+    "descriptionDe": "Klinische Forschung umfasst die Planung, Durchführung und Auswertung klinischer Studien zur Bewertung der Sicherheit und Wirksamkeit medizinischer Interventionen. Typische Rollen sind Clinical Research Associates, Studienkoordinatoren und Datenmanager, wobei Kenntnisse in regulatorischen Anforderungen, Good Clinical Practice (GCP), Datenanalyse und Patientensicherheit erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_bank",
+    "descriptionEn": "Banking involves managing financial assets, providing credit, facilitating payments, and advising individuals and businesses on financial matters. Typical roles include bank clerks, financial advisors, risk managers, and investment bankers. Key skills include financial analysis, customer service, regulatory knowledge, and attention to detail.",
+    "descriptionDe": "Das Bankwesen umfasst die Verwaltung von Finanzmitteln, die Vergabe von Krediten, den Zahlungsverkehr sowie die Beratung von Privat- und Geschäftskunden. Typische Rollen sind Bankkaufleute, Finanzberater, Risikomanager und Investmentbanker. Wichtige Fähigkeiten sind Finanzanalyse, Kundenorientierung, Kenntnisse von Vorschriften und hohe Genauigkeit."
+  },
+  {
+    "correlationMatrixId": "w_sete",
+    "descriptionEn": "Service Technic focuses on the installation, maintenance, repair, and troubleshooting of technical systems and equipment, often directly at customer sites. Typical roles include service technician or field service engineer, requiring strong technical knowledge, problem-solving skills, and customer orientation.",
+    "descriptionDe": "Service-Technik umfasst die Installation, Wartung, Reparatur und Fehlerdiagnose von technischen Anlagen und Geräten, häufig im direkten Kundenkontakt. Typische Rollen sind Servicetechniker oder Field Service Engineer, wofür technisches Fachwissen, analytische Fähigkeiten und Serviceorientierung wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_food",
+    "descriptionEn": "Food Production focuses on the manufacturing, processing, and packaging of food products while ensuring quality, safety, and efficiency. Typical roles include food technologists, production operators, quality assurance specialists, and plant managers, requiring skills in process control, hygiene standards, teamwork, and technical understanding.",
+    "descriptionDe": "Die Nahrungsmittelproduktion befasst sich mit der Herstellung, Verarbeitung und Verpackung von Lebensmitteln unter Einhaltung von Qualitäts-, Sicherheits- und Effizienzstandards. Typische Rollen sind Lebensmitteltechnologen, Produktionsmitarbeiter, Qualitätsmanager und Betriebsleiter, die Fähigkeiten in Prozesssteuerung, Hygienestandards, Teamarbeit und technischem Verständnis benötigen."
+  },
+  {
+    "correlationMatrixId": "w_advoc",
+    "descriptionEn": "The field of Jurist involves the practice and application of law, including advising clients, drafting legal documents, and representing interests in negotiations or court proceedings. Typical roles include lawyers and legal advisors, requiring strong legal analysis, research skills, ethical judgment, and clear communication.",
+    "descriptionDe": "Das Berufsfeld Jurist bzw. Rechtsanwaltswesen umfasst die Anwendung und Auslegung von Recht, die Beratung von Mandanten sowie die Vertretung vor Gericht oder in Verhandlungen. Typische Rollen sind Rechtsanwälte und juristische Berater, wofür analytisches Denken, fundierte Rechtskenntnisse, Verantwortungsbewusstsein und Kommunikationsfähigkeit erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_dbde",
+    "descriptionEn": "Database Development focuses on designing, implementing, and maintaining databases to store, manage, and retrieve data efficiently and securely. Typical roles include Database Developer, Database Administrator, and Data Engineer, requiring skills in SQL, data modeling, performance optimization, and data security.",
+    "descriptionDe": "Datenbankentwicklung befasst sich mit dem Entwurf, der Implementierung und der Wartung von Datenbanken zur effizienten und sicheren Speicherung und Verarbeitung von Daten. Typische Rollen sind Datenbankentwickler, Datenbankadministrator und Data Engineer, wobei Kenntnisse in SQL, Datenmodellierung, Performance-Optimierung und Datensicherheit erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_audit",
+    "descriptionEn": "Auditing/Assurance involves the independent examination of financial statements, internal controls, and business processes to provide assurance on their accuracy, compliance, and reliability. Typical roles include auditor, audit manager, and assurance consultant, requiring strong analytical skills, accounting knowledge, attention to detail, and professional judgment.",
+    "descriptionDe": "Wirtschaftsprüfung umfasst die unabhängige Prüfung von Jahresabschlüssen, internen Kontrollen und Geschäftsprozessen, um deren Ordnungsmäßigkeit, Verlässlichkeit und Gesetzeskonformität sicherzustellen. Typische Rollen sind Wirtschaftsprüfer, Prüfungsleiter oder Assurance-Berater, wobei analytische Fähigkeiten, Rechnungslegungskenntnisse, Genauigkeit und professionelles Urteilsvermögen entscheidend sind."
+  },
+  {
+    "correlationMatrixId": "w_dwh",
+    "descriptionEn": "Data warehousing focuses on designing, building, and maintaining centralized data repositories that integrate data from multiple sources for analytics and reporting. Typical roles include data warehouse architects, data engineers, and BI developers, requiring skills in data modeling, ETL/ELT processes, SQL, and cloud platforms.",
+    "descriptionDe": "Datawarehousing befasst sich mit dem Entwurf, Aufbau und Betrieb zentraler Datenplattformen, die Daten aus verschiedenen Quellen für Analysen und Berichte zusammenführen. Typische Rollen sind Data-Warehouse-Architekten, Data Engineers und BI-Entwickler, mit wichtigen Fähigkeiten in Datenmodellierung, ETL/ELT-Prozessen, SQL und Cloud-Technologien."
+  },
+  {
+    "correlationMatrixId": "w_deli",
+    "descriptionEn": "Delivery Services involve the transport and distribution of parcels and goods to private and business customers, often under time-sensitive conditions. Typical roles include couriers, drivers, dispatchers, and logistics coordinators, requiring reliability, time management, customer service skills, and basic technical know-how.",
+    "descriptionDe": "Paket- und Zustelldienste umfassen den Transport und die Auslieferung von Paketen und Waren an Privat- und Geschäftskunden, häufig unter Zeitdruck. Typische Rollen sind Zusteller, Fahrer, Disponenten und Logistikkoordinatoren, wobei Zuverlässigkeit, Zeitmanagement, Kundenorientierung und technisches Grundverständnis wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_whkig",
+    "descriptionEn": "Kindergarten & Teaching focuses on the education, care, and development of young children in early childhood settings. Typical roles include kindergarten teachers, early childhood educators, and teaching assistants, requiring skills in pedagogy, communication, creativity, and child development.",
+    "descriptionDe": "Kindergarten/-erziehung umfasst die Bildung, Betreuung und Förderung von Kindern im frühen Kindesalter. Typische Rollen sind Erzieher:innen, Kindergartenpädagog:innen und pädagogische Assistenzkräfte, wobei wichtige Fähigkeiten Pädagogik, Kommunikationsstärke, Kreativität und Kenntnisse der kindlichen Entwicklung sind."
+  },
+  {
+    "correlationMatrixId": "w_proce",
+    "descriptionEn": "Process Management focuses on designing, analyzing, and continuously improving business processes to increase efficiency, quality, and compliance. Typical roles include process managers, business analysts, and continuous improvement specialists, requiring skills in process modeling, data analysis, stakeholder communication, and change management.",
+    "descriptionDe": "Prozessmanagement befasst sich mit der Gestaltung, Analyse und kontinuierlichen Verbesserung von Geschäftsprozessen, um Effizienz, Qualität und Compliance zu steigern. Typische Rollen sind Prozessmanager, Business Analysten und Continuous-Improvement-Spezialisten, wobei Fähigkeiten in Prozessmodellierung, Datenanalyse, Stakeholder-Kommunikation und Change Management erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_energ",
+    "descriptionEn": "Power Engineering focuses on the generation, transmission, distribution, and efficient use of electrical energy in power systems and infrastructure. Typical roles include power system engineers, grid planners, and plant engineers, requiring skills in electrical engineering, system analysis, renewable integration, and safety standards.",
+    "descriptionDe": "Die Energietechnik befasst sich mit der Erzeugung, Übertragung, Verteilung und effizienten Nutzung elektrischer Energie in Versorgungsnetzen und Anlagen. Typische Rollen sind Netz- und Kraftwerksingenieure oder Planer, die Kenntnisse in Elektrotechnik, Systemanalyse, erneuerbaren Energien und Sicherheitsnormen benötigen."
+  },
+  {
+    "correlationMatrixId": "w_insu",
+    "descriptionEn": "Insurance Science focuses on the analysis and management of risks, the design of insurance products, and the operation of insurance markets. Typical roles include underwriters, actuaries, claims managers, and insurance consultants, requiring skills in risk assessment, data analysis, regulation, and customer advisory.",
+    "descriptionDe": "Das Versicherungswesen befasst sich mit der Analyse und Steuerung von Risiken, der Entwicklung von Versicherungsprodukten und der Funktionsweise von Versicherungsmärkten. Typische Tätigkeiten sind unter anderem Underwriter, Aktuare, Schadenmanager und Versicherungsberater, wofür Fähigkeiten in Risikobewertung, Datenanalyse, rechtlichen Grundlagen und Kundenberatung erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_nwde",
+    "descriptionEn": "Network Development focuses on building, expanding, and maintaining professional, technical, or organizational networks to support business goals and collaboration. Typical roles include network developers, partnership managers, and infrastructure planners. Key skills include strategic planning, communication, relationship management, and technical or organizational understanding of networks.",
+    "descriptionDe": "Netzwerkentwicklung befasst sich mit dem Aufbau, der Erweiterung und der Pflege professioneller, technischer oder organisatorischer Netzwerke zur Unterstützung von Geschäfts- und Kooperationszielen. Typische Rollen sind Netzwerkentwickler, Partnermanager oder Infrastrukturplaner. Wichtige Fähigkeiten sind strategisches Denken, Kommunikation, Beziehungsmanagement sowie technisches oder organisatorisches Netzwerkverständnis."
+  },
+  {
+    "correlationMatrixId": "w_whole",
+    "descriptionEn": "Wholesale involves purchasing goods in large quantities from manufacturers and distributing them to retailers, businesses, or institutional customers. Typical roles include sales management, purchasing, logistics, and category management, requiring strong negotiation skills, market knowledge, and supply chain coordination.",
+    "descriptionDe": "Der Großhandel umfasst den Einkauf von Waren in großen Mengen bei Herstellern und den Weiterverkauf an Einzelhändler, Unternehmen oder institutionelle Kunden. Typische Rollen sind Vertrieb, Einkauf, Logistik und Sortimentsmanagement und erfordern Verhandlungsgeschick, Marktkenntnisse sowie Kompetenz in der Lieferkettenkoordination."
+  },
+  {
+    "correlationMatrixId": "w_pm",
+    "descriptionEn": "Project Management involves planning, organizing, and overseeing projects to achieve specific goals within defined timelines, budgets, and quality standards. Typical roles include project manager, program manager, and project coordinator, working across industries. Key skills include communication, leadership, risk management, and problem-solving.",
+    "descriptionDe": "Projektmanagement umfasst die Planung, Steuerung und Überwachung von Projekten, um definierte Ziele innerhalb von Zeit-, Kosten- und Qualitätsvorgaben zu erreichen. Typische Rollen sind Projektmanager, Programmmanager und Projektkoordinator in verschiedenen Branchen. Wichtige Fähigkeiten sind Kommunikation, Führungskompetenz, Risikomanagement und Problemlösungsfähigkeit."
+  },
+  {
+    "correlationMatrixId": "w_hw",
+    "descriptionEn": "Hardware Engineering focuses on the design, development, testing, and optimization of electronic hardware systems and components. Typical roles include hardware engineer, embedded systems engineer, and PCB designer, requiring skills in electronics, circuit design, CAD tools, and hardware testing.",
+    "descriptionDe": "Hardwaretechnik befasst sich mit der Entwicklung, Konstruktion, Prüfung und Optimierung elektronischer Hardware-Systeme und -Komponenten. Typische Rollen sind Hardwareentwickler, Embedded-Systems-Ingenieur und Leiterplatten-Designer, wobei Kenntnisse in Elektronik, Schaltungsdesign, CAD-Werkzeugen und Hardwaretests wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_train",
+    "descriptionEn": "Vocational Education focuses on the planning, delivery, and evaluation of work-related training and development programs within organizations. Typical roles include trainers, instructional designers, and learning & development managers. Key skills involve pedagogical expertise, industry knowledge, communication skills, and the ability to assess learning needs and outcomes.",
+    "descriptionDe": "Betriebliche Weiterbildung umfasst die Planung, Durchführung und Evaluation arbeitsbezogener Qualifizierungs- und Entwicklungsmaßnahmen in Unternehmen. Typische Rollen sind Trainer:innen, Personalentwickler:innen und Lern- & Entwicklungsmanager:innen. Wichtige Fähigkeiten sind pädagogische Kompetenz, Fach- und Branchenkenntnisse, Kommunikationsfähigkeit sowie die Analyse von Lernbedarfen und Lernerfolgen."
+  },
+  {
+    "correlationMatrixId": "w_secr",
+    "descriptionEn": "The Secretariat field involves administrative and organizational support for managers, teams, or departments. Typical roles include secretaries, executive assistants, and office coordinators, responsible for scheduling, correspondence, documentation, and coordination. Key skills include organization, communication, discretion, and proficiency with office software.",
+    "descriptionDe": "Das Berufsfeld Sekretariat umfasst administrative und organisatorische Unterstützung für Führungskräfte, Teams oder Abteilungen. Typische Rollen sind Sekretär:innen, Assistenzen der Geschäftsführung und Office-Manager:innen, mit Aufgaben wie Terminplanung, Korrespondenz, Dokumentenverwaltung und Koordination. Wichtige Fähigkeiten sind Organisationstalent, Kommunikationsstärke, Diskretion und sicherer Umgang mit Bürosoftware."
+  },
+  {
+    "correlationMatrixId": "w_ass",
+    "descriptionEn": "The field of Assistance involves providing organizational, administrative, and operational support to managers, teams, or executives. Typical roles include executive assistant, administrative assistant, or team assistant, requiring strong organizational skills, communication abilities, discretion, and proficiency with office tools. Attention to detail and the ability to multitask are key skills in this field.",
+    "descriptionDe": "Das Berufsfeld Assistenz umfasst die organisatorische, administrative und operative Unterstützung von Führungskräften, Teams oder Abteilungen. Typische Rollen sind beispielsweise Executive Assistant, Teamassistenz oder Sachbearbeitung, die ein hohes Maß an Organisationstalent, Kommunikationsfähigkeit und Diskretion erfordern. Wichtige Fähigkeiten sind außerdem Multitasking, Genauigkeit und der sichere Umgang mit Büro- und IT-Anwendungen."
+  },
+  {
+    "correlationMatrixId": "w_syen",
+    "descriptionEn": "System Engineering focuses on designing, integrating, and managing complex systems across their entire life cycle, ensuring that technical, operational, and business requirements are met. Typical roles include systems engineer, requirements engineer, and integration engineer, requiring skills in systems thinking, modeling, interdisciplinary coordination, and problem-solving.",
+    "descriptionDe": "System Engineering befasst sich mit der Entwicklung, Integration und dem Management komplexer Systeme über ihren gesamten Lebenszyklus hinweg, um technische, operative und geschäftliche Anforderungen zu erfüllen. Typische Rollen sind Systems Engineer, Requirements Engineer und Integrationsingenieur, wofür Fähigkeiten wie systemisches Denken, Modellierung, interdisziplinäre Zusammenarbeit und Problemlösung wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_ware",
+    "descriptionEn": "Warehousing involves the storage, handling, and distribution of goods, including receiving, inventory management, picking, packing, and shipping. Typical roles include warehouse associate, forklift operator, inventory controller, and supervisor, requiring skills such as organization, accuracy, safety awareness, teamwork, and basic IT proficiency.",
+    "descriptionDe": "Lagerhaltung/Warenlogistik umfasst die Lagerung, den Umschlag und die Verteilung von Waren, einschließlich Wareneingang, Bestandsverwaltung, Kommissionierung, Verpackung und Versand. Typische Rollen sind Lagermitarbeiter, Gabelstaplerfahrer, Disponent oder Lagerleiter und erfordern Fähigkeiten wie Organisation, Genauigkeit, Sicherheitsbewusstsein, Teamarbeit und grundlegende IT-Kenntnisse."
+  },
+  {
+    "correlationMatrixId": "w_fabr",
+    "descriptionEn": "Fabrication involves the industrial manufacturing of components and products using machines, tools, and production systems. Typical roles include machine operators, production technicians, and manufacturing engineers, requiring skills in technical understanding, quality control, process optimization, and safety awareness.",
+    "descriptionDe": "Die industrielle Fertigung/Produktion umfasst die Herstellung von Bauteilen und Produkten mit Maschinen, Anlagen und automatisierten Prozessen. Typische Rollen sind Maschinenbediener, Produktionstechniker und Fertigungsingenieure, die technisches Verständnis, Qualitätsbewusstsein, Prozessoptimierung und Sicherheitskenntnisse benötigen."
+  },
+  {
+    "correlationMatrixId": "w_swe",
+    "descriptionEn": "Software Development involves designing, building, testing, and maintaining applications and systems that solve business or user problems. Typical roles include software engineer, developer, and technical lead, requiring skills in programming languages, problem-solving, system design, and collaboration.",
+    "descriptionDe": "Softwareentwicklung umfasst das Konzipieren, Programmieren, Testen und Warten von Anwendungen und Softwaresystemen zur Lösung fachlicher oder technischer Anforderungen. Typische Rollen sind Softwareentwickler, Softwareingenieur oder Technical Lead, wobei Fähigkeiten wie Programmierkenntnisse, analytisches Denken, Systemverständnis und Teamarbeit wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_stage",
+    "descriptionEn": "The field of Stage, Lighting, and Audio Technology involves the planning, setup, operation, and maintenance of technical systems for live events, theatre, concerts, and broadcasts. Typical roles include stage technician, lighting designer/operator, and audio engineer, requiring strong technical knowledge, safety awareness, teamwork, and problem-solving skills.",
+    "descriptionDe": "Das Berufsfeld Bühnen-, Licht- und Tontechnik umfasst die Planung, den Aufbau, den Betrieb und die Wartung technischer Systeme für Veranstaltungen, Theater, Konzerte und Produktionen. Typische Rollen sind Bühnentechniker*in, Lichtdesigner*in bzw. -operator und Tontechniker*in, wofür technisches Fachwissen, Sicherheitsbewusstsein, Teamarbeit und Problemlösungsfähigkeiten erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_riskm",
+    "descriptionEn": "Risk Management focuses on identifying, assessing, and mitigating potential risks that could impact an organization’s objectives, finances, operations, or reputation. Typical roles include risk analysts, risk managers, and compliance officers who work across industries. Key skills include analytical thinking, knowledge of regulations, data analysis, and strong communication abilities.",
+    "descriptionDe": "Risikomanagement befasst sich mit der Identifikation, Bewertung und Steuerung von Risiken, die Ziele, Finanzen, Prozesse oder den Ruf eines Unternehmens beeinträchtigen können. Typische Rollen sind Risikoanalysten, Risikomanager und Compliance-Beauftragte in verschiedenen Branchen. Wichtige Fähigkeiten sind analytisches Denken, regulatorisches Fachwissen, Datenanalyse sowie ausgeprägte Kommunikationsfähigkeiten."
+  },
+  {
+    "correlationMatrixId": "w_scie",
+    "descriptionEn": "Materials Science focuses on understanding, designing, and improving materials such as metals, polymers, ceramics, and composites by linking their structure to properties and performance. Typical roles include materials scientist, process engineer, and R&D specialist, requiring skills in experimental analysis, modeling, and interdisciplinary problem-solving.",
+    "descriptionDe": "Materialwissenschaft befasst sich mit dem Verständnis, der Entwicklung und der Optimierung von Materialien wie Metallen, Polymeren, Keramiken und Verbundwerkstoffen durch die Verknüpfung von Struktur, Eigenschaften und Leistung. Typische Rollen sind Materialwissenschaftler, Prozessingenieur und F&E-Spezialist, wofür analytische Fähigkeiten, experimentelle Methoden und interdisziplinäres Denken erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_sadm",
+    "descriptionEn": "System Administration involves managing, maintaining, and securing IT infrastructure such as servers, networks, operating systems, and cloud environments. Typical roles include system administrator, IT operations engineer, and DevOps engineer, requiring skills in troubleshooting, automation, security, and clear communication.",
+    "descriptionDe": "Systemadministration umfasst den Betrieb, die Wartung und die Absicherung von IT-Infrastrukturen wie Servern, Netzwerken, Betriebssystemen und Cloud-Umgebungen. Typische Rollen sind Systemadministrator:in, IT-Operations-Engineer oder DevOps-Engineer, wofür Fähigkeiten in Fehleranalyse, Automatisierung, IT-Sicherheit und Kommunikation wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_phys",
+    "descriptionEn": "Physics is the scientific field that studies matter, energy, space, and time to understand the fundamental laws of nature. Professionals work in research, education, engineering, data analysis, and applied industries, requiring strong analytical thinking, mathematical skills, and problem-solving abilities.",
+    "descriptionDe": "Physik ist das wissenschaftliche Fachgebiet, das Materie, Energie, Raum und Zeit untersucht, um die grundlegenden Naturgesetze zu verstehen. Fachkräfte arbeiten in Forschung, Lehre, Technik, Datenanalyse und angewandten Industrien und benötigen ausgeprägtes analytisches Denken, mathematische Fähigkeiten und Problemlösungskompetenz."
+  },
+  {
+    "correlationMatrixId": "w_onlma",
+    "descriptionEn": "Direct Marketing focuses on reaching and engaging customers through targeted digital channels such as email, search engines, social media, and online advertising. Typical roles include online marketing managers, performance marketers, and CRM specialists, requiring skills in data analysis, campaign optimization, content strategy, and marketing technologies.",
+    "descriptionDe": "Onlinemarketing befasst sich mit der gezielten Ansprache und Bindung von Kund:innen über digitale Kanäle wie E-Mail, Suchmaschinen, Social Media und Online-Werbung. Typische Rollen sind Online-Marketing-Manager:innen, Performance-Marketer:innen und CRM-Spezialist:innen, wobei analytische Fähigkeiten, Kampagnenoptimierung, Content-Strategie und der Umgang mit Marketing-Tools wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_cust",
+    "descriptionEn": "Customer Service focuses on supporting customers before, during, and after a purchase by answering inquiries, resolving issues, and ensuring a positive experience. Typical roles include customer service representatives, support agents, and account managers. Key skills include communication, problem-solving, empathy, and product knowledge.",
+    "descriptionDe": "Kundenbetreuung/Kundenservice umfasst die Unterstützung von Kundinnen und Kunden vor, während und nach einem Kauf, z. B. durch Beratung, Problemlösung und Beschwerdemanagement. Typische Rollen sind Kundenservice-Mitarbeitende, Support-Agents oder Account Manager. Wichtige Fähigkeiten sind Kommunikationsstärke, Problemlösungskompetenz, Einfühlungsvermögen und Produktkenntnisse."
+  },
+  {
+    "correlationMatrixId": "w_aana",
+    "descriptionEn": "Application Analysis focuses on analyzing business requirements and translating them into functional and technical specifications for software applications. Typical roles include Application Analyst or Business Analyst, working as a bridge between stakeholders and development teams. Key skills include requirements engineering, system understanding, communication, and analytical thinking.",
+    "descriptionDe": "Anwendungsanalyse befasst sich mit der Analyse fachlicher Anforderungen und deren Übersetzung in funktionale und technische Spezifikationen für Softwareanwendungen. Typische Rollen sind Anwendungsanalytiker oder Business Analyst, die als Schnittstelle zwischen Fachbereichen und Entwicklungsteams arbeiten. Wichtige Fähigkeiten sind Anforderungsmanagement, Systemverständnis, Kommunikationsstärke und analytisches Denken."
+  },
+  {
+    "correlationMatrixId": "w_publ",
+    "descriptionEn": "The publishing sector focuses on the development, production, and distribution of print and digital content such as books, journals, and media publications. Typical roles include editors, publishers, rights managers, and marketing specialists, requiring skills in content evaluation, project management, communication, and market analysis.",
+    "descriptionDe": "Das Verlagswesen umfasst die Entwicklung, Produktion und Verbreitung von gedruckten und digitalen Inhalten wie Büchern, Zeitschriften und Medienpublikationen. Typische Rollen sind Lektor:innen, Verleger:innen, Rechte- und Marketingmanager:innen, wobei Fähigkeiten in Textbewertung, Projektmanagement, Kommunikation und Marktanalyse gefragt sind."
+  },
+  {
+    "correlationMatrixId": "w_aadm",
+    "descriptionEn": "Application Administration focuses on the operation, configuration, maintenance, and monitoring of business and enterprise software applications. Typical roles include Application Administrator or Application Manager, requiring skills in system administration, databases, scripting, troubleshooting, security, and collaboration with users and vendors.",
+    "descriptionDe": "Die Anwendungsadministration umfasst den Betrieb, die Konfiguration, Wartung und Überwachung von Geschäfts- und Unternehmensanwendungen. Typische Rollen sind Anwendungsadministrator oder Application Manager und erfordern Kenntnisse in Systemadministration, Datenbanken, Skripting, Fehleranalyse, IT-Sicherheit sowie Kommunikationsfähigkeit."
+  },
+  {
+    "correlationMatrixId": "w_tool",
+    "descriptionEn": "Toolmakers design, manufacture, and maintain precision tools, molds, and dies used in industrial production. They work with metalworking machines, CAD/CAM systems, and measurement equipment, requiring strong technical skills, accuracy, and problem-solving abilities. Typical roles include mold maker, die maker, and precision tool technician.",
+    "descriptionDe": "Werkzeugmacher entwerfen, fertigen und warten präzise Werkzeuge, Formen und Vorrichtungen für die industrielle Produktion. Sie arbeiten mit Metallbearbeitungsmaschinen, CAD/CAM-Systemen und Messmitteln und benötigen technisches Verständnis, Genauigkeit und Problemlösungskompetenz. Typische Tätigkeiten sind Formenbau, Stanz- und Umformtechnik sowie der Einsatz als Präzisionswerkzeugtechniker."
+  },
+  {
+    "correlationMatrixId": "w_immo",
+    "descriptionEn": "Real Estate involves the development, buying, selling, leasing, and management of residential, commercial, and industrial properties. Typical roles include real estate agents, property managers, developers, and analysts, requiring skills in market analysis, negotiation, legal understanding, and customer relations.",
+    "descriptionDe": "Das Immobilienwesen umfasst die Entwicklung, den Kauf, Verkauf, die Vermietung und die Verwaltung von Wohn-, Gewerbe- und Industrieimmobilien. Typische Rollen sind Immobilienmakler, Property Manager, Projektentwickler und Analysten, wobei Fähigkeiten in Marktanalyse, Verhandlung, rechtlichem Verständnis und Kundenbetreuung wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_const",
+    "descriptionEn": "Construction involves the planning, design, and development of technical systems, components, or structures, often using engineering principles and digital tools. Typical roles include design engineers, CAD specialists, and project engineers, requiring skills in technical analysis, problem-solving, and interdisciplinary collaboration.",
+    "descriptionDe": "Konstruktion umfasst die Planung, Entwicklung und Auslegung technischer Systeme, Bauteile oder Strukturen unter Anwendung ingenieurwissenschaftlicher Methoden. Typische Rollen sind Konstrukteure, CAD-Spezialisten und Entwicklungsingenieure, die Fähigkeiten in technischem Verständnis, Problemlösung und Zusammenarbeit benötigen."
+  },
+  {
+    "correlationMatrixId": "w_qm",
+    "descriptionEn": "Quality Management focuses on ensuring that products, services, and processes meet defined standards, regulations, and customer expectations. Typical roles include Quality Manager, QA/QC Engineer, and Test Specialist, requiring skills in process analysis, testing methods, documentation, and continuous improvement.",
+    "descriptionDe": "Qualitätsmanagement umfasst die Sicherstellung, dass Produkte, Dienstleistungen und Prozesse festgelegten Standards, Normen und Kundenanforderungen entsprechen. Typische Rollen sind Qualitätsmanager, QA/QC-Ingenieur oder Testspezialist und erfordern Fähigkeiten in Prozessanalyse, Testmethoden, Dokumentation und kontinuierlicher Verbesserung."
+  },
+  {
+    "correlationMatrixId": "w_graph",
+    "descriptionEn": "Graphic Design focuses on creating visual communication for print and digital media to convey messages, build brands, and enhance user experiences. Typical roles include graphic designer, visual designer, and art director. Key skills include creativity, typography, layout, color theory, and proficiency with design software.",
+    "descriptionDe": "Grafikdesign beschäftigt sich mit der Gestaltung visueller Kommunikation für Print- und digitale Medien, um Botschaften zu vermitteln, Marken aufzubauen und Nutzererlebnisse zu verbessern. Typische Rollen sind Grafikdesigner:in, Visual Designer:in und Art Director. Wichtige Fähigkeiten sind Kreativität, Typografie, Layout, Farbtheorie und der sichere Umgang mit Designsoftware."
+  },
+  {
+    "correlationMatrixId": "w_waste",
+    "descriptionEn": "Waste Management involves the collection, treatment, recycling, and safe disposal of waste to protect public health and the environment. Typical roles include waste managers, environmental engineers, and plant operators, requiring skills in regulatory compliance, logistics, sustainability practices, and occupational safety.",
+    "descriptionDe": "Die Abfallwirtschaft umfasst die Sammlung, Behandlung, Verwertung und sichere Entsorgung von Abfällen zum Schutz von Umwelt und Gesundheit. Typische Rollen sind Abfallmanager, Umwelttechniker oder Anlagenbediener; wichtige Fähigkeiten sind Rechts- und Normenkenntnisse, Prozess- und Logistikmanagement, Nachhaltigkeitsverständnis und Arbeitssicherheit."
+  },
+  {
+    "correlationMatrixId": "w_music",
+    "descriptionEn": "The field of Theater/Music/Dancing encompasses performing arts such as acting, musical performance, singing, and dance in live and recorded productions. Typical roles include actors, musicians, singers, dancers, choreographers, and directors, requiring creativity, technical skill, physical and vocal training, teamwork, and stage presence.",
+    "descriptionDe": "Das Berufsfeld Theater/Schauspiel/Musik/Tanz umfasst darstellende Künste wie Schauspiel, musikalische Darbietung, Gesang und Tanz in Live- und Medienproduktionen. Typische Rollen sind Schauspieler:innen, Musiker:innen, Sänger:innen, Tänzer:innen, Choreograf:innen und Regisseur:innen, wofür Kreativität, technische Fähigkeiten, körperliches und stimmliches Training, Teamarbeit und Bühnenpräsenz erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_plant",
+    "descriptionEn": "Plant Engineering involves the design, planning, construction, and commissioning of industrial plants and production facilities across sectors such as energy, chemicals, and manufacturing. Typical roles include project engineers, process engineers, and project managers, requiring skills in engineering disciplines, project management, safety standards, and interdisciplinary coordination.",
+    "descriptionDe": "Der Anlagenbau umfasst die Planung, Konstruktion, Errichtung und Inbetriebnahme von Industrieanlagen und Produktionsstätten, etwa in der Energie-, Chemie- oder Fertigungsindustrie. Typische Rollen sind Projektingenieure, Verfahrensingenieure und Projektleiter, wobei technisches Fachwissen, Projektmanagement, Sicherheitskenntnisse und interdisziplinäre Zusammenarbeit zentrale Fähigkeiten sind."
+  },
+  {
+    "correlationMatrixId": "w_sport",
+    "descriptionEn": "The Sport/Fitness field focuses on promoting physical health, performance, and well-being through exercise, training, and movement programs. Typical roles include fitness trainers, coaches, sports scientists, and wellness managers, requiring skills in anatomy, training methods, motivation, and communication.",
+    "descriptionDe": "Das Berufsfeld Sport/Fitness beschäftigt sich mit der Förderung von körperlicher Gesundheit, Leistungsfähigkeit und Wohlbefinden durch Training, Bewegung und Sportprogramme. Typische Tätigkeiten sind Fitness- und Personaltrainer, Coaches, Sportwissenschaftler oder Gesundheitsmanager, wofür Fachwissen, Trainingskompetenz, Motivation und Kommunikationsfähigkeit wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_emb",
+    "descriptionEn": "Embedded Systems/Firmware Development focuses on designing and programming software that runs directly on hardware devices such as microcontrollers, sensors, and IoT products. Typical roles include firmware engineer and embedded software developer, requiring skills in C/C++, hardware interfaces, real-time systems, and debugging.",
+    "descriptionDe": "Embedded Systems/Firmware Entwicklung befasst sich mit der Entwicklung von Software, die direkt auf Hardware wie Mikrocontrollern, Sensoren oder IoT-Geräten läuft. Typische Rollen sind Firmware- oder Embedded-Software-Entwickler, mit wichtigen Fähigkeiten in C/C++, Hardware-Schnittstellen, Echtzeitsystemen und Fehlersuche."
+  },
+  {
+    "correlationMatrixId": "w_bibl",
+    "descriptionEn": "Librarianship involves managing physical and digital collections, providing information services, and supporting research, learning, and community access to knowledge. Typical roles include librarians, archivists, and information specialists, requiring skills in information organization, research support, digital literacy, and user-centered service.",
+    "descriptionDe": "Das Bibliothekswesen umfasst die Verwaltung physischer und digitaler Bestände, Informationsdienstleistungen sowie die Unterstützung von Forschung, Bildung und öffentlichem Zugang zu Wissen. Typische Rollen sind Bibliothekar*innen, Informationsspezialist*innen und Archivfachkräfte, die Fähigkeiten in Informationsorganisation, Recherche, digitalen Medien und Serviceorientierung benötigen."
+  },
+  {
+    "correlationMatrixId": "w_busan",
+    "descriptionEn": "Business Development focuses on identifying growth opportunities, building strategic partnerships, and expanding markets to increase a company’s long-term value. Typical roles include Business Development Manager or Strategic Partnerships Lead, requiring skills in market analysis, negotiation, communication, and strategic thinking.",
+    "descriptionDe": "Business Development befasst sich mit der Identifikation von Wachstumschancen, dem Aufbau strategischer Partnerschaften und der Erschließung neuer Märkte zur Steigerung des langfristigen Unternehmenswerts. Typische Rollen sind Business Development Manager oder Leiter strategischer Partnerschaften, wofür Fähigkeiten in Marktanalyse, Verhandlung, Kommunikation und strategischem Denken erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_relig",
+    "descriptionEn": "Spiritual Welfare involves providing spiritual, pastoral, and ethical support to individuals and communities in settings such as religious institutions, healthcare, education, social services, and the military. Typical roles include clergy, chaplains, pastoral counselors, and spiritual caregivers. Key skills include empathy, ethical judgment, intercultural competence, communication, and the ability to support people in times of crisis and life transitions.",
+    "descriptionDe": "Religiöse Tätigkeiten umfassen die spirituelle, seelsorgerische und ethische Begleitung von Einzelpersonen und Gemeinschaften, etwa in religiösen Einrichtungen, im Gesundheitswesen, in Bildung, Sozialarbeit oder beim Militär. Typische Rollen sind Geistliche, Seelsorger:innen, Militär- oder Klinikseelsorger:innen sowie spirituelle Berater:innen. Wichtige Fähigkeiten sind Empathie, ethisches Urteilsvermögen, interkulturelle Kompetenz, Kommunikationsstärke und die Begleitung von Menschen in Krisen- und Übergangssituationen."
+  },
+  {
+    "correlationMatrixId": "w_sectr",
+    "descriptionEn": "Security Trading involves the buying and selling of financial instruments such as stocks, bonds, derivatives, and other securities in financial markets. Typical roles include traders, sales traders, and market makers, requiring strong market analysis, risk management, quantitative skills, and the ability to make fast, informed decisions under regulatory constraints.",
+    "descriptionDe": "Der Wertpapierhandel umfasst den Kauf und Verkauf von Finanzinstrumenten wie Aktien, Anleihen, Derivaten und anderen Wertpapieren an den Finanzmärkten. Typische Rollen sind Händler, Sales Trader und Market Maker, wofür ausgeprägte Marktanalyse, Risikomanagement, quantitative Fähigkeiten sowie schnelle Entscheidungsfähigkeit unter regulatorischen Vorgaben erforderlich sind."
+  },
+  {
+    "correlationMatrixId": "w_mark",
+    "descriptionEn": "Marketing focuses on understanding customer needs and promoting products or services through strategic communication, branding, and market analysis. Typical roles include marketing manager, digital marketer, and brand strategist, requiring skills in creativity, data analysis, communication, and strategic thinking.",
+    "descriptionDe": "Marketing beschäftigt sich mit der Analyse von Kundenbedürfnissen sowie der Vermarktung von Produkten oder Dienstleistungen durch gezielte Kommunikation, Markenaufbau und Marktforschung. Typische Rollen sind Marketingmanager, Online-Marketer oder Brand Manager, wobei Fähigkeiten wie Kreativität, analytisches Denken, Kommunikationsstärke und strategisches Arbeiten wichtig sind."
+  },
+  {
+    "correlationMatrixId": "w_anim",
+    "descriptionEn": "Animal Keeping involves the daily care, management, and welfare of animals in settings such as zoos, farms, shelters, laboratories, and wildlife facilities. Typical roles include animal keepers, caretakers, and zookeepers, requiring skills in animal behavior, husbandry, health monitoring, hygiene, safety awareness, teamwork, and physical stamina.",
+    "descriptionDe": "Das Berufsfeld Tierhaltung/-pflege/-betreuung umfasst die tägliche Versorgung, Betreuung und das Wohlbefinden von Tieren in Zoos, landwirtschaftlichen Betrieben, Tierheimen, Laboren und Wildtierstationen. Typische Rollen sind Tierpfleger/innen und Tierbetreuer/innen, die Fachkenntnisse in Tierverhalten, Fütterung, Pflege, Gesundheitsüberwachung, Hygiene, Sicherheitsbewusstsein, Teamarbeit und körperliche Belastbarkeit benötigen."
+  },
+  {
+    "correlationMatrixId": "w_lab",
+    "descriptionEn": "The field of Labor involves scientific and technical work carried out in laboratories, focusing on analysis, experimentation, and quality control. Typical roles include laboratory technicians, laboratory assistants, and scientists working in medical, chemical, or industrial labs. Key skills include precision, analytical thinking, adherence to safety standards, and the ability to work with specialized equipment.",
+    "descriptionDe": "Das Berufsfeld Labor umfasst wissenschaftliche und technische Tätigkeiten in Laboren, insbesondere Analysen, Experimente und Qualitätskontrollen. Typische Rollen sind Laborantinnen und Laboranten, technische Assistenten sowie Wissenschaftler in medizinischen, chemischen oder industriellen Laboren. Wichtige Fähigkeiten sind Genauigkeit, analytisches Denken, Sicherheitsbewusstsein und der Umgang mit spezieller Laborausrüstung."
+  },
+  {
+    "correlationMatrixId": "w_optic",
+    "descriptionEn": "Optics is the field focused on the design, development, testing, and application of optical systems such as lenses, lasers, and imaging devices. Typical roles include optical engineers, opticians, and photonics specialists working in healthcare, manufacturing, research, and consumer technology. Key skills include physics and mathematics knowledge, precision measurement, problem-solving, and familiarity with optical software and instrumentation.",
+    "descriptionDe": "Optik ist das Berufsfeld, das sich mit der Entwicklung, Herstellung, Prüfung und Anwendung optischer Systeme wie Linsen, Laser und Bildgebungstechnologien befasst. Typische Rollen sind Optikingenieur:innen, Augenoptiker:innen und Photonik-Spezialist:innen in Bereichen wie Medizin, Industrie, Forschung und Konsumtechnik. Wichtige Fähigkeiten sind fundierte Kenntnisse in Physik und Mathematik, präzises Arbeiten, analytisches Denken sowie der Umgang mit optischen Mess- und Softwaretools."
+  },
+  {
+    "correlationMatrixId": "w_textil",
+    "descriptionEn": "Textile Production covers the design, manufacturing, and finishing of fibers, yarns, fabrics, and textile products using industrial processes. Typical roles include textile technicians, production managers, machine operators, quality controllers, and process engineers, requiring skills in material science, machinery operation, quality assurance, and process optimization.",
+    "descriptionDe": "Die Textilherstellung umfasst die Entwicklung, industrielle Fertigung und Veredelung von Fasern, Garnen, Flächengebilden und textilen Produkten. Typische Rollen sind Textiltechniker:innen, Produktionsleiter:innen, Maschinenführer:innen, Qualitätsprüfer:innen und Prozessingenieur:innen; wichtige Fähigkeiten sind Materialkunde, Maschinenbedienung, Qualitätsmanagement und Prozessoptimierung."
+  },
+  {
+    "correlationMatrixId": "w_acco",
+    "descriptionEn": "Accountancy involves recording, analyzing, and reporting financial information to support business decisions and ensure compliance with laws and standards. Typical roles include accountant, auditor, and financial controller. Key skills include numerical accuracy, analytical thinking, knowledge of accounting standards, and attention to detail.",
+    "descriptionDe": "Das Rechnungswesen umfasst die Erfassung, Analyse und Berichterstattung finanzieller Informationen zur Unterstützung von Unternehmensentscheidungen und zur Einhaltung gesetzlicher Vorgaben. Typische Rollen sind Buchhalter, Wirtschaftsprüfer und Controller. Wichtige Fähigkeiten sind Zahlenverständnis, analytisches Denken, Kenntnisse von Rechnungslegungsstandards und hohe Genauigkeit."
+  },
+  {
+    "correlationMatrixId": "w_itcon",
+    "descriptionEn": "IT Consulting focuses on advising organizations on how to use information technology to achieve business goals and improve processes. Typical roles include IT consultants, solution architects, and project managers who analyze requirements, design solutions, and support implementation. Key skills include technical expertise, problem-solving, communication, and business understanding.",
+    "descriptionDe": "IT-Consulting umfasst die Beratung von Unternehmen bei der Auswahl, Einführung und Optimierung von Informationstechnologien zur Erreichung ihrer Geschäftsziele. Typische Rollen sind IT-Consultants, Solution Architects und Projektmanager, die Anforderungen analysieren, Lösungen konzipieren und Umsetzungen begleiten. Wichtige Fähigkeiten sind technisches Know-how, analytisches Denken, Kommunikationsstärke und betriebswirtschaftliches Verständnis."
+  }
+]
