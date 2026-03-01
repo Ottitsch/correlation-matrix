@@ -5,24 +5,25 @@ Compare each approach's correlation_matrix.json against ground_truth.json.
 Metrics per approach:
   - Hits:       how many ground truth pairs appear in the predicted matrix at all
   - Rank delta: average |predicted_value - ground_truth_value| for hits
-  - Score:      hits * (1 - avg_rank_delta / 9)  — rewards both coverage and rank accuracy
+  - Score:      hits * (1 - avg_rank_delta / 9)  - rewards both coverage and rank accuracy
 """
 
 import json
 
 APPROACHES = {
-    # Main approaches
-    "baseline":              "baseline/correlation_matrix.json",
-    "techwolf-inspired":     "techwolf-inspired/correlation_matrix.json",
-    "alexU-inspired":        "alexU-inspired/correlation_matrix.json",
-    "llm-ranking":           "llm-ranking/correlation_matrix.json",
-    "skills-enriched":       "skills-enriched/correlation_matrix.json",
-    "techwolf-jobtitles":    "techwolf-jobtitles/correlation_matrix.json",
-    "hybrid":                "hybrid/correlation_matrix.json",
+    # Submission
+    "baseline":              "submission/baseline/correlation_matrix.json",
+    # Other approaches
+    "techwolf-inspired":     "other-approaches/techwolf-inspired/correlation_matrix.json",
+    "alexU-inspired":        "other-approaches/alexU-inspired/correlation_matrix.json",
+    "llm-ranking":           "other-approaches/llm-ranking/correlation_matrix.json",
+    "skills-enriched":       "other-approaches/skills-enriched/correlation_matrix.json",
+    "techwolf-jobtitles":    "other-approaches/techwolf-jobtitles/correlation_matrix.json",
+    "hybrid":                "other-approaches/hybrid/correlation_matrix.json",
     # Baseline ablations (each isolates one variable vs baseline)
-    "baseline-top10":        "baseline-top10/correlation_matrix.json",
-    "baseline-max-sym":      "baseline-max-sym/correlation_matrix.json",
-    "baseline-en-first":     "baseline-en-first/correlation_matrix.json",
+    "baseline-top10":        "other-approaches/baseline-top10/correlation_matrix.json",
+    "baseline-max-sym":      "other-approaches/baseline-max-sym/correlation_matrix.json",
+    "baseline-en-first":     "other-approaches/baseline-en-first/correlation_matrix.json",
 }
 
 GROUND_TRUTH = "ground_truth.json"
