@@ -55,11 +55,15 @@ def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
             val = 9 - rank_k
             pair_value[(lo, hi)] = max(pair_value.get((lo, hi), 0), val)
 
+    groups: dict[int, list[tuple[int, int]]] = {i: [] for i in range(n)}
+    for (lo, hi), val in pair_value.items():
+        groups[lo].append((hi, val))
+
     entries: list[dict] = []
     for i in range(n):
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
-    for (lo, hi), val in pair_value.items():
-        entries.append({"code1": ids[lo], "code2": ids[hi], "value": val})
+        for j, val in sorted(groups[i], key=lambda x: -x[1]):
+            entries.append({"code1": ids[i], "code2": ids[j], "value": val})
 
     return entries
 
