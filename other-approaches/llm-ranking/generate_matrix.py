@@ -24,25 +24,37 @@ def build_entries(ids: list[str], rankings: dict[str, list[str]]) -> list[dict]:
             if neighbor in idx:
                 scores[i][idx[neighbor]] = TOP_K - rank_k
 
-    # Include a pair (i, j) with i < j if j ∈ top-K(i) OR i ∈ top-K(j)
-    included: set[tuple[int, int]] = set()
+    # Nominate pairs: union of top-K from each direction
+    pair_maxrank: dict[tuple[int, int], int] = {}
     for cid, neighbors in rankings.items():
         i = idx[cid]
-        for neighbor in neighbors[:TOP_K]:
+        for rank_k, neighbor in enumerate(neighbors[:TOP_K]):
             if neighbor in idx:
                 j = idx[neighbor]
-                included.add((min(i, j), max(i, j)))
+                lo, hi = min(i, j), max(i, j)
+                val = TOP_K - rank_k
+                pair_maxrank[(lo, hi)] = max(pair_maxrank.get((lo, hi), 0), val)
 
-    groups: dict[int, list[tuple[int, int]]] = {i: [] for i in range(n)}
-    for lo, hi in included:
-        val = max(scores[lo][hi], scores[hi][lo])
-        groups[lo].append((hi, val))
+    # Tiebreaker within a tier: sum of both directions' rank scores
+    groups: dict[int, list[tuple[int, int, int]]] = {i: [] for i in range(n)}
+    for (lo, hi), maxrank in pair_maxrank.items():
+        sum_score = scores[lo][hi] + scores[hi][lo]
+        groups[lo].append((hi, maxrank, sum_score))
 
     entries: list[dict] = []
     for i in range(n):
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
-        for j, val in sorted(groups[i], key=lambda x: -x[1]):
-            entries.append({"code1": ids[i], "code2": ids[j], "value": val})
+        best_per_tier: dict[int, tuple[int, int]] = {}  # maxrank → (j, sum_score)
+        for j, maxrank, sum_score in groups[i]:
+            if maxrank not in best_per_tier or sum_score > best_per_tier[maxrank][1]:
+                best_per_tier[maxrank] = (j, sum_score)
+        sorted_tiers = sorted(best_per_tier.items(), key=lambda x: -x[0])
+        for rank_k, (_maxrank, (j, _)) in enumerate(sorted_tiers):
+            entries.append({
+                "code1": ids[i],
+                "code2": ids[j],
+                "value": 9 - rank_k,
+            })
 
     return entries
 

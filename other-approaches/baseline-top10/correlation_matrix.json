@@ -7,51 +7,46 @@
   {
     "code1": "w_tele",
     "code2": "w_comm",
-    "value": 10
-  },
-  {
-    "code1": "w_tele",
-    "code2": "w_sete",
     "value": 9
   },
   {
     "code1": "w_tele",
-    "code2": "w_nwa",
+    "code2": "w_sete",
     "value": 8
   },
   {
     "code1": "w_tele",
-    "code2": "w_nwde",
+    "code2": "w_nwa",
     "value": 7
   },
   {
     "code1": "w_tele",
-    "code2": "w_deli",
+    "code2": "w_nwde",
     "value": 6
   },
   {
     "code1": "w_tele",
-    "code2": "w_sani",
+    "code2": "w_deli",
     "value": 5
   },
   {
     "code1": "w_tele",
-    "code2": "w_illumi",
+    "code2": "w_sani",
     "value": 4
   },
   {
     "code1": "w_tele",
-    "code2": "w_tred",
+    "code2": "w_illumi",
     "value": 3
   },
   {
     "code1": "w_tele",
-    "code2": "w_techpur",
+    "code2": "w_tred",
     "value": 2
   },
   {
     "code1": "w_tele",
-    "code2": "w_film",
+    "code2": "w_techpur",
     "value": 1
   },
   {
@@ -62,51 +57,46 @@
   {
     "code1": "w_sale",
     "code2": "w_sama",
-    "value": 10
-  },
-  {
-    "code1": "w_sale",
-    "code2": "w_safo",
     "value": 9
   },
   {
     "code1": "w_sale",
-    "code2": "w_retai",
+    "code2": "w_safo",
     "value": 8
   },
   {
     "code1": "w_sale",
-    "code2": "w_prod",
+    "code2": "w_retai",
     "value": 7
   },
   {
     "code1": "w_sale",
-    "code2": "w_sain",
+    "code2": "w_prod",
     "value": 6
   },
   {
     "code1": "w_sale",
-    "code2": "w_ware",
+    "code2": "w_sain",
     "value": 5
   },
   {
     "code1": "w_sale",
-    "code2": "w_mark",
+    "code2": "w_ware",
     "value": 4
   },
   {
     "code1": "w_sale",
-    "code2": "w_scm",
+    "code2": "w_mark",
     "value": 3
   },
   {
     "code1": "w_sale",
-    "code2": "w_purch",
+    "code2": "w_scm",
     "value": 2
   },
   {
     "code1": "w_sale",
-    "code2": "w_cust",
+    "code2": "w_purch",
     "value": 1
   },
   {
@@ -117,47 +107,47 @@
   {
     "code1": "w_impo",
     "code2": "w_expo",
-    "value": 10
-  },
-  {
-    "code1": "w_impo",
-    "code2": "w_frei",
     "value": 9
   },
   {
     "code1": "w_impo",
-    "code2": "w_trans",
+    "code2": "w_frei",
     "value": 8
   },
   {
     "code1": "w_impo",
-    "code2": "w_ware",
+    "code2": "w_trans",
     "value": 7
   },
   {
     "code1": "w_impo",
-    "code2": "w_fabr",
+    "code2": "w_ware",
     "value": 6
   },
   {
     "code1": "w_impo",
-    "code2": "w_purch",
+    "code2": "w_fabr",
     "value": 5
   },
   {
     "code1": "w_impo",
-    "code2": "w_prod",
+    "code2": "w_purch",
     "value": 4
   },
   {
     "code1": "w_impo",
-    "code2": "w_safo",
+    "code2": "w_prod",
     "value": 3
   },
   {
     "code1": "w_impo",
-    "code2": "w_techpur",
+    "code2": "w_safo",
     "value": 2
+  },
+  {
+    "code1": "w_impo",
+    "code2": "w_techpur",
+    "value": 1
   },
   {
     "code1": "w_whkus",
@@ -167,51 +157,46 @@
   {
     "code1": "w_whkus",
     "code2": "w_cust",
-    "value": 10
-  },
-  {
-    "code1": "w_whkus",
-    "code2": "w_train",
     "value": 9
   },
   {
     "code1": "w_whkus",
-    "code2": "w_recru",
+    "code2": "w_train",
     "value": 8
   },
   {
     "code1": "w_whkus",
-    "code2": "w_sama",
+    "code2": "w_recru",
     "value": 7
   },
   {
     "code1": "w_whkus",
-    "code2": "w_sain",
+    "code2": "w_sama",
     "value": 6
   },
   {
     "code1": "w_whkus",
-    "code2": "w_pera",
+    "code2": "w_sain",
     "value": 5
   },
   {
     "code1": "w_whkus",
-    "code2": "w_safo",
+    "code2": "w_pera",
     "value": 4
   },
   {
     "code1": "w_whkus",
-    "code2": "w_busi",
+    "code2": "w_safo",
     "value": 3
   },
   {
     "code1": "w_whkus",
-    "code2": "w_rece",
+    "code2": "w_busi",
     "value": 2
   },
   {
     "code1": "w_whkus",
-    "code2": "w_con",
+    "code2": "w_rece",
     "value": 1
   },
   {
@@ -222,51 +207,46 @@
   {
     "code1": "w_pers",
     "code2": "w_hrdev",
-    "value": 10
-  },
-  {
-    "code1": "w_pers",
-    "code2": "w_pera",
     "value": 9
   },
   {
     "code1": "w_pers",
-    "code2": "w_recru",
+    "code2": "w_pera",
     "value": 8
   },
   {
     "code1": "w_pers",
-    "code2": "w_cust",
+    "code2": "w_recru",
     "value": 7
   },
   {
     "code1": "w_pers",
-    "code2": "w_admin",
+    "code2": "w_cust",
     "value": 6
   },
   {
     "code1": "w_pers",
-    "code2": "w_payr",
+    "code2": "w_admin",
     "value": 5
   },
   {
     "code1": "w_pers",
-    "code2": "w_home",
+    "code2": "w_payr",
     "value": 4
   },
   {
     "code1": "w_pers",
-    "code2": "w_org",
+    "code2": "w_home",
     "value": 3
   },
   {
     "code1": "w_pers",
-    "code2": "w_soci",
+    "code2": "w_org",
     "value": 2
   },
   {
     "code1": "w_pers",
-    "code2": "w_safo",
+    "code2": "w_soci",
     "value": 1
   },
   {
@@ -277,51 +257,46 @@
   {
     "code1": "w_info",
     "code2": "w_syen",
-    "value": 10
-  },
-  {
-    "code1": "w_info",
-    "code2": "w_techpur",
     "value": 9
   },
   {
     "code1": "w_info",
-    "code2": "w_civil",
+    "code2": "w_techpur",
     "value": 8
   },
   {
     "code1": "w_info",
-    "code2": "w_elec",
+    "code2": "w_civil",
     "value": 7
   },
   {
     "code1": "w_info",
-    "code2": "w_desig",
+    "code2": "w_elec",
     "value": 6
   },
   {
     "code1": "w_info",
-    "code2": "w_hw",
+    "code2": "w_desig",
     "value": 5
   },
   {
     "code1": "w_info",
-    "code2": "w_safety",
+    "code2": "w_hw",
     "value": 4
   },
   {
     "code1": "w_info",
-    "code2": "w_itpm",
+    "code2": "w_safety",
     "value": 3
   },
   {
     "code1": "w_info",
-    "code2": "w_mash",
+    "code2": "w_itpm",
     "value": 2
   },
   {
     "code1": "w_info",
-    "code2": "w_itcon",
+    "code2": "w_mash",
     "value": 1
   },
   {
@@ -332,51 +307,46 @@
   {
     "code1": "w_medas",
     "code2": "w_ass",
-    "value": 10
-  },
-  {
-    "code1": "w_medas",
-    "code2": "w_medic",
     "value": 9
   },
   {
     "code1": "w_medas",
-    "code2": "w_doc",
+    "code2": "w_medic",
     "value": 8
   },
   {
     "code1": "w_medas",
-    "code2": "w_hospital",
+    "code2": "w_doc",
     "value": 7
   },
   {
     "code1": "w_medas",
-    "code2": "w_ther",
+    "code2": "w_hospital",
     "value": 6
   },
   {
     "code1": "w_medas",
-    "code2": "w_medte",
+    "code2": "w_ther",
     "value": 5
   },
   {
     "code1": "w_medas",
-    "code2": "w_nurse",
+    "code2": "w_medte",
     "value": 4
   },
   {
     "code1": "w_medas",
-    "code2": "w_sani",
+    "code2": "w_nurse",
     "value": 3
   },
   {
     "code1": "w_medas",
-    "code2": "w_klifo",
+    "code2": "w_sani",
     "value": 2
   },
   {
     "code1": "w_medas",
-    "code2": "w_cc",
+    "code2": "w_klifo",
     "value": 1
   },
   {
@@ -387,51 +357,46 @@
   {
     "code1": "w_doc",
     "code2": "w_medte",
-    "value": 10
-  },
-  {
-    "code1": "w_doc",
-    "code2": "w_medic",
     "value": 9
   },
   {
     "code1": "w_doc",
-    "code2": "w_klifo",
+    "code2": "w_medic",
     "value": 8
   },
   {
     "code1": "w_doc",
-    "code2": "w_ther",
+    "code2": "w_klifo",
     "value": 7
   },
   {
     "code1": "w_doc",
-    "code2": "w_veter",
+    "code2": "w_ther",
     "value": 6
   },
   {
     "code1": "w_doc",
-    "code2": "w_natur",
+    "code2": "w_veter",
     "value": 5
   },
   {
     "code1": "w_doc",
-    "code2": "w_phys",
+    "code2": "w_natur",
     "value": 4
   },
   {
     "code1": "w_doc",
-    "code2": "w_hospital",
+    "code2": "w_phys",
     "value": 3
   },
   {
     "code1": "w_doc",
-    "code2": "w_phar",
+    "code2": "w_hospital",
     "value": 2
   },
   {
     "code1": "w_doc",
-    "code2": "w_math",
+    "code2": "w_phar",
     "value": 1
   },
   {
@@ -442,51 +407,46 @@
   {
     "code1": "w_sani",
     "code2": "w_home",
-    "value": 10
-  },
-  {
-    "code1": "w_sani",
-    "code2": "w_ass",
     "value": 9
   },
   {
     "code1": "w_sani",
-    "code2": "w_deli",
+    "code2": "w_ass",
     "value": 8
   },
   {
     "code1": "w_sani",
-    "code2": "w_secu",
+    "code2": "w_deli",
     "value": 7
   },
   {
     "code1": "w_sani",
-    "code2": "w_sete",
+    "code2": "w_secu",
     "value": 6
   },
   {
     "code1": "w_sani",
-    "code2": "w_cc",
+    "code2": "w_sete",
     "value": 5
   },
   {
     "code1": "w_sani",
-    "code2": "w_cust",
+    "code2": "w_cc",
     "value": 4
   },
   {
     "code1": "w_sani",
-    "code2": "w_sain",
+    "code2": "w_cust",
     "value": 3
   },
   {
     "code1": "w_sani",
-    "code2": "w_munic",
+    "code2": "w_sain",
     "value": 2
   },
   {
     "code1": "w_sani",
-    "code2": "w_defe",
+    "code2": "w_munic",
     "value": 1
   },
   {
@@ -497,51 +457,46 @@
   {
     "code1": "w_wood",
     "code2": "w_stone",
-    "value": 10
-  },
-  {
-    "code1": "w_wood",
-    "code2": "w_tool",
     "value": 9
   },
   {
     "code1": "w_wood",
-    "code2": "w_craft",
+    "code2": "w_tool",
     "value": 8
   },
   {
     "code1": "w_wood",
-    "code2": "w_const",
+    "code2": "w_craft",
     "value": 7
   },
   {
     "code1": "w_wood",
-    "code2": "w_fabr",
+    "code2": "w_const",
     "value": 6
   },
   {
     "code1": "w_wood",
-    "code2": "w_metal",
+    "code2": "w_fabr",
     "value": 5
   },
   {
     "code1": "w_wood",
-    "code2": "w_mate",
+    "code2": "w_metal",
     "value": 4
   },
   {
     "code1": "w_wood",
-    "code2": "w_statics",
+    "code2": "w_mate",
     "value": 3
   },
   {
     "code1": "w_wood",
-    "code2": "w_lab",
+    "code2": "w_statics",
     "value": 2
   },
   {
     "code1": "w_wood",
-    "code2": "w_mash",
+    "code2": "w_lab",
     "value": 1
   },
   {
@@ -552,51 +507,46 @@
   {
     "code1": "w_payr",
     "code2": "w_soci",
-    "value": 10
-  },
-  {
-    "code1": "w_payr",
-    "code2": "w_acco",
     "value": 9
   },
   {
     "code1": "w_payr",
-    "code2": "w_book",
+    "code2": "w_acco",
     "value": 8
   },
   {
     "code1": "w_payr",
-    "code2": "w_recru",
+    "code2": "w_book",
     "value": 7
   },
   {
     "code1": "w_payr",
-    "code2": "w_inves",
+    "code2": "w_recru",
     "value": 6
   },
   {
     "code1": "w_payr",
-    "code2": "w_asset",
+    "code2": "w_inves",
     "value": 5
   },
   {
     "code1": "w_payr",
-    "code2": "w_admin",
+    "code2": "w_asset",
     "value": 4
   },
   {
     "code1": "w_payr",
-    "code2": "w_train",
+    "code2": "w_admin",
     "value": 3
   },
   {
     "code1": "w_payr",
-    "code2": "w_hrdev",
+    "code2": "w_train",
     "value": 2
   },
   {
     "code1": "w_payr",
-    "code2": "w_tax",
+    "code2": "w_hrdev",
     "value": 1
   },
   {
@@ -607,47 +557,47 @@
   {
     "code1": "w_cc",
     "code2": "w_sete",
-    "value": 10
-  },
-  {
-    "code1": "w_cc",
-    "code2": "w_ass",
     "value": 9
   },
   {
     "code1": "w_cc",
-    "code2": "w_maint",
+    "code2": "w_ass",
     "value": 8
   },
   {
     "code1": "w_cc",
-    "code2": "w_tred",
+    "code2": "w_maint",
     "value": 7
   },
   {
     "code1": "w_cc",
-    "code2": "w_emb",
+    "code2": "w_tred",
     "value": 6
   },
   {
     "code1": "w_cc",
-    "code2": "w_hw",
+    "code2": "w_emb",
     "value": 5
   },
   {
     "code1": "w_cc",
-    "code2": "w_presa",
+    "code2": "w_hw",
     "value": 4
   },
   {
     "code1": "w_cc",
-    "code2": "w_seng",
+    "code2": "w_presa",
     "value": 3
   },
   {
     "code1": "w_cc",
-    "code2": "w_swe",
+    "code2": "w_seng",
     "value": 2
+  },
+  {
+    "code1": "w_cc",
+    "code2": "w_swe",
+    "value": 1
   },
   {
     "code1": "w_mare",
@@ -657,51 +607,46 @@
   {
     "code1": "w_mare",
     "code2": "w_ana",
-    "value": 10
-  },
-  {
-    "code1": "w_mare",
-    "code2": "w_mark",
     "value": 9
   },
   {
     "code1": "w_mare",
-    "code2": "w_sama",
+    "code2": "w_mark",
     "value": 8
   },
   {
     "code1": "w_mare",
-    "code2": "w_safo",
+    "code2": "w_sama",
     "value": 7
   },
   {
     "code1": "w_mare",
-    "code2": "w_ware",
+    "code2": "w_safo",
     "value": 6
   },
   {
     "code1": "w_mare",
-    "code2": "w_prod",
+    "code2": "w_ware",
     "value": 5
   },
   {
     "code1": "w_mare",
-    "code2": "w_onlma",
+    "code2": "w_prod",
     "value": 4
   },
   {
     "code1": "w_mare",
-    "code2": "w_scm",
+    "code2": "w_onlma",
     "value": 3
   },
   {
     "code1": "w_mare",
-    "code2": "w_purch",
+    "code2": "w_scm",
     "value": 2
   },
   {
     "code1": "w_mare",
-    "code2": "w_sectr",
+    "code2": "w_purch",
     "value": 1
   },
   {
@@ -712,51 +657,46 @@
   {
     "code1": "w_mate",
     "code2": "w_statics",
-    "value": 10
-  },
-  {
-    "code1": "w_mate",
-    "code2": "w_craft",
     "value": 9
   },
   {
     "code1": "w_mate",
-    "code2": "w_archi",
+    "code2": "w_craft",
     "value": 8
   },
   {
     "code1": "w_mate",
-    "code2": "w_const",
+    "code2": "w_archi",
     "value": 7
   },
   {
     "code1": "w_mate",
-    "code2": "w_synth",
+    "code2": "w_const",
     "value": 6
   },
   {
     "code1": "w_mate",
-    "code2": "w_scie",
+    "code2": "w_synth",
     "value": 5
   },
   {
     "code1": "w_mate",
-    "code2": "w_civil",
+    "code2": "w_scie",
     "value": 4
   },
   {
     "code1": "w_mate",
-    "code2": "w_mash",
+    "code2": "w_civil",
     "value": 3
   },
   {
     "code1": "w_mate",
-    "code2": "w_fabr",
+    "code2": "w_mash",
     "value": 2
   },
   {
     "code1": "w_mate",
-    "code2": "w_cad",
+    "code2": "w_fabr",
     "value": 1
   },
   {
@@ -767,47 +707,47 @@
   {
     "code1": "w_adve",
     "code2": "w_illumi",
-    "value": 10
-  },
-  {
-    "code1": "w_adve",
-    "code2": "w_mark",
     "value": 9
   },
   {
     "code1": "w_adve",
-    "code2": "w_onlma",
+    "code2": "w_mark",
     "value": 8
   },
   {
     "code1": "w_adve",
-    "code2": "w_comm",
+    "code2": "w_onlma",
     "value": 7
   },
   {
     "code1": "w_adve",
-    "code2": "w_pr",
+    "code2": "w_comm",
     "value": 6
   },
   {
     "code1": "w_adve",
-    "code2": "w_sama",
+    "code2": "w_pr",
     "value": 5
   },
   {
     "code1": "w_adve",
-    "code2": "w_sain",
+    "code2": "w_sama",
     "value": 4
   },
   {
     "code1": "w_adve",
-    "code2": "w_safo",
+    "code2": "w_sain",
     "value": 3
   },
   {
     "code1": "w_adve",
-    "code2": "w_cust",
+    "code2": "w_safo",
     "value": 2
+  },
+  {
+    "code1": "w_adve",
+    "code2": "w_cust",
+    "value": 1
   },
   {
     "code1": "w_asset",
@@ -817,51 +757,46 @@
   {
     "code1": "w_asset",
     "code2": "w_inves",
-    "value": 10
-  },
-  {
-    "code1": "w_asset",
-    "code2": "w_sectr",
     "value": 9
   },
   {
     "code1": "w_asset",
-    "code2": "w_riskm",
+    "code2": "w_sectr",
     "value": 8
   },
   {
     "code1": "w_asset",
-    "code2": "w_con",
+    "code2": "w_riskm",
     "value": 7
   },
   {
     "code1": "w_asset",
-    "code2": "w_keyacc",
+    "code2": "w_con",
     "value": 6
   },
   {
     "code1": "w_asset",
-    "code2": "w_acco",
+    "code2": "w_keyacc",
     "value": 5
   },
   {
     "code1": "w_asset",
-    "code2": "w_book",
+    "code2": "w_acco",
     "value": 4
   },
   {
     "code1": "w_asset",
-    "code2": "w_audit",
+    "code2": "w_book",
     "value": 3
   },
   {
     "code1": "w_asset",
-    "code2": "w_ana",
+    "code2": "w_audit",
     "value": 2
   },
   {
     "code1": "w_asset",
-    "code2": "w_house",
+    "code2": "w_ana",
     "value": 1
   },
   {
@@ -872,51 +807,46 @@
   {
     "code1": "w_safety",
     "code2": "w_civil",
-    "value": 10
-  },
-  {
-    "code1": "w_safety",
-    "code2": "w_mash",
     "value": 9
   },
   {
     "code1": "w_safety",
-    "code2": "w_const",
+    "code2": "w_mash",
     "value": 8
   },
   {
     "code1": "w_safety",
-    "code2": "w_plant",
+    "code2": "w_const",
     "value": 7
   },
   {
     "code1": "w_safety",
-    "code2": "w_techpur",
+    "code2": "w_plant",
     "value": 6
   },
   {
     "code1": "w_safety",
-    "code2": "w_syen",
+    "code2": "w_techpur",
     "value": 5
   },
   {
     "code1": "w_safety",
-    "code2": "w_lab",
+    "code2": "w_syen",
     "value": 4
   },
   {
     "code1": "w_safety",
-    "code2": "w_elec",
+    "code2": "w_lab",
     "value": 3
   },
   {
     "code1": "w_safety",
-    "code2": "w_desig",
+    "code2": "w_elec",
     "value": 2
   },
   {
     "code1": "w_safety",
-    "code2": "w_insu",
+    "code2": "w_desig",
     "value": 1
   },
   {
@@ -927,51 +857,46 @@
   {
     "code1": "w_web",
     "code2": "w_graph",
-    "value": 10
-  },
-  {
-    "code1": "w_web",
-    "code2": "w_desig",
     "value": 9
   },
   {
     "code1": "w_web",
-    "code2": "w_cad",
+    "code2": "w_desig",
     "value": 8
   },
   {
     "code1": "w_web",
-    "code2": "w_room",
+    "code2": "w_cad",
     "value": 7
   },
   {
     "code1": "w_web",
-    "code2": "w_modes",
+    "code2": "w_room",
     "value": 6
   },
   {
     "code1": "w_web",
-    "code2": "w_techpur",
+    "code2": "w_modes",
     "value": 5
   },
   {
     "code1": "w_web",
-    "code2": "w_tred",
+    "code2": "w_techpur",
     "value": 4
   },
   {
     "code1": "w_web",
-    "code2": "w_emb",
+    "code2": "w_tred",
     "value": 3
   },
   {
     "code1": "w_web",
-    "code2": "w_seng",
+    "code2": "w_emb",
     "value": 2
   },
   {
     "code1": "w_web",
-    "code2": "w_swe",
+    "code2": "w_seng",
     "value": 1
   },
   {
@@ -982,51 +907,46 @@
   {
     "code1": "w_retai",
     "code2": "w_whole",
-    "value": 10
-  },
-  {
-    "code1": "w_retai",
-    "code2": "w_purch",
     "value": 9
   },
   {
     "code1": "w_retai",
-    "code2": "w_sama",
+    "code2": "w_purch",
     "value": 8
   },
   {
     "code1": "w_retai",
-    "code2": "w_sain",
+    "code2": "w_sama",
     "value": 7
   },
   {
     "code1": "w_retai",
-    "code2": "w_phar",
+    "code2": "w_sain",
     "value": 6
   },
   {
     "code1": "w_retai",
-    "code2": "w_ware",
+    "code2": "w_phar",
     "value": 5
   },
   {
     "code1": "w_retai",
-    "code2": "w_scm",
+    "code2": "w_ware",
     "value": 4
   },
   {
     "code1": "w_retai",
-    "code2": "w_safo",
+    "code2": "w_scm",
     "value": 3
   },
   {
     "code1": "w_retai",
-    "code2": "w_prod",
+    "code2": "w_safo",
     "value": 2
   },
   {
     "code1": "w_retai",
-    "code2": "w_ebus",
+    "code2": "w_prod",
     "value": 1
   },
   {
@@ -1037,51 +957,46 @@
   {
     "code1": "w_room",
     "code2": "w_archi",
-    "value": 10
-  },
-  {
-    "code1": "w_room",
-    "code2": "w_craft",
     "value": 9
   },
   {
     "code1": "w_room",
-    "code2": "w_graph",
+    "code2": "w_craft",
     "value": 8
   },
   {
     "code1": "w_room",
-    "code2": "w_cad",
+    "code2": "w_graph",
     "value": 7
   },
   {
     "code1": "w_room",
-    "code2": "w_desig",
+    "code2": "w_cad",
     "value": 6
   },
   {
     "code1": "w_room",
-    "code2": "w_const",
+    "code2": "w_desig",
     "value": 5
   },
   {
     "code1": "w_room",
-    "code2": "w_sain",
+    "code2": "w_const",
     "value": 4
   },
   {
     "code1": "w_room",
-    "code2": "w_muse",
+    "code2": "w_sain",
     "value": 3
   },
   {
     "code1": "w_room",
-    "code2": "w_statics",
+    "code2": "w_muse",
     "value": 2
   },
   {
     "code1": "w_room",
-    "code2": "w_heet",
+    "code2": "w_statics",
     "value": 1
   },
   {
@@ -1092,47 +1007,47 @@
   {
     "code1": "w_frei",
     "code2": "w_deli",
-    "value": 10
-  },
-  {
-    "code1": "w_frei",
-    "code2": "w_ware",
     "value": 9
   },
   {
     "code1": "w_frei",
-    "code2": "w_tour",
+    "code2": "w_ware",
     "value": 8
   },
   {
     "code1": "w_frei",
-    "code2": "w_space",
+    "code2": "w_tour",
     "value": 7
   },
   {
     "code1": "w_frei",
-    "code2": "w_safo",
+    "code2": "w_space",
     "value": 6
   },
   {
     "code1": "w_frei",
-    "code2": "w_scm",
+    "code2": "w_safo",
     "value": 5
   },
   {
     "code1": "w_frei",
-    "code2": "w_expo",
+    "code2": "w_scm",
     "value": 4
   },
   {
     "code1": "w_frei",
-    "code2": "w_techpur",
+    "code2": "w_expo",
     "value": 3
   },
   {
     "code1": "w_frei",
-    "code2": "w_envir",
+    "code2": "w_techpur",
     "value": 2
+  },
+  {
+    "code1": "w_frei",
+    "code2": "w_envir",
+    "value": 1
   },
   {
     "code1": "w_mash",
@@ -1142,51 +1057,46 @@
   {
     "code1": "w_mash",
     "code2": "w_faben",
-    "value": 10
-  },
-  {
-    "code1": "w_mash",
-    "code2": "w_metal",
     "value": 9
   },
   {
     "code1": "w_mash",
-    "code2": "w_statics",
+    "code2": "w_metal",
     "value": 8
   },
   {
     "code1": "w_mash",
-    "code2": "w_autom",
+    "code2": "w_statics",
     "value": 7
   },
   {
     "code1": "w_mash",
-    "code2": "w_fabr",
+    "code2": "w_autom",
     "value": 6
   },
   {
     "code1": "w_mash",
-    "code2": "w_auto",
+    "code2": "w_fabr",
     "value": 5
   },
   {
     "code1": "w_mash",
-    "code2": "w_lab",
+    "code2": "w_auto",
     "value": 4
   },
   {
     "code1": "w_mash",
-    "code2": "w_hw",
+    "code2": "w_lab",
     "value": 3
   },
   {
     "code1": "w_mash",
-    "code2": "w_elec",
+    "code2": "w_hw",
     "value": 2
   },
   {
     "code1": "w_mash",
-    "code2": "w_tool",
+    "code2": "w_elec",
     "value": 1
   },
   {
@@ -1197,51 +1107,46 @@
   {
     "code1": "w_sain",
     "code2": "w_safo",
-    "value": 10
-  },
-  {
-    "code1": "w_sain",
-    "code2": "w_cust",
     "value": 9
   },
   {
     "code1": "w_sain",
-    "code2": "w_sama",
+    "code2": "w_cust",
     "value": 8
   },
   {
     "code1": "w_sain",
-    "code2": "w_ware",
+    "code2": "w_sama",
     "value": 7
   },
   {
     "code1": "w_sain",
-    "code2": "w_prod",
+    "code2": "w_ware",
     "value": 6
   },
   {
     "code1": "w_sain",
-    "code2": "w_deli",
+    "code2": "w_prod",
     "value": 5
   },
   {
     "code1": "w_sain",
-    "code2": "w_illumi",
+    "code2": "w_deli",
     "value": 4
   },
   {
     "code1": "w_sain",
-    "code2": "w_home",
+    "code2": "w_illumi",
     "value": 3
   },
   {
     "code1": "w_sain",
-    "code2": "w_whole",
+    "code2": "w_home",
     "value": 2
   },
   {
     "code1": "w_sain",
-    "code2": "w_hote",
+    "code2": "w_whole",
     "value": 1
   },
   {
@@ -1252,51 +1157,46 @@
   {
     "code1": "w_itqm",
     "code2": "w_qm",
-    "value": 10
-  },
-  {
-    "code1": "w_itqm",
-    "code2": "w_itpm",
     "value": 9
   },
   {
     "code1": "w_itqm",
-    "code2": "w_prod",
+    "code2": "w_itpm",
     "value": 8
   },
   {
     "code1": "w_itqm",
-    "code2": "w_itcon",
+    "code2": "w_prod",
     "value": 7
   },
   {
     "code1": "w_itqm",
-    "code2": "w_proce",
+    "code2": "w_itcon",
     "value": 6
   },
   {
     "code1": "w_itqm",
-    "code2": "w_faci",
+    "code2": "w_proce",
     "value": 5
   },
   {
     "code1": "w_itqm",
-    "code2": "w_busi",
+    "code2": "w_faci",
     "value": 4
   },
   {
     "code1": "w_itqm",
-    "code2": "w_scm",
+    "code2": "w_busi",
     "value": 3
   },
   {
     "code1": "w_itqm",
-    "code2": "w_nwa",
+    "code2": "w_scm",
     "value": 2
   },
   {
     "code1": "w_itqm",
-    "code2": "w_pm",
+    "code2": "w_nwa",
     "value": 1
   },
   {
@@ -1307,51 +1207,46 @@
   {
     "code1": "w_faben",
     "code2": "w_techpur",
-    "value": 10
-  },
-  {
-    "code1": "w_faben",
-    "code2": "w_tred",
     "value": 9
   },
   {
     "code1": "w_faben",
-    "code2": "w_plant",
+    "code2": "w_tred",
     "value": 8
   },
   {
     "code1": "w_faben",
-    "code2": "w_syen",
+    "code2": "w_plant",
     "value": 7
   },
   {
     "code1": "w_faben",
-    "code2": "w_desig",
+    "code2": "w_syen",
     "value": 6
   },
   {
     "code1": "w_faben",
-    "code2": "w_fabr",
+    "code2": "w_desig",
     "value": 5
   },
   {
     "code1": "w_faben",
-    "code2": "w_civil",
+    "code2": "w_fabr",
     "value": 4
   },
   {
     "code1": "w_faben",
-    "code2": "w_proce",
+    "code2": "w_civil",
     "value": 3
   },
   {
     "code1": "w_faben",
-    "code2": "w_metal",
+    "code2": "w_proce",
     "value": 2
   },
   {
     "code1": "w_faben",
-    "code2": "w_elec",
+    "code2": "w_metal",
     "value": 1
   },
   {
@@ -1362,51 +1257,46 @@
   {
     "code1": "w_sysa",
     "code2": "w_syen",
-    "value": 10
-  },
-  {
-    "code1": "w_sysa",
-    "code2": "w_sadm",
     "value": 9
   },
   {
     "code1": "w_sysa",
-    "code2": "w_ar",
+    "code2": "w_sadm",
     "value": 8
   },
   {
     "code1": "w_sysa",
-    "code2": "w_aana",
+    "code2": "w_ar",
     "value": 7
   },
   {
     "code1": "w_sysa",
-    "code2": "w_emb",
+    "code2": "w_aana",
     "value": 6
   },
   {
     "code1": "w_sysa",
-    "code2": "w_sete",
+    "code2": "w_emb",
     "value": 5
   },
   {
     "code1": "w_sysa",
-    "code2": "w_ana",
+    "code2": "w_sete",
     "value": 4
   },
   {
     "code1": "w_sysa",
-    "code2": "w_proce",
+    "code2": "w_ana",
     "value": 3
   },
   {
     "code1": "w_sysa",
-    "code2": "w_seng",
+    "code2": "w_proce",
     "value": 2
   },
   {
     "code1": "w_sysa",
-    "code2": "w_nwa",
+    "code2": "w_seng",
     "value": 1
   },
   {
@@ -1417,51 +1307,46 @@
   {
     "code1": "w_modes",
     "code2": "w_cad",
-    "value": 10
-  },
-  {
-    "code1": "w_modes",
-    "code2": "w_desig",
     "value": 9
   },
   {
     "code1": "w_modes",
-    "code2": "w_textil",
+    "code2": "w_desig",
     "value": 8
   },
   {
     "code1": "w_modes",
-    "code2": "w_beaut",
+    "code2": "w_textil",
     "value": 7
   },
   {
     "code1": "w_modes",
-    "code2": "w_graph",
+    "code2": "w_beaut",
     "value": 6
   },
   {
     "code1": "w_modes",
-    "code2": "w_muse",
+    "code2": "w_graph",
     "value": 5
   },
   {
     "code1": "w_modes",
-    "code2": "w_hand",
+    "code2": "w_muse",
     "value": 4
   },
   {
     "code1": "w_modes",
-    "code2": "w_craft",
+    "code2": "w_hand",
     "value": 3
   },
   {
     "code1": "w_modes",
-    "code2": "w_illumi",
+    "code2": "w_craft",
     "value": 2
   },
   {
     "code1": "w_modes",
-    "code2": "w_music",
+    "code2": "w_illumi",
     "value": 1
   },
   {
@@ -1472,47 +1357,47 @@
   {
     "code1": "w_metal",
     "code2": "w_fabr",
-    "value": 10
-  },
-  {
-    "code1": "w_metal",
-    "code2": "w_tool",
     "value": 9
   },
   {
     "code1": "w_metal",
-    "code2": "w_stone",
+    "code2": "w_tool",
     "value": 8
   },
   {
     "code1": "w_metal",
-    "code2": "w_synth",
+    "code2": "w_stone",
     "value": 7
   },
   {
     "code1": "w_metal",
-    "code2": "w_lab",
+    "code2": "w_synth",
     "value": 6
   },
   {
     "code1": "w_metal",
-    "code2": "w_desig",
+    "code2": "w_lab",
     "value": 5
   },
   {
     "code1": "w_metal",
-    "code2": "w_scie",
+    "code2": "w_desig",
     "value": 4
   },
   {
     "code1": "w_metal",
-    "code2": "w_autom",
+    "code2": "w_scie",
     "value": 3
   },
   {
     "code1": "w_metal",
-    "code2": "w_dent",
+    "code2": "w_autom",
     "value": 2
+  },
+  {
+    "code1": "w_metal",
+    "code2": "w_dent",
+    "value": 1
   },
   {
     "code1": "w_con",
@@ -1522,47 +1407,47 @@
   {
     "code1": "w_con",
     "code2": "w_itcon",
-    "value": 10
-  },
-  {
-    "code1": "w_con",
-    "code2": "w_pera",
     "value": 9
   },
   {
     "code1": "w_con",
-    "code2": "w_cust",
+    "code2": "w_pera",
     "value": 8
   },
   {
     "code1": "w_con",
-    "code2": "w_busi",
+    "code2": "w_cust",
     "value": 7
   },
   {
     "code1": "w_con",
-    "code2": "w_techpur",
+    "code2": "w_busi",
     "value": 6
   },
   {
     "code1": "w_con",
-    "code2": "w_advoc",
+    "code2": "w_techpur",
     "value": 5
   },
   {
     "code1": "w_con",
-    "code2": "w_ana",
+    "code2": "w_advoc",
     "value": 4
   },
   {
     "code1": "w_con",
-    "code2": "w_tax",
+    "code2": "w_ana",
     "value": 3
   },
   {
     "code1": "w_con",
-    "code2": "w_judi",
+    "code2": "w_tax",
     "value": 2
+  },
+  {
+    "code1": "w_con",
+    "code2": "w_judi",
+    "value": 1
   },
   {
     "code1": "w_illumi",
@@ -1572,51 +1457,46 @@
   {
     "code1": "w_illumi",
     "code2": "w_mark",
-    "value": 10
-  },
-  {
-    "code1": "w_illumi",
-    "code2": "w_comm",
     "value": 9
   },
   {
     "code1": "w_illumi",
-    "code2": "w_safo",
+    "code2": "w_comm",
     "value": 8
   },
   {
     "code1": "w_illumi",
-    "code2": "w_pr",
+    "code2": "w_safo",
     "value": 7
   },
   {
     "code1": "w_illumi",
-    "code2": "w_cust",
+    "code2": "w_pr",
     "value": 6
   },
   {
     "code1": "w_illumi",
-    "code2": "w_sama",
+    "code2": "w_cust",
     "value": 5
   },
   {
     "code1": "w_illumi",
-    "code2": "w_ware",
+    "code2": "w_sama",
     "value": 4
   },
   {
     "code1": "w_illumi",
-    "code2": "w_presa",
+    "code2": "w_ware",
     "value": 3
   },
   {
     "code1": "w_illumi",
-    "code2": "w_onlma",
+    "code2": "w_presa",
     "value": 2
   },
   {
     "code1": "w_illumi",
-    "code2": "w_publ",
+    "code2": "w_onlma",
     "value": 1
   },
   {
@@ -1627,47 +1507,47 @@
   {
     "code1": "w_arch",
     "code2": "w_hist",
-    "value": 10
-  },
-  {
-    "code1": "w_arch",
-    "code2": "w_bibl",
     "value": 9
   },
   {
     "code1": "w_arch",
-    "code2": "w_dba",
+    "code2": "w_bibl",
     "value": 8
   },
   {
     "code1": "w_arch",
-    "code2": "w_dwh",
+    "code2": "w_dba",
     "value": 7
   },
   {
     "code1": "w_arch",
-    "code2": "w_dbde",
+    "code2": "w_dwh",
     "value": 6
   },
   {
     "code1": "w_arch",
-    "code2": "w_rev",
+    "code2": "w_dbde",
     "value": 5
   },
   {
     "code1": "w_arch",
-    "code2": "w_ware",
+    "code2": "w_rev",
     "value": 4
   },
   {
     "code1": "w_arch",
-    "code2": "w_itpm",
+    "code2": "w_ware",
     "value": 3
   },
   {
     "code1": "w_arch",
-    "code2": "w_tred",
+    "code2": "w_itpm",
     "value": 2
+  },
+  {
+    "code1": "w_arch",
+    "code2": "w_tred",
+    "value": 1
   },
   {
     "code1": "w_trans",
@@ -1677,42 +1557,42 @@
   {
     "code1": "w_trans",
     "code2": "w_rev",
-    "value": 10
-  },
-  {
-    "code1": "w_trans",
-    "code2": "w_advoc",
     "value": 9
   },
   {
     "code1": "w_trans",
-    "code2": "w_notar",
+    "code2": "w_advoc",
     "value": 8
   },
   {
     "code1": "w_trans",
-    "code2": "w_whkig",
+    "code2": "w_notar",
     "value": 7
   },
   {
     "code1": "w_trans",
-    "code2": "w_tred",
+    "code2": "w_whkig",
     "value": 6
   },
   {
     "code1": "w_trans",
-    "code2": "w_hist",
+    "code2": "w_tred",
     "value": 5
   },
   {
     "code1": "w_trans",
-    "code2": "w_edito",
+    "code2": "w_hist",
     "value": 4
   },
   {
     "code1": "w_trans",
-    "code2": "w_whuni",
+    "code2": "w_edito",
     "value": 3
+  },
+  {
+    "code1": "w_trans",
+    "code2": "w_whuni",
+    "value": 2
   },
   {
     "code1": "w_propur",
@@ -1722,51 +1602,46 @@
   {
     "code1": "w_propur",
     "code2": "w_pm",
-    "value": 10
-  },
-  {
-    "code1": "w_propur",
-    "code2": "w_techpur",
     "value": 9
   },
   {
     "code1": "w_propur",
-    "code2": "w_itpm",
+    "code2": "w_techpur",
     "value": 8
   },
   {
     "code1": "w_propur",
-    "code2": "w_const",
+    "code2": "w_itpm",
     "value": 7
   },
   {
     "code1": "w_propur",
-    "code2": "w_purch",
+    "code2": "w_const",
     "value": 6
   },
   {
     "code1": "w_propur",
-    "code2": "w_busan",
+    "code2": "w_purch",
     "value": 5
   },
   {
     "code1": "w_propur",
-    "code2": "w_prod",
+    "code2": "w_busan",
     "value": 4
   },
   {
     "code1": "w_propur",
-    "code2": "w_house",
+    "code2": "w_prod",
     "value": 3
   },
   {
     "code1": "w_propur",
-    "code2": "w_plant",
+    "code2": "w_house",
     "value": 2
   },
   {
     "code1": "w_propur",
-    "code2": "w_immo",
+    "code2": "w_plant",
     "value": 1
   },
   {
@@ -1777,42 +1652,42 @@
   {
     "code1": "w_film",
     "code2": "w_music",
-    "value": 10
-  },
-  {
-    "code1": "w_film",
-    "code2": "w_jour",
     "value": 9
   },
   {
     "code1": "w_film",
-    "code2": "w_tred",
+    "code2": "w_jour",
     "value": 8
   },
   {
     "code1": "w_film",
-    "code2": "w_hand",
+    "code2": "w_tred",
     "value": 7
   },
   {
     "code1": "w_film",
-    "code2": "w_stage",
+    "code2": "w_hand",
     "value": 6
   },
   {
     "code1": "w_film",
-    "code2": "w_phot",
+    "code2": "w_stage",
     "value": 5
   },
   {
     "code1": "w_film",
-    "code2": "w_pr",
+    "code2": "w_phot",
     "value": 4
   },
   {
     "code1": "w_film",
-    "code2": "w_sport",
+    "code2": "w_pr",
     "value": 3
+  },
+  {
+    "code1": "w_film",
+    "code2": "w_sport",
+    "value": 2
   },
   {
     "code1": "w_scm",
@@ -1822,51 +1697,46 @@
   {
     "code1": "w_scm",
     "code2": "w_prod",
-    "value": 10
-  },
-  {
-    "code1": "w_scm",
-    "code2": "w_sama",
     "value": 9
   },
   {
     "code1": "w_scm",
-    "code2": "w_proce",
+    "code2": "w_sama",
     "value": 8
   },
   {
     "code1": "w_scm",
-    "code2": "w_ware",
+    "code2": "w_proce",
     "value": 7
   },
   {
     "code1": "w_scm",
-    "code2": "w_safo",
+    "code2": "w_ware",
     "value": 6
   },
   {
     "code1": "w_scm",
-    "code2": "w_busi",
+    "code2": "w_safo",
     "value": 5
   },
   {
     "code1": "w_scm",
-    "code2": "w_cust",
+    "code2": "w_busi",
     "value": 4
   },
   {
     "code1": "w_scm",
-    "code2": "w_faci",
+    "code2": "w_cust",
     "value": 3
   },
   {
     "code1": "w_scm",
-    "code2": "w_top",
+    "code2": "w_faci",
     "value": 2
   },
   {
     "code1": "w_scm",
-    "code2": "w_deli",
+    "code2": "w_top",
     "value": 1
   },
   {
@@ -1877,42 +1747,42 @@
   {
     "code1": "w_beaut",
     "code2": "w_nurse",
-    "value": 10
-  },
-  {
-    "code1": "w_beaut",
-    "code2": "w_ther",
     "value": 9
   },
   {
     "code1": "w_beaut",
-    "code2": "w_cust",
+    "code2": "w_ther",
     "value": 8
   },
   {
     "code1": "w_beaut",
-    "code2": "w_pera",
+    "code2": "w_cust",
     "value": 7
   },
   {
     "code1": "w_beaut",
-    "code2": "w_medic",
+    "code2": "w_pera",
     "value": 6
   },
   {
     "code1": "w_beaut",
-    "code2": "w_phar",
+    "code2": "w_medic",
     "value": 5
   },
   {
     "code1": "w_beaut",
-    "code2": "w_recru",
+    "code2": "w_phar",
     "value": 4
   },
   {
     "code1": "w_beaut",
-    "code2": "w_dent",
+    "code2": "w_recru",
     "value": 3
+  },
+  {
+    "code1": "w_beaut",
+    "code2": "w_dent",
+    "value": 2
   },
   {
     "code1": "w_autom",
@@ -1922,37 +1792,37 @@
   {
     "code1": "w_autom",
     "code2": "w_auto",
-    "value": 10
-  },
-  {
-    "code1": "w_autom",
-    "code2": "w_tool",
     "value": 9
   },
   {
     "code1": "w_autom",
-    "code2": "w_statics",
+    "code2": "w_tool",
     "value": 8
   },
   {
     "code1": "w_autom",
-    "code2": "w_tred",
+    "code2": "w_statics",
     "value": 7
   },
   {
     "code1": "w_autom",
-    "code2": "w_lab",
+    "code2": "w_tred",
     "value": 6
   },
   {
     "code1": "w_autom",
-    "code2": "w_hw",
+    "code2": "w_lab",
     "value": 5
   },
   {
     "code1": "w_autom",
-    "code2": "w_hand",
+    "code2": "w_hw",
     "value": 4
+  },
+  {
+    "code1": "w_autom",
+    "code2": "w_hand",
+    "value": 3
   },
   {
     "code1": "w_clean",
@@ -1962,42 +1832,42 @@
   {
     "code1": "w_clean",
     "code2": "w_waste",
-    "value": 10
-  },
-  {
-    "code1": "w_clean",
-    "code2": "w_faci",
     "value": 9
   },
   {
     "code1": "w_clean",
-    "code2": "w_rev",
+    "code2": "w_faci",
     "value": 8
   },
   {
     "code1": "w_clean",
-    "code2": "w_lab",
+    "code2": "w_rev",
     "value": 7
   },
   {
     "code1": "w_clean",
-    "code2": "w_rece",
+    "code2": "w_lab",
     "value": 6
   },
   {
     "code1": "w_clean",
-    "code2": "w_proce",
+    "code2": "w_rece",
     "value": 5
   },
   {
     "code1": "w_clean",
-    "code2": "w_cont",
+    "code2": "w_proce",
     "value": 4
   },
   {
     "code1": "w_clean",
-    "code2": "w_admin",
+    "code2": "w_cont",
     "value": 3
+  },
+  {
+    "code1": "w_clean",
+    "code2": "w_admin",
+    "value": 2
   },
   {
     "code1": "w_org",
@@ -2007,51 +1877,46 @@
   {
     "code1": "w_org",
     "code2": "w_top",
-    "value": 10
-  },
-  {
-    "code1": "w_org",
-    "code2": "w_admin",
     "value": 9
   },
   {
     "code1": "w_org",
-    "code2": "w_comm",
+    "code2": "w_admin",
     "value": 8
   },
   {
     "code1": "w_org",
-    "code2": "w_offi",
+    "code2": "w_comm",
     "value": 7
   },
   {
     "code1": "w_org",
-    "code2": "w_sama",
+    "code2": "w_offi",
     "value": 6
   },
   {
     "code1": "w_org",
-    "code2": "w_busi",
+    "code2": "w_sama",
     "value": 5
   },
   {
     "code1": "w_org",
-    "code2": "w_ware",
+    "code2": "w_busi",
     "value": 4
   },
   {
     "code1": "w_org",
-    "code2": "w_safo",
+    "code2": "w_ware",
     "value": 3
   },
   {
     "code1": "w_org",
-    "code2": "w_prod",
+    "code2": "w_safo",
     "value": 2
   },
   {
     "code1": "w_org",
-    "code2": "w_ana",
+    "code2": "w_prod",
     "value": 1
   },
   {
@@ -2062,51 +1927,46 @@
   {
     "code1": "w_ther",
     "code2": "w_medic",
-    "value": 10
-  },
-  {
-    "code1": "w_ther",
-    "code2": "w_klifo",
     "value": 9
   },
   {
     "code1": "w_ther",
-    "code2": "w_nurse",
+    "code2": "w_klifo",
     "value": 8
   },
   {
     "code1": "w_ther",
-    "code2": "w_medte",
+    "code2": "w_nurse",
     "value": 7
   },
   {
     "code1": "w_ther",
-    "code2": "w_advoc",
+    "code2": "w_medte",
     "value": 6
   },
   {
     "code1": "w_ther",
-    "code2": "w_whuni",
+    "code2": "w_advoc",
     "value": 5
   },
   {
     "code1": "w_ther",
-    "code2": "w_veter",
+    "code2": "w_whuni",
     "value": 4
   },
   {
     "code1": "w_ther",
-    "code2": "w_whkig",
+    "code2": "w_veter",
     "value": 3
   },
   {
     "code1": "w_ther",
-    "code2": "w_relig",
+    "code2": "w_whkig",
     "value": 2
   },
   {
     "code1": "w_ther",
-    "code2": "w_music",
+    "code2": "w_relig",
     "value": 1
   },
   {
@@ -2117,47 +1977,47 @@
   {
     "code1": "w_heet",
     "code2": "w_natur",
-    "value": 10
-  },
-  {
-    "code1": "w_heet",
-    "code2": "w_agri",
     "value": 9
   },
   {
     "code1": "w_heet",
-    "code2": "w_math",
+    "code2": "w_agri",
     "value": 8
   },
   {
     "code1": "w_heet",
-    "code2": "w_energ",
+    "code2": "w_math",
     "value": 7
   },
   {
     "code1": "w_heet",
-    "code2": "w_archi",
+    "code2": "w_energ",
     "value": 6
   },
   {
     "code1": "w_heet",
-    "code2": "w_civil",
+    "code2": "w_archi",
     "value": 5
   },
   {
     "code1": "w_heet",
-    "code2": "w_lab",
+    "code2": "w_civil",
     "value": 4
   },
   {
     "code1": "w_heet",
-    "code2": "w_envir",
+    "code2": "w_lab",
     "value": 3
   },
   {
     "code1": "w_heet",
-    "code2": "w_statics",
+    "code2": "w_envir",
     "value": 2
+  },
+  {
+    "code1": "w_heet",
+    "code2": "w_statics",
+    "value": 1
   },
   {
     "code1": "w_tred",
@@ -2167,51 +2027,46 @@
   {
     "code1": "w_tred",
     "code2": "w_edito",
-    "value": 10
-  },
-  {
-    "code1": "w_tred",
-    "code2": "w_hw",
     "value": 9
   },
   {
     "code1": "w_tred",
-    "code2": "w_techpur",
+    "code2": "w_hw",
     "value": 8
   },
   {
     "code1": "w_tred",
-    "code2": "w_sete",
+    "code2": "w_techpur",
     "value": 7
   },
   {
     "code1": "w_tred",
-    "code2": "w_tool",
+    "code2": "w_sete",
     "value": 6
   },
   {
     "code1": "w_tred",
-    "code2": "w_cad",
+    "code2": "w_tool",
     "value": 5
   },
   {
     "code1": "w_tred",
-    "code2": "w_publ",
+    "code2": "w_cad",
     "value": 4
   },
   {
     "code1": "w_tred",
-    "code2": "w_stage",
+    "code2": "w_publ",
     "value": 3
   },
   {
     "code1": "w_tred",
-    "code2": "w_hand",
+    "code2": "w_stage",
     "value": 2
   },
   {
     "code1": "w_tred",
-    "code2": "w_jour",
+    "code2": "w_hand",
     "value": 1
   },
   {
@@ -2222,47 +2077,47 @@
   {
     "code1": "w_nwa",
     "code2": "w_nwde",
-    "value": 10
-  },
-  {
-    "code1": "w_nwa",
-    "code2": "w_secu",
     "value": 9
   },
   {
     "code1": "w_nwa",
-    "code2": "w_sadm",
+    "code2": "w_secu",
     "value": 8
   },
   {
     "code1": "w_nwa",
-    "code2": "w_faci",
+    "code2": "w_sadm",
     "value": 7
   },
   {
     "code1": "w_nwa",
-    "code2": "w_aadm",
+    "code2": "w_faci",
     "value": 6
   },
   {
     "code1": "w_nwa",
-    "code2": "w_dba",
+    "code2": "w_aadm",
     "value": 5
   },
   {
     "code1": "w_nwa",
-    "code2": "w_sete",
+    "code2": "w_dba",
     "value": 4
   },
   {
     "code1": "w_nwa",
-    "code2": "w_itpm",
+    "code2": "w_sete",
     "value": 3
   },
   {
     "code1": "w_nwa",
-    "code2": "w_envir",
+    "code2": "w_itpm",
     "value": 2
+  },
+  {
+    "code1": "w_nwa",
+    "code2": "w_envir",
+    "value": 1
   },
   {
     "code1": "w_phot",
@@ -2272,32 +2127,32 @@
   {
     "code1": "w_phot",
     "code2": "w_optic",
-    "value": 10
-  },
-  {
-    "code1": "w_phot",
-    "code2": "w_hand",
     "value": 9
   },
   {
     "code1": "w_phot",
-    "code2": "w_muse",
+    "code2": "w_hand",
     "value": 8
   },
   {
     "code1": "w_phot",
-    "code2": "w_graph",
+    "code2": "w_muse",
     "value": 7
   },
   {
     "code1": "w_phot",
-    "code2": "w_jour",
+    "code2": "w_graph",
     "value": 6
   },
   {
     "code1": "w_phot",
-    "code2": "w_craft",
+    "code2": "w_jour",
     "value": 5
+  },
+  {
+    "code1": "w_phot",
+    "code2": "w_craft",
+    "value": 4
   },
   {
     "code1": "w_envir",
@@ -2307,51 +2162,46 @@
   {
     "code1": "w_envir",
     "code2": "w_natur",
-    "value": 10
-  },
-  {
-    "code1": "w_envir",
-    "code2": "w_anim",
     "value": 9
   },
   {
     "code1": "w_envir",
-    "code2": "w_waste",
+    "code2": "w_anim",
     "value": 8
   },
   {
     "code1": "w_envir",
-    "code2": "w_agri",
+    "code2": "w_waste",
     "value": 7
   },
   {
     "code1": "w_envir",
-    "code2": "w_munic",
+    "code2": "w_agri",
     "value": 6
   },
   {
     "code1": "w_envir",
-    "code2": "w_house",
+    "code2": "w_munic",
     "value": 5
   },
   {
     "code1": "w_envir",
-    "code2": "w_secu",
+    "code2": "w_house",
     "value": 4
   },
   {
     "code1": "w_envir",
-    "code2": "w_hist",
+    "code2": "w_secu",
     "value": 3
   },
   {
     "code1": "w_envir",
-    "code2": "w_tour",
+    "code2": "w_hist",
     "value": 2
   },
   {
     "code1": "w_envir",
-    "code2": "w_judi",
+    "code2": "w_tour",
     "value": 1
   },
   {
@@ -2362,51 +2212,46 @@
   {
     "code1": "w_offi",
     "code2": "w_admin",
-    "value": 10
-  },
-  {
-    "code1": "w_offi",
-    "code2": "w_proce",
     "value": 9
   },
   {
     "code1": "w_offi",
-    "code2": "w_busi",
+    "code2": "w_proce",
     "value": 8
   },
   {
     "code1": "w_offi",
-    "code2": "w_sadm",
+    "code2": "w_busi",
     "value": 7
   },
   {
     "code1": "w_offi",
-    "code2": "w_sama",
+    "code2": "w_sadm",
     "value": 6
   },
   {
     "code1": "w_offi",
-    "code2": "w_aadm",
+    "code2": "w_sama",
     "value": 5
   },
   {
     "code1": "w_offi",
-    "code2": "w_faci",
+    "code2": "w_aadm",
     "value": 4
   },
   {
     "code1": "w_offi",
-    "code2": "w_itpm",
+    "code2": "w_faci",
     "value": 3
   },
   {
     "code1": "w_offi",
-    "code2": "w_top",
+    "code2": "w_itpm",
     "value": 2
   },
   {
     "code1": "w_offi",
-    "code2": "w_pera",
+    "code2": "w_top",
     "value": 1
   },
   {
@@ -2417,32 +2262,32 @@
   {
     "code1": "w_nurse",
     "code2": "w_medic",
-    "value": 10
-  },
-  {
-    "code1": "w_nurse",
-    "code2": "w_hospital",
     "value": 9
   },
   {
     "code1": "w_nurse",
-    "code2": "w_soci",
+    "code2": "w_hospital",
     "value": 8
   },
   {
     "code1": "w_nurse",
-    "code2": "w_anim",
+    "code2": "w_soci",
     "value": 7
   },
   {
     "code1": "w_nurse",
-    "code2": "w_klifo",
+    "code2": "w_anim",
     "value": 6
   },
   {
     "code1": "w_nurse",
-    "code2": "w_phar",
+    "code2": "w_klifo",
     "value": 5
+  },
+  {
+    "code1": "w_nurse",
+    "code2": "w_phar",
+    "value": 4
   },
   {
     "code1": "w_ar",
@@ -2452,51 +2297,46 @@
   {
     "code1": "w_ar",
     "code2": "w_emb",
-    "value": 10
-  },
-  {
-    "code1": "w_ar",
-    "code2": "w_seng",
     "value": 9
   },
   {
     "code1": "w_ar",
-    "code2": "w_sadm",
+    "code2": "w_seng",
     "value": 8
   },
   {
     "code1": "w_ar",
-    "code2": "w_syen",
+    "code2": "w_sadm",
     "value": 7
   },
   {
     "code1": "w_ar",
-    "code2": "w_swe",
+    "code2": "w_syen",
     "value": 6
   },
   {
     "code1": "w_ar",
-    "code2": "w_itpm",
+    "code2": "w_swe",
     "value": 5
   },
   {
     "code1": "w_ar",
-    "code2": "w_maint",
+    "code2": "w_itpm",
     "value": 4
   },
   {
     "code1": "w_ar",
-    "code2": "w_aadm",
+    "code2": "w_maint",
     "value": 3
   },
   {
     "code1": "w_ar",
-    "code2": "w_hw",
+    "code2": "w_aadm",
     "value": 2
   },
   {
     "code1": "w_ar",
-    "code2": "w_sete",
+    "code2": "w_hw",
     "value": 1
   },
   {
@@ -2507,51 +2347,46 @@
   {
     "code1": "w_edito",
     "code2": "w_jour",
-    "value": 10
-  },
-  {
-    "code1": "w_edito",
-    "code2": "w_rev",
     "value": 9
   },
   {
     "code1": "w_edito",
-    "code2": "w_publ",
+    "code2": "w_rev",
     "value": 8
   },
   {
     "code1": "w_edito",
-    "code2": "w_whuni",
+    "code2": "w_publ",
     "value": 7
   },
   {
     "code1": "w_edito",
-    "code2": "w_admin",
+    "code2": "w_whuni",
     "value": 6
   },
   {
     "code1": "w_edito",
-    "code2": "w_presa",
+    "code2": "w_admin",
     "value": 5
   },
   {
     "code1": "w_edito",
-    "code2": "w_bibl",
+    "code2": "w_presa",
     "value": 4
   },
   {
     "code1": "w_edito",
-    "code2": "w_cont",
+    "code2": "w_bibl",
     "value": 3
   },
   {
     "code1": "w_edito",
-    "code2": "w_secr",
+    "code2": "w_cont",
     "value": 2
   },
   {
     "code1": "w_edito",
-    "code2": "w_judi",
+    "code2": "w_secr",
     "value": 1
   },
   {
@@ -2562,37 +2397,37 @@
   {
     "code1": "w_tax",
     "code2": "w_acco",
-    "value": 10
-  },
-  {
-    "code1": "w_tax",
-    "code2": "w_book",
     "value": 9
   },
   {
     "code1": "w_tax",
-    "code2": "w_audit",
+    "code2": "w_book",
     "value": 8
   },
   {
     "code1": "w_tax",
-    "code2": "w_home",
+    "code2": "w_audit",
     "value": 7
   },
   {
     "code1": "w_tax",
-    "code2": "w_itcon",
+    "code2": "w_home",
     "value": 6
   },
   {
     "code1": "w_tax",
-    "code2": "w_ass",
+    "code2": "w_itcon",
     "value": 5
   },
   {
     "code1": "w_tax",
-    "code2": "w_pera",
+    "code2": "w_ass",
     "value": 4
+  },
+  {
+    "code1": "w_tax",
+    "code2": "w_pera",
+    "value": 3
   },
   {
     "code1": "w_purch",
@@ -2602,27 +2437,27 @@
   {
     "code1": "w_purch",
     "code2": "w_whole",
-    "value": 10
-  },
-  {
-    "code1": "w_purch",
-    "code2": "w_ware",
     "value": 9
   },
   {
     "code1": "w_purch",
-    "code2": "w_sama",
+    "code2": "w_ware",
     "value": 8
   },
   {
     "code1": "w_purch",
-    "code2": "w_techpur",
+    "code2": "w_sama",
     "value": 7
   },
   {
     "code1": "w_purch",
-    "code2": "w_phar",
+    "code2": "w_techpur",
     "value": 6
+  },
+  {
+    "code1": "w_purch",
+    "code2": "w_phar",
+    "value": 5
   },
   {
     "code1": "w_veter",
@@ -2632,37 +2467,37 @@
   {
     "code1": "w_veter",
     "code2": "w_anim",
-    "value": 10
-  },
-  {
-    "code1": "w_veter",
-    "code2": "w_medic",
     "value": 9
   },
   {
     "code1": "w_veter",
-    "code2": "w_medte",
+    "code2": "w_medic",
     "value": 8
   },
   {
     "code1": "w_veter",
-    "code2": "w_phar",
+    "code2": "w_medte",
     "value": 7
   },
   {
     "code1": "w_veter",
-    "code2": "w_klifo",
+    "code2": "w_phar",
     "value": 6
   },
   {
     "code1": "w_veter",
-    "code2": "w_bio",
+    "code2": "w_klifo",
     "value": 5
   },
   {
     "code1": "w_veter",
-    "code2": "w_dent",
+    "code2": "w_bio",
     "value": 4
+  },
+  {
+    "code1": "w_veter",
+    "code2": "w_dent",
+    "value": 3
   },
   {
     "code1": "w_natur",
@@ -2672,47 +2507,47 @@
   {
     "code1": "w_natur",
     "code2": "w_phys",
-    "value": 10
-  },
-  {
-    "code1": "w_natur",
-    "code2": "w_scie",
     "value": 9
   },
   {
     "code1": "w_natur",
-    "code2": "w_bio",
+    "code2": "w_scie",
     "value": 8
   },
   {
     "code1": "w_natur",
-    "code2": "w_math",
+    "code2": "w_bio",
     "value": 7
   },
   {
     "code1": "w_natur",
-    "code2": "w_lab",
+    "code2": "w_math",
     "value": 6
   },
   {
     "code1": "w_natur",
-    "code2": "w_chem",
+    "code2": "w_lab",
     "value": 5
   },
   {
     "code1": "w_natur",
-    "code2": "w_auto",
+    "code2": "w_chem",
     "value": 4
   },
   {
     "code1": "w_natur",
-    "code2": "w_hist",
+    "code2": "w_auto",
     "value": 3
   },
   {
     "code1": "w_natur",
-    "code2": "w_whkig",
+    "code2": "w_hist",
     "value": 2
+  },
+  {
+    "code1": "w_natur",
+    "code2": "w_whkig",
+    "value": 1
   },
   {
     "code1": "w_keyacc",
@@ -2722,47 +2557,47 @@
   {
     "code1": "w_keyacc",
     "code2": "w_inves",
-    "value": 10
-  },
-  {
-    "code1": "w_keyacc",
-    "code2": "w_book",
     "value": 9
   },
   {
     "code1": "w_keyacc",
-    "code2": "w_acco",
+    "code2": "w_book",
     "value": 8
   },
   {
     "code1": "w_keyacc",
-    "code2": "w_riskm",
+    "code2": "w_acco",
     "value": 7
   },
   {
     "code1": "w_keyacc",
-    "code2": "w_audit",
+    "code2": "w_riskm",
     "value": 6
   },
   {
     "code1": "w_keyacc",
-    "code2": "w_top",
+    "code2": "w_audit",
     "value": 5
   },
   {
     "code1": "w_keyacc",
-    "code2": "w_bank",
+    "code2": "w_top",
     "value": 4
   },
   {
     "code1": "w_keyacc",
-    "code2": "w_prod",
+    "code2": "w_bank",
     "value": 3
   },
   {
     "code1": "w_keyacc",
-    "code2": "w_sectr",
+    "code2": "w_prod",
     "value": 2
+  },
+  {
+    "code1": "w_keyacc",
+    "code2": "w_sectr",
+    "value": 1
   },
   {
     "code1": "w_bestatt",
@@ -2772,32 +2607,32 @@
   {
     "code1": "w_bestatt",
     "code2": "w_relig",
-    "value": 10
-  },
-  {
-    "code1": "w_bestatt",
-    "code2": "w_rece",
     "value": 9
   },
   {
     "code1": "w_bestatt",
-    "code2": "w_munic",
+    "code2": "w_rece",
     "value": 8
   },
   {
     "code1": "w_bestatt",
-    "code2": "w_advoc",
+    "code2": "w_munic",
     "value": 7
   },
   {
     "code1": "w_bestatt",
-    "code2": "w_notar",
+    "code2": "w_advoc",
     "value": 6
   },
   {
     "code1": "w_bestatt",
-    "code2": "w_presa",
+    "code2": "w_notar",
     "value": 5
+  },
+  {
+    "code1": "w_bestatt",
+    "code2": "w_presa",
+    "value": 4
   },
   {
     "code1": "w_insum",
@@ -2807,42 +2642,42 @@
   {
     "code1": "w_insum",
     "code2": "w_insu",
-    "value": 10
-  },
-  {
-    "code1": "w_insum",
-    "code2": "w_riskm",
     "value": 9
   },
   {
     "code1": "w_insum",
-    "code2": "w_math",
+    "code2": "w_riskm",
     "value": 8
   },
   {
     "code1": "w_insum",
-    "code2": "w_audit",
+    "code2": "w_math",
     "value": 7
   },
   {
     "code1": "w_insum",
-    "code2": "w_sectr",
+    "code2": "w_audit",
     "value": 6
   },
   {
     "code1": "w_insum",
-    "code2": "w_book",
+    "code2": "w_sectr",
     "value": 5
   },
   {
     "code1": "w_insum",
-    "code2": "w_acco",
+    "code2": "w_book",
     "value": 4
   },
   {
     "code1": "w_insum",
-    "code2": "w_ana",
+    "code2": "w_acco",
     "value": 3
+  },
+  {
+    "code1": "w_insum",
+    "code2": "w_ana",
+    "value": 2
   },
   {
     "code1": "w_elec",
@@ -2852,51 +2687,46 @@
   {
     "code1": "w_elec",
     "code2": "w_energ",
-    "value": 10
-  },
-  {
-    "code1": "w_elec",
-    "code2": "w_hw",
     "value": 9
   },
   {
     "code1": "w_elec",
-    "code2": "w_syen",
+    "code2": "w_hw",
     "value": 8
   },
   {
     "code1": "w_elec",
-    "code2": "w_civil",
+    "code2": "w_syen",
     "value": 7
   },
   {
     "code1": "w_elec",
-    "code2": "w_techpur",
+    "code2": "w_civil",
     "value": 6
   },
   {
     "code1": "w_elec",
-    "code2": "w_plant",
+    "code2": "w_techpur",
     "value": 5
   },
   {
     "code1": "w_elec",
-    "code2": "w_emb",
+    "code2": "w_plant",
     "value": 4
   },
   {
     "code1": "w_elec",
-    "code2": "w_stage",
+    "code2": "w_emb",
     "value": 3
   },
   {
     "code1": "w_elec",
-    "code2": "w_upstream",
+    "code2": "w_stage",
     "value": 2
   },
   {
     "code1": "w_elec",
-    "code2": "w_ebus",
+    "code2": "w_upstream",
     "value": 1
   },
   {
@@ -2907,42 +2737,42 @@
   {
     "code1": "w_defe",
     "code2": "w_secu",
-    "value": 10
-  },
-  {
-    "code1": "w_defe",
-    "code2": "w_auto",
     "value": 9
   },
   {
     "code1": "w_defe",
-    "code2": "w_notar",
+    "code2": "w_auto",
     "value": 8
   },
   {
     "code1": "w_defe",
-    "code2": "w_hand",
+    "code2": "w_notar",
     "value": 7
   },
   {
     "code1": "w_defe",
-    "code2": "w_whuni",
+    "code2": "w_hand",
     "value": 6
   },
   {
     "code1": "w_defe",
-    "code2": "w_siteman",
+    "code2": "w_whuni",
     "value": 5
   },
   {
     "code1": "w_defe",
-    "code2": "w_publ",
+    "code2": "w_siteman",
     "value": 4
   },
   {
     "code1": "w_defe",
-    "code2": "w_bibl",
+    "code2": "w_publ",
     "value": 3
+  },
+  {
+    "code1": "w_defe",
+    "code2": "w_bibl",
+    "value": 2
   },
   {
     "code1": "w_hrdev",
@@ -2952,51 +2782,46 @@
   {
     "code1": "w_hrdev",
     "code2": "w_pera",
-    "value": 10
-  },
-  {
-    "code1": "w_hrdev",
-    "code2": "w_recru",
     "value": 9
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_train",
+    "code2": "w_recru",
     "value": 8
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_busan",
+    "code2": "w_train",
     "value": 7
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_pm",
+    "code2": "w_busan",
     "value": 6
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_rese",
+    "code2": "w_pm",
     "value": 5
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_itpm",
+    "code2": "w_rese",
     "value": 4
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_cust",
+    "code2": "w_itpm",
     "value": 3
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_soci",
+    "code2": "w_cust",
     "value": 2
   },
   {
     "code1": "w_hrdev",
-    "code2": "w_dbde",
+    "code2": "w_soci",
     "value": 1
   },
   {
@@ -3007,32 +2832,32 @@
   {
     "code1": "w_medic",
     "code2": "w_medte",
-    "value": 10
-  },
-  {
-    "code1": "w_medic",
-    "code2": "w_hospital",
     "value": 9
   },
   {
     "code1": "w_medic",
-    "code2": "w_klifo",
+    "code2": "w_hospital",
     "value": 8
   },
   {
     "code1": "w_medic",
-    "code2": "w_phar",
+    "code2": "w_klifo",
     "value": 7
   },
   {
     "code1": "w_medic",
-    "code2": "w_advoc",
+    "code2": "w_phar",
     "value": 6
   },
   {
     "code1": "w_medic",
-    "code2": "w_dent",
+    "code2": "w_advoc",
     "value": 5
+  },
+  {
+    "code1": "w_medic",
+    "code2": "w_dent",
+    "value": 4
   },
   {
     "code1": "w_agri",
@@ -3042,51 +2867,46 @@
   {
     "code1": "w_agri",
     "code2": "w_food",
-    "value": 10
-  },
-  {
-    "code1": "w_agri",
-    "code2": "w_anim",
     "value": 9
   },
   {
     "code1": "w_agri",
-    "code2": "w_house",
+    "code2": "w_anim",
     "value": 8
   },
   {
     "code1": "w_agri",
-    "code2": "w_plant",
+    "code2": "w_house",
     "value": 7
   },
   {
     "code1": "w_agri",
-    "code2": "w_textil",
+    "code2": "w_plant",
     "value": 6
   },
   {
     "code1": "w_agri",
-    "code2": "w_ware",
+    "code2": "w_textil",
     "value": 5
   },
   {
     "code1": "w_agri",
-    "code2": "w_ebus",
+    "code2": "w_ware",
     "value": 4
   },
   {
     "code1": "w_agri",
-    "code2": "w_immo",
+    "code2": "w_ebus",
     "value": 3
   },
   {
     "code1": "w_agri",
-    "code2": "w_sport",
+    "code2": "w_immo",
     "value": 2
   },
   {
     "code1": "w_agri",
-    "code2": "w_bio",
+    "code2": "w_sport",
     "value": 1
   },
   {
@@ -3097,51 +2917,46 @@
   {
     "code1": "w_synth",
     "code2": "w_fabr",
-    "value": 10
-  },
-  {
-    "code1": "w_synth",
-    "code2": "w_scie",
     "value": 9
   },
   {
     "code1": "w_synth",
-    "code2": "w_desig",
+    "code2": "w_scie",
     "value": 8
   },
   {
     "code1": "w_synth",
-    "code2": "w_statics",
+    "code2": "w_desig",
     "value": 7
   },
   {
     "code1": "w_synth",
-    "code2": "w_techpur",
+    "code2": "w_statics",
     "value": 6
   },
   {
     "code1": "w_synth",
-    "code2": "w_cad",
+    "code2": "w_techpur",
     "value": 5
   },
   {
     "code1": "w_synth",
-    "code2": "w_const",
+    "code2": "w_cad",
     "value": 4
   },
   {
     "code1": "w_synth",
-    "code2": "w_hw",
+    "code2": "w_const",
     "value": 3
   },
   {
     "code1": "w_synth",
-    "code2": "w_textil",
+    "code2": "w_hw",
     "value": 2
   },
   {
     "code1": "w_synth",
-    "code2": "w_upstream",
+    "code2": "w_textil",
     "value": 1
   },
   {
@@ -3152,51 +2967,46 @@
   {
     "code1": "w_auto",
     "code2": "w_street",
-    "value": 10
-  },
-  {
-    "code1": "w_auto",
-    "code2": "w_hand",
     "value": 9
   },
   {
     "code1": "w_auto",
-    "code2": "w_cad",
+    "code2": "w_hand",
     "value": 8
   },
   {
     "code1": "w_auto",
-    "code2": "w_ware",
+    "code2": "w_cad",
     "value": 7
   },
   {
     "code1": "w_auto",
-    "code2": "w_lab",
+    "code2": "w_ware",
     "value": 6
   },
   {
     "code1": "w_auto",
-    "code2": "w_statics",
+    "code2": "w_lab",
     "value": 5
   },
   {
     "code1": "w_auto",
-    "code2": "w_space",
+    "code2": "w_statics",
     "value": 4
   },
   {
     "code1": "w_auto",
-    "code2": "w_notar",
+    "code2": "w_space",
     "value": 3
   },
   {
     "code1": "w_auto",
-    "code2": "w_sport",
+    "code2": "w_notar",
     "value": 2
   },
   {
     "code1": "w_auto",
-    "code2": "w_phys",
+    "code2": "w_sport",
     "value": 1
   },
   {
@@ -3207,17 +3017,17 @@
   {
     "code1": "w_dent",
     "code2": "w_medte",
-    "value": 10
-  },
-  {
-    "code1": "w_dent",
-    "code2": "w_tool",
     "value": 9
   },
   {
     "code1": "w_dent",
-    "code2": "w_stone",
+    "code2": "w_tool",
     "value": 8
+  },
+  {
+    "code1": "w_dent",
+    "code2": "w_stone",
+    "value": 7
   },
   {
     "code1": "w_math",
@@ -3227,37 +3037,37 @@
   {
     "code1": "w_math",
     "code2": "w_phys",
-    "value": 10
-  },
-  {
-    "code1": "w_math",
-    "code2": "w_sport",
     "value": 9
   },
   {
     "code1": "w_math",
-    "code2": "w_book",
+    "code2": "w_sport",
     "value": 8
   },
   {
     "code1": "w_math",
-    "code2": "w_acco",
+    "code2": "w_book",
     "value": 7
   },
   {
     "code1": "w_math",
-    "code2": "w_scie",
+    "code2": "w_acco",
     "value": 6
   },
   {
     "code1": "w_math",
-    "code2": "w_chem",
+    "code2": "w_scie",
     "value": 5
   },
   {
     "code1": "w_math",
-    "code2": "w_bio",
+    "code2": "w_chem",
     "value": 4
+  },
+  {
+    "code1": "w_math",
+    "code2": "w_bio",
+    "value": 3
   },
   {
     "code1": "w_phar",
@@ -3267,27 +3077,27 @@
   {
     "code1": "w_phar",
     "code2": "w_whole",
-    "value": 10
-  },
-  {
-    "code1": "w_phar",
-    "code2": "w_sama",
     "value": 9
   },
   {
     "code1": "w_phar",
-    "code2": "w_hospital",
+    "code2": "w_sama",
     "value": 8
   },
   {
     "code1": "w_phar",
-    "code2": "w_cust",
+    "code2": "w_hospital",
     "value": 7
   },
   {
     "code1": "w_phar",
-    "code2": "w_klifo",
+    "code2": "w_cust",
     "value": 6
+  },
+  {
+    "code1": "w_phar",
+    "code2": "w_klifo",
+    "value": 5
   },
   {
     "code1": "w_presa",
@@ -3297,42 +3107,42 @@
   {
     "code1": "w_presa",
     "code2": "w_pr",
-    "value": 10
-  },
-  {
-    "code1": "w_presa",
-    "code2": "w_cust",
     "value": 9
   },
   {
     "code1": "w_presa",
-    "code2": "w_deli",
+    "code2": "w_cust",
     "value": 8
   },
   {
     "code1": "w_presa",
-    "code2": "w_ass",
+    "code2": "w_deli",
     "value": 7
   },
   {
     "code1": "w_presa",
-    "code2": "w_rece",
+    "code2": "w_ass",
     "value": 6
   },
   {
     "code1": "w_presa",
-    "code2": "w_safo",
+    "code2": "w_rece",
     "value": 5
   },
   {
     "code1": "w_presa",
-    "code2": "w_munic",
+    "code2": "w_safo",
     "value": 4
   },
   {
     "code1": "w_presa",
-    "code2": "w_sport",
+    "code2": "w_munic",
     "value": 3
+  },
+  {
+    "code1": "w_presa",
+    "code2": "w_sport",
+    "value": 2
   },
   {
     "code1": "w_bio",
@@ -3342,22 +3152,22 @@
   {
     "code1": "w_bio",
     "code2": "w_chem",
-    "value": 10
-  },
-  {
-    "code1": "w_bio",
-    "code2": "w_food",
     "value": 9
   },
   {
     "code1": "w_bio",
-    "code2": "w_anim",
+    "code2": "w_food",
     "value": 8
   },
   {
     "code1": "w_bio",
-    "code2": "w_phys",
+    "code2": "w_anim",
     "value": 7
+  },
+  {
+    "code1": "w_bio",
+    "code2": "w_phys",
+    "value": 6
   },
   {
     "code1": "w_admin",
@@ -3367,51 +3177,46 @@
   {
     "code1": "w_admin",
     "code2": "w_secr",
-    "value": 10
-  },
-  {
-    "code1": "w_admin",
-    "code2": "w_sadm",
     "value": 9
   },
   {
     "code1": "w_admin",
-    "code2": "w_aadm",
+    "code2": "w_sadm",
     "value": 8
   },
   {
     "code1": "w_admin",
-    "code2": "w_notar",
+    "code2": "w_aadm",
     "value": 7
   },
   {
     "code1": "w_admin",
-    "code2": "w_acco",
+    "code2": "w_notar",
     "value": 6
   },
   {
     "code1": "w_admin",
-    "code2": "w_munic",
+    "code2": "w_acco",
     "value": 5
   },
   {
     "code1": "w_admin",
-    "code2": "w_busi",
+    "code2": "w_munic",
     "value": 4
   },
   {
     "code1": "w_admin",
-    "code2": "w_book",
+    "code2": "w_busi",
     "value": 3
   },
   {
     "code1": "w_admin",
-    "code2": "w_hospital",
+    "code2": "w_book",
     "value": 2
   },
   {
     "code1": "w_admin",
-    "code2": "w_pera",
+    "code2": "w_hospital",
     "value": 1
   },
   {
@@ -3422,22 +3227,22 @@
   {
     "code1": "w_chem",
     "code2": "w_scie",
-    "value": 10
-  },
-  {
-    "code1": "w_chem",
-    "code2": "w_phys",
     "value": 9
   },
   {
     "code1": "w_chem",
-    "code2": "w_monta",
+    "code2": "w_phys",
     "value": 8
   },
   {
     "code1": "w_chem",
-    "code2": "w_lab",
+    "code2": "w_monta",
     "value": 7
+  },
+  {
+    "code1": "w_chem",
+    "code2": "w_lab",
+    "value": 6
   },
   {
     "code1": "w_archi",
@@ -3447,51 +3252,46 @@
   {
     "code1": "w_archi",
     "code2": "w_statics",
-    "value": 10
-  },
-  {
-    "code1": "w_archi",
-    "code2": "w_craft",
     "value": 9
   },
   {
     "code1": "w_archi",
-    "code2": "w_const",
+    "code2": "w_craft",
     "value": 8
   },
   {
     "code1": "w_archi",
-    "code2": "w_street",
+    "code2": "w_const",
     "value": 7
   },
   {
     "code1": "w_archi",
-    "code2": "w_civil",
+    "code2": "w_street",
     "value": 6
   },
   {
     "code1": "w_archi",
-    "code2": "w_siteman",
+    "code2": "w_civil",
     "value": 5
   },
   {
     "code1": "w_archi",
-    "code2": "w_plant",
+    "code2": "w_siteman",
     "value": 4
   },
   {
     "code1": "w_archi",
-    "code2": "w_cad",
+    "code2": "w_plant",
     "value": 3
   },
   {
     "code1": "w_archi",
-    "code2": "w_muse",
+    "code2": "w_cad",
     "value": 2
   },
   {
     "code1": "w_archi",
-    "code2": "w_monta",
+    "code2": "w_muse",
     "value": 1
   },
   {
@@ -3502,37 +3302,37 @@
   {
     "code1": "w_rece",
     "code2": "w_cust",
-    "value": 10
-  },
-  {
-    "code1": "w_rece",
-    "code2": "w_deli",
     "value": 9
   },
   {
     "code1": "w_rece",
-    "code2": "w_recru",
+    "code2": "w_deli",
     "value": 8
   },
   {
     "code1": "w_rece",
-    "code2": "w_sete",
+    "code2": "w_recru",
     "value": 7
   },
   {
     "code1": "w_rece",
-    "code2": "w_ass",
+    "code2": "w_sete",
     "value": 6
   },
   {
     "code1": "w_rece",
-    "code2": "w_hote",
+    "code2": "w_ass",
     "value": 5
   },
   {
     "code1": "w_rece",
-    "code2": "w_event",
+    "code2": "w_hote",
     "value": 4
+  },
+  {
+    "code1": "w_rece",
+    "code2": "w_event",
+    "value": 3
   },
   {
     "code1": "w_pera",
@@ -3542,32 +3342,32 @@
   {
     "code1": "w_pera",
     "code2": "w_itcon",
-    "value": 10
-  },
-  {
-    "code1": "w_pera",
-    "code2": "w_recru",
     "value": 9
   },
   {
     "code1": "w_pera",
-    "code2": "w_cust",
+    "code2": "w_recru",
     "value": 8
   },
   {
     "code1": "w_pera",
-    "code2": "w_busi",
+    "code2": "w_cust",
     "value": 7
   },
   {
     "code1": "w_pera",
-    "code2": "w_train",
+    "code2": "w_busi",
     "value": 6
   },
   {
     "code1": "w_pera",
-    "code2": "w_soci",
+    "code2": "w_train",
     "value": 5
+  },
+  {
+    "code1": "w_pera",
+    "code2": "w_soci",
+    "value": 4
   },
   {
     "code1": "w_muse",
@@ -3577,42 +3377,42 @@
   {
     "code1": "w_muse",
     "code2": "w_hand",
-    "value": 10
-  },
-  {
-    "code1": "w_muse",
-    "code2": "w_hist",
     "value": 9
   },
   {
     "code1": "w_muse",
-    "code2": "w_hote",
+    "code2": "w_hist",
     "value": 8
   },
   {
     "code1": "w_muse",
-    "code2": "w_music",
+    "code2": "w_hote",
     "value": 7
   },
   {
     "code1": "w_muse",
-    "code2": "w_craft",
+    "code2": "w_music",
     "value": 6
   },
   {
     "code1": "w_muse",
-    "code2": "w_bibl",
+    "code2": "w_craft",
     "value": 5
   },
   {
     "code1": "w_muse",
-    "code2": "w_street",
+    "code2": "w_bibl",
     "value": 4
   },
   {
     "code1": "w_muse",
-    "code2": "w_tour",
+    "code2": "w_street",
     "value": 3
+  },
+  {
+    "code1": "w_muse",
+    "code2": "w_tour",
+    "value": 2
   },
   {
     "code1": "w_upstream",
@@ -3622,27 +3422,27 @@
   {
     "code1": "w_upstream",
     "code2": "w_energ",
-    "value": 10
-  },
-  {
-    "code1": "w_upstream",
-    "code2": "w_plant",
     "value": 9
   },
   {
     "code1": "w_upstream",
-    "code2": "w_techpur",
+    "code2": "w_plant",
     "value": 8
   },
   {
     "code1": "w_upstream",
-    "code2": "w_civil",
+    "code2": "w_techpur",
     "value": 7
   },
   {
     "code1": "w_upstream",
-    "code2": "w_syen",
+    "code2": "w_civil",
     "value": 6
+  },
+  {
+    "code1": "w_upstream",
+    "code2": "w_syen",
+    "value": 5
   },
   {
     "code1": "w_ebus",
@@ -3652,37 +3452,37 @@
   {
     "code1": "w_ebus",
     "code2": "w_cust",
-    "value": 10
-  },
-  {
-    "code1": "w_ebus",
-    "code2": "w_ana",
     "value": 9
   },
   {
     "code1": "w_ebus",
-    "code2": "w_ware",
+    "code2": "w_ana",
     "value": 8
   },
   {
     "code1": "w_ebus",
-    "code2": "w_busi",
+    "code2": "w_ware",
     "value": 7
   },
   {
     "code1": "w_ebus",
-    "code2": "w_safo",
+    "code2": "w_busi",
     "value": 6
   },
   {
     "code1": "w_ebus",
-    "code2": "w_sport",
+    "code2": "w_safo",
     "value": 5
   },
   {
     "code1": "w_ebus",
-    "code2": "w_whkig",
+    "code2": "w_sport",
     "value": 4
+  },
+  {
+    "code1": "w_ebus",
+    "code2": "w_whkig",
+    "value": 3
   },
   {
     "code1": "w_recru",
@@ -3692,22 +3492,22 @@
   {
     "code1": "w_recru",
     "code2": "w_train",
-    "value": 10
-  },
-  {
-    "code1": "w_recru",
-    "code2": "w_safo",
     "value": 9
   },
   {
     "code1": "w_recru",
-    "code2": "w_cust",
+    "code2": "w_safo",
     "value": 8
   },
   {
     "code1": "w_recru",
-    "code2": "w_techpur",
+    "code2": "w_cust",
     "value": 7
+  },
+  {
+    "code1": "w_recru",
+    "code2": "w_techpur",
+    "value": 6
   },
   {
     "code1": "w_top",
@@ -3717,51 +3517,46 @@
   {
     "code1": "w_top",
     "code2": "w_sama",
-    "value": 10
-  },
-  {
-    "code1": "w_top",
-    "code2": "w_inves",
     "value": 9
   },
   {
     "code1": "w_top",
-    "code2": "w_busi",
+    "code2": "w_inves",
     "value": 8
   },
   {
     "code1": "w_top",
-    "code2": "w_ana",
+    "code2": "w_busi",
     "value": 7
   },
   {
     "code1": "w_top",
-    "code2": "w_prod",
+    "code2": "w_ana",
     "value": 6
   },
   {
     "code1": "w_top",
-    "code2": "w_proce",
+    "code2": "w_prod",
     "value": 5
   },
   {
     "code1": "w_top",
-    "code2": "w_comm",
+    "code2": "w_proce",
     "value": 4
   },
   {
     "code1": "w_top",
-    "code2": "w_itman",
+    "code2": "w_comm",
     "value": 3
   },
   {
     "code1": "w_top",
-    "code2": "w_hospital",
+    "code2": "w_itman",
     "value": 2
   },
   {
     "code1": "w_top",
-    "code2": "w_cont",
+    "code2": "w_hospital",
     "value": 1
   },
   {
@@ -3772,51 +3567,46 @@
   {
     "code1": "w_notar",
     "code2": "w_advoc",
-    "value": 10
-  },
-  {
-    "code1": "w_notar",
-    "code2": "w_bibl",
     "value": 9
   },
   {
     "code1": "w_notar",
-    "code2": "w_publ",
+    "code2": "w_bibl",
     "value": 8
   },
   {
     "code1": "w_notar",
-    "code2": "w_whuni",
+    "code2": "w_publ",
     "value": 7
   },
   {
     "code1": "w_notar",
-    "code2": "w_secr",
+    "code2": "w_whuni",
     "value": 6
   },
   {
     "code1": "w_notar",
-    "code2": "w_munic",
+    "code2": "w_secr",
     "value": 5
   },
   {
     "code1": "w_notar",
-    "code2": "w_street",
+    "code2": "w_munic",
     "value": 4
   },
   {
     "code1": "w_notar",
-    "code2": "w_judi",
+    "code2": "w_street",
     "value": 3
   },
   {
     "code1": "w_notar",
-    "code2": "w_whkig",
+    "code2": "w_judi",
     "value": 2
   },
   {
     "code1": "w_notar",
-    "code2": "w_hist",
+    "code2": "w_whkig",
     "value": 1
   },
   {
@@ -3827,17 +3617,17 @@
   {
     "code1": "w_itman",
     "code2": "w_itpm",
-    "value": 10
-  },
-  {
-    "code1": "w_itman",
-    "code2": "w_itcon",
     "value": 9
   },
   {
     "code1": "w_itman",
-    "code2": "w_siteman",
+    "code2": "w_itcon",
     "value": 8
+  },
+  {
+    "code1": "w_itman",
+    "code2": "w_siteman",
+    "value": 7
   },
   {
     "code1": "w_tour",
@@ -3847,32 +3637,32 @@
   {
     "code1": "w_tour",
     "code2": "w_hote",
-    "value": 10
-  },
-  {
-    "code1": "w_tour",
-    "code2": "w_pr",
     "value": 9
   },
   {
     "code1": "w_tour",
-    "code2": "w_mark",
+    "code2": "w_pr",
     "value": 8
   },
   {
     "code1": "w_tour",
-    "code2": "w_safo",
+    "code2": "w_mark",
     "value": 7
   },
   {
     "code1": "w_tour",
-    "code2": "w_street",
+    "code2": "w_safo",
     "value": 6
   },
   {
     "code1": "w_tour",
-    "code2": "w_cust",
+    "code2": "w_street",
     "value": 5
+  },
+  {
+    "code1": "w_tour",
+    "code2": "w_cust",
+    "value": 4
   },
   {
     "code1": "w_expo",
@@ -3882,37 +3672,37 @@
   {
     "code1": "w_expo",
     "code2": "w_safo",
-    "value": 10
-  },
-  {
-    "code1": "w_expo",
-    "code2": "w_fabr",
     "value": 9
   },
   {
     "code1": "w_expo",
-    "code2": "w_prod",
+    "code2": "w_fabr",
     "value": 8
   },
   {
     "code1": "w_expo",
-    "code2": "w_textil",
+    "code2": "w_prod",
     "value": 7
   },
   {
     "code1": "w_expo",
-    "code2": "w_techpur",
+    "code2": "w_textil",
     "value": 6
   },
   {
     "code1": "w_expo",
-    "code2": "w_ware",
+    "code2": "w_techpur",
     "value": 5
   },
   {
     "code1": "w_expo",
-    "code2": "w_food",
+    "code2": "w_ware",
     "value": 4
+  },
+  {
+    "code1": "w_expo",
+    "code2": "w_food",
+    "value": 3
   },
   {
     "code1": "w_techpur",
@@ -3922,51 +3712,46 @@
   {
     "code1": "w_techpur",
     "code2": "w_desig",
-    "value": 10
-  },
-  {
-    "code1": "w_techpur",
-    "code2": "w_civil",
     "value": 9
   },
   {
     "code1": "w_techpur",
-    "code2": "w_ware",
+    "code2": "w_civil",
     "value": 8
   },
   {
     "code1": "w_techpur",
-    "code2": "w_cad",
+    "code2": "w_ware",
     "value": 7
   },
   {
     "code1": "w_techpur",
-    "code2": "w_hw",
+    "code2": "w_cad",
     "value": 6
   },
   {
     "code1": "w_techpur",
-    "code2": "w_prod",
+    "code2": "w_hw",
     "value": 5
   },
   {
     "code1": "w_techpur",
-    "code2": "w_busi",
+    "code2": "w_prod",
     "value": 4
   },
   {
     "code1": "w_techpur",
-    "code2": "w_sete",
+    "code2": "w_busi",
     "value": 3
   },
   {
     "code1": "w_techpur",
-    "code2": "w_fabr",
+    "code2": "w_sete",
     "value": 2
   },
   {
     "code1": "w_techpur",
-    "code2": "w_const",
+    "code2": "w_fabr",
     "value": 1
   },
   {
@@ -3977,47 +3762,47 @@
   {
     "code1": "w_home",
     "code2": "w_deli",
-    "value": 10
-  },
-  {
-    "code1": "w_home",
-    "code2": "w_cust",
     "value": 9
   },
   {
     "code1": "w_home",
-    "code2": "w_munic",
+    "code2": "w_cust",
     "value": 8
   },
   {
     "code1": "w_home",
-    "code2": "w_ass",
+    "code2": "w_munic",
     "value": 7
   },
   {
     "code1": "w_home",
-    "code2": "w_sete",
+    "code2": "w_ass",
     "value": 6
   },
   {
     "code1": "w_home",
-    "code2": "w_safo",
+    "code2": "w_sete",
     "value": 5
   },
   {
     "code1": "w_home",
-    "code2": "w_secu",
+    "code2": "w_safo",
     "value": 4
   },
   {
     "code1": "w_home",
-    "code2": "w_immo",
+    "code2": "w_secu",
     "value": 3
   },
   {
     "code1": "w_home",
-    "code2": "w_relig",
+    "code2": "w_immo",
     "value": 2
+  },
+  {
+    "code1": "w_home",
+    "code2": "w_relig",
+    "value": 1
   },
   {
     "code1": "w_event",
@@ -4027,47 +3812,47 @@
   {
     "code1": "w_event",
     "code2": "w_proce",
-    "value": 10
-  },
-  {
-    "code1": "w_event",
-    "code2": "w_pm",
     "value": 9
   },
   {
     "code1": "w_event",
-    "code2": "w_siteman",
+    "code2": "w_pm",
     "value": 8
   },
   {
     "code1": "w_event",
-    "code2": "w_itpm",
+    "code2": "w_siteman",
     "value": 7
   },
   {
     "code1": "w_event",
-    "code2": "w_faci",
+    "code2": "w_itpm",
     "value": 6
   },
   {
     "code1": "w_event",
-    "code2": "w_prod",
+    "code2": "w_faci",
     "value": 5
   },
   {
     "code1": "w_event",
-    "code2": "w_riskm",
+    "code2": "w_prod",
     "value": 4
   },
   {
     "code1": "w_event",
-    "code2": "w_sama",
+    "code2": "w_riskm",
     "value": 3
   },
   {
     "code1": "w_event",
-    "code2": "w_busi",
+    "code2": "w_sama",
     "value": 2
+  },
+  {
+    "code1": "w_event",
+    "code2": "w_busi",
+    "value": 1
   },
   {
     "code1": "w_cad",
@@ -4077,51 +3862,46 @@
   {
     "code1": "w_cad",
     "code2": "w_desig",
-    "value": 10
-  },
-  {
-    "code1": "w_cad",
-    "code2": "w_graph",
     "value": 9
   },
   {
     "code1": "w_cad",
-    "code2": "w_const",
+    "code2": "w_graph",
     "value": 8
   },
   {
     "code1": "w_cad",
-    "code2": "w_craft",
+    "code2": "w_const",
     "value": 7
   },
   {
     "code1": "w_cad",
-    "code2": "w_civil",
+    "code2": "w_craft",
     "value": 6
   },
   {
     "code1": "w_cad",
-    "code2": "w_statics",
+    "code2": "w_civil",
     "value": 5
   },
   {
     "code1": "w_cad",
-    "code2": "w_tool",
+    "code2": "w_statics",
     "value": 4
   },
   {
     "code1": "w_cad",
-    "code2": "w_monta",
+    "code2": "w_tool",
     "value": 3
   },
   {
     "code1": "w_cad",
-    "code2": "w_hand",
+    "code2": "w_monta",
     "value": 2
   },
   {
     "code1": "w_cad",
-    "code2": "w_stage",
+    "code2": "w_hand",
     "value": 1
   },
   {
@@ -4132,42 +3912,42 @@
   {
     "code1": "w_cont",
     "code2": "w_proce",
-    "value": 10
-  },
-  {
-    "code1": "w_cont",
-    "code2": "w_house",
     "value": 9
   },
   {
     "code1": "w_cont",
-    "code2": "w_faci",
+    "code2": "w_house",
     "value": 8
   },
   {
     "code1": "w_cont",
-    "code2": "w_pm",
+    "code2": "w_faci",
     "value": 7
   },
   {
     "code1": "w_cont",
-    "code2": "w_riskm",
+    "code2": "w_pm",
     "value": 6
   },
   {
     "code1": "w_cont",
-    "code2": "w_busi",
+    "code2": "w_riskm",
     "value": 5
   },
   {
     "code1": "w_cont",
-    "code2": "w_rev",
+    "code2": "w_busi",
     "value": 4
   },
   {
     "code1": "w_cont",
-    "code2": "w_prod",
+    "code2": "w_rev",
     "value": 3
+  },
+  {
+    "code1": "w_cont",
+    "code2": "w_prod",
+    "value": 2
   },
   {
     "code1": "w_sama",
@@ -4177,51 +3957,46 @@
   {
     "code1": "w_sama",
     "code2": "w_prod",
-    "value": 10
-  },
-  {
-    "code1": "w_sama",
-    "code2": "w_safo",
     "value": 9
   },
   {
     "code1": "w_sama",
-    "code2": "w_mark",
+    "code2": "w_safo",
     "value": 8
   },
   {
     "code1": "w_sama",
-    "code2": "w_busi",
+    "code2": "w_mark",
     "value": 7
   },
   {
     "code1": "w_sama",
-    "code2": "w_cust",
+    "code2": "w_busi",
     "value": 6
   },
   {
     "code1": "w_sama",
-    "code2": "w_ware",
+    "code2": "w_cust",
     "value": 5
   },
   {
     "code1": "w_sama",
-    "code2": "w_onlma",
+    "code2": "w_ware",
     "value": 4
   },
   {
     "code1": "w_sama",
-    "code2": "w_ana",
+    "code2": "w_onlma",
     "value": 3
   },
   {
     "code1": "w_sama",
-    "code2": "w_proce",
+    "code2": "w_ana",
     "value": 2
   },
   {
     "code1": "w_sama",
-    "code2": "w_comm",
+    "code2": "w_proce",
     "value": 1
   },
   {
@@ -4232,51 +4007,46 @@
   {
     "code1": "w_seng",
     "code2": "w_swe",
-    "value": 10
-  },
-  {
-    "code1": "w_seng",
-    "code2": "w_emb",
     "value": 9
   },
   {
     "code1": "w_seng",
-    "code2": "w_maint",
+    "code2": "w_emb",
     "value": 8
   },
   {
     "code1": "w_seng",
-    "code2": "w_aadm",
+    "code2": "w_maint",
     "value": 7
   },
   {
     "code1": "w_seng",
-    "code2": "w_syen",
+    "code2": "w_aadm",
     "value": 6
   },
   {
     "code1": "w_seng",
-    "code2": "w_aana",
+    "code2": "w_syen",
     "value": 5
   },
   {
     "code1": "w_seng",
-    "code2": "w_sadm",
+    "code2": "w_aana",
     "value": 4
   },
   {
     "code1": "w_seng",
-    "code2": "w_sete",
+    "code2": "w_sadm",
     "value": 3
   },
   {
     "code1": "w_seng",
-    "code2": "w_dwh",
+    "code2": "w_sete",
     "value": 2
   },
   {
     "code1": "w_seng",
-    "code2": "w_dbde",
+    "code2": "w_dwh",
     "value": 1
   },
   {
@@ -4287,37 +4057,37 @@
   {
     "code1": "w_educ",
     "code2": "w_whkig",
-    "value": 10
-  },
-  {
-    "code1": "w_educ",
-    "code2": "w_train",
     "value": 9
   },
   {
     "code1": "w_educ",
-    "code2": "w_whuni",
+    "code2": "w_train",
     "value": 8
   },
   {
     "code1": "w_educ",
-    "code2": "w_civil",
+    "code2": "w_whuni",
     "value": 7
   },
   {
     "code1": "w_educ",
-    "code2": "w_soci",
+    "code2": "w_civil",
     "value": 6
   },
   {
     "code1": "w_educ",
-    "code2": "w_syen",
+    "code2": "w_soci",
     "value": 5
   },
   {
     "code1": "w_educ",
-    "code2": "w_munic",
+    "code2": "w_syen",
     "value": 4
+  },
+  {
+    "code1": "w_educ",
+    "code2": "w_munic",
+    "value": 3
   },
   {
     "code1": "w_house",
@@ -4327,51 +4097,46 @@
   {
     "code1": "w_house",
     "code2": "w_immo",
-    "value": 10
-  },
-  {
-    "code1": "w_house",
-    "code2": "w_faci",
     "value": 9
   },
   {
     "code1": "w_house",
-    "code2": "w_pm",
+    "code2": "w_faci",
     "value": 8
   },
   {
     "code1": "w_house",
-    "code2": "w_anim",
+    "code2": "w_pm",
     "value": 7
   },
   {
     "code1": "w_house",
-    "code2": "w_itpm",
+    "code2": "w_anim",
     "value": 6
   },
   {
     "code1": "w_house",
-    "code2": "w_ware",
+    "code2": "w_itpm",
     "value": 5
   },
   {
     "code1": "w_house",
-    "code2": "w_siteman",
+    "code2": "w_ware",
     "value": 4
   },
   {
     "code1": "w_house",
-    "code2": "w_proce",
+    "code2": "w_siteman",
     "value": 3
   },
   {
     "code1": "w_house",
-    "code2": "w_inves",
+    "code2": "w_proce",
     "value": 2
   },
   {
     "code1": "w_house",
-    "code2": "w_hospital",
+    "code2": "w_inves",
     "value": 1
   },
   {
@@ -4382,51 +4147,46 @@
   {
     "code1": "w_itpm",
     "code2": "w_pm",
-    "value": 10
-  },
-  {
-    "code1": "w_itpm",
-    "code2": "w_itcon",
     "value": 9
   },
   {
     "code1": "w_itpm",
-    "code2": "w_proce",
+    "code2": "w_itcon",
     "value": 8
   },
   {
     "code1": "w_itpm",
-    "code2": "w_prod",
+    "code2": "w_proce",
     "value": 7
   },
   {
     "code1": "w_itpm",
-    "code2": "w_faci",
+    "code2": "w_prod",
     "value": 6
   },
   {
     "code1": "w_itpm",
-    "code2": "w_siteman",
+    "code2": "w_faci",
     "value": 5
   },
   {
     "code1": "w_itpm",
-    "code2": "w_sadm",
+    "code2": "w_siteman",
     "value": 4
   },
   {
     "code1": "w_itpm",
-    "code2": "w_swe",
+    "code2": "w_sadm",
     "value": 3
   },
   {
     "code1": "w_itpm",
-    "code2": "w_dwh",
+    "code2": "w_swe",
     "value": 2
   },
   {
     "code1": "w_itpm",
-    "code2": "w_maint",
+    "code2": "w_dwh",
     "value": 1
   },
   {
@@ -4437,47 +4197,47 @@
   {
     "code1": "w_safo",
     "code2": "w_cust",
-    "value": 10
-  },
-  {
-    "code1": "w_safo",
-    "code2": "w_deli",
     "value": 9
   },
   {
     "code1": "w_safo",
-    "code2": "w_prod",
+    "code2": "w_deli",
     "value": 8
   },
   {
     "code1": "w_safo",
-    "code2": "w_ware",
+    "code2": "w_prod",
     "value": 7
   },
   {
     "code1": "w_safo",
-    "code2": "w_sete",
+    "code2": "w_ware",
     "value": 6
   },
   {
     "code1": "w_safo",
-    "code2": "w_mark",
+    "code2": "w_sete",
     "value": 5
   },
   {
     "code1": "w_safo",
-    "code2": "w_ana",
+    "code2": "w_mark",
     "value": 4
   },
   {
     "code1": "w_safo",
-    "code2": "w_onlma",
+    "code2": "w_ana",
     "value": 3
   },
   {
     "code1": "w_safo",
-    "code2": "w_secu",
+    "code2": "w_onlma",
     "value": 2
+  },
+  {
+    "code1": "w_safo",
+    "code2": "w_secu",
+    "value": 1
   },
   {
     "code1": "w_maint",
@@ -4487,47 +4247,47 @@
   {
     "code1": "w_maint",
     "code2": "w_aadm",
-    "value": 10
-  },
-  {
-    "code1": "w_maint",
-    "code2": "w_aana",
     "value": 9
   },
   {
     "code1": "w_maint",
-    "code2": "w_swe",
+    "code2": "w_aana",
     "value": 8
   },
   {
     "code1": "w_maint",
-    "code2": "w_sete",
+    "code2": "w_swe",
     "value": 7
   },
   {
     "code1": "w_maint",
-    "code2": "w_sadm",
+    "code2": "w_sete",
     "value": 6
   },
   {
     "code1": "w_maint",
-    "code2": "w_emb",
+    "code2": "w_sadm",
     "value": 5
   },
   {
     "code1": "w_maint",
-    "code2": "w_ass",
+    "code2": "w_emb",
     "value": 4
   },
   {
     "code1": "w_maint",
-    "code2": "w_dwh",
+    "code2": "w_ass",
     "value": 3
   },
   {
     "code1": "w_maint",
-    "code2": "w_dbde",
+    "code2": "w_dwh",
     "value": 2
+  },
+  {
+    "code1": "w_maint",
+    "code2": "w_dbde",
+    "value": 1
   },
   {
     "code1": "w_whuni",
@@ -4537,47 +4297,47 @@
   {
     "code1": "w_whuni",
     "code2": "w_bibl",
-    "value": 10
-  },
-  {
-    "code1": "w_whuni",
-    "code2": "w_advoc",
     "value": 9
   },
   {
     "code1": "w_whuni",
-    "code2": "w_publ",
+    "code2": "w_advoc",
     "value": 8
   },
   {
     "code1": "w_whuni",
-    "code2": "w_train",
+    "code2": "w_publ",
     "value": 7
   },
   {
     "code1": "w_whuni",
-    "code2": "w_hist",
+    "code2": "w_train",
     "value": 6
   },
   {
     "code1": "w_whuni",
-    "code2": "w_soci",
+    "code2": "w_hist",
     "value": 5
   },
   {
     "code1": "w_whuni",
-    "code2": "w_whkig",
+    "code2": "w_soci",
     "value": 4
   },
   {
     "code1": "w_whuni",
-    "code2": "w_jour",
+    "code2": "w_whkig",
     "value": 3
   },
   {
     "code1": "w_whuni",
-    "code2": "w_judi",
+    "code2": "w_jour",
     "value": 2
+  },
+  {
+    "code1": "w_whuni",
+    "code2": "w_judi",
+    "value": 1
   },
   {
     "code1": "w_space",
@@ -4587,27 +4347,27 @@
   {
     "code1": "w_space",
     "code2": "w_statics",
-    "value": 10
-  },
-  {
-    "code1": "w_space",
-    "code2": "w_civil",
     "value": 9
   },
   {
     "code1": "w_space",
-    "code2": "w_syen",
+    "code2": "w_civil",
     "value": 8
   },
   {
     "code1": "w_space",
-    "code2": "w_desig",
+    "code2": "w_syen",
     "value": 7
   },
   {
     "code1": "w_space",
-    "code2": "w_phys",
+    "code2": "w_desig",
     "value": 6
+  },
+  {
+    "code1": "w_space",
+    "code2": "w_phys",
+    "value": 5
   },
   {
     "code1": "w_comm",
@@ -4617,32 +4377,32 @@
   {
     "code1": "w_comm",
     "code2": "w_mark",
-    "value": 10
-  },
-  {
-    "code1": "w_comm",
-    "code2": "w_busi",
     "value": 9
   },
   {
     "code1": "w_comm",
-    "code2": "w_pr",
+    "code2": "w_busi",
     "value": 8
   },
   {
     "code1": "w_comm",
-    "code2": "w_cust",
+    "code2": "w_pr",
     "value": 7
   },
   {
     "code1": "w_comm",
-    "code2": "w_ana",
+    "code2": "w_cust",
     "value": 6
   },
   {
     "code1": "w_comm",
-    "code2": "w_onlma",
+    "code2": "w_ana",
     "value": 5
+  },
+  {
+    "code1": "w_comm",
+    "code2": "w_onlma",
+    "value": 4
   },
   {
     "code1": "w_civil",
@@ -4652,51 +4412,46 @@
   {
     "code1": "w_civil",
     "code2": "w_const",
-    "value": 10
-  },
-  {
-    "code1": "w_civil",
-    "code2": "w_plant",
     "value": 9
   },
   {
     "code1": "w_civil",
-    "code2": "w_syen",
+    "code2": "w_plant",
     "value": 8
   },
   {
     "code1": "w_civil",
-    "code2": "w_statics",
+    "code2": "w_syen",
     "value": 7
   },
   {
     "code1": "w_civil",
-    "code2": "w_desig",
+    "code2": "w_statics",
     "value": 6
   },
   {
     "code1": "w_civil",
-    "code2": "w_energ",
+    "code2": "w_desig",
     "value": 5
   },
   {
     "code1": "w_civil",
-    "code2": "w_street",
+    "code2": "w_energ",
     "value": 4
   },
   {
     "code1": "w_civil",
-    "code2": "w_lab",
+    "code2": "w_street",
     "value": 3
   },
   {
     "code1": "w_civil",
-    "code2": "w_craft",
+    "code2": "w_lab",
     "value": 2
   },
   {
     "code1": "w_civil",
-    "code2": "w_stone",
+    "code2": "w_craft",
     "value": 1
   },
   {
@@ -4707,51 +4462,46 @@
   {
     "code1": "w_prod",
     "code2": "w_proce",
-    "value": 10
-  },
-  {
-    "code1": "w_prod",
-    "code2": "w_pm",
     "value": 9
   },
   {
     "code1": "w_prod",
-    "code2": "w_ware",
+    "code2": "w_pm",
     "value": 8
   },
   {
     "code1": "w_prod",
-    "code2": "w_busi",
+    "code2": "w_ware",
     "value": 7
   },
   {
     "code1": "w_prod",
-    "code2": "w_qm",
+    "code2": "w_busi",
     "value": 6
   },
   {
     "code1": "w_prod",
-    "code2": "w_mark",
+    "code2": "w_qm",
     "value": 5
   },
   {
     "code1": "w_prod",
-    "code2": "w_inves",
+    "code2": "w_mark",
     "value": 4
   },
   {
     "code1": "w_prod",
-    "code2": "w_riskm",
+    "code2": "w_inves",
     "value": 3
   },
   {
     "code1": "w_prod",
-    "code2": "w_busan",
+    "code2": "w_riskm",
     "value": 2
   },
   {
     "code1": "w_prod",
-    "code2": "w_whole",
+    "code2": "w_busan",
     "value": 1
   },
   {
@@ -4762,27 +4512,27 @@
   {
     "code1": "w_hote",
     "code2": "w_street",
-    "value": 10
-  },
-  {
-    "code1": "w_hote",
-    "code2": "w_cust",
     "value": 9
   },
   {
     "code1": "w_hote",
-    "code2": "w_hospital",
+    "code2": "w_cust",
     "value": 8
   },
   {
     "code1": "w_hote",
-    "code2": "w_ware",
+    "code2": "w_hospital",
     "value": 7
   },
   {
     "code1": "w_hote",
-    "code2": "w_music",
+    "code2": "w_ware",
     "value": 6
+  },
+  {
+    "code1": "w_hote",
+    "code2": "w_music",
+    "value": 5
   },
   {
     "code1": "w_inves",
@@ -4792,42 +4542,42 @@
   {
     "code1": "w_inves",
     "code2": "w_riskm",
-    "value": 10
-  },
-  {
-    "code1": "w_inves",
-    "code2": "w_pm",
     "value": 9
   },
   {
     "code1": "w_inves",
-    "code2": "w_ana",
+    "code2": "w_pm",
     "value": 8
   },
   {
     "code1": "w_inves",
-    "code2": "w_busi",
+    "code2": "w_ana",
     "value": 7
   },
   {
     "code1": "w_inves",
-    "code2": "w_sectr",
+    "code2": "w_busi",
     "value": 6
   },
   {
     "code1": "w_inves",
-    "code2": "w_busan",
+    "code2": "w_sectr",
     "value": 5
   },
   {
     "code1": "w_inves",
-    "code2": "w_immo",
+    "code2": "w_busan",
     "value": 4
   },
   {
     "code1": "w_inves",
-    "code2": "w_bank",
+    "code2": "w_immo",
     "value": 3
+  },
+  {
+    "code1": "w_inves",
+    "code2": "w_bank",
+    "value": 2
   },
   {
     "code1": "w_busi",
@@ -4837,51 +4587,46 @@
   {
     "code1": "w_busi",
     "code2": "w_proce",
-    "value": 10
-  },
-  {
-    "code1": "w_busi",
-    "code2": "w_ana",
     "value": 9
   },
   {
     "code1": "w_busi",
-    "code2": "w_busan",
+    "code2": "w_ana",
     "value": 8
   },
   {
     "code1": "w_busi",
-    "code2": "w_cust",
+    "code2": "w_busan",
     "value": 7
   },
   {
     "code1": "w_busi",
-    "code2": "w_itcon",
+    "code2": "w_cust",
     "value": 6
   },
   {
     "code1": "w_busi",
-    "code2": "w_acco",
+    "code2": "w_itcon",
     "value": 5
   },
   {
     "code1": "w_busi",
-    "code2": "w_riskm",
+    "code2": "w_acco",
     "value": 4
   },
   {
     "code1": "w_busi",
-    "code2": "w_book",
+    "code2": "w_riskm",
     "value": 3
   },
   {
     "code1": "w_busi",
-    "code2": "w_audit",
+    "code2": "w_book",
     "value": 2
   },
   {
     "code1": "w_busi",
-    "code2": "w_qm",
+    "code2": "w_audit",
     "value": 1
   },
   {
@@ -4892,32 +4637,32 @@
   {
     "code1": "w_hand",
     "code2": "w_music",
-    "value": 10
-  },
-  {
-    "code1": "w_hand",
-    "code2": "w_stage",
     "value": 9
   },
   {
     "code1": "w_hand",
-    "code2": "w_craft",
+    "code2": "w_stage",
     "value": 8
   },
   {
     "code1": "w_hand",
-    "code2": "w_graph",
+    "code2": "w_craft",
     "value": 7
   },
   {
     "code1": "w_hand",
-    "code2": "w_hist",
+    "code2": "w_graph",
     "value": 6
   },
   {
     "code1": "w_hand",
-    "code2": "w_optic",
+    "code2": "w_hist",
     "value": 5
+  },
+  {
+    "code1": "w_hand",
+    "code2": "w_optic",
+    "value": 4
   },
   {
     "code1": "w_monta",
@@ -4927,32 +4672,32 @@
   {
     "code1": "w_monta",
     "code2": "w_statics",
-    "value": 10
-  },
-  {
-    "code1": "w_monta",
-    "code2": "w_const",
     "value": 9
   },
   {
     "code1": "w_monta",
-    "code2": "w_tool",
+    "code2": "w_const",
     "value": 8
   },
   {
     "code1": "w_monta",
-    "code2": "w_craft",
+    "code2": "w_tool",
     "value": 7
   },
   {
     "code1": "w_monta",
-    "code2": "w_fabr",
+    "code2": "w_craft",
     "value": 6
   },
   {
     "code1": "w_monta",
-    "code2": "w_graph",
+    "code2": "w_fabr",
     "value": 5
+  },
+  {
+    "code1": "w_monta",
+    "code2": "w_graph",
+    "value": 4
   },
   {
     "code1": "w_hospital",
@@ -4962,17 +4707,17 @@
   {
     "code1": "w_hospital",
     "code2": "w_faci",
-    "value": 10
-  },
-  {
-    "code1": "w_hospital",
-    "code2": "w_proce",
     "value": 9
   },
   {
     "code1": "w_hospital",
-    "code2": "w_klifo",
+    "code2": "w_proce",
     "value": 8
+  },
+  {
+    "code1": "w_hospital",
+    "code2": "w_klifo",
+    "value": 7
   },
   {
     "code1": "w_jour",
@@ -4982,22 +4727,22 @@
   {
     "code1": "w_jour",
     "code2": "w_publ",
-    "value": 10
-  },
-  {
-    "code1": "w_jour",
-    "code2": "w_pr",
     "value": 9
   },
   {
     "code1": "w_jour",
-    "code2": "w_bibl",
+    "code2": "w_pr",
     "value": 8
   },
   {
     "code1": "w_jour",
-    "code2": "w_advoc",
+    "code2": "w_bibl",
     "value": 7
+  },
+  {
+    "code1": "w_jour",
+    "code2": "w_advoc",
+    "value": 6
   },
   {
     "code1": "w_munic",
@@ -5007,47 +4752,47 @@
   {
     "code1": "w_munic",
     "code2": "w_cust",
-    "value": 10
-  },
-  {
-    "code1": "w_munic",
-    "code2": "w_secu",
     "value": 9
   },
   {
     "code1": "w_munic",
-    "code2": "w_deli",
+    "code2": "w_secu",
     "value": 8
   },
   {
     "code1": "w_munic",
-    "code2": "w_pr",
+    "code2": "w_deli",
     "value": 7
   },
   {
     "code1": "w_munic",
-    "code2": "w_soci",
+    "code2": "w_pr",
     "value": 6
   },
   {
     "code1": "w_munic",
-    "code2": "w_secr",
+    "code2": "w_soci",
     "value": 5
   },
   {
     "code1": "w_munic",
-    "code2": "w_advoc",
+    "code2": "w_secr",
     "value": 4
   },
   {
     "code1": "w_munic",
-    "code2": "w_judi",
+    "code2": "w_advoc",
     "value": 3
   },
   {
     "code1": "w_munic",
-    "code2": "w_relig",
+    "code2": "w_judi",
     "value": 2
+  },
+  {
+    "code1": "w_munic",
+    "code2": "w_relig",
+    "value": 1
   },
   {
     "code1": "w_faci",
@@ -5057,42 +4802,42 @@
   {
     "code1": "w_faci",
     "code2": "w_proce",
-    "value": 10
-  },
-  {
-    "code1": "w_faci",
-    "code2": "w_pm",
     "value": 9
   },
   {
     "code1": "w_faci",
-    "code2": "w_siteman",
+    "code2": "w_pm",
     "value": 8
   },
   {
     "code1": "w_faci",
-    "code2": "w_sadm",
+    "code2": "w_siteman",
     "value": 7
   },
   {
     "code1": "w_faci",
-    "code2": "w_plant",
+    "code2": "w_sadm",
     "value": 6
   },
   {
     "code1": "w_faci",
-    "code2": "w_waste",
+    "code2": "w_plant",
     "value": 5
   },
   {
     "code1": "w_faci",
-    "code2": "w_qm",
+    "code2": "w_waste",
     "value": 4
   },
   {
     "code1": "w_faci",
-    "code2": "w_anim",
+    "code2": "w_qm",
     "value": 3
+  },
+  {
+    "code1": "w_faci",
+    "code2": "w_anim",
+    "value": 2
   },
   {
     "code1": "w_desig",
@@ -5102,37 +4847,37 @@
   {
     "code1": "w_desig",
     "code2": "w_fabr",
-    "value": 10
-  },
-  {
-    "code1": "w_desig",
-    "code2": "w_graph",
     "value": 9
   },
   {
     "code1": "w_desig",
-    "code2": "w_const",
+    "code2": "w_graph",
     "value": 8
   },
   {
     "code1": "w_desig",
-    "code2": "w_plant",
+    "code2": "w_const",
     "value": 7
   },
   {
     "code1": "w_desig",
-    "code2": "w_emb",
+    "code2": "w_plant",
     "value": 6
   },
   {
     "code1": "w_desig",
-    "code2": "w_textil",
+    "code2": "w_emb",
     "value": 5
   },
   {
     "code1": "w_desig",
-    "code2": "w_rese",
+    "code2": "w_textil",
     "value": 4
+  },
+  {
+    "code1": "w_desig",
+    "code2": "w_rese",
+    "value": 3
   },
   {
     "code1": "w_rev",
@@ -5142,27 +4887,27 @@
   {
     "code1": "w_rev",
     "code2": "w_qm",
-    "value": 10
-  },
-  {
-    "code1": "w_rev",
-    "code2": "w_audit",
     "value": 9
   },
   {
     "code1": "w_rev",
-    "code2": "w_ass",
+    "code2": "w_audit",
     "value": 8
   },
   {
     "code1": "w_rev",
-    "code2": "w_advoc",
+    "code2": "w_ass",
     "value": 7
   },
   {
     "code1": "w_rev",
-    "code2": "w_judi",
+    "code2": "w_advoc",
     "value": 6
+  },
+  {
+    "code1": "w_rev",
+    "code2": "w_judi",
+    "value": 5
   },
   {
     "code1": "w_dba",
@@ -5172,32 +4917,32 @@
   {
     "code1": "w_dba",
     "code2": "w_dbde",
-    "value": 10
-  },
-  {
-    "code1": "w_dba",
-    "code2": "w_dwh",
     "value": 9
   },
   {
     "code1": "w_dba",
-    "code2": "w_sadm",
+    "code2": "w_dwh",
     "value": 8
   },
   {
     "code1": "w_dba",
-    "code2": "w_aadm",
+    "code2": "w_sadm",
     "value": 7
   },
   {
     "code1": "w_dba",
-    "code2": "w_siteman",
+    "code2": "w_aadm",
     "value": 6
   },
   {
     "code1": "w_dba",
-    "code2": "w_proce",
+    "code2": "w_siteman",
     "value": 5
+  },
+  {
+    "code1": "w_dba",
+    "code2": "w_proce",
+    "value": 4
   },
   {
     "code1": "w_book",
@@ -5207,37 +4952,37 @@
   {
     "code1": "w_book",
     "code2": "w_acco",
-    "value": 10
-  },
-  {
-    "code1": "w_book",
-    "code2": "w_audit",
     "value": 9
   },
   {
     "code1": "w_book",
-    "code2": "w_bank",
+    "code2": "w_audit",
     "value": 8
   },
   {
     "code1": "w_book",
-    "code2": "w_ana",
+    "code2": "w_bank",
     "value": 7
   },
   {
     "code1": "w_book",
-    "code2": "w_publ",
+    "code2": "w_ana",
     "value": 6
   },
   {
     "code1": "w_book",
-    "code2": "w_bibl",
+    "code2": "w_publ",
     "value": 5
   },
   {
     "code1": "w_book",
-    "code2": "w_sectr",
+    "code2": "w_bibl",
     "value": 4
+  },
+  {
+    "code1": "w_book",
+    "code2": "w_sectr",
+    "value": 3
   },
   {
     "code1": "w_rese",
@@ -5247,37 +4992,37 @@
   {
     "code1": "w_rese",
     "code2": "w_busan",
-    "value": 10
-  },
-  {
-    "code1": "w_rese",
-    "code2": "w_swe",
     "value": 9
   },
   {
     "code1": "w_rese",
-    "code2": "w_klifo",
+    "code2": "w_swe",
     "value": 8
   },
   {
     "code1": "w_rese",
-    "code2": "w_emb",
+    "code2": "w_klifo",
     "value": 7
   },
   {
     "code1": "w_rese",
-    "code2": "w_nwde",
+    "code2": "w_emb",
     "value": 6
   },
   {
     "code1": "w_rese",
-    "code2": "w_plant",
+    "code2": "w_nwde",
     "value": 5
   },
   {
     "code1": "w_rese",
-    "code2": "w_aana",
+    "code2": "w_plant",
     "value": 4
+  },
+  {
+    "code1": "w_rese",
+    "code2": "w_aana",
+    "value": 3
   },
   {
     "code1": "w_street",
@@ -5287,32 +5032,32 @@
   {
     "code1": "w_street",
     "code2": "w_const",
-    "value": 10
-  },
-  {
-    "code1": "w_street",
-    "code2": "w_statics",
     "value": 9
   },
   {
     "code1": "w_street",
-    "code2": "w_craft",
+    "code2": "w_statics",
     "value": 8
+  },
+  {
+    "code1": "w_street",
+    "code2": "w_craft",
+    "value": 7
   },
   {
     "code1": "w_street",
     "code2": "w_siteman",
-    "value": 7
-  },
-  {
-    "code1": "w_street",
-    "code2": "w_immo",
     "value": 6
   },
   {
     "code1": "w_street",
-    "code2": "w_music",
+    "code2": "w_immo",
     "value": 5
+  },
+  {
+    "code1": "w_street",
+    "code2": "w_music",
+    "value": 4
   },
   {
     "code1": "w_craft",
@@ -5322,32 +5067,32 @@
   {
     "code1": "w_craft",
     "code2": "w_statics",
-    "value": 10
-  },
-  {
-    "code1": "w_craft",
-    "code2": "w_const",
     "value": 9
   },
   {
     "code1": "w_craft",
-    "code2": "w_stone",
+    "code2": "w_const",
     "value": 8
   },
   {
     "code1": "w_craft",
-    "code2": "w_graph",
+    "code2": "w_stone",
     "value": 7
   },
   {
     "code1": "w_craft",
-    "code2": "w_textil",
+    "code2": "w_graph",
     "value": 6
   },
   {
     "code1": "w_craft",
-    "code2": "w_stage",
+    "code2": "w_textil",
     "value": 5
+  },
+  {
+    "code1": "w_craft",
+    "code2": "w_stage",
+    "value": 4
   },
   {
     "code1": "w_statics",
@@ -5357,27 +5102,27 @@
   {
     "code1": "w_statics",
     "code2": "w_const",
-    "value": 10
-  },
-  {
-    "code1": "w_statics",
-    "code2": "w_stone",
     "value": 9
   },
   {
     "code1": "w_statics",
-    "code2": "w_hw",
+    "code2": "w_stone",
     "value": 8
   },
   {
     "code1": "w_statics",
-    "code2": "w_scie",
+    "code2": "w_hw",
     "value": 7
   },
   {
     "code1": "w_statics",
-    "code2": "w_phys",
+    "code2": "w_scie",
     "value": 6
+  },
+  {
+    "code1": "w_statics",
+    "code2": "w_phys",
+    "value": 5
   },
   {
     "code1": "w_siteman",
@@ -5387,37 +5132,37 @@
   {
     "code1": "w_siteman",
     "code2": "w_pm",
-    "value": 10
-  },
-  {
-    "code1": "w_siteman",
-    "code2": "w_proce",
     "value": 9
   },
   {
     "code1": "w_siteman",
-    "code2": "w_aadm",
+    "code2": "w_proce",
     "value": 8
   },
   {
     "code1": "w_siteman",
-    "code2": "w_dbde",
+    "code2": "w_aadm",
     "value": 7
   },
   {
     "code1": "w_siteman",
-    "code2": "w_dwh",
+    "code2": "w_dbde",
     "value": 6
   },
   {
     "code1": "w_siteman",
-    "code2": "w_nwde",
+    "code2": "w_dwh",
     "value": 5
   },
   {
     "code1": "w_siteman",
-    "code2": "w_bibl",
+    "code2": "w_nwde",
     "value": 4
+  },
+  {
+    "code1": "w_siteman",
+    "code2": "w_bibl",
+    "value": 3
   },
   {
     "code1": "w_judi",
@@ -5427,12 +5172,12 @@
   {
     "code1": "w_judi",
     "code2": "w_advoc",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_judi",
     "code2": "w_audit",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_pr",
@@ -5442,27 +5187,27 @@
   {
     "code1": "w_pr",
     "code2": "w_mark",
-    "value": 10
-  },
-  {
-    "code1": "w_pr",
-    "code2": "w_cust",
     "value": 9
   },
   {
     "code1": "w_pr",
-    "code2": "w_soci",
+    "code2": "w_cust",
     "value": 8
   },
   {
     "code1": "w_pr",
-    "code2": "w_hist",
+    "code2": "w_soci",
     "value": 7
   },
   {
     "code1": "w_pr",
-    "code2": "w_sport",
+    "code2": "w_hist",
     "value": 6
+  },
+  {
+    "code1": "w_pr",
+    "code2": "w_sport",
+    "value": 5
   },
   {
     "code1": "w_hist",
@@ -5472,7 +5217,7 @@
   {
     "code1": "w_hist",
     "code2": "w_bibl",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_soci",
@@ -5482,12 +5227,12 @@
   {
     "code1": "w_soci",
     "code2": "w_lab",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_soci",
     "code2": "w_relig",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_medte",
@@ -5497,17 +5242,17 @@
   {
     "code1": "w_medte",
     "code2": "w_klifo",
-    "value": 10
-  },
-  {
-    "code1": "w_medte",
-    "code2": "w_hw",
     "value": 9
   },
   {
     "code1": "w_medte",
-    "code2": "w_optic",
+    "code2": "w_hw",
     "value": 8
+  },
+  {
+    "code1": "w_medte",
+    "code2": "w_optic",
+    "value": 7
   },
   {
     "code1": "w_stone",
@@ -5517,22 +5262,22 @@
   {
     "code1": "w_stone",
     "code2": "w_const",
-    "value": 10
-  },
-  {
-    "code1": "w_stone",
-    "code2": "w_scie",
     "value": 9
   },
   {
     "code1": "w_stone",
-    "code2": "w_lab",
+    "code2": "w_scie",
     "value": 8
   },
   {
     "code1": "w_stone",
-    "code2": "w_tool",
+    "code2": "w_lab",
     "value": 7
+  },
+  {
+    "code1": "w_stone",
+    "code2": "w_tool",
+    "value": 6
   },
   {
     "code1": "w_ana",
@@ -5542,32 +5287,32 @@
   {
     "code1": "w_ana",
     "code2": "w_busan",
-    "value": 10
-  },
-  {
-    "code1": "w_ana",
-    "code2": "w_aana",
     "value": 9
   },
   {
     "code1": "w_ana",
-    "code2": "w_audit",
+    "code2": "w_aana",
     "value": 8
   },
   {
     "code1": "w_ana",
-    "code2": "w_acco",
+    "code2": "w_audit",
     "value": 7
   },
   {
     "code1": "w_ana",
-    "code2": "w_qm",
+    "code2": "w_acco",
     "value": 6
   },
   {
     "code1": "w_ana",
-    "code2": "w_insu",
+    "code2": "w_qm",
     "value": 5
+  },
+  {
+    "code1": "w_ana",
+    "code2": "w_insu",
+    "value": 4
   },
   {
     "code1": "w_secu",
@@ -5577,27 +5322,27 @@
   {
     "code1": "w_secu",
     "code2": "w_sete",
-    "value": 10
-  },
-  {
-    "code1": "w_secu",
-    "code2": "w_deli",
     "value": 9
   },
   {
     "code1": "w_secu",
-    "code2": "w_sectr",
+    "code2": "w_deli",
     "value": 8
   },
   {
     "code1": "w_secu",
-    "code2": "w_cust",
+    "code2": "w_sectr",
     "value": 7
   },
   {
     "code1": "w_secu",
-    "code2": "w_secr",
+    "code2": "w_cust",
     "value": 6
+  },
+  {
+    "code1": "w_secu",
+    "code2": "w_secr",
+    "value": 5
   },
   {
     "code1": "w_klifo",
@@ -5612,27 +5357,27 @@
   {
     "code1": "w_bank",
     "code2": "w_acco",
-    "value": 10
-  },
-  {
-    "code1": "w_bank",
-    "code2": "w_sectr",
     "value": 9
   },
   {
     "code1": "w_bank",
-    "code2": "w_audit",
+    "code2": "w_sectr",
     "value": 8
   },
   {
     "code1": "w_bank",
-    "code2": "w_bibl",
+    "code2": "w_audit",
     "value": 7
   },
   {
     "code1": "w_bank",
-    "code2": "w_publ",
+    "code2": "w_bibl",
     "value": 6
+  },
+  {
+    "code1": "w_bank",
+    "code2": "w_publ",
+    "value": 5
   },
   {
     "code1": "w_sete",
@@ -5642,22 +5387,22 @@
   {
     "code1": "w_sete",
     "code2": "w_cust",
-    "value": 10
-  },
-  {
-    "code1": "w_sete",
-    "code2": "w_deli",
     "value": 9
   },
   {
     "code1": "w_sete",
-    "code2": "w_syen",
+    "code2": "w_deli",
     "value": 8
   },
   {
     "code1": "w_sete",
-    "code2": "w_itcon",
+    "code2": "w_syen",
     "value": 7
+  },
+  {
+    "code1": "w_sete",
+    "code2": "w_itcon",
+    "value": 6
   },
   {
     "code1": "w_food",
@@ -5667,37 +5412,37 @@
   {
     "code1": "w_food",
     "code2": "w_fabr",
-    "value": 10
-  },
-  {
-    "code1": "w_food",
-    "code2": "w_textil",
     "value": 9
   },
   {
     "code1": "w_food",
-    "code2": "w_plant",
+    "code2": "w_textil",
     "value": 8
   },
   {
     "code1": "w_food",
-    "code2": "w_lab",
+    "code2": "w_plant",
     "value": 7
   },
   {
     "code1": "w_food",
-    "code2": "w_ware",
+    "code2": "w_lab",
     "value": 6
   },
   {
     "code1": "w_food",
-    "code2": "w_whole",
+    "code2": "w_ware",
     "value": 5
   },
   {
     "code1": "w_food",
-    "code2": "w_waste",
+    "code2": "w_whole",
     "value": 4
+  },
+  {
+    "code1": "w_food",
+    "code2": "w_waste",
+    "value": 3
   },
   {
     "code1": "w_advoc",
@@ -5707,17 +5452,17 @@
   {
     "code1": "w_advoc",
     "code2": "w_bibl",
-    "value": 10
-  },
-  {
-    "code1": "w_advoc",
-    "code2": "w_whkig",
     "value": 9
   },
   {
     "code1": "w_advoc",
-    "code2": "w_relig",
+    "code2": "w_whkig",
     "value": 8
+  },
+  {
+    "code1": "w_advoc",
+    "code2": "w_relig",
+    "value": 7
   },
   {
     "code1": "w_dbde",
@@ -5727,27 +5472,27 @@
   {
     "code1": "w_dbde",
     "code2": "w_dwh",
-    "value": 10
-  },
-  {
-    "code1": "w_dbde",
-    "code2": "w_swe",
     "value": 9
   },
   {
     "code1": "w_dbde",
-    "code2": "w_nwde",
+    "code2": "w_swe",
     "value": 8
   },
   {
     "code1": "w_dbde",
-    "code2": "w_busan",
+    "code2": "w_nwde",
     "value": 7
   },
   {
     "code1": "w_dbde",
-    "code2": "w_emb",
+    "code2": "w_busan",
     "value": 6
+  },
+  {
+    "code1": "w_dbde",
+    "code2": "w_emb",
+    "value": 5
   },
   {
     "code1": "w_audit",
@@ -5757,22 +5502,22 @@
   {
     "code1": "w_audit",
     "code2": "w_acco",
-    "value": 10
-  },
-  {
-    "code1": "w_audit",
-    "code2": "w_qm",
     "value": 9
   },
   {
     "code1": "w_audit",
-    "code2": "w_insu",
+    "code2": "w_qm",
     "value": 8
   },
   {
     "code1": "w_audit",
-    "code2": "w_riskm",
+    "code2": "w_insu",
     "value": 7
+  },
+  {
+    "code1": "w_audit",
+    "code2": "w_riskm",
+    "value": 6
   },
   {
     "code1": "w_dwh",
@@ -5782,17 +5527,17 @@
   {
     "code1": "w_dwh",
     "code2": "w_sadm",
-    "value": 10
-  },
-  {
-    "code1": "w_dwh",
-    "code2": "w_ware",
     "value": 9
   },
   {
     "code1": "w_dwh",
-    "code2": "w_aadm",
+    "code2": "w_ware",
     "value": 8
+  },
+  {
+    "code1": "w_dwh",
+    "code2": "w_aadm",
+    "value": 7
   },
   {
     "code1": "w_deli",
@@ -5802,12 +5547,12 @@
   {
     "code1": "w_deli",
     "code2": "w_cust",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_deli",
     "code2": "w_ass",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_whkig",
@@ -5817,12 +5562,12 @@
   {
     "code1": "w_whkig",
     "code2": "w_train",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_whkig",
     "code2": "w_bibl",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_proce",
@@ -5832,32 +5577,32 @@
   {
     "code1": "w_proce",
     "code2": "w_pm",
-    "value": 10
-  },
-  {
-    "code1": "w_proce",
-    "code2": "w_sadm",
     "value": 9
   },
   {
     "code1": "w_proce",
-    "code2": "w_aadm",
+    "code2": "w_sadm",
     "value": 8
   },
   {
     "code1": "w_proce",
-    "code2": "w_riskm",
+    "code2": "w_aadm",
     "value": 7
   },
   {
     "code1": "w_proce",
-    "code2": "w_qm",
+    "code2": "w_riskm",
     "value": 6
   },
   {
     "code1": "w_proce",
-    "code2": "w_waste",
+    "code2": "w_qm",
     "value": 5
+  },
+  {
+    "code1": "w_proce",
+    "code2": "w_waste",
+    "value": 4
   },
   {
     "code1": "w_energ",
@@ -5867,22 +5612,22 @@
   {
     "code1": "w_energ",
     "code2": "w_plant",
-    "value": 10
-  },
-  {
-    "code1": "w_energ",
-    "code2": "w_hw",
     "value": 9
   },
   {
     "code1": "w_energ",
-    "code2": "w_syen",
+    "code2": "w_hw",
     "value": 8
   },
   {
     "code1": "w_energ",
-    "code2": "w_stage",
+    "code2": "w_syen",
     "value": 7
+  },
+  {
+    "code1": "w_energ",
+    "code2": "w_stage",
+    "value": 6
   },
   {
     "code1": "w_insu",
@@ -5892,12 +5637,12 @@
   {
     "code1": "w_insu",
     "code2": "w_riskm",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_insu",
     "code2": "w_sectr",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_nwde",
@@ -5907,17 +5652,17 @@
   {
     "code1": "w_nwde",
     "code2": "w_emb",
-    "value": 10
-  },
-  {
-    "code1": "w_nwde",
-    "code2": "w_busan",
     "value": 9
   },
   {
     "code1": "w_nwde",
-    "code2": "w_swe",
+    "code2": "w_busan",
     "value": 8
+  },
+  {
+    "code1": "w_nwde",
+    "code2": "w_swe",
+    "value": 7
   },
   {
     "code1": "w_whole",
@@ -5927,12 +5672,12 @@
   {
     "code1": "w_whole",
     "code2": "w_ware",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_whole",
     "code2": "w_cust",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_pm",
@@ -5942,22 +5687,22 @@
   {
     "code1": "w_pm",
     "code2": "w_riskm",
-    "value": 10
-  },
-  {
-    "code1": "w_pm",
-    "code2": "w_busan",
     "value": 9
   },
   {
     "code1": "w_pm",
-    "code2": "w_waste",
+    "code2": "w_busan",
     "value": 8
   },
   {
     "code1": "w_pm",
-    "code2": "w_qm",
+    "code2": "w_waste",
     "value": 7
+  },
+  {
+    "code1": "w_pm",
+    "code2": "w_qm",
+    "value": 6
   },
   {
     "code1": "w_hw",
@@ -5967,27 +5712,27 @@
   {
     "code1": "w_hw",
     "code2": "w_emb",
-    "value": 10
-  },
-  {
-    "code1": "w_hw",
-    "code2": "w_syen",
     "value": 9
   },
   {
     "code1": "w_hw",
-    "code2": "w_tool",
+    "code2": "w_syen",
     "value": 8
   },
   {
     "code1": "w_hw",
-    "code2": "w_stage",
+    "code2": "w_tool",
     "value": 7
   },
   {
     "code1": "w_hw",
-    "code2": "w_optic",
+    "code2": "w_stage",
     "value": 6
+  },
+  {
+    "code1": "w_hw",
+    "code2": "w_optic",
+    "value": 5
   },
   {
     "code1": "w_train",
@@ -5997,12 +5742,12 @@
   {
     "code1": "w_train",
     "code2": "w_busan",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_train",
     "code2": "w_lab",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_secr",
@@ -6012,12 +5757,12 @@
   {
     "code1": "w_secr",
     "code2": "w_sadm",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_secr",
     "code2": "w_acco",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_ass",
@@ -6027,12 +5772,12 @@
   {
     "code1": "w_ass",
     "code2": "w_cust",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_ass",
     "code2": "w_relig",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_syen",
@@ -6042,22 +5787,22 @@
   {
     "code1": "w_syen",
     "code2": "w_sadm",
-    "value": 10
-  },
-  {
-    "code1": "w_syen",
-    "code2": "w_emb",
     "value": 9
   },
   {
     "code1": "w_syen",
-    "code2": "w_plant",
+    "code2": "w_emb",
     "value": 8
   },
   {
     "code1": "w_syen",
-    "code2": "w_aana",
+    "code2": "w_plant",
     "value": 7
+  },
+  {
+    "code1": "w_syen",
+    "code2": "w_aana",
+    "value": 6
   },
   {
     "code1": "w_ware",
@@ -6067,37 +5812,37 @@
   {
     "code1": "w_ware",
     "code2": "w_lab",
-    "value": 10
-  },
-  {
-    "code1": "w_ware",
-    "code2": "w_fabr",
     "value": 9
   },
   {
     "code1": "w_ware",
-    "code2": "w_textil",
+    "code2": "w_fabr",
     "value": 8
+  },
+  {
+    "code1": "w_ware",
+    "code2": "w_textil",
+    "value": 7
   },
   {
     "code1": "w_ware",
     "code2": "w_publ",
-    "value": 7
-  },
-  {
-    "code1": "w_ware",
-    "code2": "w_bibl",
     "value": 6
   },
   {
     "code1": "w_ware",
-    "code2": "w_waste",
+    "code2": "w_bibl",
     "value": 5
   },
   {
     "code1": "w_ware",
-    "code2": "w_anim",
+    "code2": "w_waste",
     "value": 4
+  },
+  {
+    "code1": "w_ware",
+    "code2": "w_anim",
+    "value": 3
   },
   {
     "code1": "w_fabr",
@@ -6107,22 +5852,22 @@
   {
     "code1": "w_fabr",
     "code2": "w_textil",
-    "value": 10
-  },
-  {
-    "code1": "w_fabr",
-    "code2": "w_plant",
     "value": 9
   },
   {
     "code1": "w_fabr",
-    "code2": "w_const",
+    "code2": "w_plant",
     "value": 8
   },
   {
     "code1": "w_fabr",
-    "code2": "w_lab",
+    "code2": "w_const",
     "value": 7
+  },
+  {
+    "code1": "w_fabr",
+    "code2": "w_lab",
+    "value": 6
   },
   {
     "code1": "w_swe",
@@ -6132,22 +5877,22 @@
   {
     "code1": "w_swe",
     "code2": "w_emb",
-    "value": 10
-  },
-  {
-    "code1": "w_swe",
-    "code2": "w_aadm",
     "value": 9
   },
   {
     "code1": "w_swe",
-    "code2": "w_aana",
+    "code2": "w_aadm",
     "value": 8
   },
   {
     "code1": "w_swe",
-    "code2": "w_busan",
+    "code2": "w_aana",
     "value": 7
+  },
+  {
+    "code1": "w_swe",
+    "code2": "w_busan",
+    "value": 6
   },
   {
     "code1": "w_stage",
@@ -6157,12 +5902,12 @@
   {
     "code1": "w_stage",
     "code2": "w_music",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_stage",
     "code2": "w_optic",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_riskm",
@@ -6172,12 +5917,12 @@
   {
     "code1": "w_riskm",
     "code2": "w_sectr",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_riskm",
     "code2": "w_qm",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_scie",
@@ -6187,12 +5932,12 @@
   {
     "code1": "w_scie",
     "code2": "w_phys",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_scie",
     "code2": "w_lab",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_sadm",
@@ -6202,12 +5947,12 @@
   {
     "code1": "w_sadm",
     "code2": "w_aadm",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_sadm",
     "code2": "w_emb",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_phys",
@@ -6217,7 +5962,7 @@
   {
     "code1": "w_phys",
     "code2": "w_optic",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_onlma",
@@ -6227,12 +5972,12 @@
   {
     "code1": "w_onlma",
     "code2": "w_mark",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_onlma",
     "code2": "w_cust",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_cust",
@@ -6242,12 +5987,12 @@
   {
     "code1": "w_cust",
     "code2": "w_itcon",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_cust",
     "code2": "w_anim",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_aana",
@@ -6257,12 +6002,12 @@
   {
     "code1": "w_aana",
     "code2": "w_aadm",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_aana",
     "code2": "w_emb",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_publ",
@@ -6272,7 +6017,7 @@
   {
     "code1": "w_publ",
     "code2": "w_bibl",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_aadm",
@@ -6287,7 +6032,7 @@
   {
     "code1": "w_tool",
     "code2": "w_lab",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_immo",
@@ -6302,12 +6047,12 @@
   {
     "code1": "w_const",
     "code2": "w_plant",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_const",
     "code2": "w_lab",
-    "value": 9
+    "value": 8
   },
   {
     "code1": "w_qm",
@@ -6322,7 +6067,7 @@
   {
     "code1": "w_graph",
     "code2": "w_optic",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_waste",
@@ -6332,7 +6077,7 @@
   {
     "code1": "w_waste",
     "code2": "w_plant",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_music",
@@ -6342,7 +6087,7 @@
   {
     "code1": "w_music",
     "code2": "w_sport",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_plant",
@@ -6352,7 +6097,7 @@
   {
     "code1": "w_plant",
     "code2": "w_lab",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_sport",
@@ -6382,7 +6127,7 @@
   {
     "code1": "w_relig",
     "code2": "w_anim",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_sectr",
@@ -6407,7 +6152,7 @@
   {
     "code1": "w_lab",
     "code2": "w_textil",
-    "value": 10
+    "value": 9
   },
   {
     "code1": "w_optic",

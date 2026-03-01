@@ -42,26 +42,37 @@ def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
     n = len(ids)
 
     # Collect (lo, hi) → max value from either direction  ← only change from baseline
-    pair_value: dict[tuple[int, int], int] = {}
+    pair_maxrank: dict[tuple[int, int], int] = {}
+    pair_score: dict[tuple[int, int], float] = {}
     for i in range(n):
         row = sim[i].copy()
         row[i] = -np.inf
-        top_js = np.argsort(row)[::-1][:9]
-        for rank_k, j in enumerate(top_js):
+        for rank_k, j in enumerate(np.argsort(row)[::-1][:9]):
             lo, hi = min(i, j), max(i, j)
             val = 9 - rank_k
-            if lo not in pair_value or val > pair_value.get((lo, hi), 0):
-                pair_value[(lo, hi)] = max(pair_value.get((lo, hi), 0), val)
+            pair_maxrank[(lo, hi)] = max(pair_maxrank.get((lo, hi), 0), val)
+            if (lo, hi) not in pair_score:
+                pair_score[(lo, hi)] = float(sim[lo, hi])
 
-    groups: dict[int, list[tuple[int, int]]] = {i: [] for i in range(n)}
-    for (lo, hi), val in pair_value.items():
-        groups[lo].append((hi, val))
+    groups: dict[int, list[tuple[int, int, float]]] = {i: [] for i in range(n)}
+    for (lo, hi), maxrank in pair_maxrank.items():
+        groups[lo].append((hi, maxrank, pair_score[(lo, hi)]))
 
     entries: list[dict] = []
     for i in range(n):
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
-        for j, val in sorted(groups[i], key=lambda x: -x[1]):
-            entries.append({"code1": ids[i], "code2": ids[j], "value": val})
+        best_per_tier: dict[int, tuple[int, float]] = {}
+        for j, maxrank, score in groups[i]:
+            if maxrank not in best_per_tier or score > best_per_tier[maxrank][1]:
+                best_per_tier[maxrank] = (j, score)
+        sorted_tiers = sorted(best_per_tier.items(), key=lambda x: -x[0])
+        for rank_k, (_maxrank, (j, score)) in enumerate(sorted_tiers):
+            entries.append({
+                "code1": ids[i],
+                "code2": ids[j],
+                "value": 9 - rank_k,
+                "score": round(score, 6),
+            })
 
     return entries
 

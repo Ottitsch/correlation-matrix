@@ -31,28 +31,51 @@ def cosine_similarity(embeddings: np.ndarray) -> np.ndarray:
 def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
     n = len(ids)
 
-    # For each pair (lo, hi) nominated by either field's top-9, store the
-    # maximum rank value from either direction.  This captures asymmetric
-    # relationships: if B ranks A as its #2 neighbour but A only ranks B
-    # as its #8, the stored value is 8 (from B's perspective) not 2.
-    pair_value: dict[tuple[int, int], int] = {}
+    # Phase 1 (unchanged): for each pair (lo, hi) nominated by either field's
+    # top-9, record the max rank from either direction AND the raw cosine score.
+    # Keeping the max-rank drives *which* pairs are selected (coverage), while
+    # the raw cosine score is used only to break ties within the same max-rank.
+    pair_maxrank: dict[tuple[int, int], int] = {}
+    pair_score: dict[tuple[int, int], float] = {}
     for i in range(n):
         row = sim[i].copy()
         row[i] = -np.inf  # exclude self-similarity
         for rank_k, j in enumerate(np.argsort(row)[::-1][:9]):
             lo, hi = min(i, j), max(i, j)
             val = 9 - rank_k
-            pair_value[(lo, hi)] = max(pair_value.get((lo, hi), 0), val)
+            pair_maxrank[(lo, hi)] = max(pair_maxrank.get((lo, hi), 0), val)
+            if (lo, hi) not in pair_score:
+                pair_score[(lo, hi)] = float(sim[lo, hi])
 
-    groups: dict[int, list[tuple[int, int]]] = {i: [] for i in range(n)}
-    for (lo, hi), val in pair_value.items():
-        groups[lo].append((hi, val))
+    # Phase 2: group by code1 (lo index).
+    groups: dict[int, list[tuple[int, int, float]]] = {i: [] for i in range(n)}
+    for (lo, hi), maxrank in pair_maxrank.items():
+        groups[lo].append((hi, maxrank, pair_score[(lo, hi)]))
 
+    # Phase 3: for each code1 field, resolve ties *within each max-rank tier*
+    # by keeping only the highest-cosine-sim pair per tier, then re-assign
+    # consecutive unique ranks 9→1.  This mirrors the original selection logic
+    # (max-rank from either direction determines importance) while guaranteeing
+    # no duplicate value within any code1's neighbour list.
     entries: list[dict] = []
     for i in range(n):
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
-        for j, val in sorted(groups[i], key=lambda x: -x[1]):
-            entries.append({"code1": ids[i], "code2": ids[j], "value": val})
+
+        # One representative per max-rank level: best cosine sim in each tier.
+        best_per_tier: dict[int, tuple[int, float]] = {}  # maxrank → (j, score)
+        for j, maxrank, score in groups[i]:
+            if maxrank not in best_per_tier or score > best_per_tier[maxrank][1]:
+                best_per_tier[maxrank] = (j, score)
+
+        # Sort tiers high → low, re-assign consecutive ranks 9→1.
+        sorted_tiers = sorted(best_per_tier.items(), key=lambda x: -x[0])
+        for rank_k, (_maxrank, (j, score)) in enumerate(sorted_tiers):
+            entries.append({
+                "code1": ids[i],
+                "code2": ids[j],
+                "value": 9 - rank_k,
+                "score": round(score, 6),
+            })
 
     return entries
 

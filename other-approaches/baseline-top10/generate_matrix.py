@@ -58,9 +58,9 @@ def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
     for i in range(n):
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
 
-        neighbors = sorted(groups[i], key=lambda j: -sim[i, j])[:TOP_K]
+        neighbors = sorted(groups[i], key=lambda j: -sim[i, j])[:9]
         for rank_k, j in enumerate(neighbors):
-            entries.append({"code1": ids[i], "code2": ids[j], "value": TOP_K - rank_k})
+            entries.append({"code1": ids[i], "code2": ids[j], "value": 9 - rank_k})
 
     return entries
 

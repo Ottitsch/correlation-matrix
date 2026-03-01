@@ -75,24 +75,24 @@ All approaches produce the same format:
 
 ## Approaches
 
-Seven approaches were implemented, each in its own folder with a dedicated README. The best-performing output is in `submission/baseline/correlation_matrix.json` (or equivalently `other-approaches/techwolf-jobtitles/correlation_matrix.json` for a job-title-grounded alternative).
+Seven approaches were implemented, each in its own folder with a dedicated README. Three approaches are tied for best: `submission/baseline/`, `other-approaches/baseline-max-sym/`, and `other-approaches/alexU-inspired/` all score **2.44** (3/5 GT hits, avg rank delta 1.67).
 
 ### Overview
 
 | # | Approach | Mechanism | API Required | Hits (5 GT pairs) | Score |
 |---|----------|-----------|:---:|:---:|:---:|
-| 1 | **Baseline** | Local SBERT embeddings (paraphrase-multilingual-mpnet-base-v2) | - | **5/5** | **4.00** |
-| 2 | **TechWolf-inspired** | JobBERT-v3 embeddings, names embedded separately and averaged | - | 3/5 | 2.22 |
-| 3 | **Hybrid** | SBERT embeddings + manual domain-cluster similarity boost (+0.15) | - | 4/5 | 3.44 |
-| 4 | **AlexU-inspired** | multilingual-e5-large-instruct + LLM-generated bilingual descriptions | Azure OpenAI | 3/5 | 2.44 |
-| 5 | **LLM ranking** | Direct GPT ranking, no embeddings | Azure OpenAI | 3/5 | 2.78 |
-| 6 | **Skills-enriched** | multilingual-e5-large-instruct + structured skills/education data | Azure OpenAI | 3/5 | 2.78 |
-| 7 | **TechWolf + job titles** | JobBERT-v3 + LLM-generated concrete job titles | Azure OpenAI | 4/5 | 3.56 |
-| - | **baseline-top10** *(ablation)* | Baseline but top-10 neighbours (wider net) | - | 2/5 | 1.78 |
-| - | **baseline-max-sym** *(ablation)* | Baseline but max rank from either direction | - | **5/5** | **4.00** |
+| 1 | **Baseline** | Local SBERT embeddings (paraphrase-multilingual-mpnet-base-v2) | - | **3/5** | **2.44** |
+| 2 | **AlexU-inspired** | multilingual-e5-large-instruct + LLM-generated bilingual descriptions | Azure OpenAI | **3/5** | **2.44** |
+| 3 | **TechWolf + job titles** | JobBERT-v3 + LLM-generated concrete job titles | Azure OpenAI | 2/5 | 2.00 |
+| 4 | **Skills-enriched** | multilingual-e5-large-instruct + structured skills/education data | Azure OpenAI | 2/5 | 1.78 |
+| 5 | **Hybrid** | SBERT embeddings + manual domain-cluster similarity boost (+0.15) | - | 2/5 | 1.67 |
+| 6 | **TechWolf-inspired** | JobBERT-v3 embeddings, names embedded separately and averaged | - | 2/5 | 1.33 |
+| 7 | **LLM ranking** | Direct GPT ranking, no embeddings | Azure OpenAI | 1/5 | 0.89 |
+| - | **baseline-max-sym** *(ablation)* | Baseline but max rank from either direction | - | **3/5** | **2.44** |
+| - | **baseline-top10** *(ablation)* | Baseline but top-10 neighbours (wider net) | - | 2/5 | 1.56 |
 | - | **baseline-en-first** *(ablation)* | Baseline but `"nameEn / nameDe"` text format | - | 2/5 | 1.22 |
 
-Score = `hits × (1 − avg_rank_delta / 9)`. All approaches now use max symmetrization (finding from ablation study). See **Ablation Studies** section for findings.
+Score = `hits × (1 − avg_rank_delta / 9)`. All approaches use max-rank symmetrization with per-tier deduplication to guarantee unique ranks per field. See **Ablation Studies** section for findings.
 
 ---
 
@@ -150,7 +150,7 @@ Inspired by *AlexU-NLP at TalentCLEF 2025* (Barakat, Mokhtar, Torki, Elmakky, Al
 
 No embeddings at all. For each of the 180 fields, the full field list is passed to the LLM and it is asked to rank the top 9 most similar fields by skill overlap, domain proximity, and career path. Similarity is inferred entirely from the model's world knowledge about occupational domains.
 
-**Pros:** Genuine occupational domain reasoning, not just lexical similarity. Sharpest rank accuracy (avg delta 0.67) among all approaches.
+**Pros:** Genuine occupational domain reasoning, not just lexical similarity.
 **Cons:** Non-deterministic: re-running may produce slightly different rankings. Slower than embedding approaches (~4 min for 180 fields).
 
 **External dependency:** Azure OpenAI (`KEY` in `.env`)
@@ -172,8 +172,8 @@ Extension of the AlexU approach with more structured LLM output. Instead of a fr
 
 Addresses the root cause of TechWolf-inspired's underperformance: JobBERT-v3 was trained on concrete job ad titles, not abstract category names. An LLM generates 5 representative job titles in both German and English for each field; all 10 titles are embedded separately with JobBERT-v3 and averaged into one field-level vector. This puts the input back into the distribution the model was trained on.
 
-**Pros:** Inputs align with the model's training distribution. Plant Engineering is ranked exactly (pred 9, GT 9); Automotive, Fabrication, and Civil Engineering all hit.
-**Cons:** The 5-title sample per field is too sparse to fully cover all relevant skill clusters. Building Craft is still missed: it may require more craft/manual-trade titles to appear in the field's neighbourhood.
+**Pros:** Inputs align with the model's training distribution. Plant Engineering is ranked exactly (pred 9, GT 9) and Fabrication hits exactly (pred 6, GT 6): perfect rank accuracy on both hits (avg delta 0.00).
+**Cons:** The 5-title sample per field is too sparse to fully cover all relevant skill clusters. Only 2/5 GT pairs are surfaced; Automotive, Building Craft, and Civil Engineering are all missed.
 
 **Model size:** ~280 MB | **External dependency:** Azure OpenAI (`KEY` in `.env`)
 
@@ -185,12 +185,12 @@ The new-repo SBERT implementation (identical model to `baseline`) reported 5/5 h
 
 | Folder | Change vs reference | Hits | Avg Δ | Score | Verdict |
 |--------|--------------------|:----:|:-----:|:-----:|---------|
-| *(reference: code1's-perspective baseline)* | - | 2/5 | 2.00 | 1.56 | - |
-| `baseline-top10/` | Neighbour count: 9 → 10 | 2/5 | 1.00 | 1.78 | **No help on hit count.** The 3 missed pairs are outside Mechanical Engineering's top-10: they're only found when looking from *their* direction. |
-| `baseline-max-sym/` | Symmetrization: code1's rank → max from either direction | **5/5** | 1.80 | **4.00** | **This was the key.** All 5 GT pairs are found by at least one direction; taking the max surfaces them. |
+| *(reference: code1's-perspective baseline, pre-fix)* | - | 2/5 | 2.00 | 1.56 | - |
+| `baseline-top10/` | Neighbour count: 9 → 10 | 2/5 | 2.00 | 1.56 | **No help on hit count.** Missed pairs are only found from the *other* field's direction; a wider net per code1 doesn't surface them. |
+| `baseline-max-sym/` | Symmetrization: code1's rank → max from either direction | **3/5** | 1.67 | **2.44** | **Key insight confirmed.** Max-sym surfaces pairs that are asymmetric — but with the top-9-per-code1 constraint correctly enforced, some GT pairs are still displaced by stronger neighbors within the same tier. |
 | `baseline-en-first/` | Text format: `"{nameDe} {nameEn}"` → `"{nameEn} / {nameDe}"` | 2/5 | 3.50 | 1.22 | **Slightly hurts.** German-first is marginally better for this model on this task. |
 
-**Finding:** The entire 2→5 hit gap between `baseline` and the new-repo SBERT implementation comes from **max symmetrization**, not the wider top-10 net. Plant Engineering, Building Craft, and Civil Engineering all rank Mechanical Engineering highly in their own top-9, but Mechanical Engineering does not rank them in its top-9: the relationship is asymmetric, and only max-sym captures it.
+**Finding:** Max symmetrization was the key insight — Plant Engineering, Building Craft, and Civil Engineering all rank Mechanical Engineering highly in their own top-9, but the reverse is not true. The pre-fix approaches reached 5/5 by emitting all nominated pairs without a per-code1 cap (outputting 31 entries for w_mash, violating the top-10 constraint). After enforcing the constraint correctly, the ceiling drops to 3/5: Automotive and Building Craft are displaced from w_mash's top-9 by other nominally higher-ranked pairs.
 
 ---
 
@@ -200,35 +200,37 @@ Evaluated against a single ground truth sample (5 pairs for *Mechanical Engineer
 
 | Approach | Hits (out of 5) | Avg rank delta | Score |
 |---|:---:|:---:|:---:|
-| **baseline** | **5** | 1.80 | **4.00** |
-| **techwolf-jobtitles** | **4** | 1.00 | 3.56 |
-| hybrid | 4 | 1.25 | 3.44 |
-| llm-ranking | 3 | 0.67 | 2.78 |
-| skills-enriched | 3 | 0.67 | 2.78 |
-| alexU-inspired | 3 | 1.67 | 2.44 |
-| techwolf-inspired | 3 | 2.33 | 2.22 |
+| **baseline** | **3** | 1.67 | **2.44** |
+| **alexU-inspired** | **3** | 1.67 | **2.44** |
+| **baseline-max-sym** *(ablation)* | **3** | 1.67 | **2.44** |
+| techwolf-jobtitles | 2 | 0.00 | 2.00 |
+| skills-enriched | 2 | 1.00 | 1.78 |
+| hybrid | 2 | 1.50 | 1.67 |
+| baseline-top10 *(ablation)* | 2 | 2.00 | 1.56 |
+| techwolf-inspired | 2 | 3.00 | 1.33 |
+| baseline-en-first *(ablation)* | 2 | 3.50 | 1.22 |
+| llm-ranking | 1 | 1.00 | 0.89 |
 
-Score = `hits × (1 − avg_rank_delta / 9)`: rewards both coverage and rank accuracy. All approaches use max symmetrization.
+Score = `hits × (1 − avg_rank_delta / 9)`: rewards both coverage and rank accuracy. All approaches use max-rank symmetrization with per-tier deduplication.
 
 ### Per-field breakdown (Mechanical Engineering)
 
-| Field | GT | Baseline | TechWolf | AlexU | LLM-ranking | Skills-enriched | TechWolf+titles | Hybrid |
+| Field | GT | Baseline | AlexU | TechWolf+titles | Skills-enriched | Hybrid | TechWolf-inspired | LLM-ranking |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Plant Engineering | 9 | 5 ✓ | 6 ✓ | 6 ✓ | **9** ✓ | **9** ✓ | **9** ✓ | 6 ✓ |
-| Building Craft | 8 | 5 ✓ | miss | miss | miss | miss | miss | miss |
-| Automotive | 7 | 8 ✓ | 6 ✓ | 8 ✓ | 8 ✓ | 9 ✓ | 6 ✓ | **9** ✓ |
-| Fabrication | 6 | **6** ✓ | miss | 7 ✓ | 7 ✓ | **6** ✓ | **6** ✓ | **6** ✓ |
-| Civil Engineering | 5 | 4 ✓ | 8 ✓ | miss | miss | miss | 8 ✓ | 5 ✓ |
+| Plant Engineering | 9 | 5 ✓ | 6 ✓ | **9** ✓ | miss | 6 ✓ | 6 ✓ | miss |
+| Building Craft | 8 | miss | miss | miss | miss | miss | miss | miss |
+| Automotive | 7 | miss | 8 ✓ | miss | **9** ✓ | miss | miss | 8 ✓ |
+| Fabrication | 6 | **6** ✓ | 7 ✓ | **6** ✓ | **6** ✓ | miss | miss | miss |
+| Civil Engineering | 5 | 4 ✓ | miss | miss | miss | **5** ✓ | 8 ✓ | miss |
 
 ### Key findings
 
-- **Baseline is first** (score 4.00, 5/5 hits): After applying max symmetrization, the simple SBERT baseline matches the ablation result. Plant Engineering, Building Craft, and Civil Engineering all rank Mechanical Engineering highly in their own top-9 even though Mechanical Engineering doesn't return the favour: max-sym captures this asymmetry and surfaces all 5 GT pairs.
-- **TechWolf + job titles is second** (score 3.56, 4/5 hits): Generating concrete job titles puts inputs back into JobBERT's training distribution. Plant Engineering is ranked exactly (pred 9, GT 9), Automotive and Fabrication both hit: only Building Craft is still missed.
-- **Hybrid is third** (score 3.44, 4/5 hits): The domain cluster boost recovers Civil Engineering exactly (pred 5, GT 5) and pushes Automotive to 9, but cannot help Building Craft: it sits in the Manufacturing cluster while Mechanical Engineering is in Engineering, so the two fields receive no boost and the pair is missed.
-- **LLM-ranking and Skills-enriched tie for fourth** (score 2.78, 3/5 hits): LLM ranking offers the sharpest rank accuracy (avg delta 0.67) among the 3-hit group, confirming strong domain reasoning. Both miss Building Craft and Civil Engineering.
-- **AlexU-inspired is sixth** (score 2.44, 3/5 hits): LLM-generated descriptions give a mild edge over TechWolf-inspired (avg delta 1.67 vs 2.33) but don't improve hit count.
-- **TechWolf-inspired is last** (score 2.22, 3/5 hits): Abstract category names fall far outside JobBERT's training distribution of concrete job-ad titles.
-- **Building Craft is the hardest GT pair** (missed by 6/7 approaches): Only the baseline surfaces it via max-sym: Building Craft places Mechanical Engineering in its own top-9, so the pair is captured from that direction. All other approaches miss it entirely.
+- **Baseline, AlexU, and baseline-max-sym tie at first** (score 2.44, 3/5 hits): With the top-9 sparsity constraint correctly enforced, these three approaches share the ceiling. Baseline and baseline-max-sym are now algorithmically identical (both use max-rank symmetrization with per-tier dedup); AlexU hits a different subset of 3 pairs (Plant, Automotive, Fabrication vs. Baseline's Plant, Fabrication, Civil).
+- **TechWolf + job titles is fourth** (score 2.00, 2/5 hits): Despite only 2 hits, it scores 2.00 because it nails both predictions exactly (Plant: pred 9 = GT 9, Fabrication: pred 6 = GT 6, avg delta 0.00). The job-title enrichment puts inputs into JobBERT's training distribution — but the 5-title sample is too sparse to cover all relevant skill clusters.
+- **Skills-enriched** (score 1.78, 2/5 hits): Hits Automotive and Fabrication; misses Plant, Building Craft, and Civil. The structured skills/education embedding shifts the model's focus toward skill overlap rather than domain names.
+- **Hybrid** (score 1.67, 2/5 hits): The +0.15 cluster boost recovers Civil Engineering exactly (pred 5 = GT 5) but misses Fabrication. Building Craft (Manufacturing cluster) receives no boost against Mechanical Engineering (Engineering cluster), so the hardest GT pair remains missed.
+- **LLM-ranking scores last among named approaches** (score 0.89, 1/5 hits): Without embeddings, the ranking only finds Automotive. Strong rank accuracy on that single hit (pred 8, GT 7, delta 1), but coverage is poor.
+- **Building Craft is missed by every approach**: With the top-9 constraint enforced, no approach surfaces the (w_mash, w_craft) pair. The pre-fix approaches reached it by emitting 31+ entries for w_mash without a per-code1 cap — a constraint violation that has since been corrected.
 
 ---
 
