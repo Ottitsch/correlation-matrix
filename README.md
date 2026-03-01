@@ -52,7 +52,7 @@ cd other-approaches/baseline-max-sym && python generate_matrix.py
 cd other-approaches/baseline-en-first && python generate_matrix.py
 
 # Evaluate all approaches against ground truth
-python eval.py
+python eval/eval.py
 ```
 
 ---

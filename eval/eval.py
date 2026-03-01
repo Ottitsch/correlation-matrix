@@ -9,24 +9,28 @@ Metrics per approach:
 """
 
 import json
+from pathlib import Path
+
+HERE = Path(__file__).parent
+ROOT = HERE.parent
 
 APPROACHES = {
     # Submission
-    "baseline":              "submission/baseline/correlation_matrix.json",
+    "baseline":              ROOT / "submission/baseline/correlation_matrix.json",
     # Other approaches
-    "techwolf-inspired":     "other-approaches/techwolf-inspired/correlation_matrix.json",
-    "alexU-inspired":        "other-approaches/alexU-inspired/correlation_matrix.json",
-    "llm-ranking":           "other-approaches/llm-ranking/correlation_matrix.json",
-    "skills-enriched":       "other-approaches/skills-enriched/correlation_matrix.json",
-    "techwolf-jobtitles":    "other-approaches/techwolf-jobtitles/correlation_matrix.json",
-    "hybrid":                "other-approaches/hybrid/correlation_matrix.json",
+    "techwolf-inspired":     ROOT / "other-approaches/techwolf-inspired/correlation_matrix.json",
+    "alexU-inspired":        ROOT / "other-approaches/alexU-inspired/correlation_matrix.json",
+    "llm-ranking":           ROOT / "other-approaches/llm-ranking/correlation_matrix.json",
+    "skills-enriched":       ROOT / "other-approaches/skills-enriched/correlation_matrix.json",
+    "techwolf-jobtitles":    ROOT / "other-approaches/techwolf-jobtitles/correlation_matrix.json",
+    "hybrid":                ROOT / "other-approaches/hybrid/correlation_matrix.json",
     # Baseline ablations (each isolates one variable vs baseline)
-    "baseline-top10":        "other-approaches/baseline-top10/correlation_matrix.json",
-    "baseline-max-sym":      "other-approaches/baseline-max-sym/correlation_matrix.json",
-    "baseline-en-first":     "other-approaches/baseline-en-first/correlation_matrix.json",
+    "baseline-top10":        ROOT / "other-approaches/baseline-top10/correlation_matrix.json",
+    "baseline-max-sym":      ROOT / "other-approaches/baseline-max-sym/correlation_matrix.json",
+    "baseline-en-first":     ROOT / "other-approaches/baseline-en-first/correlation_matrix.json",
 }
 
-GROUND_TRUTH = "ground_truth.json"
+GROUND_TRUTH = HERE / "ground_truth.json"
 
 
 def load_matrix(path: str) -> dict[frozenset, int]:
@@ -40,7 +44,7 @@ def main():
     with open(GROUND_TRUTH) as f:
         gt = json.load(f)
 
-    with open("work_fields.json") as f:
+    with open(ROOT / "work_fields.json") as f:
         fields = json.load(f)
     id_to_name = {f["correlationMatrixId"]: f["nameEn"] for f in fields}
 
