@@ -1,6 +1,6 @@
 # METHODOLOGY AND THOUGHTS:
 
-In Total I spent around 3 hours actually coding.
+In Total I spent around 3 hours, 30 min actually coding.
 Research Time was mainly done at the gym or in the shower in the back of my head, so I did not count it.
 
 ----------------
