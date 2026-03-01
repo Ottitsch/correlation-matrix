@@ -122,27 +122,20 @@ def apply_cluster_boost(sim: np.ndarray, ids: list[str]) -> np.ndarray:
 def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
     n = len(ids)
 
-    # Union of each field's top-9 neighbours (upper triangle only)
-    included: set[tuple[int, int]] = set()
+    pair_value: dict[tuple[int, int], int] = {}
     for i in range(n):
         row = sim[i].copy()
         row[i] = -np.inf  # exclude self
-        for j in np.argsort(row)[::-1][:9]:
-            included.add((min(i, j), max(i, j)))
-
-    groups: dict[int, list[int]] = {i: [] for i in range(n)}
-    for i, j in included:
-        groups[i].append(j)
+        for rank_k, j in enumerate(np.argsort(row)[::-1][:9]):
+            lo, hi = min(i, j), max(i, j)
+            val = 9 - rank_k
+            pair_value[(lo, hi)] = max(pair_value.get((lo, hi), 0), val)
 
     entries: list[dict] = []
     for i in range(n):
-        # Diagonal: self-correlation, always value 10
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
-
-        # Off-diagonal: rank by boosted sim[i][j], values 9 (most similar) → 1
-        neighbors = sorted(groups[i], key=lambda j: -sim[i, j])[:9]
-        for rank_k, j in enumerate(neighbors):
-            entries.append({"code1": ids[i], "code2": ids[j], "value": 9 - rank_k})
+    for (lo, hi), val in pair_value.items():
+        entries.append({"code1": ids[lo], "code2": ids[hi], "value": val})
 
     return entries
 

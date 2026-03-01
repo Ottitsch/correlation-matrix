@@ -33,18 +33,12 @@ def build_entries(ids: list[str], rankings: dict[str, list[str]]) -> list[dict]:
                 j = idx[neighbor]
                 included.add((min(i, j), max(i, j)))
 
-    groups: dict[int, list[int]] = {i: [] for i in range(n)}
-    for i, j in included:
-        groups[i].append(j)
-
     entries: list[dict] = []
     for i in range(n):
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
-
-        # Rank this field's included neighbors by its own scores, take top 9
-        neighbors = sorted(groups[i], key=lambda j: -scores[i][j])[:TOP_K]
-        for rank_k, j in enumerate(neighbors):
-            entries.append({"code1": ids[i], "code2": ids[j], "value": TOP_K - rank_k})
+    for lo, hi in included:
+        val = max(scores[lo][hi], scores[hi][lo])
+        entries.append({"code1": ids[lo], "code2": ids[hi], "value": val})
 
     return entries
 

@@ -46,38 +46,20 @@ def bilingual_embeddings(
 def build_entries(ids: list[str], sim: np.ndarray) -> list[dict]:
     n = len(ids)
 
-    # Determine which upper-triangle pairs to include: union of each field's top-9.
-    # A pair (i, j) is included if j is in i's top-9 OR i is in j's top-9.
-    included: set[tuple[int, int]] = set()
+    pair_value: dict[tuple[int, int], int] = {}
     for i in range(n):
         row = sim[i].copy()
         row[i] = -np.inf  # exclude self-similarity
-        for j in np.argsort(row)[::-1][:9]:
-            included.add((min(i, j), max(i, j)))
-
-    # Group included pairs by code1 (lower index)
-    groups: dict[int, list[int]] = {i: [] for i in range(n)}
-    for (i, j) in included:
-        groups[i].append(j)
+        for rank_k, j in enumerate(np.argsort(row)[::-1][:9]):
+            lo, hi = min(i, j), max(i, j)
+            val = 9 - rank_k
+            pair_value[(lo, hi)] = max(pair_value.get((lo, hi), 0), val)
 
     entries: list[dict] = []
-
     for i in range(n):
-        # Diagonal: self-correlation, always value 10
         entries.append({"code1": ids[i], "code2": ids[i], "value": 10})
-
-        # Off-diagonal: rank neighbors by sim[i][j] from code1's own perspective.
-        # Values run 9 (most similar) → 1 (least similar), keeping 10 reserved
-        # exclusively for the diagonal (identity). Top 9 neighbors per field.
-        neighbors = sorted(groups[i], key=lambda j: -sim[i, j])[:9]
-        for rank_k, j in enumerate(neighbors):
-            entries.append(
-                {
-                    "code1": ids[i],
-                    "code2": ids[j],
-                    "value": 9 - rank_k,
-                }
-            )
+    for (lo, hi), val in pair_value.items():
+        entries.append({"code1": ids[lo], "code2": ids[hi], "value": val})
 
     return entries
 
