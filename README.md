@@ -46,9 +46,6 @@ cd techwolf-jobtitles
 python generate_titles.py         # generates titles.json, resumes if interrupted
 python generate_matrix.py
 
-# OpenAI Embeddings (requires OPENAI_API_KEY in .env)
-cd openai-embeddings && python generate_matrix.py
-
 # Baseline ablations (all free, no API key required)
 cd baseline-top10 && python generate_matrix.py
 cd baseline-max-sym && python generate_matrix.py
@@ -78,7 +75,7 @@ All approaches produce the same format:
 
 ## Approaches
 
-Eight approaches were implemented, each in its own folder with a dedicated README. The best-performing output is in `baseline/correlation_matrix.json` (or equivalently `techwolf-jobtitles/correlation_matrix.json` for a job-title-grounded alternative).
+Seven approaches were implemented, each in its own folder with a dedicated README. The best-performing output is in `baseline/correlation_matrix.json` (or equivalently `techwolf-jobtitles/correlation_matrix.json` for a job-title-grounded alternative).
 
 ### Overview
 
@@ -86,17 +83,16 @@ Eight approaches were implemented, each in its own folder with a dedicated READM
 |---|----------|-----------|:---:|:---:|:---:|
 | 1 | **Baseline** | Local SBERT embeddings (paraphrase-multilingual-mpnet-base-v2) | — | **5/5** | **4.00** |
 | 2 | **TechWolf-inspired** | JobBERT-v3 embeddings, names embedded separately and averaged | — | 3/5 | 2.22 |
-| 3 | **Hybrid** | SBERT embeddings + manual domain-cluster similarity boost (+0.15) | — | — | — |
+| 3 | **Hybrid** | SBERT embeddings + manual domain-cluster similarity boost (+0.15) | — | 4/5 | 3.44 |
 | 4 | **AlexU-inspired** | multilingual-e5-large-instruct + LLM-generated bilingual descriptions | Azure OpenAI | 3/5 | 2.22 |
 | 5 | **LLM ranking** | Direct GPT ranking, no embeddings | Azure OpenAI | 3/5 | 2.78 |
 | 6 | **Skills-enriched** | multilingual-e5-large-instruct + structured skills/education data | Azure OpenAI | 3/5 | 2.22 |
 | 7 | **TechWolf + job titles** | JobBERT-v3 + LLM-generated concrete job titles | Azure OpenAI | 4/5 | 3.56 |
-| 8 | **OpenAI Embeddings** | text-embedding-3-small via OpenAI API | OpenAI API | — | — |
 | — | **baseline-top10** *(ablation)* | Baseline but top-10 neighbours (wider net) | — | 2/5 | 1.78 |
 | — | **baseline-max-sym** *(ablation)* | Baseline but max rank from either direction | — | **5/5** | **4.00** |
 | — | **baseline-en-first** *(ablation)* | Baseline but `"nameEn / nameDe"` text format | — | 2/5 | 1.22 |
 
-Score = `hits × (1 − avg_rank_delta / 9)`. All approaches now use max symmetrization (finding from ablation study). Approaches 3 and 8 have not yet been evaluated. See **Ablation Studies** section for findings.
+Score = `hits × (1 − avg_rank_delta / 9)`. All approaches now use max symmetrization (finding from ablation study). See **Ablation Studies** section for findings.
 
 ---
 
@@ -183,19 +179,6 @@ Addresses the root cause of TechWolf-inspired's underperformance: JobBERT-v3 was
 
 ---
 
-### 8. OpenAI Embeddings — `text-embedding-3-small`
-
-Each work field is encoded as a dense vector using OpenAI's `text-embedding-3-small` model. The input text concatenates both language labels (`"Mechanical Engineering / Maschinenbau"`). All 180 fields are encoded in a single batched API call.
-
-`text-embedding-3-small` was trained on a broad multilingual corpus and performs strongly across languages including German, at substantially lower cost than the large variant. Unlike the AlexU and skills-enriched approaches, no description enrichment is applied — embeddings are computed from raw field names alone.
-
-**Pros:** Strong closed-source multilingual embeddings, single API call, deterministic.
-**Cons:** Requires internet access and incurs API cost (~$0.02 for 180 fields). No description enrichment; raw names only.
-
-**External dependency:** OpenAI API (`OPENAI_API_KEY` in `.env`)
-
----
-
 ## Ablation Studies
 
 The new-repo SBERT implementation (identical model to `baseline`) reported 5/5 hits vs baseline's 2/5. Three things differ between them — the folders below each change exactly one variable to identify which factor is responsible.
@@ -219,32 +202,33 @@ Evaluated against a single ground truth sample (5 pairs for *Mechanical Engineer
 |---|:---:|:---:|:---:|
 | **baseline** | **5** | 1.80 | **4.00** |
 | **techwolf-jobtitles** | **4** | 1.00 | 3.56 |
+| hybrid | 4 | 1.25 | 3.44 |
 | llm-ranking | 3 | 0.67 | 2.78 |
-| alexU-inspired | 3 | 2.33 | 2.22 |
-| skills-enriched | 3 | 2.33 | 2.22 |
+| skills-enriched | 3 | 0.67 | 2.78 |
+| alexU-inspired | 3 | 1.67 | 2.44 |
 | techwolf-inspired | 3 | 2.33 | 2.22 |
 
 Score = `hits × (1 − avg_rank_delta / 9)` — rewards both coverage and rank accuracy. All approaches use max symmetrization.
 
-Approaches **hybrid** and **openai-embeddings** have not yet been evaluated in this repo's format.
-
 ### Per-field breakdown (Mechanical Engineering)
 
-| Field | GT | Baseline | TechWolf | AlexU | LLM-ranking | Skills-enriched | TechWolf+titles |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Plant Engineering | 9 | 5 ✓ | 6 ✓ | 4 ✓ | **9** ✓ | 6 ✓ | **9** ✓ |
-| Building Craft | 8 | 5 ✓ | miss | miss | miss | miss | miss |
-| Automotive | 7 | 8 ✓ | 6 ✓ | **7** ✓ | 8 ✓ | 9 ✓ | 6 ✓ |
-| Fabrication | 6 | **6** ✓ | miss | 8 ✓ | 7 ✓ | 4 ✓ | **6** ✓ |
-| Civil Engineering | 5 | 4 ✓ | 8 ✓ | miss | miss | miss | 8 ✓ |
+| Field | GT | Baseline | TechWolf | AlexU | LLM-ranking | Skills-enriched | TechWolf+titles | Hybrid |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Plant Engineering | 9 | 5 ✓ | 6 ✓ | 6 ✓ | **9** ✓ | **9** ✓ | **9** ✓ | 6 ✓ |
+| Building Craft | 8 | 5 ✓ | miss | miss | miss | miss | miss | miss |
+| Automotive | 7 | 8 ✓ | 6 ✓ | 8 ✓ | 8 ✓ | 9 ✓ | 6 ✓ | **9** ✓ |
+| Fabrication | 6 | **6** ✓ | miss | 7 ✓ | 7 ✓ | **6** ✓ | **6** ✓ | **6** ✓ |
+| Civil Engineering | 5 | 4 ✓ | 8 ✓ | miss | miss | miss | 8 ✓ | 5 ✓ |
 
 ### Key findings
 
-- **Baseline ties for first** (score 4.00, 5/5 hits): After applying max symmetrization, the simple SBERT baseline matches the ablation result. Plant Engineering, Building Craft, and Civil Engineering all rank Mechanical Engineering highly in their own top-9 even though Mechanical Engineering doesn't return the favour — max-sym captures this asymmetry and surfaces all 5 GT pairs.
+- **Baseline is first** (score 4.00, 5/5 hits): After applying max symmetrization, the simple SBERT baseline matches the ablation result. Plant Engineering, Building Craft, and Civil Engineering all rank Mechanical Engineering highly in their own top-9 even though Mechanical Engineering doesn't return the favour — max-sym captures this asymmetry and surfaces all 5 GT pairs.
 - **TechWolf + job titles is second** (score 3.56, 4/5 hits): Generating concrete job titles puts inputs back into JobBERT's training distribution. Plant Engineering is ranked exactly (pred 9, GT 9), Automotive and Fabrication both hit — only Building Craft is still missed.
-- **LLM-ranking is third** (score 2.78, 3/5 hits): Direct GPT ranking offers the sharpest rank accuracy (avg delta 0.67), confirming strong domain reasoning. However it misses Building Craft and Civil Engineering, suggesting the LLM may under-weight physically proximate fields in favour of skill overlap.
-- **AlexU, Skills-enriched, and TechWolf-inspired all tie** (2.22, 3/5 hits): LLM-generated enrichment (descriptions or structured skills) does not significantly improve over plain embeddings here. The embedding model quality may be the bottleneck.
-- **Building Craft is the hardest GT pair** (missed by 5/6 approaches): Only the baseline surfaces it (pred 5, GT 8) via max-sym — Building Craft places Mechanical Engineering in its own top-9, so the pair is included from that direction. All embedding and LLM approaches that use code1's perspective miss it entirely.
+- **Hybrid is third** (score 3.44, 4/5 hits): The domain cluster boost recovers Civil Engineering exactly (pred 5, GT 5) and pushes Automotive to 9, but cannot help Building Craft — it sits in the Manufacturing cluster while Mechanical Engineering is in Engineering, so the two fields receive no boost and the pair is missed.
+- **LLM-ranking and Skills-enriched tie for fourth** (score 2.78, 3/5 hits): LLM ranking offers the sharpest rank accuracy (avg delta 0.67) among the 3-hit group, confirming strong domain reasoning. Both miss Building Craft and Civil Engineering.
+- **AlexU-inspired is sixth** (score 2.44, 3/5 hits): LLM-generated descriptions give a mild edge over TechWolf-inspired (avg delta 1.67 vs 2.33) but don't improve hit count.
+- **TechWolf-inspired is last** (score 2.22, 3/5 hits): Abstract category names fall far outside JobBERT's training distribution of concrete job-ad titles.
+- **Building Craft is the hardest GT pair** (missed by 6/7 approaches): Only the baseline surfaces it via max-sym — Building Craft places Mechanical Engineering in its own top-9, so the pair is captured from that direction. All other approaches miss it entirely.
 
 ---
 

@@ -18,6 +18,7 @@ APPROACHES = {
     "llm-ranking":           "llm-ranking/correlation_matrix.json",
     "skills-enriched":       "skills-enriched/correlation_matrix.json",
     "techwolf-jobtitles":    "techwolf-jobtitles/correlation_matrix.json",
+    "hybrid":                "hybrid/correlation_matrix.json",
     # Baseline ablations (each isolates one variable vs baseline)
     "baseline-top10":        "baseline-top10/correlation_matrix.json",
     "baseline-max-sym":      "baseline-max-sym/correlation_matrix.json",
