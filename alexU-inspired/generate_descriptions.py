@@ -13,9 +13,9 @@ from openai import AzureOpenAI
 
 load_dotenv("../.env")
 
-DEPLOYMENT = "gpt-5.2-chat"
-ENDPOINT = "https://e1202-ml1273va-swedencentral.cognitiveservices.azure.com/"
-API_VERSION = "2025-04-01-preview"
+DEPLOYMENT = os.environ["DEPLOYMENT"]
+ENDPOINT = os.environ["ENDPOINT"]
+API_VERSION = os.environ["API_VERSION"]
 OUTPUT_PATH = "descriptions.json"
 
 PROMPT_TEMPLATE = """\

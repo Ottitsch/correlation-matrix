@@ -11,12 +11,17 @@ Metrics per approach:
 import json
 
 APPROACHES = {
-    "baseline":          "baseline/correlation_matrix.json",
-    "techwolf-inspired": "techwolf-inspired/correlation_matrix.json",
-    "alexU-inspired":    "alexU-inspired/correlation_matrix.json",
-    "llm-ranking":         "llm-ranking/correlation_matrix.json",
-    "skills-enriched":     "skills-enriched/correlation_matrix.json",
-    "techwolf-jobtitles":  "techwolf-jobtitles/correlation_matrix.json",
+    # Main approaches
+    "baseline":              "baseline/correlation_matrix.json",
+    "techwolf-inspired":     "techwolf-inspired/correlation_matrix.json",
+    "alexU-inspired":        "alexU-inspired/correlation_matrix.json",
+    "llm-ranking":           "llm-ranking/correlation_matrix.json",
+    "skills-enriched":       "skills-enriched/correlation_matrix.json",
+    "techwolf-jobtitles":    "techwolf-jobtitles/correlation_matrix.json",
+    # Baseline ablations (each isolates one variable vs baseline)
+    "baseline-top10":        "baseline-top10/correlation_matrix.json",
+    "baseline-max-sym":      "baseline-max-sym/correlation_matrix.json",
+    "baseline-en-first":     "baseline-en-first/correlation_matrix.json",
 }
 
 GROUND_TRUTH = "ground_truth.json"
